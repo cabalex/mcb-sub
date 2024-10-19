@@ -95,6 +95,7 @@
             {/if}
         {/if}
     </div>
+    {#if video}
     <button class="fullscreenBtn" on:click={toggleFullscreen}>
         {#if fullscreen}
             <img width="24px" height="24px" src={FullscreenExitIcon} alt="Exit Fullscreen" />
@@ -102,6 +103,9 @@
             <img width="24px" height="24px" src={FullscreenIcon} alt="Enter Fullscreen" />
         {/if}
     </button>
+    {:else}
+    <h1>Load a video to get started! ➡️</h1>
+    {/if}
 </div>
 
 <style>
@@ -161,6 +165,11 @@
             bottom: 0px;
             right: 0px;
             border-radius: 0;
+        }
+    }
+    @media screen and (max-width: 900px) {
+        h1 {
+            display: none;
         }
     }
 </style>

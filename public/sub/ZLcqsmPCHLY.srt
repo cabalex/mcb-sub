@@ -164,7 +164,7 @@ I believe you saw the robot, Jun.
 
 42
 00:03:42,952 --> 00:03:44,699
-Teo!
+Theo!
 
 43
 00:03:46,224 --> 00:03:47,852
@@ -340,7 +340,7 @@ You're trying to impress Anna, aren't you?
 
 86
 00:05:55,929 --> 00:05:58,083
-Nah, not at all, Teo!
+Nah, not at all, Theo!
 
 87
 00:05:58,083 --> 00:05:59,225
