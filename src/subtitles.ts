@@ -8,8 +8,8 @@ const subtitles: Season[] = [
         episodes: [
             {name: 'Mystery of the Police Car Robot!', id: 'ZLcqsmPCHLY', source: 'dub'},
             {name: 'The Dancing Dump Truck', id: '3ElOpqFXaSU', source: 'dub'},
-            /*{name: 'Farewell, Blue Cop', id: '5RCpJwrhkrs', source: 'dub'},
-            {name: 'The Black Ambulance', id: '52W_cb1f1ao', source: 'dub'},
+            {name: 'Farewell, Blue Cop', id: '5RCpJwrhkrs', source: 'dub'},
+            /*{name: 'The Black Ambulance', id: '52W_cb1f1ao', source: 'dub'},
             {name: 'Fire Truck With a Phobia', id: 'c_CdqDAyGqI', source: 'dub'},
             {name: 'The Invisible Challenger', id: 'YGHc9jfOsb0', source: 'dub'},
             {name: 'Defeating the Haley Tornado', id: 'ksRW6iMADzQ', source: 'dub'},

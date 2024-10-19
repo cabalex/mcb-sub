@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { tick } from "svelte";
+  import { onDestroy, onMount, tick } from "svelte";
     import { slide } from "svelte/transition";
 
     export let subtitles: Array<{start: number, end: number, text: string}>;
@@ -46,9 +46,9 @@
     function downloadSRT() {
         // create srt
         const toSrtTime = (time: number) => {
-            let hours = Math.floor(time / 3600);
-            let minutes = Math.floor(time / 60) % 60;
-            let seconds = time % 60;
+            let hours = Math.floor(time / 3600).toString().padStart(2, '0');
+            let minutes = (Math.floor(time / 60) % 60).toString().padStart(2, '0');
+            let seconds = (Math.floor(time) % 60).toString().padStart(2, '0');
             let milliseconds = Math.floor((time % 1) * 1000);
             return `${hours}:${minutes}:${seconds},${milliseconds}`;
         }
@@ -68,6 +68,11 @@
         a.click();
         URL.revokeObjectURL(url);
     }
+
+    let currentTime = 0;
+    let interval = setInterval(() => currentTime = target?.getCurrentTime(), 100);
+
+    onDestroy(() => clearInterval(interval));
 </script>
 
 <div class="captionEditor" transition:slide={{axis: 'x', duration: 100}}>
@@ -80,7 +85,7 @@
             Choose start positions ({starts.length}/{textLines.length})
             {/if}
             {#if step === 'end'}
-            Choose end positions
+            Choose end positions ({ends.length}/{textLines.length})
             {/if}
             {#if step === 'review'}
             Review your captions
@@ -105,12 +110,14 @@
         </div>
         {/if}
         <div class="lines">
-            {#each starts as start, i}
-            <div class="line">
-                <span>{textLines[i]}</span>
-                <button on:click={() => { starts[i] = target.getCurrentTime(); starts = [...starts]}}>{toTime(start)}</button>
-            </div>
-            {/each}
+            <span class="reversed">
+                {#each starts as start, i}
+                <div class="line" class:active={start < currentTime && (i === starts.length - 1 ? true : starts[i + 1] > currentTime)}>
+                    <span>{textLines[i]}</span>
+                    <button on:click={() => { starts[i] = target.getCurrentTime(); starts = [...starts]}}>{toTime(start)}</button>
+                </div>
+                {/each}
+            </span>
         </div>
         <div class="btnrow">
             <button on:click={() => step = 'text'}>Back</button>
@@ -120,8 +127,8 @@
         {#if step === 'end'}
         {#if textLines.length > ends.length}
         <div class="line">
+            <button class="outline" style="padding: 10px 5px" on:click={() => target.seekTo(starts[ends.length])}>{toTime(starts[ends.length])}</button>                    
             <span>{textLines[ends.length]}</span>
-            <button disabled>{toTime(starts[ends.length])}</button>
             <button class="primary" on:click={() => setEnd(ends.length, target.getCurrentTime())}>Now</button>
             {#if ends.length < starts.length - 1}
             <button class="primary toNext" on:click={() => ends = [...ends, starts[ends.length + 1]]}>➡️</button>
@@ -131,7 +138,7 @@
         <div class="lines">
             <span class="reversed">
                 {#each ends as end, i}
-                <div class="line">
+                <div class="line" class:active={currentTime > starts[i] && currentTime < ends[i]}>
                     <button class="outline" style="padding: 10px 5px" on:click={() => target.seekTo(starts[i])}>{toTime(starts[i])}</button>                    
                     <span>{textLines[i]}</span>
                     <button on:click={() => setEnd(i, target.getCurrentTime())}>{toTime(end)}</button>
@@ -151,7 +158,7 @@
         <div class="lines">
             <span class="reversed">
                 {#each textLines as line, i}
-                <div class="line">
+                <div class="line" class:active={currentTime > starts[i] && currentTime < ends[i]}>
                     <span>{line}</span>
                     <button on:click={() => target.seekTo(starts[i])}>{toTime(starts[i])}</button>
                     <button on:click={() => target.seekTo(ends[i])}>{toTime(ends[i])}</button>
@@ -201,13 +208,25 @@
         gap: 10px;
         padding: 10px 5px;
         border: 1px solid #333;
+        background-color: #222;
         border-radius: 5px;
         align-items: center;
         margin-bottom: 5px;
+        height: 50px;
+        overflow: hidden;
+    }
+    .line.active {
+        background-color: #444;
     }
     .line span {
         flex-grow: 1;
+        flex-shrink: 1;
+        width: 100%;
+        overflow-wrap: break-word;
         text-align: left;
+    }
+    button {
+        padding: 10px 5px;
     }
     .lines {
         border-top: 1px solid #333;
