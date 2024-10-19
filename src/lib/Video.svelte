@@ -104,7 +104,7 @@
         {/if}
     </button>
     {:else}
-    <h1>Load a video to get started! ➡️</h1>
+    <h1>Choose an episode! ➡️</h1>
     {/if}
 </div>
 
