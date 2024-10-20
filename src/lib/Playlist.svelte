@@ -86,6 +86,7 @@
         width: 100%;
         text-align: left;
         display: flex;
+        align-items: center;
         border-radius: 0;
         border: 0;
         border-top: 1px solid #555;
