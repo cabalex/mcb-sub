@@ -27,7 +27,7 @@
 
     let interval;
     onMount(() => {
-        interval = setInterval(subtitleUpdate, 100);
+        interval = setInterval(subtitleUpdate, 10);
         
     })
 
