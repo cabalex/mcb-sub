@@ -38,7 +38,11 @@
 
 {#if subtitle}
 <div class="subtitleArea" class:hover={hover}>
-    <div class="subtitle">{subtitle}</div>
+    <div class="subtitle">
+    {#each subtitle.split(" ") as word}
+        <span>{word}</span>
+    {/each}
+    </div>
 </div>
 {/if}
 
@@ -60,15 +64,20 @@
         bottom: 40px;
     }
     .subtitle {
-        background-color: rgba(0, 0, 0, 0.5);
-        padding: 0 5px;
-        font-size: 24px;
-        border-radius: 5px;
         max-width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        font-size: 24px;
+    }
+    .subtitle span {
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 0 5px;
     }
     @media screen and (min-width: 1200px) {
         .subtitle {
-            font-size: 32px;
+            font-size: 36px;
         }
     }
 </style>
