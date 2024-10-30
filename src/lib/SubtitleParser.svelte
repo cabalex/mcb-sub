@@ -5,27 +5,24 @@
     export let target: any;
     export let hover: boolean;
 
-    let subtitle = null;
-
-    let currentSubtitle = null;
+    let currentSubtitle: typeof subtitles[number]|null = null;
 
     function subtitleUpdate() {
         if (!target) return;
         let time = target.getCurrentTime();
 
-        if (currentSubtitle === time) return;
-
+        if (currentSubtitle && time >= currentSubtitle.start && time < currentSubtitle.end) return;
         for (let sub of subtitles) {
             if (time >= sub.start && time <= sub.end) {
-                currentSubtitle = time;
-                subtitle = sub.text;
+                currentSubtitle = sub;
                 return;
             }
+            if (time < sub.start) break;
         }
-        subtitle = null;
+        currentSubtitle = null;
     }
 
-    let interval;
+    let interval: number;
     onMount(() => {
         interval = setInterval(subtitleUpdate, 10);
         
@@ -36,10 +33,10 @@
     })
 </script>
 
-{#if subtitle}
+{#if currentSubtitle}
 <div class="subtitleArea" class:hover={hover}>
     <div class="subtitle">
-    {#each subtitle.split(" ") as word}
+    {#each currentSubtitle.text.split(" ") as word}
         <span>{word}</span>
     {/each}
     </div>

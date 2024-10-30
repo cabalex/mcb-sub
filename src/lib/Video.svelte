@@ -110,7 +110,7 @@
         {/if}
     </div>
     {#if video}
-    <button class="fullscreenBtn" on:click={toggleFullscreen}>
+    <button class="fullscreenBtn" on:click={toggleFullscreen} class:visible={hover}>
         {#if fullscreen}
             <img width="24px" height="24px" src={FullscreenExitIcon} alt="Exit Fullscreen" />
         {:else}
@@ -153,16 +153,11 @@
         cursor: pointer;
         line-height: 0;
         outline: none !important;
-        animation: hide 1s forwards;
-        animation-delay: 2s;
+        animation: hide 0.5s forwards;
         transition: opacity 0.2s ease-in-out;
     }
     @keyframes hide {
         0% {
-            opacity: 1;
-        }
-        50% {
-            background-color: #333;
             opacity: 1;
         }
         100% {
