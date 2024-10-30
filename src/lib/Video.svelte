@@ -16,6 +16,8 @@
         if (target === e.detail.target) return;
         target = e.detail.target;
         console.log("Playing", e.detail.target);
+        hover = true;
+        timeout = setTimeout(() => hover = false, 3000);
     }
 
     function parseTimestamp(timestamp: string) {
@@ -71,8 +73,20 @@
         }
     }
 
+    let timeout: number;
+    function hovered(e) {
+        hover = true;
+        if (timeout) clearTimeout(timeout);
+        timeout = setTimeout(() => hover = false, 3000);
+    }
+
+    function clearHover() {
+        hover = false;
+        if (timeout) clearTimeout(timeout);
+    }
+
 </script>
-<div class="video" bind:this={videoElem} on:mouseover={() => hover = true} on:mouseout={() => hover = false}>
+<div class="video" bind:this={videoElem} on:focus={hovered} on:mouseover={hovered} on:mousemove={hovered} on:mouseout={clearHover} on:blur={clearHover}>
     <div class="videoInner">
         {#if video}
             <SvelteYouTube

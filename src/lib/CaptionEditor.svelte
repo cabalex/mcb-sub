@@ -73,6 +73,8 @@
     let interval = setInterval(() => currentTime = target?.getCurrentTime(), 100);
 
     onDestroy(() => clearInterval(interval));
+
+    const getTime = () => target.getCurrentTime() - 0.1;
 </script>
 
 <div class="captionEditor" transition:slide={{axis: 'x', duration: 100}}>
@@ -106,7 +108,7 @@
         {#if textLines.length > starts.length}
         <div class="line">
             <span>{textLines[starts.length]}</span>
-            <button class="primary" on:click={() => starts = [...starts, target.getCurrentTime()]}>Now</button>
+            <button class="primary" on:click={() => starts = [...starts, getTime()]}>Now</button>
         </div>
         {/if}
         <div class="lines">
@@ -114,7 +116,7 @@
                 {#each starts as start, i}
                 <div class="line" class:active={start < currentTime && (i === starts.length - 1 ? true : starts[i + 1] > currentTime)}>
                     <span>{textLines[i]}</span>
-                    <button on:click={() => { starts[i] = target.getCurrentTime(); starts = [...starts]}}>{toTime(start)}</button>
+                    <button on:click={() => { starts[i] = getTime(); starts = [...starts]}}>{toTime(start)}</button>
                 </div>
                 {/each}
             </span>
@@ -129,7 +131,7 @@
         <div class="line">
             <button class="outline" style="padding: 10px 5px" on:click={() => target.seekTo(starts[ends.length])}>{toTime(starts[ends.length])}</button>                    
             <span>{textLines[ends.length]}</span>
-            <button class="primary" on:click={() => setEnd(ends.length, target.getCurrentTime())}>Now</button>
+            <button class="primary" on:click={() => setEnd(ends.length, getTime())}>Now</button>
             {#if ends.length < starts.length - 1}
             <button class="primary toNext" on:click={() => ends = [...ends, starts[ends.length + 1]]}>➡️</button>
             {/if}
@@ -141,7 +143,7 @@
                 <div class="line" class:active={currentTime > starts[i] && currentTime < ends[i]}>
                     <button class="outline" style="padding: 10px 5px" on:click={() => target.seekTo(starts[i])}>{toTime(starts[i])}</button>                    
                     <span>{textLines[i]}</span>
-                    <button on:click={() => setEnd(i, target.getCurrentTime())}>{toTime(end)}</button>
+                    <button on:click={() => setEnd(i, getTime())}>{toTime(end)}</button>
                     {#if i < starts.length - 1}
                     <button disabled={ends[i] === starts[i + 1]} class="primary toNext" on:click={() => { ends[i] = starts[i + 1]; ends = [...ends]}}>➡️</button>
                     {/if}

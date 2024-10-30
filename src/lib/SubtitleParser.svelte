@@ -49,19 +49,19 @@
 <style>
     .subtitleArea {
         position: absolute;
-        bottom: 0;
+        bottom: 17px;
         left: 0;
         width: 100%;
-        height: 100px;
+        height: calc(100% - 20px);
         color: white;
         pointer-events: none;
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: flex-end;
         transition: bottom 0.1s ease-in-out;
     }
     .subtitleArea.hover {
-        bottom: 40px;
+        bottom: 70px;
     }
     .subtitle {
         max-width: 80%;
