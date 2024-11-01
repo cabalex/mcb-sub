@@ -31,27 +31,20 @@
         let response = await fetch(url);
         if (!response.ok) return console.error("Failed to fetch subtitle");
         let data = await response.text();
-        let lines = data.split("\n");
+        let lines = data.split("\n\n");
 
         subs = [];
-        let sub = {start: -1, end: 1, text: ''};
         let i = 0;
-        while (i < lines.length) {
-            if (lines[i].includes("-->")) {
-                let [start, end] = lines[i].split(" --> ").map(parseTimestamp);
-                sub.start = start;
-                sub.end = end;
+        for (let line of lines) {
+            if (line.startsWith((i + 1).toString() + "\n")) {
                 i++;
-                while (lines[i].trim() !== "") {
-                    sub.text += lines[i] + "\n";
-                    i++;
-                }
+                const sublines = line.split("\n");
+                const sub = {start: -1, end: 1, text: ''};
+                [sub.start, sub.end] = sublines[1].split(" --> ").map(parseTimestamp);
+                sub.text = sublines.slice(2).join("\n");
                 subs.push(sub);
-                sub = {start: -1, end: 1, text: ''};
             }
-            i++;
         }
-        console.log(subs)
     }
 
     $: {

@@ -36,8 +36,8 @@
 {#if currentSubtitle}
 <div class="subtitleArea" class:hover={hover}>
     <div class="subtitle">
-    {#each currentSubtitle.text.split(" ") as word}
-        <span>{word}</span>
+    {#each currentSubtitle.text.split(/[ \n]/) as word}
+        <span class:newline={currentSubtitle.text.includes(word + "\n")}>{word}</span>
     {/each}
     </div>
 </div>
@@ -71,6 +71,9 @@
     .subtitle span {
         background-color: rgba(0, 0, 0, 0.7);
         padding: 0 5px;
+    }
+    .subtitle span.newline {
+        flex-basis: 100%;
     }
     @media screen and (min-width: 1200px) {
         .subtitle {
