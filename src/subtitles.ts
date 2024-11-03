@@ -5,6 +5,9 @@ const subtitles: Season[] = [
         icon: './season1.png',
         language: 'en',
         incomplete: true,
+        openings: [
+            {name: 'Opening', id: '1070bnqHcHY', source: 'dub'},
+        ],
         episodes: [
             {name: 'Mystery of the Police Car Robot!', id: 'ZLcqsmPCHLY', source: 'dub'},
             {name: 'The Dancing Dump Truck', id: '3ElOpqFXaSU', source: 'dub'},
@@ -20,8 +23,8 @@ const subtitles: Season[] = [
             {name: 'Blue Cop\'s Special Training!', id: 'aU5wLVRQIWQ', source: 'dub'},
             {name: 'Guardian of the Forest', id: 'PkNgHFctIIg', source: 'dub'},
             {name: 'Operation Underground Battle', id: '5igwoiB4sAE', source: 'dub'},
-            /*{name: 'A Metal Cardbot from the Sky!', id: '8wpIPp7c094', source: 'dub'},
-            {name: 'The Vagabond in the Sky', id: '4kAhVJnzL9w', source: 'dub'},
+            {name: 'A Metal Cardbot from the Sky!', id: '8wpIPp7c094', source: 'dub'},
+            /*{name: 'The Vagabond in the Sky', id: '4kAhVJnzL9w', source: 'dub'},
             {name: 'Showdown Between Blue Cop and Wild Guardy!', id: 't5_mM9bdq00', source: 'dub'},
             {name: 'The Great Showdown! Giant VS Giant!', id: 'ScF3TTBBfyo', source: 'dub'},
             */
@@ -33,6 +36,7 @@ const subtitles: Season[] = [
         icon: './season2.jpg',
         language: 'en',
         incomplete: true,
+        openings: [],
         episodes: [
             
         ]
@@ -45,6 +49,7 @@ export interface Season {
     icon: string;
     language: string;
     incomplete: boolean;
+    openings: Episode[];
     episodes: Episode[];
 }
 

@@ -70,7 +70,7 @@
     }
     .subtitle span {
         background-color: rgba(0, 0, 0, 0.7);
-        padding: 0 5px;
+        padding: 0 0.25ch;
     }
     .subtitle span.newline {
         flex-basis: 100%;

@@ -16,6 +16,18 @@
         </div>
     </header>
     <div class="episodes">
+    {#each playlists[playlistIndex].openings as opening, i}
+        <button class:active={$video === opening} class="episode" on:click={() => video.set(opening)}>
+            <img src={`https://img.youtube.com/vi/${opening.id}/0.jpg`} />
+            <div class="text">
+                <h3>{opening.name}</h3>
+                <div class="tags">
+                    <span class="tag">OP</span>
+                    <span class="tag" style="background-color: #777">CC: {opening.source}</span>
+                </div>
+            </div>
+        </button>
+    {/each}
     {#each playlists[playlistIndex].episodes as episode, i}
         <button class:active={$video === episode} class="episode" on:click={() => video.set(episode)}>
             <img src={`https://img.youtube.com/vi/${episode.id}/0.jpg`} />
