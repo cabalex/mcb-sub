@@ -1,0 +1,817 @@
+1
+00:00:01,641 --> 00:00:04,480
+The Hungry Metal Cardbot
+
+2
+00:00:15,957 --> 00:00:18,31
+Hm? Has there been an accident?
+
+3
+00:00:19,858 --> 00:00:20,985
+Hello?
+
+4
+00:00:21,688 --> 00:00:22,935
+Are you alright?
+
+5
+00:00:24,770 --> 00:00:26,660
+H-Hello?
+
+6
+00:00:28,186 --> 00:00:30,141
+I... I'm hungry!
+
+7
+00:00:30,996 --> 00:00:32,390
+Aah!
+
+8
+00:00:53,301 --> 00:00:57,612
+We have a report that a monster truck transformed into a robot
+
+9
+00:00:57,612 --> 00:01:01,324
+and ate a battery from an electric car that was passing by on Route 66 last night.
+
+10
+00:01:01,324 --> 00:01:05,187
+I-I mean, a garish looking car suddenly started saying it was hungry, and it transformed into...
+
+11
+00:01:05,187 --> 00:01:06,851
+Mmph? Could this be?
+
+12
+00:01:06,851 --> 00:01:09,207
+Yes. I'm sure it's a Metal Cardbot.
+
+13
+00:01:09,207 --> 00:01:09,951
+Jun!
+
+14
+00:01:11,96 --> 00:01:13,225
+You're gonna be late for school again!
+
+15
+00:01:13,225 --> 00:01:13,981
+Uh, yes!
+
+16
+00:01:14,966 --> 00:01:16,121
+I'll be off, then!
+
+17
+00:01:16,121 --> 00:01:17,976
+Do you know where it happened, Jun?
+
+18
+00:01:17,976 --> 00:01:19,666
+Yes! A country road outside Mowtown-
+
+19
+00:01:19,666 --> 00:01:20,715
+What are you saying?
+
+20
+00:01:22,64 --> 00:01:24,385
+Hahaha, what's got you all jumpy, huh?
+
+21
+00:01:24,385 --> 00:01:27,14
+Uh... Dad, what are you doing below the car?
+
+22
+00:01:27,14 --> 00:01:28,945
+Well, the car is acting a little strange.
+
+23
+00:01:28,945 --> 00:01:31,512
+I think it's broken somewhere. But I just can't figure out...
+
+24
+00:01:31,512 --> 00:01:33,758
+...well, I'll be going off to school then!
+
+25
+00:01:36,598 --> 00:01:39,152
+I had a great stay thanks to all of you.
+
+26
+00:01:39,152 --> 00:01:40,442
+Thank you so much!
+
+27
+00:01:40,897 --> 00:01:43,100
+Crest!!
+
+28
+00:01:43,100 --> 00:01:45,409
+I'll never forget the fun times we had!
+
+29
+00:01:45,409 --> 00:01:47,309
+We're friends for life-
+
+30
+00:01:47,309 --> 00:01:48,755
+Oh no, Crest!
+
+31
+00:01:48,755 --> 00:01:51,200
+I can't believe you're leaving us, Crest!
+
+32
+00:01:51,200 --> 00:01:53,479
+Oh, you mustn't forget me no matter what!
+
+33
+00:01:53,479 --> 00:01:55,464
+Haha, thank you...
+
+34
+00:01:55,464 --> 00:01:58,42
+He's a big star from start to end.
+
+35
+00:01:58,42 --> 00:01:59,275
+You said it!
+
+36
+00:01:59,275 --> 00:02:02,209
+Hope things will be fine until the farewell party tonight.
+
+37
+00:02:02,209 --> 00:02:04,679
+The news this morning didn't sound good...
+
+38
+00:02:04,679 --> 00:02:09,950
+Everybody's looking for the culprit now, so we'll find out soon enough- huh?
+
+39
+00:02:09,950 --> 00:02:11,486
+Did you find anything?
+
+40
+00:02:11,486 --> 00:02:14,677
+I found traces of oil spilled by a Metal Cardbot.
+
+41
+00:02:14,677 --> 00:02:16,179
+It might be from the culprit.
+
+42
+00:02:16,179 --> 00:02:17,877
+Do you mean the culprit was hurt?
+
+43
+00:02:17,877 --> 00:02:19,413
+I'm not sure.
+
+44
+00:02:19,413 --> 00:02:21,173
+But it looks like he went downtown.
+
+45
+00:02:22,17 --> 00:02:23,902
+Okay, I leave you to it then.
+
+46
+00:02:23,902 --> 00:02:25,575
+You can count on me.
+
+47
+00:02:28,701 --> 00:02:31,684
+What timing for the car to break on the day of the party...
+
+48
+00:02:31,684 --> 00:02:35,223
+I asked  for a replacement vehicle, so it should be alright.
+
+49
+00:02:35,223 --> 00:02:36,996
+Well, I'll be off then!
+
+50
+00:02:36,996 --> 00:02:38,210
+Take care, honey!
+
+51
+00:02:38,703 --> 00:02:41,305
+Ugh... time to prepare for the party...
+
+52
+00:02:48,750 --> 00:02:53,932
+Ugh... how odd... I just ate... but I'm hungry again...
+
+53
+00:02:53,932 --> 00:02:56,655
+I wonder... why that is...
+
+54
+00:03:08,623 --> 00:03:10,179
+Ah! Oh...
+
+55
+00:03:13,363 --> 00:03:14,496
+Wha? What's that?!
+
+56
+00:03:15,304 --> 00:03:17,175
+Uh... uh...
+
+57
+00:03:17,340 --> 00:03:20,301
+When did that arrive now?
+
+58
+00:03:23,703 --> 00:03:26,221
+Hello? Oh, Edo!
+
+59
+00:03:26,221 --> 00:03:29,384
+About the car. It seems like the tank is rusty.
+
+60
+00:03:29,384 --> 00:03:32,359
+It seems it's going to take about a week to fix.
+
+61
+00:03:32,359 --> 00:03:36,419
+What? I'm going to be driving around in that garish looking truck for a week?!
+
+62
+00:03:36,419 --> 00:03:40,879
+What garish looking truck? I haven't sent the replacement vehicle yet.
+
+63
+00:03:40,879 --> 00:03:43,428
+But there's... one right here- Huh?
+
+64
+00:03:45,256 --> 00:03:46,167
+What?
+
+65
+00:03:48,457 --> 00:03:52,966
+Uh, Edo... I'm sorry. Forget about what I just said. I must have made a mistake.
+
+66
+00:03:52,966 --> 00:03:58,31
+So... you said the repair would take a week? I'll wait for the replacement vehicle then.
+
+67
+00:03:58,31 --> 00:03:58,31
+Please send a normal car.
+
+68
+00:03:58,31 --> 00:04:01,807
+Please send a normal car...
+I... I can't hold it any longer! Aagh!
+
+69
+00:04:01,807 --> 00:04:05,918
+Oh, in an hour? Don't worry, I'll be here. Alright...
+
+70
+00:04:08,325 --> 00:04:10,76
+I'm really hungry!!
+
+71
+00:04:10,909 --> 00:04:14,194
+Hello? Hello? Are you there, Yuri?
+
+72
+00:04:14,194 --> 00:04:17,273
+A garish looking car suddenly started saying it was hungry!
+
+73
+00:04:17,273 --> 00:04:20,138
+Then it transformed into a robot and attacked my car! I was so scared!
+
+74
+00:04:20,138 --> 00:04:21,653
+Huh... wait a minute!
+
+75
+00:04:25,897 --> 00:04:29,372
+I found the trail of oil! It goes to the residential area!
+
+76
+00:04:29,372 --> 00:04:31,394
+That is where Jun's house is...
+
+77
+00:04:31,394 --> 00:04:32,397
+Let's hurry!
+
+78
+00:04:32,900 --> 00:04:34,115
+H-Hey! Hang on!
+
+79
+00:04:34,115 --> 00:04:35,374
+Wait for us!
+
+80
+00:04:40,745 --> 00:04:43,564
+I'm so... hungry...
+
+81
+00:04:43,564 --> 00:04:46,916
+I... wanna eat... that...
+
+82
+00:04:47,569 --> 00:04:50,594
+You want to eat... this generator?
+
+83
+00:04:50,594 --> 00:04:51,806
+Gimme!
+
+84
+00:04:52,270 --> 00:04:54,178
+Then you need to ask nicely!
+
+85
+00:04:55,501 --> 00:04:56,409
+I said no!
+
+86
+00:04:57,165 --> 00:04:59,17
+And your hands are all dirty!
+
+87
+00:04:59,17 --> 00:04:59,748
+Hang on.
+
+88
+00:05:02,88 --> 00:05:03,170
+There you go.
+
+89
+00:05:04,347 --> 00:05:07,609
+Now. You have to say "thank you" before eating.
+
+90
+00:05:07,609 --> 00:05:09,11
+Say, "thanks for the food".
+
+91
+00:05:09,11 --> 00:05:11,568
+Sorry. Thanks for the food, lady.
+
+92
+00:05:12,93 --> 00:05:13,191
+Hmph.
+
+93
+00:05:16,518 --> 00:05:17,690
+So good...
+
+94
+00:05:17,690 --> 00:05:19,640
+Oh yeah. Good job.
+
+95
+00:05:20,454 --> 00:05:22,349
+See you in the evening, Anna.
+
+96
+00:05:22,349 --> 00:05:24,270
+Yeah, see you later!
+
+97
+00:05:24,270 --> 00:05:25,668
+Take care!
+
+98
+00:05:26,756 --> 00:05:27,736
+Jun.
+
+99
+00:05:27,736 --> 00:05:29,1
+Blue Cop! Did you find him?
+
+100
+00:05:29,1 --> 00:05:31,453
+We found that the trail of oil is heading to your neighborhood.
+
+101
+00:05:31,453 --> 00:05:32,510
+What?!
+
+102
+00:05:32,714 --> 00:05:36,530
+Jun! Jun!
+
+103
+00:05:36,530 --> 00:05:38,757
+Get in. Something has happened at your house!
+
+104
+00:05:38,757 --> 00:05:40,631
+Wha?! No way!
+
+105
+00:05:42,899 --> 00:05:44,409
+Uh... what's wrong...?
+
+106
+00:05:44,409 --> 00:05:45,602
+I'm still hungry.
+
+107
+00:05:45,602 --> 00:05:46,683
+Oh.
+
+108
+00:05:46,683 --> 00:05:49,369
+Is there a problem with the voltage?
+
+109
+00:05:49,369 --> 00:05:50,141
+Hm...
+
+110
+00:05:51,909 --> 00:05:54,294
+Hang on. Excuse me.
+
+111
+00:05:56,846 --> 00:06:00,165
+Oh dear. There's a hole in there from a nail.
+
+112
+00:06:00,165 --> 00:06:01,998
+This must be the problem.
+
+113
+00:06:03,487 --> 00:06:05,47
+Stick your bottom out.
+
+114
+00:06:05,265 --> 00:06:06,678
+Like this?
+
+115
+00:06:06,678 --> 00:06:08,446
+That's right.
+
+116
+00:06:08,936 --> 00:06:11,527
+Oh, you poor thing...
+
+117
+00:06:12,787 --> 00:06:14,114
+Hang in there.
+
+118
+00:06:35,717 --> 00:06:37,258
+There you go!
+
+119
+00:06:42,259 --> 00:06:44,608
+T-Thank you, lady!
+
+120
+00:06:44,608 --> 00:06:46,162
+Don't mention it.
+
+121
+00:06:46,162 --> 00:06:48,233
+But, who are you, anyway?
+
+122
+00:06:48,233 --> 00:06:50,582
+I am... Buffalo Crush.
+
+123
+00:06:50,582 --> 00:06:53,1
+I'm Yuri. Finish your meal.
+
+124
+00:06:53,1 --> 00:06:53,943
+Thanks.
+
+125
+00:06:59,434 --> 00:07:01,775
+He's in our yard?!
+
+126
+00:07:03,305 --> 00:07:05,836
+Hey, hot pink! What are you doing in my house?!
+
+127
+00:07:05,836 --> 00:07:06,919
+Mom?!
+
+128
+00:07:08,915 --> 00:07:11,99
+Let my mom go right now!
+
+129
+00:07:13,365 --> 00:07:14,278
+Huh?
+
+130
+00:07:14,278 --> 00:07:17,277
+That's the treasure from Deus Machina. The Metal Breath!
+
+131
+00:07:18,596 --> 00:07:21,858
+Hey! Give me that!
+
+132
+00:07:22,132 --> 00:07:24,968
+So this is why you're taking my mom hostage, huh?!
+
+133
+00:07:24,968 --> 00:07:27,258
+Hostage? What do you mean?
+
+134
+00:07:30,472 --> 00:07:31,895
+Stop it.
+
+135
+00:07:32,290 --> 00:07:35,24
+Say "I'm done, thank you" if you're done eating.
+
+136
+00:07:35,24 --> 00:07:37,374
+Huh?! I'm done, thank you lady.
+
+137
+00:07:37,890 --> 00:07:38,928
+Jun.
+
+138
+00:07:38,928 --> 00:07:41,438
+Wild Guardy and I will soon be at your place.
+
+139
+00:07:41,438 --> 00:07:43,877
+I'm in my house right now. Please hurry.
+
+140
+00:07:43,877 --> 00:07:45,232
+What? Okay.
+
+141
+00:07:46,178 --> 00:07:48,690
+Uh... I have something to discuss with you about the repairs.
+
+142
+00:07:48,690 --> 00:07:51,572
+What? But I have to prepare for the party...
+
+143
+00:07:57,579 --> 00:07:58,688
+That's Edo's car!
+
+144
+00:08:01,589 --> 00:08:03,118
+Jun! Are you alright?
+
+145
+00:08:03,118 --> 00:08:04,661
+Blue Cop! Wild Guardy!
+
+146
+00:08:04,661 --> 00:08:08,187
+Buffalo Crush? Why are you here?
+
+147
+00:08:10,426 --> 00:08:11,584
+Give me the Metal Breath!
+
+148
+00:08:11,584 --> 00:08:12,606
+What?!
+
+149
+00:08:12,946 --> 00:08:13,920
+Blue Cop, setup!
+
+150
+00:08:18,943 --> 00:08:19,946
+Wild Guardy!
+
+151
+00:08:32,967 --> 00:08:34,784
+He's way too strong!
+
+152
+00:08:34,784 --> 00:08:38,207
+Buffalo Crush has been fed!
+
+153
+00:08:38,207 --> 00:08:41,62
+That means I'm... unbeatable!
+
+154
+00:08:42,17 --> 00:08:43,869
+Mega Trucker! Where are you?!
+
+155
+00:08:43,869 --> 00:08:44,914
+Ugh.
+
+156
+00:08:44,914 --> 00:08:47,36
+Come on, move already!
+
+157
+00:08:50,922 --> 00:08:53,929
+We must not let him overpower us with brute force!
+
+158
+00:08:53,929 --> 00:08:55,987
+Let's confuse him with serial attacks!
+
+159
+00:08:55,987 --> 00:08:57,170
+Got it!
+
+160
+00:09:00,105 --> 00:09:01,520
+Wild Guardy, setup!
+
+161
+00:09:05,515 --> 00:09:07,201
+Bring it on!
+
+162
+00:09:07,498 --> 00:09:09,136
+That shield is nothing.
+
+163
+00:09:09,218 --> 00:09:10,779
+Tomahawk Crush!
+
+164
+00:09:12,402 --> 00:09:13,311
+Gotcha! Soaring on. (FIX_THIS)
+
+165
+00:09:16,576 --> 00:09:19,24
+The time is now. Megavolt Punch!
+
+166
+00:09:20,355 --> 00:09:21,361
+Megavolt...
+
+167
+00:09:23,540 --> 00:09:25,481
+Buffalo...
+
+168
+00:09:25,481 --> 00:09:27,88
+Moonsault!
+
+169
+00:09:35,743 --> 00:09:38,354
+He's as hard to break as my shield...
+
+170
+00:09:38,354 --> 00:09:40,976
+Blue Cop! Let's finish with Infinity Force Break!
+
+171
+00:09:40,976 --> 00:09:41,906
+Got it!
+
+172
+00:09:42,362 --> 00:09:44,27
+Infinity...
+
+173
+00:09:46,371 --> 00:09:47,0
+Force...
+
+174
+00:09:49,534 --> 00:09:51,6
+Who's that?!
+
+175
+00:09:51,268 --> 00:09:55,239
+Where are you roaming about, Buffalo Crush?
+
+176
+00:09:55,239 --> 00:09:56,520
+That sounded like...
+
+177
+00:09:56,520 --> 00:09:57,830
+Buster Gallon.
+
+178
+00:09:57,830 --> 00:09:58,838
+W-Who's that?!
+
+179
+00:09:58,838 --> 00:10:00,362
+Black Hook's crewmate.
+
+180
+00:10:00,980 --> 00:10:06,120
+I am here for the Metal Breath like I promised, Earthling child.
+
+181
+00:10:06,120 --> 00:10:08,325
+I never invited you to my house!
+
+182
+00:10:08,325 --> 00:10:10,366
+And you're never getting the Metal Breath!
+
+183
+00:10:10,366 --> 00:10:15,274
+If you want to turn this place into a battlefield, I have nothing to lose!
+
+184
+00:10:20,567 --> 00:10:22,685
+Let's just go back.
+
+185
+00:10:22,685 --> 00:10:24,290
+I'm sorry, what are you saying?
+
+186
+00:10:24,290 --> 00:10:27,558
+Black Hook. You said this before.
+
+187
+00:10:27,558 --> 00:10:31,142
+A real Cardbot always repays a favor.
+
+188
+00:10:31,142 --> 00:10:33,1
+Our restaurant sticker?
+
+189
+00:10:34,921 --> 00:10:39,439
+I guess... if you have a good reason...
+
+190
+00:10:39,439 --> 00:10:42,880
+Fools. It was the chance of a lifetime.
+
+191
+00:10:42,880 --> 00:10:45,41
+We're heading west. Let's go!
+
+192
+00:10:48,182 --> 00:10:50,714
+I don't understand what's going on here...
+
+193
+00:10:52,354 --> 00:10:55,799
+I followed the trail of oil and found an escape pod in the forest.
+
+194
+00:10:55,799 --> 00:10:58,489
+Perhaps... it was damaged during the escape?
+
+195
+00:10:58,489 --> 00:11:01,252
+So... Jun's mom fixed the leak!
+
+196
+00:11:01,252 --> 00:11:05,212
+She must have been shocked!
+
+197
+00:11:05,212 --> 00:11:08,992
+So it's all thanks to your mom that we're having this great party.
+
+198
+00:11:08,992 --> 00:11:10,219
+But Crest...
+
+199
+00:11:10,219 --> 00:11:13,327
+Now that there are all these new enemies, I'm a little bit worried.
+
+200
+00:11:13,327 --> 00:11:15,657
+I truly believe you will defeat them all.
+
+201
+00:11:15,657 --> 00:11:16,790
+I think so too!
+
+202
+00:11:16,790 --> 00:11:19,890
+We'll be fine as long as we work together!
+
+203
+00:11:19,890 --> 00:11:21,776
+Promise you will be back, Crest!
+
+204
+00:11:21,776 --> 00:11:23,715
+Mhm. Of course!
+
