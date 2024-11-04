@@ -108,20 +108,22 @@
         console.log(currentCaptionIndex);
         let previousCaption, currentCaption, nextCaption;
         if (currentCaptionIndex > 0) {
-            previousCaption = subs[currentCaptionIndex - 1].text + ` (${toTime(subs[currentCaptionIndex - 1].start)} - ${toTime(subs[currentCaptionIndex - 1].end)})`;
+            previousCaption = `(${toTime(subs[currentCaptionIndex - 1].start)} - ${toTime(subs[currentCaptionIndex - 1].end)}) ` + subs[currentCaptionIndex - 1].text;
         }
         if (currentCaptionIndex !== -1 && currentCaptionIndex < subs.length - 1) {
-            nextCaption = subs[currentCaptionIndex + 1].text + ` (${toTime(subs[currentCaptionIndex + 1].start)} - ${toTime(subs[currentCaptionIndex + 1].end)})`;
+            nextCaption = `(${toTime(subs[currentCaptionIndex + 1].start)} - ${toTime(subs[currentCaptionIndex + 1].end)}) ` + subs[currentCaptionIndex + 1].text;
         }
         if (currentCaptionIndex !== -1) {
-            currentCaption = subs[currentCaptionIndex].text + ` (${toTime(subs[currentCaptionIndex].start)} - ${toTime(subs[currentCaptionIndex].end)})`;
+            currentCaption = `(${toTime(subs[currentCaptionIndex].start)} - ${toTime(subs[currentCaptionIndex].end)}) ` + subs[currentCaptionIndex].text;
         }
-        let title = `CC issue | ${$video.name}, ${currentTime.toFixed(2)}s`;
+        let title = `CC issue | ${$video.name}, ${toTime(currentTime)}`;
         let body = `## Issue template (do not remove)\n**Video**: ${$video.name} <https://youtu.be/${$video.id}>\n⏱️ ${toTime(currentTime)}`
         
         if (previousCaption) body += `\n⏮️CC: ${previousCaption}`;
         if (currentCaption) body += `\n🟦CC: ${currentCaption}`;
         if (nextCaption) body += `\n⏭️CC: ${nextCaption}`;
+
+        body += '\n\n## Describe the problem';
         
         window.open(`https://github.com/cabalex/mcb-sub/issues/new?title=${title}&body=${encodeURIComponent(body)}`);
     }

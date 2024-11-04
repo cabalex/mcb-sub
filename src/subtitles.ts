@@ -28,9 +28,10 @@ const subtitles: Season[] = [
             {name: 'A Metal Cardbot from the Sky!', id: '8wpIPp7c094'},
             {name: 'The Vagabond in the Sky', id: '4kAhVJnzL9w'},
             {name: 'Showdown Between Blue Cop and Wild Guardy!', id: 't5_mM9bdq00'},
-            /*{name: 'The Hungry Metal Cardbot', id: 'hOeQeLZ4ccg'},
+            {name: 'The Great Showdown! Giant VS Giant!', id: 'ScF3TTBBfyo'},
+            {name: 'The Hungry Metal Cardbot', id: 'hOeQeLZ4ccg'},
             {name: 'Metal Breath Gets Stolen', id: 'jk6TC3f6Uls'},
-            {name: 'Anna\'s Metal Breath', id: 'QmVE7ZhwIv4'},
+            /*{name: 'Anna\'s Metal Breath', id: 'QmVE7ZhwIv4'},
             {name: 'Goodbye, Buffalo Crush', id: 'FGG_QsPm5k8'},
             */
         ]

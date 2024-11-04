@@ -35,9 +35,12 @@
 
 {#if currentSubtitle}
 <div class="subtitleArea" class:hover={hover}>
-    <div class="subtitle">
-    {#each currentSubtitle.text.split(/[ \n]/) as word}
-        <span class:newline={currentSubtitle.text.includes(word + "\n")}>{word}</span>
+    <div class="subtitle" class:needsFixing={currentSubtitle.text.includes("FIX_THIS")}>
+    {#each currentSubtitle.text.replace(" (FIX_THIS)", "").split(/[ \n]/) as word}
+        <span>{word}</span>
+        {#if currentSubtitle.text.includes(word + "\n")}
+            <span class="newline"></span>
+        {/if}
     {/each}
     </div>
 </div>
@@ -68,11 +71,22 @@
         flex-wrap: wrap;
         font-size: 24px;
     }
+    .subtitle.needsFixing {
+        color: orange;
+    }
+    .subtitle.needsFixing:after {
+        content: '⚠️';
+        font-size: 0.5em;
+        background-color: rgba(0, 0, 0, 0.7);
+        align-self: flex-start;
+        height: 3em;
+    }
     .subtitle span {
         background-color: rgba(0, 0, 0, 0.7);
         padding: 0 0.25ch;
     }
     .subtitle span.newline {
+        width: 0;
         flex-basis: 100%;
     }
     @media screen and (max-width: 700px) {
