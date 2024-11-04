@@ -75,6 +75,11 @@
     .subtitle span.newline {
         flex-basis: 100%;
     }
+    @media screen and (max-width: 700px) {
+        .subtitle {
+            font-size: 18px;
+        }
+    }
     @media screen and (min-width: 1200px) {
         .subtitle {
             font-size: 36px;

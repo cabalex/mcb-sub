@@ -4,11 +4,12 @@
   import Video from "./lib/Video.svelte";
 
   let currentVideo = writable(null);
+  let currentSub = writable(null);
 </script>
 
 <main>
-  <Video video={$currentVideo} />
-  <Playlist video={currentVideo} />
+  <Video video={currentVideo} source={currentSub} />
+  <Playlist video={currentVideo} source={currentSub} />
 </main>
 
 <style>

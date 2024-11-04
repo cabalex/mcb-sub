@@ -1,8 +1,15 @@
 <script lang="ts">
     import { type Writable } from "svelte/store";
-    import playlists, { type Episode } from "../subtitles.ts";
+    import playlists, { type Episode, type Source } from "../subtitles.ts";
 
     export let video: Writable<Episode|null>;
+    export let source: Writable<Source|null>;
+
+    $: {
+        if ($source === null && playlists[playlistIndex].sources.length > 0) {
+            source.set(playlists[playlistIndex].sources[0]);
+        }
+    }
 
     let playlistIndex = 0;
 </script>
@@ -15,6 +22,13 @@
             <p>{playlists[playlistIndex].subtitle}</p>
         </div>
     </header>
+    {#if playlists[playlistIndex].sources.length > 1}
+    <select bind:value={$source} placeholder="Select a dub">
+        {#each playlists[playlistIndex].sources as source}
+            <option value={source}>{source.name} ({source.language})</option>
+        {/each}
+    </select>
+    {/if}
     <div class="episodes">
     {#each playlists[playlistIndex].openings as opening, i}
         <button class:active={$video === opening} class="episode" on:click={() => video.set(opening)}>
@@ -23,7 +37,6 @@
                 <h3>{opening.name}</h3>
                 <div class="tags">
                     <span class="tag">OP</span>
-                    <span class="tag" style="background-color: #777">CC: {opening.source}</span>
                 </div>
             </div>
         </button>
@@ -35,7 +48,6 @@
                 <h3>{episode.name}</h3>
                 <div class="tags">
                     <span class="tag">Episode {i + 1}</span>
-                    <span class="tag" style="background-color: #777">CC: {episode.source}</span>
                 </div>
             </div>
         </button>
@@ -93,6 +105,9 @@
         color: white;
         line-height: 1.25em;
         margin: 0;
+    }
+    select {
+        padding: 5px;
     }
     .episode {
         width: 100%;

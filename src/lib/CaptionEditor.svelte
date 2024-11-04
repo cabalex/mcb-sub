@@ -243,4 +243,9 @@
     .toNext {
         padding: 10px 5px;
     }
+    @media screen and (max-width: 700px) {
+        .captionEditor {
+            display: none;
+        }
+    }
 </style>
