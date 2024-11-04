@@ -7,7 +7,9 @@
 
     let currentSubtitle: typeof subtitles[number]|null = null;
 
+    let mounted = true;
     function subtitleUpdate() {
+        if (mounted) requestAnimationFrame(subtitleUpdate);
         if (!target) return;
         let time = target.getCurrentTime();
 
@@ -22,14 +24,13 @@
         currentSubtitle = null;
     }
 
-    let interval: number;
     onMount(() => {
-        interval = setInterval(subtitleUpdate, 10);
-        
+        requestAnimationFrame(subtitleUpdate);
+        mounted = true;
     })
 
     onDestroy(() => {
-        clearInterval(interval);
+        mounted = false;
     })
 </script>
 
