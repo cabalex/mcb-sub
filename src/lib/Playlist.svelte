@@ -126,6 +126,9 @@
     }
     .episode.active {
         background-color: #666;
+        position: sticky;
+        bottom: 0px;
+        top: 0px;
     }
     .episode img {
         width: 100px;
@@ -136,11 +139,44 @@
         overflow: hidden;
         border-radius: 5px;
     }
+    .episode.active img {
+        filter: brightness(0.5);
+    }
+    .episode.active:after {
+        content: '▶️';
+        position: absolute;
+        top: 50%;
+        left: 60px;
+        font-size: 24px;
+        transform: translateY(-50%) translateX(-50%);
+        color: white;
+        border-radius: 5px;
+    }
     .tag {
         background-color: #ED4245;
         color: white;
         padding: 2px 5px;
         border-radius: 5px;
         font-size: 0.75em;
+    }
+    @media (prefers-color-scheme: light) {
+        .playlist {
+            background-color: #ddd;
+        }
+        header {
+            background-color: #ccc;
+        }
+        .episode {
+            border-top: 1px solid #bbb;
+        }
+        .episode:hover {
+            background-color: #ccc;
+        }
+        .episode.active {
+            background-color: #bbb;
+        }
+        h2, h3, p {
+            color: inherit;
+        }
     }
 </style>

@@ -152,7 +152,7 @@
                 }}
             />
             {#if target}
-                {#if process.env.NODE_ENV === 'development'}
+                {#if process.env.NODE_ENV === 'development' && false}
                 <CaptionEditor subtitles={subs} target={target} />
                 {/if}
                 <SubtitleParser subtitles={subs} target={target} {hover} />
@@ -245,7 +245,7 @@
         top: calc(100% + 15px);
         position: absolute;
         right: 0px;
-        border-radius: 5px;
+        border-radius: 5px 0 5px 5px;
     }
     .fullscreenTooltip:after {
         content: "";
@@ -272,6 +272,21 @@
             position: fixed;
             bottom: calc(10px + var(--safe-area-inset-bottom, 0px));
             right: 10px;
+        }
+    }
+    @media (prefers-color-scheme: light) {
+        .fullscreenTooltip {
+            background-color: #333;
+            color: white;
+        }
+        .fullscreenTooltip:after {
+            border-bottom-color: #333;
+        }
+        .reportIssueBtn {
+            border-color: #aaa;
+        }
+        .reportIssueBtn:hover {
+            background-color: #ccc;
         }
     }
 </style>
