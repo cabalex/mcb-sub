@@ -264,7 +264,7 @@ Nothing a pirate likes more than to loot and plunder!
 
 67
 00:03:39,414 --> 00:03:42,2
-You're just to come at me! (FIX_THIS)
+You're just a common thief!
 
 68
 00:03:48,871 --> 00:03:51,747
