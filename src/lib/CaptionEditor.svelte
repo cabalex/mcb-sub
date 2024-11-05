@@ -181,6 +181,7 @@
         position: fixed;
         right: 0;
         top: 0;
+        z-index: 9;
         height: 100%;
         overflow: auto;
         width: 400px;
