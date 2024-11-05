@@ -412,7 +412,7 @@ B-Blue Cop!
 
 104
 00:05:10,504 --> 00:05:14,368
-Loitering is not permitted in this area. Please evacuate the area immediately. (FIX_THIS)
+Landing is not permitted in this area. Please evacuate the area immediately.
 
 105
 00:05:14,368 --> 00:05:16,738

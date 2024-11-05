@@ -363,11 +363,11 @@ Come on guys, I need your help!
 Those pesky things... even if they came in here, it will take some time to find them...
 
 92
-00:06:38,677 --> 00:06:42,98
+00:06:38,677 --> 00:06:42,00
 They're just going round and round in the same spot.
 
 93
-00:06:42,98 --> 00:06:43,117
+00:06:42,00 --> 00:06:43,117
 Are they broken?
 
 94
@@ -391,7 +391,7 @@ I'll go take a look.
 Where are you going?!
 
 99
-00:06:52,209 --> 00:06:53,379
+00:06:51,548 --> 00:06:52,579
 I'll come with you!
 
 100
