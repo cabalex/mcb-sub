@@ -235,6 +235,7 @@
         border-radius: 100px;
         align-self: flex-end;
         margin-top: 5px;
+        z-index: 10;
     }
     .reportIssueBtn:hover, .reportIssueBtn:active {
         background-color: #333;
