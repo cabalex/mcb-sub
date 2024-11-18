@@ -15,12 +15,33 @@
     let text = "";
     let textLines = text.split("\n");
     $: {
-        textLines = text.split("\n");
-        starts = [];
-        ends = [];
+        if (text.includes("\n\n")) {
+            // read srt
+            let lines = text.split("\n\n");
+            textLines = [];
+            starts = [];
+            ends = [];
+            try {
+                lines.map(x => x.split("\n")).filter(x => x.length > 0).forEach(([num, startEnd, ...text]) => {
+                    if (num === undefined || startEnd === undefined) return;
+                    starts.push(fromTime(startEnd.split(" --> ")[0].replace(",", ".")));
+                    ends.push(fromTime(startEnd.split(" --> ")[1].replace(",", ".")));
+                    textLines.push(text.join("\n"));
+                });
+            } catch (e) {
+                console.error(e);
+                textLines = text.split("\n");
+                starts = [];
+                ends = [];
+            }
+        } else {
+            textLines = text.split("\n");
+            starts = [];
+            ends = [];
+        }
     }
-    let starts = [];
-    let ends = [];
+    let starts: number[] = [];
+    let ends: number[] = [];
 
     $: {
         if (step === 'end' && ends.length < textLines.length) {
@@ -42,6 +63,11 @@
     }
 
     const toTime = (time: number) => `${Math.floor(time / 60)}:${(time % 60).toFixed(2).padStart(5, '0')}`
+
+    const fromTime = (time: string) => {
+        let [hours, minutes, seconds] = time.split(":").map(x => parseFloat(x));
+        return hours * 3600 + minutes * 60 + seconds;
+    }
 
     function downloadSRT() {
         // create srt
@@ -162,8 +188,8 @@
                 {#each textLines as line, i}
                 <div class="line" class:active={currentTime > starts[i] && currentTime < ends[i]}>
                     <span>{line}</span>
-                    <button on:click={() => target.seekTo(starts[i])}>{toTime(starts[i])}</button>
-                    <button on:click={() => target.seekTo(ends[i])}>{toTime(ends[i])}</button>
+                    <button class="outline" on:click={() => target.seekTo(starts[i])}>{toTime(starts[i])}</button>
+                    <button class="outline" on:click={() => target.seekTo(ends[i])}>{toTime(ends[i])}</button>
                 </div>
                 {/each}
             </span>

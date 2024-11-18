@@ -31,8 +31,13 @@ const subtitles: Season[] = [
             {name: 'The Great Showdown! Giant VS Giant!', id: 'ScF3TTBBfyo'},
             {name: 'The Hungry Metal Cardbot', id: 'hOeQeLZ4ccg'},
             {name: 'Metal Breath Gets Stolen', id: 'jk6TC3f6Uls'},
-            /*{name: 'Anna\'s Metal Breath', id: 'QmVE7ZhwIv4'},
+            {name: 'Anna\'s Metal Breath', id: 'QmVE7ZhwIv4'},
             {name: 'Goodbye, Buffalo Crush', id: 'FGG_QsPm5k8'},
+            {name: 'Buster Gallon, the Betrayer', id: 'B8IYxvIrf9o'},
+            {name: 'Black Hook Strikes Back', id: 'UCixUDwUZtA'},
+            /*
+            {name: 'Heavy Battle', id: '798fkUeeMOU'},
+            {name: 'The Final Battle', id: 'L0WnJ7Kz_rw'}
             */
         ]
     },
