@@ -114,12 +114,12 @@ I... can't... move...
 Jun! Are you alright?
 Don't come here!
 Buster Gallon!
-I have more customers.
+Ah. I have more customers.
 What happened here?!
 Just stand aside and watch!
 Mega Trucker, setup!
 Shoulder Shield!
-Twin Blaster! (FIX_THIS)
+Twin Vulcan!
 Mega Ambler! Please! See what happened to Blue Cop!
 A powerful magnetic field is blocking the Metal Cardbot's movements.
 Found it! The magnetic field is coming from there!
@@ -175,8 +175,8 @@ As long as his love remains warm, my engine will never...
 Awesome! It's our turn!
 Metal Breath, pickup!
 Buffalo Crush, setup!
-Buffalo Fission! (FIX_THIS)
-Buffalo Fission!
+Buffalo Vision!
+Buffalo Vision!
 Let's get him! Buffalo Moonsault!
 Buffalo...
 Moonsault!

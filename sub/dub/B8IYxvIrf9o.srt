@@ -464,7 +464,7 @@ Buster Gallon!
 
 117
 00:06:01,114 --> 00:06:02,997
-I have more customers.
+Ah. I have more customers.
 
 118
 00:06:06,768 --> 00:06:09,239
@@ -484,7 +484,7 @@ Shoulder Shield!
 
 122
 00:06:17,3 --> 00:06:18,145
-Twin Blaster! (FIX_THIS)
+Twin Vulcan!
 
 123
 00:06:20,487 --> 00:06:23,626
@@ -708,11 +708,11 @@ Buffalo Crush, setup!
 
 178
 00:09:19,554 --> 00:09:21,417
-Buffalo Fission! (FIX_THIS)
+Buffalo Vision!
 
 179
 00:09:22,210 --> 00:09:25,100
-Buffalo Fission!
+Buffalo Vision!
 
 180
 00:09:26,873 --> 00:09:29,694
