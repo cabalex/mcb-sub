@@ -15,29 +15,31 @@
     let text = "";
     let textLines = text.split("\n");
     $: {
-        if (text.includes("\n\n")) {
-            // read srt
-            let lines = text.split("\n\n");
-            textLines = [];
-            starts = [];
-            ends = [];
-            try {
-                lines.map(x => x.split("\n")).filter(x => x.length > 0).forEach(([num, startEnd, ...text]) => {
-                    if (num === undefined || startEnd === undefined) return;
-                    starts.push(fromTime(startEnd.split(" --> ")[0].replace(",", ".")));
-                    ends.push(fromTime(startEnd.split(" --> ")[1].replace(",", ".")));
-                    textLines.push(text.join("\n"));
-                });
-            } catch (e) {
-                console.error(e);
+        if (step === "text") {
+            if (text.includes("\n\n")) {
+                // read srt
+                let lines = text.split("\n\n");
+                textLines = [];
+                starts = [];
+                ends = [];
+                try {
+                    lines.map(x => x.split("\n")).filter(x => x.length > 0).forEach(([num, startEnd, ...text]) => {
+                        if (num === undefined || startEnd === undefined) return;
+                        starts.push(fromTime(startEnd.split(" --> ")[0].replace(",", ".")));
+                        ends.push(fromTime(startEnd.split(" --> ")[1].replace(",", ".")));
+                        textLines.push(text.join("\n"));
+                    });
+                } catch (e) {
+                    console.error(e);
+                    textLines = text.split("\n");
+                    starts = [];
+                    ends = [];
+                }
+            } else {
                 textLines = text.split("\n");
                 starts = [];
                 ends = [];
             }
-        } else {
-            textLines = text.split("\n");
-            starts = [];
-            ends = [];
         }
     }
     let starts: number[] = [];

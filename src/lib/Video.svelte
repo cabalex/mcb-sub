@@ -1,4 +1,5 @@
 <script lang="ts">
+    import "./captionEffects.css";
     import SvelteYouTube from "../assets/SvelteYouTube.svelte";
     import { type Episode, type Source } from "../subtitles.ts";
     import CaptionEditor from "./CaptionEditor.svelte";
@@ -6,7 +7,7 @@
     import FullscreenIcon from "../assets/fullscreen.svg";
     import FullscreenExitIcon from "../assets/fullscreen-exit.svg";
     import { slide } from "svelte/transition";
-  import type { Writable } from "svelte/store";
+    import type { Writable } from "svelte/store";
     
     export let video: Writable<Episode|null>;
     export let source: Writable<Source|null>;
@@ -14,7 +15,7 @@
     let fullscreen = false;
 
     let hover = false;
-    let target = null;
+    let target: { getCurrentTime: () => any; } | null = null;
     function onPlay(e) {
         if (target === e.detail.target) return;
         target = e.detail.target;
@@ -134,10 +135,60 @@
         fullscreenTooltipShown = true;
     }
 
+    function toggleFX() {
+        effectsDisabled = !effectsDisabled;
+        localStorage.setItem("mcb-effectsDisabled", effectsDisabled.toString());
+    }
+
+    let screenspaceEffect = "";
+    let effectsDisabled = localStorage.getItem("mcb-effectsDisabled") === "true" ||
+        window.matchMedia(`(prefers-reduced-motion: reduce)`).matches === true
+    
+    const screenspaceTimings = [
+        {start: 1 * 60 + 55.1, end: 1 * 60 + 55.5, animation: "bonkRight"},
+        {start: 1 * 60 + 57, end: 1 * 60 + 57.5, animation: "bonkRight"},
+        {start: 1 * 60 + 59.4, end: 2 * 60, animation: "bonkUp"},
+        {start: 2 * 60 + 49.3, end: 2 * 60 + 50.3, animation: "bonkRight"},
+        {start: 3 * 60 + 16.3, end: 3 * 60 + 17, animation: "bonkLeft"},
+        {start: 3 * 60 + 21.2, end: 3 * 60 + 22, animation: "bonkRight"},
+        {start: 3 * 60 + 24.3, end: 3 * 60 + 25, animation: "bonkUp"},
+        {start: 3 * 60 + 23, end: 3 * 60 + 24, animation: "bonkDown"},
+        {start: 3 * 60 + 45.8, end: 3 * 60 + 47, animation: "bonkDown"},
+        {start: 3 * 60 + 47.9, end: 3 * 60 + 49, animation: "impactSmall"},
+        {start: 5 * 60 + 17.5, end: 5 * 60 + 18, animation: "impact"},
+        {start: 5 * 60 + 18, end: 5 * 60 + 24.5, animation: "screenshake"},
+        {start: 6 * 60 + 16.7, end: 6 * 60 + 18, animation: "impact"},
+        {start: 6 * 60 + 23.8, end: 6 * 60 + 25, animation: "impactSmall"},
+    ]
+    function getScreenspaceEffect(id: string|undefined, target: any) {
+        if (id !== "L0WnJ7Kz_rw" || !target) return;
+        requestAnimationFrame(getScreenspaceEffect.bind(null, id, target));
+        if (fullscreen || effectsDisabled) {
+            screenspaceEffect = "";
+            return;
+        }
+        let currentTime = target.getCurrentTime();
+        let effect = screenspaceTimings.find(timing => currentTime >= timing.start && currentTime <= timing.end);
+        if (effect && target.getPlayerState() === 1) {
+            screenspaceEffect = effect.animation;
+        } else {
+            screenspaceEffect = "";
+        }
+    }
+    $: getScreenspaceEffect($video?.id, target);
+
 </script>
 <div class="video" bind:this={videoElem}>
     {#if $video}
-    <div class="videoInner" transition:slide={{duration: 100, axis: 'y'}} on:focus={hovered} on:mouseover={hovered} on:mousemove={hovered} on:mouseout={clearHover} on:blur={clearHover}>
+    <div
+        class={"videoInner " + screenspaceEffect}
+        transition:slide={{duration: 100, axis: 'y'}}
+        on:focus={hovered}
+        on:mouseover={hovered}
+        on:mousemove={hovered}
+        on:mouseout={clearHover}
+        on:blur={clearHover}
+    >
             <SvelteYouTube
                 videoId={$video.id}
                 on:play={onPlay}
@@ -152,10 +203,10 @@
                 }}
             />
             {#if target}
-                {#if process.env.NODE_ENV === 'development'}
+                {#if process.env.NODE_ENV === 'development' && false}
                 <CaptionEditor subtitles={subs} target={target} />
                 {/if}
-                <SubtitleParser subtitles={subs} target={target} {hover} />
+                <SubtitleParser subtitles={subs} target={target} effectsDisabled={effectsDisabled} {hover} />
             {/if}
         <button class="fullscreenBtn" on:click={toggleFullscreen} class:visible={hover}>
             {#if fullscreen}
@@ -170,11 +221,19 @@
         </div>
         {/if}
     </div>
-    {#if issueReportAvailable}
-    <button class="reportIssueBtn" on:click={openIssueReporter}>
-        ⚠️ Report an issue
-    </button>
-    {/if}
+    <div class="btnrow">
+        {#if issueReportAvailable}
+        {#if $video?.id === "L0WnJ7Kz_rw"}
+        <button class="reportIssueBtn" on:click={toggleFX}>
+            {effectsDisabled ? "❌ FX Disabled" : "✅ FX Enabled"}
+        </button>
+        {/if}
+        <button class="reportIssueBtn" on:click={openIssueReporter}>
+            ⚠️ Report an issue
+        </button>
+        {/if}
+    </div>
+    
     {:else}
     <h1>Choose an episode! ➡️</h1>
     {/if}
@@ -231,11 +290,21 @@
         opacity: 1;
         animation: none;
     }
+    .btnrow {
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top: 5px;
+        pointer-events: none;
+    }
     .reportIssueBtn {
+        pointer-events: all;
         border-radius: 100px;
         align-self: flex-end;
-        margin-top: 5px;
         z-index: 10;
+        flex-grow: 0;
+        width: auto;
     }
     .reportIssueBtn:hover, .reportIssueBtn:active {
         background-color: #333;
@@ -269,10 +338,12 @@
         .fullscreenTooltip {
             margin: 0 10px;
         }
-        .reportIssueBtn {
+        .btnrow {
             position: fixed;
             bottom: calc(10px + var(--safe-area-inset-bottom, 0px));
             right: 10px;
+            width: 100vw;
+            z-index: 10;
         }
     }
     @media (prefers-color-scheme: light) {

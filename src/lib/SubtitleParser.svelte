@@ -1,9 +1,11 @@
 <script lang="ts">
     import { onDestroy, onMount } from "svelte";
+    import CaptionEffect from "./CaptionEffect.svelte";
 
     export let subtitles: Array<{start: number, end: number, text: string}>;
     export let target: any;
     export let hover: boolean;
+    export let effectsDisabled: boolean;
 
     let currentSubtitle: typeof subtitles[number]|null = null;
 
@@ -36,14 +38,22 @@
 
 {#if currentSubtitle}
 <div class="subtitleArea" class:hover={hover}>
-    <div class="subtitle" class:needsFixing={currentSubtitle.text.includes("FIX_THIS")}>
-    {#each currentSubtitle.text.replace(" (FIX_THIS)", "").split(/[ \n]/) as word}
-        <span>{word}</span>
-        {#if currentSubtitle.text.includes(word + "\n")}
-            <span class="newline"></span>
-        {/if}
-    {/each}
-    </div>
+    {#if currentSubtitle.text.includes(" (FX-")}
+        <CaptionEffect
+            disabled={effectsDisabled}
+            text={currentSubtitle.text.split(" (FX-")[0]}
+            effect={currentSubtitle.text.split(" (FX-")[1].split(")")[0]}
+        />
+    {:else}
+        <div class="subtitle" class:needsFixing={currentSubtitle.text.includes("FIX_THIS")}>
+            {#each currentSubtitle.text.replace(" (FIX_THIS)", "").split(/[ \n]/) as word}
+                <span>{word}</span>
+                {#if currentSubtitle.text.includes(word + "\n")}
+                    <span class="newline"></span>
+                {/if}
+            {/each}
+        </div>
+    {/if}
 </div>
 {/if}
 

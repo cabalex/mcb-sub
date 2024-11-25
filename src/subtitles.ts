@@ -3,7 +3,7 @@ const subtitles: Season[] = [
         title: 'Metal Cardbot',
         subtitle: 'Season 1',
         icon: './season1.png',
-        incomplete: true,
+        incomplete: false,
         sources: [
             {name: 'Dub', language: 'en', path: '/dub', credits: 'SAMG Entertainment'},
         ],
@@ -35,10 +35,8 @@ const subtitles: Season[] = [
             {name: 'Goodbye, Buffalo Crush', id: 'FGG_QsPm5k8'},
             {name: 'Buster Gallon, the Betrayer', id: 'B8IYxvIrf9o'},
             {name: 'Black Hook Strikes Back', id: 'UCixUDwUZtA'},
-            /*
             {name: 'Heavy Battle', id: '798fkUeeMOU'},
             {name: 'The Final Battle', id: 'L0WnJ7Kz_rw'}
-            */
         ]
     },
     {
