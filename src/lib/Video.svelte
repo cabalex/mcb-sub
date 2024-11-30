@@ -160,9 +160,9 @@
         {start: 6 * 60 + 16.7, end: 6 * 60 + 18, animation: "impact"},
         {start: 6 * 60 + 23.8, end: 6 * 60 + 25, animation: "impactSmall"},
     ]
-    function getScreenspaceEffect(id: string|undefined, target: any) {
-        if (id !== "L0WnJ7Kz_rw" || !target) return;
-        requestAnimationFrame(getScreenspaceEffect.bind(null, id, target));
+    function getScreenspaceEffect(target: any) {
+        if ($video?.id !== "L0WnJ7Kz_rw" || !target) return;
+        requestAnimationFrame(getScreenspaceEffect.bind(null, target));
         if (fullscreen || effectsDisabled) {
             screenspaceEffect = "";
             return;
@@ -175,7 +175,7 @@
             screenspaceEffect = "";
         }
     }
-    $: getScreenspaceEffect($video?.id, target);
+    $: getScreenspaceEffect(target);
 
 </script>
 <div class="video" bind:this={videoElem}>
