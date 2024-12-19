@@ -11,12 +11,24 @@
         }
     }
 
+    function playVideo(v: Episode) {
+        video.set(v);
+        // @ts-ignore
+        gtag('event', 'play', {
+            'event_category': 'video',
+            'event_label': v.name,
+            'source': source,
+            'playlist': playlists[playlistIndex].title,
+            'value': v.id
+        });
+    }
+
     let playlistIndex = 0;
 </script>
 
 <div class="playlist">
     <header>
-        <img src={playlists[playlistIndex].icon} />
+        <img alt={playlists[playlistIndex].title} src={playlists[playlistIndex].icon} />
         <div class="text">
             <h2>{playlists[playlistIndex].title}</h2>
             <p>{playlists[playlistIndex].subtitle}</p>
@@ -31,8 +43,8 @@
     {/if}
     <div class="episodes">
     {#each playlists[playlistIndex].openings as opening, i}
-        <button class:active={$video === opening} class="episode" on:click={() => video.set(opening)}>
-            <img src={`https://img.youtube.com/vi/${opening.id}/0.jpg`} />
+        <button class:active={$video === opening} class="episode" on:click={() => playVideo(opening)}>
+            <img alt={opening.name} src={`https://img.youtube.com/vi/${opening.id}/0.jpg`} />
             <div class="text">
                 <h3>{opening.name}</h3>
                 <div class="tags">
@@ -42,8 +54,8 @@
         </button>
     {/each}
     {#each playlists[playlistIndex].episodes as episode, i}
-        <button class:active={$video === episode} class="episode" on:click={() => video.set(episode)}>
-            <img src={`https://img.youtube.com/vi/${episode.id}/0.jpg`} />
+        <button class:active={$video === episode} class="episode" on:click={() => playVideo(episode)}>
+            <img alt={episode.name} src={`https://img.youtube.com/vi/${episode.id}/0.jpg`} />
             <div class="text">
                 <h3>{episode.name}</h3>
                 <div class="tags">

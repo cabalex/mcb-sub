@@ -138,6 +138,11 @@
     function toggleFX() {
         effectsDisabled = !effectsDisabled;
         localStorage.setItem("mcb-effectsDisabled", effectsDisabled.toString());
+        // @ts-ignore
+        gtag('event', 'toggle_fx', {
+            'event_category': 'engagement',
+            'event_label': effectsDisabled ? 'disabled' : 'enabled'
+        });
     }
 
     let screenspaceEffect = "";
