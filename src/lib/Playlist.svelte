@@ -17,7 +17,7 @@
         gtag('event', 'play', {
             'event_category': 'video',
             'event_label': v.name,
-            'source': source,
+            'source': $source ? `${$source.name} (${$source.language})` : 'Unknown',
             'playlist': playlists[playlistIndex].title,
             'value': v.id
         });
