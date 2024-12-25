@@ -5,7 +5,7 @@ const subtitles: Season[] = [
         icon: './season1.png',
         incomplete: false,
         sources: [
-            {name: 'Dub', language: 'en', path: '/dub', credits: 'SAMG Entertainment'},
+            {name: 'Dub', language: 'en', path: '/dub', credits: 'SAMG Entertainment', creditLink: 'https://www.mewatch.sg/show/Metal-Cardbot-(Dual-Sound)-486086'},
         ],
         openings: [
             {name: 'Opening', id: '1070bnqHcHY'},
@@ -45,11 +45,11 @@ const subtitles: Season[] = [
         icon: './season2.jpg',
         incomplete: true,
         sources: [
-            {name: 'Translated', path: '/', language: 'en', credits: 'SAMG Entertainment'},
+            {name: 'Fansub', path: '/fansub', language: 'en', credits: '@stardustspeedway.bsky.social', creditLink: "https://bsky.app/profile/stardustspeedway.bsky.social"},
         ],
         openings: [],
         episodes: [
-            
+            {name: 'Metal Cardbot Awakens from the Stone Tablet?!', id: '3P-D6WLA424'},
         ]
     }
 ].map(season => {
@@ -81,6 +81,7 @@ export interface Source {
     path: string;
     language: string;
     credits?: string;
+    creditLink?: string;
 }
 
 export interface Episode {

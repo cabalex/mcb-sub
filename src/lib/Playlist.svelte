@@ -1,6 +1,9 @@
 <script lang="ts">
     import { type Writable } from "svelte/store";
-    import playlists, { type Episode, type Source } from "../subtitles.ts";
+    import playlists, { type Episode, type Source, type Season } from "../subtitles.ts";
+    import ChevronDown from "../assets/chevron-down.svg";
+    import unknownSeason from "../assets/unknown.png";
+    import { slide } from "svelte/transition";
 
     export let video: Writable<Episode|null>;
     export let source: Writable<Source|null>;
@@ -23,17 +26,46 @@
         });
     }
 
+    function changeSeason(playlist: Season) {
+        seasonDropdownOpen = false;
+        playlistIndex = playlists.indexOf(playlist);
+        if (playlists[playlistIndex].sources.length > 0) {
+            source.set(playlists[playlistIndex].sources[0]);
+        }
+    }
+
     let playlistIndex = 0;
+    if ($video !== null && !playlists[playlistIndex].episodes.includes($video) && !playlists[playlistIndex].openings.includes($video)) {
+        // get the correct season
+        playlistIndex = playlists.findIndex(playlist => playlist.episodes.includes($video) || playlist.openings.includes($video));
+    }
+    let seasonDropdownOpen = false;
 </script>
 
 <div class="playlist">
-    <header>
-        <img alt={playlists[playlistIndex].title} src={playlists[playlistIndex].icon} />
+    <button class="header" on:click={() => seasonDropdownOpen = !seasonDropdownOpen}>
+        {#key playlistIndex}
+        <img class="poster" alt={playlists[playlistIndex].title} src={playlists[playlistIndex].icon} />
+        {/key}
         <div class="text">
             <h2>{playlists[playlistIndex].title}</h2>
             <p>{playlists[playlistIndex].subtitle}</p>
         </div>
-    </header>
+        <img style={`transform: rotate(${seasonDropdownOpen ? -180 : 0}deg)`} src={ChevronDown} alt="Change season" />
+    </button>
+    {#if seasonDropdownOpen}
+    <div class="headerOptions" transition:slide={{duration: 200}}>
+        {#each playlists.filter((_, i) => i !== playlistIndex) as playlist}
+            <button class="headerOption" on:click={changeSeason.bind(null, playlist)}>
+                <img class="poster" alt={playlist.title} src={playlist.icon} />
+                <div class="text">
+                    <h2>{playlist.title}</h2>
+                    <p>{playlist.subtitle}</p>
+                </div>
+            </button>
+        {/each}
+    </div>
+    {/if}
     {#if playlists[playlistIndex].sources.length > 1}
     <select bind:value={$source} placeholder="Select a dub">
         {#each playlists[playlistIndex].sources as source}
@@ -64,28 +96,49 @@
             </div>
         </button>
     {/each}
-    {#if playlists[playlistIndex].incomplete}
+    {#if playlists[playlistIndex].incomplete && playlistIndex !== 1}
     <i style="text-align: center; width: 100%; display: block; padding: 10px 0;">Check back next week for new episodes!</i>
+    {/if}
+    {#if playlistIndex === 1}
+    <div class="unknownSeason">
+        <img src={unknownSeason} alt="A Cardbot from Season 2" style="max-height: min(50vh, 200px); max-width: 70%" />
+        <i style="text-align: center; width: 100%; display: block; padding: 10px 0;">We don't know when the next episode will premiere on YouTube.<br>Check back later!</i>
+    </div>
     {/if}
     </div>
 </div>
 
 <style>
+    .unknownSeason {
+        flex-shrink: 1;
+        padding-top: 10vh;
+        margin: auto;
+        text-align: center;
+        max-width: 70%;
+    }
     .playlist {
-        background-color: #333;
         width: 100%;
         max-width: 400px;
         height: 100%;
         text-align: left;
         min-height: 300px;
 
+        position: relative;
         display: flex;
         flex-direction: column;
     }
     .episodes {
+        background-color: #333;
         overflow: auto;
         height: 100%;
         flex-grow: 1;
+    }
+    .dub {
+        padding: 10px;
+        background-color: #1a1a1a;
+    }
+    .dub a {
+        color: white;
     }
     @media screen and (max-width: 900px) {
         .playlist {
@@ -96,22 +149,47 @@
             height: 100%;
         }
     }
-    header {
+    button.header, button.headerOption {
         display: flex;
         gap: 10px;
         align-items: center;
-        padding: 10px;
+        padding: 0 10px;
         background-color: #444;
+        border-radius: 10px 10px 0 0;
+        width: 100%;
+        height: 75px;
+        flex-shrink: 0;
     }
-    header img {
+    button.header:focus:not(:focus-visible) {
+        outline: none;
+    }
+    button.header img.poster, button.headerOption img.poster {
         width: 48px;
         height: 48px;
         border-radius: 100%;
+    }
+    button.header img:not(.poster) {
+        width: 36px;
+        height: 36px;
+        transition: transform 0.2s ease-in-out;
     }
     .text {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        flex-grow: 1;
+    }
+    .headerOptions {
+        z-index: 20;
+        position: absolute;
+        top: 75px;
+        left: 0;
+        width: 100%;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+    }
+    button.headerOption {
+        border-radius: 0;
+        background-color: #555;
     }
     h2, h3, p {
         color: white;
@@ -172,11 +250,20 @@
         font-size: 0.75em;
     }
     @media (prefers-color-scheme: light) {
-        .playlist {
+        .episodes {
             background-color: #ddd;
         }
-        header {
+        .dub {
+            background-color: #bbb;
+        }
+        button.header {
             background-color: #ccc;
+        }
+        button.headerOption {
+            background-color: #bbb;
+        }
+        button.header img:not(.poster) {
+            filter: invert(1);
         }
         .episode {
             border-top: 1px solid #bbb;

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { onDestroy, onMount, tick } from "svelte";
+    import { onDestroy, tick } from "svelte";
     import { slide } from "svelte/transition";
 
     export let subtitles: Array<{start: number, end: number, text: string}>;

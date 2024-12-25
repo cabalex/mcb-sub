@@ -208,7 +208,7 @@
                 }}
             />
             {#if target}
-                {#if process.env.NODE_ENV === 'development' && false}
+                {#if process.env.NODE_ENV === 'development'}
                 <CaptionEditor subtitles={subs} target={target} />
                 {/if}
                 <SubtitleParser subtitles={subs} target={target} effectsDisabled={effectsDisabled} {hover} />
