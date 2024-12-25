@@ -72,6 +72,15 @@
             <option value={source}>{source.name} ({source.language})</option>
         {/each}
     </select>
+    {:else if playlists[playlistIndex].sources.length === 1}
+    <p class="dub">📜 {playlists[playlistIndex].sources[0].name} ({playlists[playlistIndex].sources[0].language})
+        {#if playlists[playlistIndex].sources[0].credits}
+        by
+        {#each playlists[playlistIndex].sources[0].credits as credit}
+            <a href={credit.link} target="_blank">{credit.name}</a>
+        {/each}
+        {/if}
+    </p>
     {/if}
     <div class="episodes">
     {#each playlists[playlistIndex].openings as opening, i}
@@ -139,6 +148,9 @@
     }
     .dub a {
         color: white;
+    }
+    .dub a:not(:last-child)::after {
+        content: ', ';
     }
     @media screen and (max-width: 900px) {
         .playlist {

@@ -5,7 +5,7 @@ const subtitles: Season[] = [
         icon: './season1.png',
         incomplete: false,
         sources: [
-            {name: 'Dub', language: 'en', path: '/dub', credits: 'SAMG Entertainment', creditLink: 'https://www.mewatch.sg/show/Metal-Cardbot-(Dual-Sound)-486086'},
+            {name: 'Dub', language: 'en', path: '/dub', credits: [{name: 'SAMG Entertainment', link: 'https://www.mewatch.sg/show/Metal-Cardbot-(Dual-Sound)-486086'}]},
         ],
         openings: [
             {name: 'Opening', id: '1070bnqHcHY'},
@@ -45,7 +45,10 @@ const subtitles: Season[] = [
         icon: './season2.jpg',
         incomplete: true,
         sources: [
-            {name: 'Fansub', path: '/fansub', language: 'en', credits: '@stardustspeedway.bsky.social', creditLink: "https://bsky.app/profile/stardustspeedway.bsky.social"},
+            {name: 'Fansub', path: '/fansub', language: 'en', credits: [
+                {name: '@staro_sphere', link: "https://x.com/staro_sphere"},
+                {name: '@stardustspeedway.bsky.social', link: "https://bsky.app/profile/stardustspeedway.bsky.social"}
+            ]}
         ],
         openings: [],
         episodes: [
@@ -80,8 +83,7 @@ export interface Source {
     name: string;
     path: string;
     language: string;
-    credits?: string;
-    creditLink?: string;
+    credits?: {name: string, link: string}[];
 }
 
 export interface Episode {
