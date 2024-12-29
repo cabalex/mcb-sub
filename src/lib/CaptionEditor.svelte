@@ -64,6 +64,16 @@
         ends = [...ends];
     }
 
+    function setStart(i: number, time: number) {
+        if (i > 0 && i <= ends.length && time < ends[i - 1]) {
+            time = ends[i - 1];
+        } else if (time > ends[i] - 0.1) {
+            time = ends[i] - 0.1;
+        }
+        starts[i] = time;
+        starts = [...starts];
+    }
+
     const toTime = (time: number) => `${Math.floor(time / 60)}:${(time % 60).toFixed(2).padStart(5, '0')}`
 
     const fromTime = (time: string) => {
@@ -169,7 +179,13 @@
             <span class="reversed">
                 {#each ends as end, i}
                 <div class="line" class:active={currentTime > starts[i] && currentTime < ends[i]}>
-                    <button class="outline" style="padding: 10px 5px" on:click={() => target.seekTo(starts[i])}>{toTime(starts[i])}</button>                    
+                    <div class="timeLayout">
+                        <button class="outline" on:click={() => target.seekTo(starts[i])}>{toTime(starts[i])}</button>
+                        <div class="btnrow">
+                            <button class="backTime" on:click={() => setStart(i, starts[i] - 0.1)}>-.1s</button>
+                            <button class="fwdTime" on:click={() => setStart(i, starts[i] + 0.1)}>+.1s</button>
+                        </div>
+                    </div>
                     <span>{textLines[i]}</span>
                     <button on:click={() => setEnd(i, getTime())}>{toTime(end)}</button>
                     {#if i < starts.length - 1}
@@ -189,9 +205,21 @@
             <span class="reversed">
                 {#each textLines as line, i}
                 <div class="line" class:active={currentTime > starts[i] && currentTime < ends[i]}>
-                    <span>{line}</span>
-                    <button class="outline" on:click={() => target.seekTo(starts[i])}>{toTime(starts[i])}</button>
-                    <button class="outline" on:click={() => target.seekTo(ends[i])}>{toTime(ends[i])}</button>
+                    <div class="timeLayout">
+                        <button class="outline" on:click={() => target.seekTo(starts[i])}>{toTime(starts[i])}</button>
+                        <div class="btnrow">
+                            <button class="backTime" on:click={() => setStart(i, starts[i] - 0.1)}>-.1s</button>
+                            <button class="fwdTime" on:click={() => setStart(i, starts[i] + 0.1)}>+.1s</button>
+                        </div>
+                    </div>
+                    <span style="font-size: 9px">{line}</span>
+                    <div class="timeLayout">
+                        <button class="outline" on:click={() => target.seekTo(ends[i])}>{toTime(ends[i])}</button>
+                        <div class="btnrow">
+                            <button class="backTime" on:click={() => setEnd(i, ends[i] - 0.1)}>-.1s</button>
+                            <button class="fwdTime" on:click={() => setEnd(i, ends[i] + 0.1)}>+.1s</button>
+                        </div>
+                    </div>
                 </div>
                 {/each}
             </span>
@@ -271,6 +299,37 @@
     }
     .toNext {
         padding: 10px 5px;
+    }
+    .timeLayout {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        background-color: #1a1a1a;
+        border-radius: 10px;
+    }
+    .timeLayout .outline {
+        padding: 5px 2px;
+        border-radius: 10px 10px 0 0;
+    }
+    .timeLayout button {
+        padding: 5px 2px;
+        margin: 0;
+    }
+    .timeLayout .btnrow {
+        display: flex;
+        gap: 0px;
+        justify-content: flex-end;
+        border-radius: 10px;
+    }
+    .timeLayout .btnrow button {
+        width: 100%;
+        border-radius: 0;
+    }
+    .timeLayout .btnrow button:first-child {
+        border-radius: 0 0 0 10px;
+    }
+    .timeLayout .btnrow button:last-child {
+        border-radius: 0 0 10px 0;
     }
     @media screen and (max-width: 700px) {
         .captionEditor {

@@ -53,6 +53,7 @@ const subtitles: Season[] = [
         openings: [],
         episodes: [
             {name: 'Metal Cardbot Awakens from the Stone Tablet?!', id: '3P-D6WLA424'},
+            {name: 'The Second Metal Card!', id: 'kwxZy0fOmG4'}
         ]
     }
 ].map(season => {
