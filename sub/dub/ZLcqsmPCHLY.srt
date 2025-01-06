@@ -3,7 +3,7 @@
 Mystery of the Police Car Robot!
 
 2
-00:00:47,732 --> 00:00:49,564
+00:00:47,731 --> 00:00:49,564
 I was so close...
 
 3
@@ -27,7 +27,7 @@ Huh, what's that?
 A... robot?
 
 8
-00:01:30,664 --> 00:01:32,417
+00:01:30,463 --> 00:01:32,417
 This ends now, Mega Trucker!
 
 9
@@ -35,23 +35,23 @@ This ends now, Mega Trucker!
 You'll have to come with me.
 
 10
-00:01:38,783 --> 00:01:40,225
+00:01:38,783 --> 00:01:40,223
 That's what you'd like, Blue Cop.
 
 11
-00:01:40,854 --> 00:01:41,823
+00:01:40,454 --> 00:01:41,823
 Wouldn't you?!
 
 12
-00:01:45,474 --> 00:01:47,831
+00:01:44,973 --> 00:01:47,831
 Look here, it's not over yet!
 
 13
-00:01:48,399 --> 00:01:50,641
+00:01:48,698 --> 00:01:50,640
 You stubborn old truck!
 
 14
-00:01:55,79 --> 00:01:57,188
+00:01:55,789 --> 00:01:57,188
 My BMX!
 
 15
@@ -59,151 +59,151 @@ My BMX!
 A human boy...?
 
 16
-00:02:16,206 --> 00:02:19,78
+00:02:16,104 --> 00:02:19,780
 Ugh! This isn't over!
 
 17
-00:02:21,9 --> 00:02:22,477
+00:02:21,99 --> 00:02:22,276
 Stop right there!
 
 18
-00:02:27,275 --> 00:02:30,890
+00:02:27,175 --> 00:02:30,889
 What have you done to my bike!!
 
 19
-00:02:30,890 --> 00:02:33,567
+00:02:30,889 --> 00:02:33,567
 And where did my helmet go?
 
 20
-00:02:42,144 --> 00:02:46,296
+00:02:43,543 --> 00:02:46,295
 Hey, we'll be in middle school next year
 
 21
-00:02:46,296 --> 00:02:47,119
+00:02:46,295 --> 00:02:47,117
 and you're still saying,
 
 22
-00:02:47,119 --> 00:02:49,840
+00:02:47,117 --> 00:02:49,639
 "I saw a robot! I saw an alien!"
 
 23
-00:02:49,840 --> 00:02:51,961
+00:02:49,639 --> 00:02:51,961
 How old are you?
 
 24
-00:02:51,961 --> 00:02:54,52
+00:02:51,961 --> 00:02:54,120
 Oh my God, Vance, you're so funny!
 
 25
-00:02:54,52 --> 00:02:56,834
+00:02:54,120 --> 00:02:56,533
 I swear I saw it with my own eyes!
 
 26
-00:02:56,834 --> 00:02:58,670
+00:02:56,533 --> 00:02:58,469
 A police car transformed into a robot!
 
 27
-00:02:58,670 --> 00:03:01,20
+00:02:58,469 --> 00:03:00,790
 Oh really? Where's the evidence, huh?
 
 28
-00:03:01,20 --> 00:03:02,336
+00:03:00,790 --> 00:03:02,235
 Uhhh...
 
 29
-00:03:02,336 --> 00:03:04,20
+00:03:02,235 --> 00:03:03,800
 Look at my crushed BMX!
 
 30
-00:03:04,20 --> 00:03:07,370
+00:03:03,800 --> 00:03:07,169
 Uh... sorry, but it just looks like you fell and broke your own bike.
 
 31
-00:03:07,370 --> 00:03:11,736
+00:03:07,169 --> 00:03:11,336
 Ha! You made up a story about a robot for that?! Vance, you're sharp!
 
 32
-00:03:11,736 --> 00:03:15,811
+00:03:11,436 --> 00:03:15,510
 You should have made up a more believable story, Jun.
 
 33
-00:03:15,811 --> 00:03:17,480
+00:03:15,510 --> 00:03:16,900
 I don't think he's lying.
 
 34
-00:03:17,480 --> 00:03:18,439
+00:03:16,900 --> 00:03:17,838
 Huh?
 
 35
-00:03:18,439 --> 00:03:20,949
+00:03:18,337 --> 00:03:20,348
 But Anna, what do you mean by that?
 
 36
-00:03:20,949 --> 00:03:23,343
+00:03:20,449 --> 00:03:23,143
 You couldn't be thinking that Vance is wrong?!
 
 37
-00:03:23,343 --> 00:03:26,752
+00:03:23,143 --> 00:03:26,652
 I just know Jun wouldn't make up a silly story like that.
 
 38
-00:03:26,752 --> 00:03:30,247
+00:03:26,652 --> 00:03:29,947
 That's right, Anna! You know you can always trust me!
 
 39
-00:03:30,247 --> 00:03:32,807
+00:03:29,947 --> 00:03:32,807
 I think he's probably just mistaken.
 
 40
-00:03:36,913 --> 00:03:39,298
+00:03:36,313 --> 00:03:39,80
 Ugh... she didn't believe me either...
 
 41
-00:03:39,298 --> 00:03:41,921
+00:03:39,180 --> 00:03:41,920
 I believe you saw the robot, Jun.
 
 42
-00:03:42,951 --> 00:03:44,699
+00:03:42,751 --> 00:03:44,699
 Theo!
 
 43
-00:03:46,223 --> 00:03:47,852
+00:03:46,223 --> 00:03:47,352
 Security cameras?
 
 44
-00:03:47,852 --> 00:03:50,949
+00:03:47,352 --> 00:03:50,848
 If what you said did happen, something must have been caught on video!
 
 45
-00:03:50,949 --> 00:03:52,289
+00:03:50,848 --> 00:03:52,288
 Oh, right!
 
 46
-00:03:53,605 --> 00:03:54,463
+00:03:53,603 --> 00:03:54,461
 Huh?
 
 47
-00:03:55,504 --> 00:03:57,961
+00:03:55,204 --> 00:03:57,860
 Yeah, so when I got here this morning, I saw-
 
 48
-00:03:57,961 --> 00:04:01,24
+00:03:57,860 --> 00:03:59,439
 Huh? Jun!
 
 49
-00:04:01,24 --> 00:04:03,343
+00:04:00,639 --> 00:04:02,443
 Jun, you're safe and sound!
 
 50
-00:04:03,343 --> 00:04:06,169
+00:04:02,443 --> 00:04:06,169
 Stop it! I can't breathe!
 
 51
-00:04:06,169 --> 00:04:10,104
+00:04:06,169 --> 00:04:09,804
 I mean I was worried, you know? When I got here, everything was a mess!
 
 52
-00:04:10,104 --> 00:04:14,936
+00:04:09,804 --> 00:04:14,936
 I saw your bike and thought something happened to you too!
 
 53
@@ -211,27 +211,27 @@ I saw your bike and thought something happened to you too!
 Hehe... I'm sorry, Edo...
 
 54
-00:04:17,713 --> 00:04:20,24
+00:04:18,129 --> 00:04:19,538
 Alright, I'm good now.
 
 55
-00:04:20,24 --> 00:04:22,310
+00:04:19,738 --> 00:04:22,108
 Seems like it's all good. We'll be off, then.
 
 56
-00:04:22,310 --> 00:04:23,656
+00:04:22,108 --> 00:04:23,454
 Thanks for coming!
 
 57
-00:04:23,656 --> 00:04:24,406
+00:04:23,454 --> 00:04:24,406
 Thanks.
 
 58
-00:04:27,918 --> 00:04:30,504
+00:04:28,180 --> 00:04:30,302
 Tell me, what brings you guys here?
 
 59
-00:04:30,504 --> 00:04:32,415
+00:04:30,302 --> 00:04:32,113
 We need the security footage!
 
 60
@@ -239,43 +239,43 @@ We need the security footage!
 Huh?
 
 61
-00:04:37,259 --> 00:04:38,507
+00:04:37,579 --> 00:04:38,105
 Look over here!
 
 62
-00:04:38,507 --> 00:04:40,156
+00:04:38,105 --> 00:04:40,156
 Rewind a little bit, please!
 
 63
-00:04:45,503 --> 00:04:47,66
+00:04:45,101 --> 00:04:46,558
 It's all covered up...
 
 64
-00:04:47,66 --> 00:04:48,732
+00:04:46,558 --> 00:04:48,630
 Yeah, didn't even get the license plate...
 
 65
-00:04:48,732 --> 00:04:51,473
+00:04:48,630 --> 00:04:51,271
 If we only had the license plate for the police car-
 
 66
-00:04:51,473 --> 00:04:55,32
+00:04:51,271 --> 00:04:55,119
 What would you do with that? Would you go to the police station and ask,
 
 67
-00:04:55,32 --> 00:04:57,338
+00:04:55,119 --> 00:04:56,937
 "Is there a car here that transforms into a robot?"
 
 68
-00:04:57,338 --> 00:04:59,362
+00:04:56,937 --> 00:04:59,161
 I knew it! You don't believe me either!
 
 69
-00:04:59,362 --> 00:05:01,294
+00:04:59,161 --> 00:05:01,192
 Who would believe that story...?
 
 70
-00:05:01,294 --> 00:05:04,173
+00:05:01,192 --> 00:05:04,173
 If only there was some other clue...
 
 71
@@ -283,87 +283,87 @@ If only there was some other clue...
 Hang on! I have this!
 
 72
-00:05:08,420 --> 00:05:10,894
+00:05:08,119 --> 00:05:10,393
 I picked it up when all of that happened.
 
 73
-00:05:10,894 --> 00:05:12,603
+00:05:10,393 --> 00:05:12,502
 Did the robots leave that behind?
 
 74
-00:05:12,603 --> 00:05:14,454
+00:05:12,502 --> 00:05:13,952
 I think it could be.
 
 75
-00:05:14,454 --> 00:05:17,449
+00:05:13,952 --> 00:05:17,449
 I think it could be something you could buy in any shop.
 
 76
-00:05:25,949 --> 00:05:27,533
+00:05:25,548 --> 00:05:27,331
 Stop fooling around, Edo...
 
 77
-00:05:27,533 --> 00:05:32,817
+00:05:27,331 --> 00:05:31,516
 Agh, no! I really can't lift it! It really won't come off at all!
 
 78
-00:05:32,817 --> 00:05:34,487
+00:05:32,615 --> 00:05:34,487
 I'll give it a go, then.
 
 79
-00:05:36,244 --> 00:05:38,668
+00:05:36,644 --> 00:05:38,167
 I can't move it at all, not an inch!
 
 80
-00:05:38,668 --> 00:05:41,230
+00:05:38,266 --> 00:05:41,233
 Nah, you're just kidding! See?
 
 81
-00:05:41,534 --> 00:05:43,682
+00:05:41,233 --> 00:05:43,281
 Agh! What's going on?!
 
 82
-00:05:43,682 --> 00:05:45,735
+00:05:43,281 --> 00:05:45,735
 That's what I should be asking...
 
 83
-00:05:47,754 --> 00:05:50,317
+00:05:47,252 --> 00:05:50,159
 Let's look for a place where a dump truck might be parked...
 
 84
-00:05:50,317 --> 00:05:52,691
+00:05:50,159 --> 00:05:52,290
 You guys never give up, do you?
 
 85
-00:05:52,691 --> 00:05:55,928
+00:05:52,290 --> 00:05:55,627
 You're trying to impress Anna, aren't you?
 
 86
-00:05:55,928 --> 00:05:58,82
+00:05:55,627 --> 00:05:57,519
 Nah, not at all, Theo!
 
 87
-00:05:58,82 --> 00:05:59,225
+00:05:57,519 --> 00:05:58,624
 I'll be back soon!
 
 88
-00:05:59,225 --> 00:06:01,553
+00:05:58,624 --> 00:06:01,519
 Please tell me you'll throw away that strange watch, will you?
 
 89
-00:06:01,553 --> 00:06:02,711
+00:06:01,519 --> 00:06:02,711
 Yeah, I will!
 
 90
-00:06:18,545 --> 00:06:22,79
+00:06:18,545 --> 00:06:21,788
 Ugh... guess it wouldn't be easy to find, right?
 
 91
-00:06:22,79 --> 00:06:25,371
+00:06:21,788 --> 00:06:24,970
 It might not even be in this town anymore...
 
 92
-00:06:25,371 --> 00:06:26,485
+00:06:24,970 --> 00:06:26,485
 Stop it!
 
 93
@@ -371,267 +371,267 @@ Stop it!
 Anna?!
 
 94
-00:06:28,181 --> 00:06:30,612
+00:06:28,800 --> 00:06:30,211
 Tell us, what's the matter, Anna?
 
 95
-00:06:30,612 --> 00:06:32,574
+00:06:30,211 --> 00:06:32,273
 Do you think you are better than us?!
 
 96
-00:06:32,574 --> 00:06:36,627
+00:06:32,273 --> 00:06:36,627
 That's not it! You're vandalizing our city without permission!
 
 97
-00:06:36,627 --> 00:06:39,305
+00:06:36,927 --> 00:06:38,903
 You just think you're always right!
 
 98
-00:06:39,305 --> 00:06:44,37
+00:06:38,903 --> 00:06:43,989
 Why do you care so much about this city? You want to get sprayed too?!
 
 99
-00:06:44,37 --> 00:06:45,106
+00:06:43,989 --> 00:06:45,105
 Stop it!
 
 100
-00:06:45,373 --> 00:06:46,297
+00:06:45,271 --> 00:06:46,297
 Stop it!
 
 101
-00:06:47,63 --> 00:06:48,24
+00:06:46,829 --> 00:06:47,891
 J-Jun?
 
 102
-00:06:48,292 --> 00:06:50,432
+00:06:47,891 --> 00:06:50,230
 So you want to play being a hero?
 
 103
-00:06:50,432 --> 00:06:51,860
+00:06:50,230 --> 00:06:51,358
 What about the robot?
 
 104
-00:06:51,860 --> 00:06:53,303
+00:06:51,358 --> 00:06:52,901
 I'll find it soon!
 
 105
-00:06:53,303 --> 00:06:55,177
+00:06:52,901 --> 00:06:55,177
 You sound quite confident!
 
 106
-00:06:58,161 --> 00:07:02,226
+00:06:58,161 --> 00:07:01,824
 Agh! I stepped on poop...
 
 107
-00:07:02,226 --> 00:07:04,279
+00:07:01,824 --> 00:07:03,779
 Want a taste?!
 
 108
-00:07:04,279 --> 00:07:07,788
+00:07:03,779 --> 00:07:06,586
 Get away, get away!
 
 109
-00:07:07,788 --> 00:07:10,887
+00:07:07,187 --> 00:07:10,485
 How dare you! Aah!
 
 110
-00:07:10,887 --> 00:07:13,956
+00:07:10,786 --> 00:07:13,555
 You fell for it! See you later, Anna!
 
 111
-00:07:13,956 --> 00:07:14,438
+00:07:13,555 --> 00:07:14,437
 Jun!
 
 112
-00:07:32,420 --> 00:07:33,769
+00:07:32,319 --> 00:07:33,769
 Ta-da!
 
 113
-00:07:38,588 --> 00:07:40,435
+00:07:38,588 --> 00:07:40,233
 Not too bad!
 
 114
-00:07:40,435 --> 00:07:43,137
+00:07:40,233 --> 00:07:42,836
 You cannot run anymore!
 
 115
-00:07:43,137 --> 00:07:45,858
+00:07:42,836 --> 00:07:45,754
 Let's not resort to any kind of violence, you guys!
 
 116
-00:07:46,156 --> 00:07:47,540
+00:07:45,754 --> 00:07:46,939
 Shut up!
 
 117
-00:07:47,540 --> 00:07:50,334
+00:07:47,740 --> 00:07:49,332
 Hey! You give that back!
 
 118
-00:07:50,334 --> 00:07:54,64
+00:07:49,832 --> 00:07:52,838
 This is for tricking me, you fool!
 
 119
-00:07:54,64 --> 00:07:54,697
+00:07:53,538 --> 00:07:54,295
 Hey!
 
 120
-00:07:54,697 --> 00:07:56,55
+00:07:54,295 --> 00:07:55,749
 Stop struggling!
 
 121
-00:08:02,175 --> 00:08:03,963
+00:08:01,973 --> 00:08:03,963
 I said, stop it!
 
 122
-00:08:30,846 --> 00:08:32,865
+00:08:30,946 --> 00:08:32,865
 What have you done now?
 
 123
-00:08:42,374 --> 00:08:44,778
+00:08:42,573 --> 00:08:44,778
 That's the robot I saw...
 
 124
-00:08:55,262 --> 00:08:56,390
+00:08:55,260 --> 00:08:56,188
 Wha...
 
 125
-00:08:56,390 --> 00:08:58,289
+00:08:56,188 --> 00:08:57,788
 A robot! Jun was telling the truth!
 
 126
-00:08:58,289 --> 00:08:59,759
+00:08:57,788 --> 00:08:59,557
 Come on, that's impossible!
 
 127
-00:08:59,759 --> 00:09:01,643
+00:08:59,557 --> 00:09:01,442
 I'm sure it was just a trick!
 
 128
-00:09:01,643 --> 00:09:03,291
+00:09:01,442 --> 00:09:02,990
 But I don't think so, Vance...
 
 129
-00:09:03,291 --> 00:09:06,62
+00:09:02,990 --> 00:09:06,620
 Listen up! You better not tell anyone about this,
 
 130
-00:09:06,62 --> 00:09:09,711
+00:09:06,620 --> 00:09:09,711
 unless you want to be called a liar just like Jun!
 
 131
-00:09:09,711 --> 00:09:11,727
+00:09:09,711 --> 00:09:11,725
 Alright...
 
 132
-00:09:15,660 --> 00:09:17,666
+00:09:13,958 --> 00:09:16,764
 Aah! What's going on?!
 
 133
-00:09:24,51 --> 00:09:26,100
+00:09:24,308 --> 00:09:25,599
 How is this happening?!
 
 134
-00:09:26,100 --> 00:09:26,833
+00:09:25,599 --> 00:09:26,831
 Let me introduce myself.
 
 135
-00:09:26,833 --> 00:09:27,649
+00:09:26,831 --> 00:09:27,447
 Huh?
 
 136
-00:09:27,649 --> 00:09:29,900
+00:09:27,447 --> 00:09:29,899
 I am Blue Cop, from planet Machina.
 
 137
-00:09:29,900 --> 00:09:31,39
+00:09:29,899 --> 00:09:31,389
 Blue Cop?
 
 138
-00:09:33,173 --> 00:09:37,531
+00:09:32,971 --> 00:09:37,529
 Agh! Does this mean I am actually inside a robot?! Seriously?!
 
 139
-00:09:39,772 --> 00:09:41,807
+00:09:39,672 --> 00:09:41,605
 Help, I've been eaten by a robot!!
 
 140
-00:09:41,807 --> 00:09:43,817
+00:09:41,605 --> 00:09:43,946
 Huh? Calm down!
 
 141
-00:09:44,347 --> 00:09:46,270
+00:09:43,946 --> 00:09:45,869
 Get me out before I am digested!
 
 142
-00:09:46,270 --> 00:09:47,28
+00:09:45,869 --> 00:09:46,979
 Digested?
 
 143
-00:09:47,28 --> 00:09:50,283
+00:09:46,979 --> 00:09:49,981
 Hang on, please don't push me down! Send me back up!
 
 144
-00:09:50,283 --> 00:09:53,519
+00:09:49,981 --> 00:09:53,418
 I am a mechanical lifeform. I don't digest anything.
 
 145
-00:09:53,519 --> 00:09:54,615
+00:09:53,418 --> 00:09:54,899
 Oh, really?
 
 146
-00:09:55,8 --> 00:09:56,980
+00:09:54,899 --> 00:09:56,789
 It's going to get a little bumpy.
 
 147
-00:09:56,980 --> 00:09:58,644
+00:09:56,879 --> 00:09:58,644
 Aah!
 
 148
-00:10:02,20 --> 00:10:05,870
+00:10:01,798 --> 00:10:05,668
 My home, Machina planet, was completely annihilated by a giant explosion.
 
 149
-00:10:05,870 --> 00:10:06,818
+00:10:05,668 --> 00:10:06,817
 Annihilated?
 
 150
-00:10:06,818 --> 00:10:12,934
+00:10:06,817 --> 00:10:12,533
 Since I came to this planet, I have been disguising myself as a car to avoid alarming the natives.
 
 151
-00:10:12,934 --> 00:10:15,692
+00:10:12,533 --> 00:10:15,692
 As you say, a tree is best hidden in a forest.
 
 152
-00:10:15,692 --> 00:10:17,213
+00:10:15,692 --> 00:10:16,916
 That actually makes sense...
 
 153
-00:10:17,917 --> 00:10:20,876
+00:10:17,716 --> 00:10:19,875
 I have to live on planet Earth now.
 
 154
-00:10:20,876 --> 00:10:24,639
+00:10:20,575 --> 00:10:24,838
 So I am trying to learn as much about this planet as quickly as I can.
 
 155
-00:10:29,293 --> 00:10:31,268
+00:10:29,493 --> 00:10:31,368
 I like this planet very much.
 
 156
-00:10:31,268 --> 00:10:34,931
+00:10:31,368 --> 00:10:34,629
 However, there are some of my kind who have not adjusted to life here.
 
 157
-00:10:34,931 --> 00:10:36,899
+00:10:34,629 --> 00:10:36,999
 You mean, like that dump truck from yesterday?
 
 158
-00:10:36,899 --> 00:10:38,779
+00:10:36,999 --> 00:10:38,778
 It's not the only one.
 
 159
-00:10:38,779 --> 00:10:43,628
+00:10:38,778 --> 00:10:43,628
 There are more Metal Cardbots hiding on planet Earth right now.
 
 160
@@ -639,78 +639,78 @@ There are more Metal Cardbots hiding on planet Earth right now.
 I only wish to help them, so that they do not cause any harm to the natives of this planet.
 
 161
-00:10:46,138 --> 00:10:48,364
+00:10:46,138 --> 00:10:47,863
 If I don't succeed-
 
 162
-00:10:48,364 --> 00:10:52,534
+00:10:47,863 --> 00:10:52,432
 Hang on a second! Why are you telling me all this now?!
 
 163
-00:10:52,534 --> 00:10:55,779
+00:10:52,432 --> 00:10:55,778
 Because, it looks like the Metal Breath chose you, sir.
 
 164
-00:10:55,779 --> 00:10:57,832
+00:10:55,778 --> 00:10:57,831
 What? Metal Breath?
 
 165
-00:10:57,832 --> 00:11:01,783
+00:10:57,831 --> 00:11:01,581
 The Metal Breath can only be possessed by the chosen one.
 
 166
-00:11:01,783 --> 00:11:05,509
+00:11:01,581 --> 00:11:05,509
 The one who holds the Metal Breath will become the king, the ruler, of all Metal Cardbots.
 
 167
-00:11:05,509 --> 00:11:07,52
+00:11:05,509 --> 00:11:06,918
 K-king?
 
 168
-00:11:07,52 --> 00:11:11,136
+00:11:06,918 --> 00:11:10,534
 Uh! Pardon my mistake. I mean... the boss? The master?
 
 169
-00:11:11,136 --> 00:11:13,168
+00:11:10,534 --> 00:11:12,966
 So, you mean... someone important?
 
 170
-00:11:13,168 --> 00:11:14,782
+00:11:12,966 --> 00:11:14,682
 Yes sir! That's correct.
 
 171
-00:11:14,782 --> 00:11:18,264
+00:11:14,682 --> 00:11:18,364
 No way! I've never been hall monitor or anything!
 
 172
-00:11:18,264 --> 00:11:22,211
+00:11:18,364 --> 00:11:22,211
 Excuse me. Would you please lend me your powers, sir?
 
 173
-00:11:22,211 --> 00:11:25,460
+00:11:22,211 --> 00:11:25,259
 Hmm... alright!
 
 174
-00:11:25,460 --> 00:11:26,800
+00:11:25,259 --> 00:11:26,698
 On one condition, though!
 
 175
-00:11:26,800 --> 00:11:28,235
+00:11:26,698 --> 00:11:28,340
 Yes, sir?
 
 176
-00:11:28,235 --> 00:11:31,576
+00:11:28,340 --> 00:11:30,975
 My name is Jun Grant! Call me Jun, not sir!
 
 177
-00:11:31,576 --> 00:11:32,961
+00:11:31,174 --> 00:11:32,759
 Yes, Jun!
 
 178
-00:11:32,961 --> 00:11:35,355
+00:11:32,759 --> 00:11:34,153
 And one more thing!
 
 179
-00:11:35,355 --> 00:11:40,267
+00:11:35,254 --> 00:11:39,365
 My BMX that your friend crashed! I'll need to be compensated for that!
 
