@@ -10,6 +10,7 @@
         await tick();
         starts = subtitles.map(sub => sub.start);
         ends = subtitles.map(sub => sub.end);
+        step = "review";
     }
 
     let text = "";
