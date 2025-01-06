@@ -56,7 +56,7 @@
 
     function setEnd(i: number, time: number) {
         if (time < starts[i]) {
-            time = starts[i];
+            setStart(i, time);
         } else if (i < starts.length - 1 && time > starts[i + 1]) {
             time = starts[i + 1];
         }
@@ -66,7 +66,7 @@
 
     function setStart(i: number, time: number) {
         if (i > 0 && i <= ends.length && time < ends[i - 1]) {
-            time = ends[i - 1];
+            setEnd(i - 1, time);
         } else if (time > ends[i] - 0.1) {
             time = ends[i] - 0.1;
         }
