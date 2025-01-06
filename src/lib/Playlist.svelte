@@ -105,10 +105,10 @@
             </div>
         </button>
     {/each}
-    {#if playlists[playlistIndex].incomplete && playlistIndex !== 1}
+    {#if playlists[playlistIndex].incomplete && playlistIndex !== 2}
     <i style="text-align: center; width: 100%; display: block; padding: 10px 0;">Check back next week for new episodes!</i>
     {/if}
-    {#if playlistIndex === 1}
+    {#if playlistIndex === 2}
     <div class="unknownSeason">
         <img src={unknownSeason} alt="A Cardbot from Season 2" style="max-height: min(50vh, 200px); max-width: 70%" />
         <i style="text-align: center; width: 100%; display: block; padding: 10px 0;">We don't know when the next episode will premiere on YouTube.<br>Check back later!</i>
