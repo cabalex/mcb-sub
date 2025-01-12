@@ -78,9 +78,19 @@
         if (fullscreen) {
             document.exitFullscreen();
             fullscreen = false;
+            try {
+                screen.orientation.unlock();
+            } catch (e) {
+                // Locking not supported
+            }
         } else {
             videoElem.requestFullscreen();
             fullscreen = true;
+            try {
+                screen.orientation.lock("landscape");
+            } catch (e) {
+                // Locking not supported
+            }
         }
     }
 
