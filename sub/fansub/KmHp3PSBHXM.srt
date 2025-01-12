@@ -277,7 +277,7 @@ Well we needed to wait until the time came, but we've been asleep for too long.
 
 70
 00:04:03,139 --> 00:04:05,782
-Useless! It's completely busted!
+No use! It's completely busted!
 
 71
 00:04:05,782 --> 00:04:07,397
