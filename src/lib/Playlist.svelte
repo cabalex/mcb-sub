@@ -269,6 +269,9 @@
         .dub {
             background-color: #bbb;
         }
+        .dub a {
+            color: black;
+        }
         button.header {
             background-color: #ccc;
         }

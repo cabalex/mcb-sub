@@ -449,5 +449,17 @@
         .reportIssueBtn:hover {
             background-color: #ccc;
         }
+        .modalContent {
+            background-color: #fff;
+            color: #111;
+        }
+        .modal .close {
+            background-color: #fff;
+            border: 1px solid #aaa;
+            box-shadow: 0 0 10px #fff;
+        }
+        .modal .close:hover {
+            background-color: #eee;
+        }
     }
 </style>
