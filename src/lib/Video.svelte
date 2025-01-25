@@ -1,12 +1,12 @@
 <script lang="ts">
     import "./captionEffects.css";
     import SvelteYouTube from "../assets/SvelteYouTube.svelte";
-    import { type Episode, type Source } from "../subtitles.ts";
+    import { translationNotes, type Episode, type Source } from "../subtitles.ts";
     import CaptionEditor from "./CaptionEditor.svelte";
     import SubtitleParser from "./SubtitleParser.svelte";
     import FullscreenIcon from "../assets/fullscreen.svg";
     import FullscreenExitIcon from "../assets/fullscreen-exit.svg";
-    import { slide } from "svelte/transition";
+    import { fade, fly, slide } from "svelte/transition";
     import type { Writable } from "svelte/store";
     
     export let video: Writable<Episode|null>;
@@ -192,9 +192,12 @@
     }
     $: getScreenspaceEffect(target);
 
+    let showTranslationNotes = false;
+
 </script>
 <div class="video" bind:this={videoElem}>
     {#if $video}
+    <!-- svelte-ignore a11y-no-static-element-interactions -->
     <div
         class={"videoInner " + screenspaceEffect}
         transition:slide={{duration: 100, axis: 'y'}}
@@ -231,6 +234,7 @@
             {/if}
         </button>
         {#if !fullscreenTooltipShown}
+        <!-- svelte-ignore a11y-no-static-element-interactions -->
         <div class="fullscreenTooltip" on:click={shownFullscreenTooltip} transition:slide={{duration: 300, axis: 'y'}}>
             Tap the bottom right of the video to toggle fullscreen
         </div>
@@ -243,6 +247,11 @@
             {effectsDisabled ? "❌ FX Disabled" : "✅ FX Enabled"}
         </button>
         {/if}
+        {#if $source !== null && translationNotes[$source.path] && translationNotes[$source.path][$video.id]}
+        <button class="reportIssueBtn" on:click={() => showTranslationNotes = !showTranslationNotes}>
+            📝 Translation Notes
+        </button>
+        {/if}
         <button class="reportIssueBtn" on:click={openIssueReporter}>
             ⚠️ Report an issue
         </button>
@@ -253,6 +262,18 @@
     <h1>Choose an episode! ➡️</h1>
     {/if}
 </div>
+
+{#if $source !== null && $video !== null && translationNotes[$source.path] && translationNotes[$source.path][$video.id] && showTranslationNotes}
+    <div class="modal" on:click={() => showTranslationNotes = false} transition:fade={{duration: 100}}>
+        <div class="modalContent" on:click={e => e.stopPropagation()} transition:fly={{duration: 100, y: 50}}>
+            <h2>Translation Notes</h2>
+            <div class="notes">
+                {@html translationNotes[$source.path][$video.id]}
+            </div>
+            <button class="close" on:click={() => showTranslationNotes = false}>Close</button>
+        </div>
+    </div>
+{/if}
 
 <style>
     .video {
@@ -320,6 +341,7 @@
         z-index: 10;
         flex-grow: 0;
         width: auto;
+        white-space: nowrap;
     }
     .reportIssueBtn:hover, .reportIssueBtn:active {
         background-color: #333;
@@ -340,6 +362,47 @@
         border: 10px solid transparent;
         border-bottom-color: #777;
     }
+    .modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 100;
+    }
+    .modalContent {
+        background-color: #111;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        padding: 20px;
+        margin: 10px;
+        border-radius: 24px;
+        max-width: 500px;
+        max-height: 90vh;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        overflow-y: auto;
+    }
+    .modalContent .close {
+        border-radius: 100px;
+        position: sticky;
+        bottom: 0;
+        background-color: #222;
+        box-shadow: 0 0 20px #111;
+    }
+    :global(.modalContent h2) {
+        margin: 0;
+        font-size: 1.5em;
+    }
+    .modalContent .notes {
+        line-height: 1.5;
+        flex-grow: 1;
+    }
     @media screen and (orientation:landscape) {
         .fullscreenBtn {
             bottom: 0px;
@@ -349,6 +412,17 @@
     @media screen and (max-width: 900px) {
         h1 {
             display: none;
+        }
+        .modal {
+            background-color: transparent;
+        }
+        .modalContent {
+            position: absolute;
+            top: calc(100vw / calc(16 / 9));
+            left: 0;
+            height: calc(calc(100vh - calc(100vw / calc(16 / 9))) - 40px);
+            margin: 0;
+            border-radius: 10px 10px 0 0;
         }
         .fullscreenTooltip {
             margin: 0 10px;

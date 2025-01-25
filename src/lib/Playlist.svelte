@@ -159,6 +159,7 @@
         }
         .episodes {
             height: 100%;
+            padding-bottom: 60px;
         }
     }
     button.header, button.headerOption {
