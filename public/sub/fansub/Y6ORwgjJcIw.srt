@@ -7,11 +7,11 @@ Musclehyde's Choice!
 Welcome... How much you want...?
 
 3
-00:00:20,942 --> 00:00:22,789
+00:00:20,942 --> 00:00:22,719
 Fill me up.
 
 4
-00:00:22,419 --> 00:00:24,513
+00:00:22,719 --> 00:00:24,513
 Monster!!
 
 5
@@ -95,11 +95,11 @@ Can I get the reward if I get a photo?
 Of course, of course!
 
 25
-00:01:29,721 --> 00:01:33,770
+00:01:29,721 --> 00:01:33,170
 Mowtown Times put a bounty on photos, huh?
 
 26
-00:01:33,770 --> 00:01:34,377
+00:01:33,170 --> 00:01:34,377
 Lavi! Camera!
 
 27
@@ -127,15 +127,15 @@ A bounty? This is crazy.
 We should seal Red Blitz before things get any worse.
 
 33
-00:01:46,926 --> 00:01:50,990
+00:01:46,926 --> 00:01:49,990
 But we don't even know where he is.
 
 34
-00:01:50,990 --> 00:01:53,650
+00:01:49,990 --> 00:01:53,150
 Why don't we look for him while we circle around Mowtown?
 
 35
-00:01:53,650 --> 00:01:56,527
+00:01:53,150 --> 00:01:56,527
 Easier said than done. Do you have any idea how many cars there are in this city?
 
 36
@@ -219,19 +219,19 @@ It's just an animatronic?
 Tch. What a bummer. Let's go, Lavi.
 
 56
-00:03:07,157 --> 00:03:09,699
+00:03:07,157 --> 00:03:08,999
 I knew something wasn't right.
 
 57
-00:03:09,699 --> 00:03:11,241
+00:03:08,999 --> 00:03:11,240
 Guess I'll have to look for a scoop elsewhere...
 
 58
-00:03:11,241 --> 00:03:16,342
+00:03:11,240 --> 00:03:16,341
 Everyone will forget the news about Red Blitz if pictures of this robot are everywhere.
 
 59
-00:03:16,342 --> 00:03:20,449
+00:03:16,341 --> 00:03:20,449
 I call it, "Operation: Hide a leaf in the forest!"
 
 60
@@ -279,7 +279,7 @@ You did it! This will be on the front page tomorrow!
 Wait! It's just a robot for store promotion... Are you serious?
 
 71
-00:03:50,800 --> 00:03:53,627
+00:03:50,100 --> 00:03:53,627
 "Monster in Mowtown! Milky Way Mayhem!"
 
 72
@@ -383,7 +383,7 @@ Red Blitz!
 Crimson Shoot!
 
 97
-00:05:34,930 --> 00:05:38,398
+00:05:34,129 --> 00:05:38,398
 Blue-haired boy! I'll take Mukara's Metal breath back today for sure!
 
 98
@@ -395,11 +395,11 @@ Huh?
 What the heck are you doing?!
 
 100
-00:05:41,776 --> 00:05:43,850
+00:05:41,776 --> 00:05:43,49
 We can't be dragging civilians into this!
 
 101
-00:05:43,850 --> 00:05:47,889
+00:05:43,49 --> 00:05:47,889
 Huh! Who was it that brought a civilian into this in the first place?
 
 102
@@ -451,11 +451,11 @@ Now! Are you ready?
 Heh! You think you can beat the Crimson Flash?
 
 114
-00:06:24,605 --> 00:06:28,790
+00:06:24,605 --> 00:06:28,89
 One! Two! Three!
 
 115
-00:06:28,790 --> 00:06:29,180
+00:06:28,89 --> 00:06:29,180
 Begin!
 
 116
@@ -495,15 +495,15 @@ Darn.
 Musclehyde. Compete with me! What do you say?
 
 125
-00:07:13,740 --> 00:07:17,279
+00:07:13,740 --> 00:07:17,278
 Mukara. I told you. Humans can't win against us.
 
 126
-00:07:17,279 --> 00:07:20,990
+00:07:17,278 --> 00:07:20,89
 You can't know unless you try.
 
 127
-00:07:20,990 --> 00:07:23,300
+00:07:20,89 --> 00:07:23,300
 Whoever gets to that dock first, wins!
 
 128
@@ -555,11 +555,11 @@ I won't let you reach Jun!
 Will you back off already?!
 
 140
-00:08:37,399 --> 00:08:39,927
+00:08:37,399 --> 00:08:38,626
 Three minutes left...
 
 141
-00:08:39,927 --> 00:08:40,470
+00:08:39,26 --> 00:08:40,470
 Admit that I won against-
 
 142
@@ -651,11 +651,11 @@ That so? Then you're my enemy too!!
 Musclehyde!
 
 164
-00:10:11,195 --> 00:10:11,682
+00:10:11,195 --> 00:10:11,782
 Blue Cop!
 
 165
-00:10:11,682 --> 00:10:12,956
+00:10:11,782 --> 00:10:12,956
 Let's lend him a hand!
 
 166
