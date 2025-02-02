@@ -15,6 +15,9 @@
     }
 
     function playVideo(v: Episode) {
+        if (!$source || !v.context.sources.map(x => x.path).includes($source.path)) {
+            source.set(v.context.sources[0]);
+        }
         video.set(v);
         // @ts-ignore
         gtag('event', 'play', {
