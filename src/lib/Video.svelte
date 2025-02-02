@@ -421,7 +421,7 @@
             position: absolute;
             top: calc(100vw / calc(16 / 9));
             left: 0;
-            height: calc(calc(100vh - calc(100vw / calc(16 / 9))) - 40px);
+            bottom: 0;
             margin: 0;
             border-radius: 10px 10px 0 0;
         }

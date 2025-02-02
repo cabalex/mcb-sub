@@ -8,6 +8,15 @@
   let currentVideo: Writable<Episode|null> = writable(null);
   let currentSub: Writable<Source|null> = writable(null);
 
+  function setMediaDetails(video: Episode, sub?: Source) {
+    const pageTitle = `${video.name} - Metal Cardbot SUB`;
+    const description = `Watch ${video.context.title}: ${video.name} with English subtitles`;
+    document.title = pageTitle;
+    document.querySelector("meta[property='og:title']")?.setAttribute("content", pageTitle);
+    document.querySelector("meta[property='og:description']")?.setAttribute("content", description);
+    document.querySelector("meta[property='og:image']")?.setAttribute("content", `https://img.youtube.com/vi/${video.id}/maxresdefault.jpg`);
+  }
+
   let urlParams = new URLSearchParams(window.location.search);
   let videoId = urlParams.get("v");
   let subId = urlParams.get("s");
@@ -17,8 +26,10 @@
       if (season.sources.length === 0) continue;
       for (let episode of season.episodes) {
         if (episode.id === videoId) {
+          const sub = season.sources.find(x => x.path === subId) || season.sources[0];
           currentVideo.set(episode);
-          currentSub.set(season.sources.find(x => x.path === subId) || season.sources[0]);
+          currentSub.set(sub);
+          setMediaDetails(episode, sub);
           break;
         }
       }
@@ -29,11 +40,13 @@
     currentVideo.subscribe(value => {
       if (value !== null && $currentSub !== null) {
         window.history.pushState({video: value, sub: $currentSub}, "", `?v=${value.id}&s=${$currentSub.path}`);
+        setMediaDetails(value, $currentSub);
       }
     });
     currentSub.subscribe(value => {
       if (value !== null && $currentVideo !== null) {
         window.history.pushState({video: value, sub: $currentSub}, "", `?v=${$currentVideo.id}&s=${value.path}`);
+        setMediaDetails($currentVideo, value);
       }
     });
   });
