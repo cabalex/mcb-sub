@@ -17,6 +17,13 @@
     document.querySelector("meta[property='og:image']")?.setAttribute("content", `https://img.youtube.com/vi/${video.id}/maxresdefault.jpg`);
   }
 
+  function resetMediaDetails() {
+    document.title = "Metal Cardbot SUB";
+    document.querySelector("meta[property='og:title']")?.setAttribute("content", "Metal Cardbot SUB");
+    document.querySelector("meta[property='og:description']")?.setAttribute("content", "Watch Metal Cardbot with English subtitles");
+    document.querySelector("meta[property='og:image']")?.setAttribute("content", "https://i.ytimg.com/vi/1Q3m1V59Lfg/maxresdefault.jpg");
+  }
+
   let urlParams = new URLSearchParams(window.location.search);
   let videoId = urlParams.get("v");
   let subId = urlParams.get("s");
@@ -36,16 +43,27 @@
     }
   }
 
+  let isGoingBack = false;
   onMount(() => {
     currentVideo.subscribe(value => {
-      if (value !== null && $currentSub !== null) {
-        window.history.pushState({video: value, sub: $currentSub}, "", `?v=${value.id}&s=${$currentSub.path}`);
+      if (!isGoingBack && value !== null && $currentSub !== null) {
+        const query = `?v=${value.id}&s=${$currentSub.path}`;
+        if (location.search === query) {
+          window.history.replaceState({video: value, sub: $currentSub}, "", query);
+        } else {
+          window.history.pushState({video: value, sub: $currentSub}, "", query);
+        }
         setMediaDetails(value, $currentSub);
       }
     });
     currentSub.subscribe(value => {
-      if (value !== null && $currentVideo !== null) {
-        window.history.pushState({video: value, sub: $currentSub}, "", `?v=${$currentVideo.id}&s=${value.path}`);
+      if (!isGoingBack && value !== null && $currentVideo !== null) {
+        const query = `?v=${$currentVideo.id}&s=${value.path}`;
+        if (location.search === query) {
+          window.history.replaceState({video: $currentVideo, sub: value}, "", query);
+        } else {
+          window.history.pushState({video: $currentVideo, sub: value}, "", query);
+        }
         setMediaDetails($currentVideo, value);
       }
     });
@@ -54,21 +72,27 @@
   window.addEventListener("popstate", (state) => {
     const poppedState = state.state;
 
+    isGoingBack = true;
     if (poppedState) {
       if (poppedState.video) {
         currentVideo.set(poppedState.video);
       } else {
+        resetMediaDetails();
         currentVideo.set(null);
       }
       if (poppedState.sub) {
         currentSub.set(poppedState.sub);
       } else {
+        resetMediaDetails();
         currentSub.set(null);
       }
     } else {
       currentVideo.set(null);
       currentSub.set(null);
+      window.history.replaceState(null, "", "/");
+      resetMediaDetails();
     }
+    isGoingBack = false;
   })
 
 </script>

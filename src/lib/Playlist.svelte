@@ -84,7 +84,7 @@
     {/if}
     <div class="episodes">
     {#each playlists[playlistIndex].openings as opening, i}
-        <button class:active={$video === opening} class="episode" on:click={() => playVideo(opening)}>
+        <button class:active={$video?.id === opening.id} class="episode" on:click={() => playVideo(opening)}>
             <img alt={opening.name} src={`https://img.youtube.com/vi/${opening.id}/0.jpg`} />
             <div class="text">
                 <h3>{opening.name}</h3>
@@ -95,7 +95,7 @@
         </button>
     {/each}
     {#each playlists[playlistIndex].episodes as episode, i}
-        <button class:active={$video === episode} class="episode" on:click={() => playVideo(episode)}>
+        <button class:active={$video?.id === episode.id} class="episode" on:click={() => playVideo(episode)}>
             <img alt={episode.name} src={`https://img.youtube.com/vi/${episode.id}/0.jpg`} />
             <div class="text">
                 <h3>{episode.name}</h3>
