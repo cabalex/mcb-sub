@@ -233,7 +233,7 @@
                 <img width="24px" height="24px" src={FullscreenIcon} alt="Enter Fullscreen" />
             {/if}
         </button>
-        {#if !fullscreenTooltipShown}
+        {#if !fullscreenTooltipShown && issueReportAvailable}
         <!-- svelte-ignore a11y-no-static-element-interactions -->
         <div class="fullscreenTooltip" on:click={shownFullscreenTooltip} transition:slide={{duration: 300, axis: 'y'}}>
             Tap the bottom right of the video to toggle fullscreen
@@ -353,6 +353,7 @@
         position: absolute;
         right: 0px;
         border-radius: 5px 0 5px 5px;
+        z-index: 11;
     }
     .fullscreenTooltip:after {
         content: "";
@@ -426,6 +427,8 @@
         }
         .fullscreenTooltip {
             margin: 0 10px;
+            padding: 10px;
+            text-align: left;
         }
         .btnrow {
             position: fixed;
