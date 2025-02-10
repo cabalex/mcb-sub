@@ -72,7 +72,7 @@
 		sourceDropdownOpen = false;
 		video.set(null);
 		source.set(null);
-		history.pushState({}, '', '/');
+		history.pushState({}, '', './');
 		if (s) {
 			editor.set(s);
 		} else {
@@ -114,7 +114,7 @@
 			!confirm('Are you sure you want to leave the sub editor? Any unsaved changes will be lost!')
 		)
 			return;
-		window.history.replaceState({}, '', '/');
+		window.history.replaceState({}, '', './');
 		//deleteCustomSub($editor);
 		editor.set(null);
 		source.set(null);

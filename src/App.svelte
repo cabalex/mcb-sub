@@ -108,7 +108,7 @@
 		} else {
 			currentVideo.set(null);
 			currentSub.set(null);
-			window.history.replaceState(null, '', '/');
+			window.history.replaceState(null, '', './');
 			resetMediaDetails();
 		}
 		isGoingBack = false;
