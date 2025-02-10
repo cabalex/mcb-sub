@@ -1,103 +1,184 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-  --primary: #646cff;
+	color-scheme: light dark;
+	color: rgba(255, 255, 255, 0.87);
+	background-color: #242424;
+	--primary: #646cff;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-.btnrow {
-  display: flex;
-  gap: 10px;
-}
-.btnrow button {
-  width: 100%;
-}
-.primary {
-  background-color: var(--primary);
-  color: white;
-}
-.outline {
-  background-color: transparent;
-  color: var(--primary);
-  border: 1px solid var(--primary);
-  transition: background-color 0.25s, color 0.25s;
-}
-.outline:hover {
-  background-color: var(--primary);
-  color: white;
-}
-button:disabled {
-  cursor: not-allowed;
-}
-.primary:disabled {
-  opacity: 0.5;
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+	font-weight: 500;
+	color: #646cff;
+	text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+	color: #535bf2;
 }
 
-html, body, #app {
-  margin: 0;
-  width: 100%;
-  height: 100%;
+html,
+body,
+#app {
+	margin: 0;
+	width: 100%;
+	height: 100%;
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+	font-size: 3.2em;
+	line-height: 1.1;
 }
 
 .card {
-  padding: 2em;
+	padding: 2em;
 }
 
 #app {
-  margin: 0 auto;
-  text-align: center;
+	margin: 0 auto;
+	text-align: center;
 }
 
 button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
+	border-radius: 8px;
+	border: 1px solid transparent;
+	padding: 0.6em 1.2em;
+	font-size: 1em;
+	font-weight: 500;
+	font-family: inherit;
+	background-color: #1a1a1a;
+	color: white;
+	cursor: pointer;
+	transition: border-color 0.25s;
 }
-button:hover {
-  border-color: #646cff;
+button:hover:not(:disabled) {
+	border-color: #646cff;
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+button:focus:not(:disabled),
+button:focus-visible:not(:disabled) {
+	outline: 4px auto -webkit-focus-ring-color;
+}
+
+.btnrow {
+	display: flex;
+	gap: 10px;
+}
+.btnrow button {
+	width: 100%;
+}
+.primary {
+	border: 1px solid var(--primary);
+	background-color: var(--primary);
+	color: white;
+}
+.primary:hover {
+	border-color: white !important;
+}
+.outline {
+	background-color: transparent;
+	color: var(--primary);
+	border: 1px solid var(--primary);
+	transition: background-color 0.25s, color 0.25s;
+}
+.outline:hover {
+	background-color: var(--primary);
+	color: white;
+}
+button:disabled {
+	cursor: not-allowed;
+}
+.primary:disabled {
+	opacity: 0.5;
+}
+
+/* Modals */
+.modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.2);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 100;
+}
+.modalContent {
+	background-color: #111;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	padding: 20px;
+	margin: 10px;
+	border-radius: 24px;
+	max-width: 500px;
+	max-height: 90vh;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	overflow-y: auto;
+}
+.modalContent .close {
+	border-radius: 100px;
+	position: sticky;
+	bottom: 0;
+	background-color: #222;
+	box-shadow: 0 0 20px #111;
+}
+.modalContent h2 {
+	margin: 0;
+	font-size: 1.5em;
+}
+.modalContent .notes {
+	line-height: 1.5;
+	flex-grow: 1;
 }
 
 @media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+	:root {
+		color: #213547;
+		background-color: #ffffff;
+	}
+	a:hover {
+		color: #747bff;
+	}
+	button {
+		background-color: #f9f9f9;
+		color: black;
+	}
+	.modalContent {
+		background-color: #fff;
+		color: #111;
+	}
+	.modal .close {
+		background-color: #fff;
+		border: 1px solid #aaa;
+		box-shadow: 0 0 10px #fff;
+	}
+	.modal .close:hover {
+		background-color: #eee;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	h1 {
+		display: none;
+	}
+	.modal:not(.desktop) {
+		background-color: transparent;
+	}
+	.modal:not(.desktop) .modalContent {
+		position: absolute;
+		top: calc(100vw / calc(16 / 9));
+		left: 0;
+		bottom: 0;
+		margin: 0;
+		border-radius: 10px 10px 0 0;
+	}
 }
