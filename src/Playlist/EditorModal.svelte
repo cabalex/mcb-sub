@@ -418,4 +418,26 @@
 			margin-left: 0;
 		}
 	}
+	@media (prefers-color-scheme: light) {
+		.setting input {
+			background-color: #f0f0f0;
+			color: #000;
+		}
+		.setting input:focus {
+			border-color: #777;
+		}
+		button:not(:hover):not(:focus) {
+			border-color: #999;
+		}
+		.color.active {
+			outline: 2px solid black;
+			outline-offset: -2px;
+		}
+		.small {
+			color: #333;
+		}
+		.spaceBar {
+			background-color: #ddd;
+		}
+	}
 </style>

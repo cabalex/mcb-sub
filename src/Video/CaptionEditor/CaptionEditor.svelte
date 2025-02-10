@@ -621,4 +621,41 @@
 		border-color: darkred;
 		color: white;
 	}
+	@media (prefers-color-scheme: light) {
+		.captionEditor {
+			background-color: #ddd;
+		}
+		.line {
+			background-color: #eee;
+			border-color: #aaa;
+		}
+		.line.active {
+			background-color: #ccc;
+			border-color: #222;
+		}
+		.line textarea {
+			background-color: #fff;
+		}
+		.lines {
+			background-color: #eee;
+		}
+		.timeLayout {
+			background-color: #ccc;
+		}
+		.line button {
+			background-color: #ccc;
+		}
+		button:disabled {
+			opacity: 0.2;
+		}
+
+		:global(button.long) {
+			border-color: red;
+			color: black;
+		}
+		:global(button.verylong) {
+			border-color: darkred;
+			color: black;
+		}
+	}
 </style>

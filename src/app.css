@@ -164,6 +164,10 @@ button:disabled {
 	.modal .close:hover {
 		background-color: #eee;
 	}
+	.outline:hover {
+		background-color: var(--primary);
+		color: black;
+	}
 }
 
 @media screen and (max-width: 900px) {

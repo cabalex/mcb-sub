@@ -262,7 +262,7 @@
 			{/if}
 		</button>
 	{:else}
-		<div style="background-color: #111; padding: 10px">
+		<div class="editorInitial">
 			<h3 style="text-align: center; padding-bottom: 10px">
 				Select an episode to start captioning
 			</h3>
@@ -473,6 +473,10 @@
 		border-radius: 0;
 		background-color: #555;
 	}
+	.editorInitial {
+		background-color: #111;
+		padding: 10px;
+	}
 	h2,
 	h3,
 	p {
@@ -563,7 +567,10 @@
 			filter: invert(1);
 		}
 		.headerOptions.source .headerOption {
-			background-color: #ddd;
+			background-color: #ccc;
+		}
+		.editorInitial {
+			background-color: #ccc;
 		}
 		.episode {
 			border-top: 1px solid #bbb;
