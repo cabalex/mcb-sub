@@ -12,3 +12,5 @@ Sub Cards use Least Significant Bit steganography and ZStandard compression to s
 Since it's stored in the image data itself, you can upload them to social media platforms without any issues. But due to the delicacy of such encoding, **editing the Card in an external program will likely break it**, so you probably shouldn't do that. You wouldn't scribble all over a Cardbot's face, would you?
 
 Please note that sometimes Card decompression can fail. If a Card is failing to import when it shouldn't, I recommend reloading the page.
+
+For nerds, you can edit a draft subtitle programmatically using `getEditor()` and `setEditor()`, exposed in the console.

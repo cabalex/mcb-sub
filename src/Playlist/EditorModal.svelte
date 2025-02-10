@@ -192,6 +192,12 @@
 		dispatch('save');
 	}
 
+	function changeId() {
+		if ($editor) {
+			$editor.source.path = '/' + Math.random().toString(36).slice(2);
+		}
+	}
+
 	let canvasElem: HTMLCanvasElement;
 	onMount(() => {
 		if (canvasElem && $editor) {
@@ -223,7 +229,7 @@
 					<h2>Subtitle details</h2>
 					<div class="setting">
 						<label for="title">Name</label>
-						<input type="text" id="title" bind:value={$editor.source.name} />
+						<input type="text" id="title" bind:value={$editor.source.name} on:change={changeId} />
 					</div>
 					<div class="setting">
 						<label for="lang">Language code (e.g. EN)</label>
@@ -244,7 +250,7 @@
 								on:click={() =>
 									($editor.source.credits = $editor.source.credits.filter((_, j) => i !== j))}
 							>
-								delete
+								✖️
 							</button>
 							<input type="text" id="credit-{i}" placeholder="@myname" bind:value={credit.name} />
 						</div>
@@ -413,6 +419,10 @@
 		}
 		.twoPane {
 			flex-direction: column;
+		}
+		.settings {
+			width: calc(100% - 20px);
+			max-width: unset;
 		}
 		.preview {
 			margin-left: 0;

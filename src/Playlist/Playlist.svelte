@@ -146,7 +146,7 @@
 	let editorModalOpen = false;
 </script>
 
-<div class="playlist">
+<div class="playlist" class:custom={'source' in $source}>
 	<button
 		class="header"
 		on:click={() => (seasonDropdownOpen = !seasonDropdownOpen)}
@@ -406,6 +406,8 @@
 		}
 		.episodes {
 			height: 100%;
+		}
+		.playlist:not(.custom) .episodes {
 			padding-bottom: 60px;
 		}
 	}

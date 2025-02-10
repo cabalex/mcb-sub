@@ -180,6 +180,13 @@
 					isDraggingOver = false;
 				}, 1000);
 			}
+		} else if (e.dataTransfer?.getData('URL')) {
+			// Can't do this due to CORS issues
+			dragError = 'Download the Card first';
+			setTimeout(() => {
+				dragError = null;
+				isDraggingOver = false;
+			}, 1000);
 		} else {
 			isDraggingOver = false;
 		}
