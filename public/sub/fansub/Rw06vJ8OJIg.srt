@@ -24,8 +24,8 @@ Angry face, not angry face, angry face...
 
 7
 00:00:26,861 --> 00:00:29,861
-...not angry face, angry face, not angry face...
-This is how you brew a tasty cup of coffee.
+- ...not angry face, angry face, not angry face...
+- This is how you brew a tasty cup of coffee.
 
 8
 00:00:29,861 --> 00:00:31,917
@@ -113,8 +113,8 @@ Wh-w-w-w-what are they doing?!
 
 29
 00:02:41,586 --> 00:02:45,586
-This is Edo Motors- Oh, it's you, Uncle Edo. What?
-Jun! I'm in trouble!! Big trouble!! A Metal Cardbot showed up!!
+- This is Edo Motors- Oh, it's you, Uncle Edo. What?
+- Jun! I'm in trouble!! Big trouble!! A Metal Cardbot showed up!!
 
 30
 00:02:45,586 --> 00:02:47,139
@@ -134,8 +134,8 @@ Trailer truck?
 
 34
 00:02:52,323 --> 00:02:53,543
-Could it be?
-The Captain! 
+- Could it be?
+- The Captain! 
 
 35
 00:02:53,543 --> 00:02:55,288
