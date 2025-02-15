@@ -291,7 +291,11 @@
 						class="reportIssueBtn"
 						on:click={() => (showTranslationNotes = !showTranslationNotes)}
 					>
-						📝 Translation Notes
+						{#if $video.id === 'ZLcqsmPCHLY'}
+							🔊 Hearing English?
+						{:else}
+							📝 Translation Notes
+						{/if}
 					</button>
 				{/if}
 				<button class="reportIssueBtn" on:click={openIssueReporter}> ⚠️ Report an issue </button>

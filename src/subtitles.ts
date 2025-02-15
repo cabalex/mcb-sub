@@ -74,7 +74,8 @@ const subtitles: Season[] = [
 			{ name: 'Exclusive! Steel Reporter', id: 'hvcwuisAcWw' },
 			{ name: "Musclehyde's Choice!", id: 'Y6ORwgjJcIw' },
 			{ name: 'The Great Cave Escape!', id: 'OeCr53P6z6c' },
-			{ name: "It's Okay, Rock Crush", id: 'TyGBkSwejk4' }
+			{ name: "It's Okay, Rock Crush", id: 'TyGBkSwejk4' },
+			{ name: 'Reunion with Gigantrex!', id: 'Rw06vJ8OJIg' }
 		]
 	}
 ].map((season) => {
@@ -93,9 +94,13 @@ const subtitles: Season[] = [
 
 export const translationNotes: { [key: string]: { [key: string]: string } } = {
 	'/dub': {
-		ZLcqsmPCHLY: `<p>Welcome to the Metal Cardbot unofficial fan sub website! Here you'll find all (freely) uploaded episodes of Metal Cardbot, translated into English. These are embedded directly from the metalcardbotTV YouTube channel, so there's no piracy involved!</p>
-        <p><b>SAMG has started adding English Audio Tracks to YouTube, which will automatically be selected when you play each video.</b> Unfortunately, there's no way to change this using the Embed API, so you'll need to manually change it back to Korean. I apologize for the inconvenience :(</p>
-        <p>Metal Cardbot is property of SAMG/Navy, and I do not claim any right to anything streamed on this website (with the exception of the fan subtitles, which were created by myself and other fans of the series). Please support the series and its creators!</p>`
+		ZLcqsmPCHLY: `
+		<div class="notice">
+		<h2>🔊 Hearing English?</h2>
+		<p><b>SAMG has added the English dub to this episode, which is automatically selected when you play the video.</b> There is no way to turn this off, and this website has no control over what audio track is played. You must manually change it by clicking <b>Settings > Audio Tracks > Korean original</b>.<br />I apologize for the inconvenience :(</p>
+		</div>
+		<p>Welcome to the Metal Cardbot unofficial fan sub website! Here you'll find all (freely) uploaded episodes of Metal Cardbot, translated into English. These are embedded directly from the metalcardbotTV YouTube channel, so there's no piracy involved!</p>
+        <p><b>Metal Cardbot is property of SAMG/Navy, and I do not claim any right to anything streamed on this website</b> (with the exception of the fan subtitles, which were created by myself and other fans of the series). Please support the series and its creators!</p>`
 	},
 	'/fansub': {
 		KmHp3PSBHXM: `<p>At the flashback beginning at 3:09, Black Hook insults Heavy Iron, causing them to fight. The literal translation is along the lines of "What did you say, you shooting-star-sized eyes?!" (meaning "small eyes"), which doesn't make much sense in English. We changed it to "Does this weird-eyed guy have something to say about me?".</p>
