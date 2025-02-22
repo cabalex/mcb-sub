@@ -10,6 +10,12 @@
 	--buffaloCrush: #ea619e;
 	--busterGallon: #34b7bc;
 	--blackHook: #638cc7;
+
+	--redBlitz: #ff0062;
+	--cielo: #006fff;
+	--musclehyde: #00c5be;
+	--gigantrex: #ff5a01;
+	--mukara: #ec2f59;
 }
 
 .ua span {
@@ -44,6 +50,9 @@
 
 .bold {
 	font-weight: bold;
+}
+.italic {
+	font-style: italic;
 }
 .shake,
 .shake span {
@@ -122,6 +131,22 @@
 	animation: sarcasm 0.5s infinite ease-in-out;
 }
 
+.voice span {
+	color: var(--mukara);
+	animation: voice 5s ease-in-out infinite;
+	font-style: italic;
+}
+
+.flipped {
+	transform: rotate(180deg);
+}
+.subtitleArea:has(.flipped) {
+	align-items: flex-start !important;
+}
+.subtitleArea.hover:has(.flipped) {
+	top: 70px !important;
+}
+
 @keyframes sarcasm {
 	0% {
 		transform: translateY(-4%);
@@ -131,6 +156,81 @@
 	}
 	100% {
 		transform: translateY(-4%);
+	}
+}
+
+@keyframes voice {
+	0% {
+		transform: translateY(-2%);
+	}
+	50% {
+		transform: translateY(2%);
+	}
+	100% {
+		transform: translateY(-2%);
+	}
+}
+
+.trinity span {
+	animation: trinityMorph 2s linear;
+	animation-delay: var(--random-length) !important;
+	animation-fill-mode: both;
+}
+
+@keyframes trinityMorph {
+	0% {
+		font-size: 1em;
+		color: white;
+		font-family: unset;
+	}
+	70% {
+		font-size: 1em;
+		color: white;
+		font-family: unset;
+	}
+	71% {
+		font-size: 1.1em;
+		font-family: monospace;
+		color: var(--redBlitz);
+	}
+	72% {
+		font-size: 1em;
+		color: white;
+		font-family: unset;
+	}
+	90% {
+		font-size: 1em;
+		color: white;
+		transform: rotate(0deg);
+		font-family: unset;
+	}
+	91% {
+		font-size: 1.2em;
+		font-family: monospace;
+		transform: rotate(180deg);
+		color: var(--gigantrex);
+	}
+	92% {
+		font-size: 1em;
+		color: white;
+		transform: rotate(0deg);
+		font-family: unset;
+	}
+	98% {
+		font-size: 1em;
+		color: white;
+		font-family: unset;
+	}
+	99% {
+		font-weight: normal;
+		color: var(--musclehyde);
+		font-size: 1.3em;
+	}
+	100% {
+		color: var(--blueCop);
+		font-family: monospace;
+		font-weight: bold;
+		font-size: 1.2em;
 	}
 }
 
@@ -167,6 +267,9 @@
 }
 .blackHook {
 	color: var(--blackHook);
+}
+.mukara {
+	color: var(--mukara);
 }
 
 /* screenspace effects */

@@ -75,7 +75,8 @@ const subtitles: Season[] = [
 			{ name: "Musclehyde's Choice!", id: 'Y6ORwgjJcIw' },
 			{ name: 'The Great Cave Escape!', id: 'OeCr53P6z6c' },
 			{ name: "It's Okay, Rock Crush", id: 'TyGBkSwejk4' },
-			{ name: 'Reunion with Gigantrex!', id: 'Rw06vJ8OJIg' }
+			{ name: 'Reunion with Gigantrex!', id: 'Rw06vJ8OJIg' },
+			{ name: 'The Greatest Power Awakens!', id: 'sy7IirZENS8' }
 		]
 	}
 ].map((season) => {

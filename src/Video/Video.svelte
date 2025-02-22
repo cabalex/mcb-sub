@@ -281,7 +281,7 @@
 		</div>
 		<div class="btnrow">
 			{#if issueReportAvailable && $editor === null && $source !== null && 'path' in $source}
-				{#if $video?.id === 'L0WnJ7Kz_rw'}
+				{#if ['L0WnJ7Kz_rw', 'sy7IirZENS8'].includes($video.id)}
 					<button class="reportIssueBtn" on:click={toggleFX}>
 						{effectsDisabled ? '❌ FX Disabled' : '✅ FX Enabled'}
 					</button>

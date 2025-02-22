@@ -124,6 +124,17 @@
 	};
 
 	function downloadSRT(save = false) {
+		// sanity check: set all endings to before the next start
+		for (let i = 0; i < customLines.length - 1; i++) {
+			const nextStart = customLines[i + 1]?.start ?? null;
+			if (nextStart !== null) {
+				let end = customLines[i].end;
+				if (end !== null && end > nextStart) {
+					customLines[i].end = nextStart;
+				}
+			}
+		}
+
 		const vid = $video;
 		if (!save && vid) {
 			const timings: [number, number, string][] = customLines.map((x) => [
@@ -420,7 +431,7 @@
 						{@const start = line.start}
 						{@const end = line.end}
 						<div
-							class="line"
+							class="line addBelow"
 							class:active={start !== null &&
 								currentTime > start &&
 								end !== null &&
@@ -459,6 +470,7 @@
 									➡️
 								</button>
 							{/if}
+							<button class="addBelow" on:click={() => addLineBelow(i)}>+ Add line below</button>
 						</div>
 					{/each}
 				</span>
@@ -549,6 +561,23 @@
 	}
 	.line button.setEnd {
 		border-radius: 5px 0 0 5px;
+	}
+	.line.addBelow {
+		margin-bottom: 16px;
+		position: relative;
+		overflow: unset;
+		border-radius: 5px 5px 0 0;
+	}
+	.line.addBelow button.addBelow {
+		position: absolute;
+		top: 100%;
+		left: -1px;
+		width: calc(100% + 2px);
+		height: 16px;
+		font-size: 10px;
+		padding: 0;
+		border-radius: 0 0 5px 5px;
+		z-index: 1;
 	}
 	.lines {
 		border-top: 1px solid #333;
