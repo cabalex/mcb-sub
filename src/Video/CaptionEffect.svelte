@@ -3,16 +3,21 @@
 	export let text: string;
 	export let effect: string;
 	export let disabled = false;
+	export let subtitleStyles = '';
+	export let wordStyles = '';
 
 	$: parts = text.split(/[ \n]/);
 </script>
 
-<div class={'subtitle ' + (disabled ? '' : effect)} style={`--random-length: ${Math.random()}s`}>
+<div
+	class={'subtitle ' + (disabled ? '' : effect)}
+	style={`--random-length: ${Math.random()}s; ${subtitleStyles}; ${wordStyles}`}
+>
 	{#each parts as word, i}
 		{@const wordOffset = parts.slice(0, i).join(' ').length}
 		<div
 			class="word"
-			style={`--offset: ${wordOffset * 0.52}s; animation-delay: -${wordOffset * 0.52}s; `}
+			style={`--offset: ${wordOffset * 0.52}s; animation-delay: -${wordOffset * 0.52}s`}
 		>
 			{#each word.split('') as letter, j}
 				<span

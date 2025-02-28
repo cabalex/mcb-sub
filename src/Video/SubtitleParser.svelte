@@ -1,11 +1,16 @@
 <script lang="ts">
 	import { onDestroy, onMount } from 'svelte';
 	import CaptionEffect from './CaptionEffect.svelte';
+	import {
+		applyStyle,
+		applyWordStyle,
+		type CaptionStyle
+	} from './CaptionStyle/CaptionStyle.svelte';
 
 	export let subtitles: Array<{ start: number; end: number; text: string }>;
 	export let target: any;
 	export let hover: boolean;
-	export let effectsDisabled: boolean;
+	export let captionStyle: CaptionStyle;
 
 	let currentSubtitle: (typeof subtitles)[number] | null = null;
 
@@ -26,6 +31,9 @@
 		currentSubtitle = null;
 	}
 
+	$: subtitleStyles = applyStyle(captionStyle);
+	$: wordStyles = applyWordStyle(captionStyle);
+
 	onMount(() => {
 		requestAnimationFrame(subtitleUpdate);
 		mounted = true;
@@ -40,16 +48,22 @@
 	<div class="subtitleArea" class:hover>
 		{#if currentSubtitle.text.includes(' (FX-')}
 			<CaptionEffect
-				disabled={effectsDisabled}
+				disabled={!captionStyle.fxEnabled}
+				{subtitleStyles}
+				{wordStyles}
 				text={currentSubtitle.text.split(' (FX-')[0]}
 				effect={currentSubtitle.text.split(' (FX-')[1].split(')')[0]}
 			/>
 		{:else}
-			<div class="subtitle" class:needsFixing={currentSubtitle.text.includes('FIX_THIS')}>
+			<div
+				class="subtitle"
+				style={subtitleStyles}
+				class:needsFixing={currentSubtitle.text.includes('FIX_THIS')}
+			>
 				{#each currentSubtitle.text.replace(' (FIX_THIS)', '').split(/[ \n]/) as word}
-					<span>{word}</span>
+					<span style={wordStyles}>{word}</span>
 					{#if currentSubtitle.text.includes(word + '\n')}
-						<span class="newline"></span>
+						<span style={wordStyles} class="newline"></span>
 					{/if}
 				{/each}
 			</div>
@@ -82,7 +96,10 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
+	}
+	:global(.subtitle) {
 		font-size: 24px;
+		--font-scale: 1;
 	}
 	.subtitle.needsFixing {
 		color: orange;
@@ -103,12 +120,14 @@
 		flex-basis: 100%;
 	}
 	@media screen and (max-width: 700px) {
-		.subtitle {
+		:global(.subtitle) {
+			--font-scale: 0.75;
 			font-size: 18px;
 		}
 	}
 	@media screen and (min-width: 1200px) {
-		.subtitle {
+		:global(.subtitle) {
+			--font-scale: 1.5;
 			font-size: 36px;
 		}
 	}

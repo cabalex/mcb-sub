@@ -408,7 +408,7 @@
 			height: 100%;
 		}
 		.playlist:not(.custom) .episodes {
-			padding-bottom: 60px;
+			padding-bottom: 50px;
 		}
 	}
 	button.header,

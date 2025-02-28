@@ -44,7 +44,7 @@ const subtitles: Season[] = [
 			{ name: 'Buster Gallon, the Betrayer', id: 'B8IYxvIrf9o' },
 			{ name: 'Black Hook Strikes Back', id: 'UCixUDwUZtA' },
 			{ name: 'Heavy Battle', id: '798fkUeeMOU' },
-			{ name: 'The Final Battle', id: 'L0WnJ7Kz_rw' }
+			{ name: 'The Final Battle', id: 'L0WnJ7Kz_rw', fx: true }
 		]
 	},
 	{
@@ -76,7 +76,7 @@ const subtitles: Season[] = [
 			{ name: 'The Great Cave Escape!', id: 'OeCr53P6z6c' },
 			{ name: "It's Okay, Rock Crush", id: 'TyGBkSwejk4' },
 			{ name: 'Reunion with Gigantrex!', id: 'Rw06vJ8OJIg' },
-			{ name: 'The Greatest Power Awakens!', id: 'sy7IirZENS8' }
+			{ name: 'The Greatest Power Awakens!', id: 'sy7IirZENS8', fx: true }
 		]
 	}
 ].map((season) => {
@@ -133,6 +133,7 @@ export interface Episode {
 	name: string;
 	id: string;
 	label: string;
+	fx?: boolean;
 	context: Season;
 }
 

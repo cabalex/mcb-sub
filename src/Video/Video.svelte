@@ -9,6 +9,10 @@
 	import { fade, fly, slide } from 'svelte/transition';
 	import type { Writable } from 'svelte/store';
 	import type { CustomDraft, CustomEpisode } from '../editor';
+	import CaptionStyleModal, {
+		defaultStyle,
+		type CaptionStyle
+	} from './CaptionStyle/CaptionStyle.svelte';
 
 	export let video: Writable<Episode | CustomEpisode | null>;
 	export let source: Writable<Source | CustomDraft | null>;
@@ -178,20 +182,7 @@
 		fullscreenTooltipShown = true;
 	}
 
-	function toggleFX() {
-		effectsDisabled = !effectsDisabled;
-		localStorage.setItem('mcb-effectsDisabled', effectsDisabled.toString());
-		// @ts-ignore
-		gtag('event', 'toggle_fx', {
-			event_category: 'engagement',
-			event_label: effectsDisabled ? 'disabled' : 'enabled'
-		});
-	}
-
 	let screenspaceEffect = '';
-	let effectsDisabled =
-		localStorage.getItem('mcb-effectsDisabled') === 'true' ||
-		window.matchMedia(`(prefers-reduced-motion: reduce)`).matches === true;
 
 	const screenspaceTimings = [
 		{ start: 1 * 60 + 55.1, end: 1 * 60 + 55.5, animation: 'bonkRight' },
@@ -212,7 +203,7 @@
 	function getScreenspaceEffect(target: any) {
 		if ($video?.id !== 'L0WnJ7Kz_rw' || !target) return;
 		requestAnimationFrame(getScreenspaceEffect.bind(null, target));
-		if (fullscreen || effectsDisabled) {
+		if (fullscreen || !captionStyle.fxEnabled) {
 			screenspaceEffect = '';
 			return;
 		}
@@ -229,6 +220,10 @@
 	$: getScreenspaceEffect(target);
 
 	let showTranslationNotes = false;
+	let showCaptionStyle = false;
+	let captionStyle: CaptionStyle = JSON.parse(
+		localStorage.getItem('mcb-captionStyle') ?? JSON.stringify(defaultStyle)
+	);
 </script>
 
 <div class="video" class:fullscreen bind:this={videoElem}>
@@ -259,7 +254,7 @@
 				}}
 			/>
 			{#if target && $editor === null}
-				<SubtitleParser subtitles={subs} {target} {effectsDisabled} {hover} />
+				<SubtitleParser {captionStyle} subtitles={subs} {target} {hover} />
 			{/if}
 			<button class="fullscreenBtn" on:click={toggleFullscreen} class:visible={hover}>
 				{#if fullscreen}
@@ -279,27 +274,31 @@
 				</div>
 			{/if}
 		</div>
-		<div class="btnrow">
-			{#if issueReportAvailable && $editor === null && $source !== null && 'path' in $source}
-				{#if ['L0WnJ7Kz_rw', 'sy7IirZENS8'].includes($video.id)}
-					<button class="reportIssueBtn" on:click={toggleFX}>
-						{effectsDisabled ? '❌ FX Disabled' : '✅ FX Enabled'}
-					</button>
-				{/if}
-				{#if translationNotes[$source.path] && translationNotes[$source.path][$video.id]}
+		<div class="btnrowScrollWrapper">
+			<div class="btnrow">
+				{#if issueReportAvailable && $editor === null && $source !== null && 'path' in $source}
+					{#if translationNotes[$source.path] && translationNotes[$source.path][$video.id]}
+						<button
+							class="reportIssueBtn"
+							on:click={() => (showTranslationNotes = !showTranslationNotes)}
+						>
+							{#if $video.id === 'ZLcqsmPCHLY'}
+								🔊 Hearing English?
+							{:else}
+								📝 Translation Notes
+							{/if}
+						</button>
+					{/if}
 					<button
+						class:fxActive={$video.fx}
 						class="reportIssueBtn"
-						on:click={() => (showTranslationNotes = !showTranslationNotes)}
+						on:click={() => (showCaptionStyle = !showCaptionStyle)}
 					>
-						{#if $video.id === 'ZLcqsmPCHLY'}
-							🔊 Hearing English?
-						{:else}
-							📝 Translation Notes
-						{/if}
+						{$video.fx ? '✨' : '⚙️'} CC
 					</button>
+					<button class="reportIssueBtn" on:click={openIssueReporter}> ⚠️ Report issue </button>
 				{/if}
-				<button class="reportIssueBtn" on:click={openIssueReporter}> ⚠️ Report an issue </button>
-			{/if}
+			</div>
 		</div>
 	{:else}
 		<h1>Choose an episode! ➡️</h1>
@@ -332,6 +331,10 @@
 			<button class="close" on:click={() => (showTranslationNotes = false)}>Close</button>
 		</div>
 	</div>
+{/if}
+
+{#if $source !== null && 'path' in $source && $video !== null && showCaptionStyle}
+	<CaptionStyleModal bind:showCaptionStyle bind:captionStyle />
 {/if}
 
 <style>
@@ -392,10 +395,11 @@
 		justify-content: flex-end;
 		align-items: center;
 		margin-top: 5px;
-		pointer-events: none;
+	}
+	.btnrowScrollWrapper {
+		width: 100%;
 	}
 	.reportIssueBtn {
-		pointer-events: all;
 		border-radius: 100px;
 		align-self: flex-end;
 		z-index: 10;
@@ -424,6 +428,38 @@
 		border: 10px solid transparent;
 		border-bottom-color: #777;
 	}
+
+	.fxActive {
+		animation: 3s ease-in-out forwards fxFlair;
+		background: linear-gradient(
+			-45deg,
+			#1a1a1a 20%,
+			var(--blueCop),
+			var(--megaTrucker),
+			var(--megaAmbler),
+			var(--phoenixFire),
+			var(--shadowX),
+			var(--dexter),
+			var(--fletaZ),
+			var(--wildGuardy),
+			var(--buffaloCrush),
+			var(--busterGallon),
+			var(--blackHook),
+			#1a1a1a 80%
+		);
+		background-size: 350% 200%;
+		background-repeat: no-repeat;
+		background-color: #1a1a1a !important;
+	}
+	@keyframes fxFlair {
+		0% {
+			background-position: -100% 0%;
+		}
+		100% {
+			background-position: 200% 0%;
+		}
+	}
+
 	@media screen and (orientation: landscape) {
 		.fullscreenBtn {
 			bottom: 0px;
@@ -439,12 +475,19 @@
 			padding: 10px;
 			text-align: left;
 		}
-		.btnrow {
+		.btnrowScrollWrapper {
 			position: fixed;
-			bottom: calc(10px + var(--safe-area-inset-bottom, 0px));
-			right: 10px;
-			width: 100vw;
+			bottom: var(--safe-area-inset-bottom, 0px);
+			left: 0px;
+			overflow-y: auto;
 			z-index: 10;
+			width: 100%;
+			background-color: #444;
+		}
+		.btnrow {
+			margin-top: 0;
+			width: fit-content;
+			padding: 5px;
 		}
 	}
 	@media screen and (max-width: 900px) and (max-height: 500px) {

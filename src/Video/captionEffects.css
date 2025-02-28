@@ -36,8 +36,8 @@
 			var(--blueCop)
 		)
 		0 0 / var(--bg-size) 100%;
-	color: transparent;
-	font-weight: 500;
+	color: transparent !important;
+	font-weight: 500 !important;
 	background-clip: text;
 	-webkit-background-clip: text;
 	animation: animate 20s infinite linear;
@@ -49,7 +49,7 @@
 }
 
 .bold {
-	font-weight: bold;
+	font-weight: bold !important;
 }
 .italic {
 	font-style: italic;
@@ -132,7 +132,7 @@
 }
 
 .voice span {
-	color: var(--mukara);
+	color: var(--mukara) !important;
 	animation: voice 5s ease-in-out infinite;
 	font-style: italic;
 }
@@ -236,40 +236,40 @@
 
 /* Cardbots */
 .blueCop {
-	color: var(--blueCop);
+	color: var(--blueCop) !important;
 }
 .megaTrucker {
-	color: var(--megaTrucker);
+	color: var(--megaTrucker) !important;
 }
 .phoenixFire {
-	color: var(--phoenixFire);
+	color: var(--phoenixFire) !important;
 }
 .megaAmbler {
-	color: var(--megaAmbler);
+	color: var(--megaAmbler) !important;
 }
 .shadowX {
-	color: var(--shadowX);
+	color: var(--shadowX) !important;
 }
 .wildGuardy {
-	color: var(--wildGuardy);
+	color: var(--wildGuardy) !important;
 }
 .dexter {
-	color: var(--dexter);
+	color: var(--dexter) !important;
 }
 .fletaZ {
-	color: var(--fletaZ);
+	color: var(--fletaZ) !important;
 }
 .buffaloCrush {
-	color: var(--buffaloCrush);
+	color: var(--buffaloCrush) !important;
 }
 .busterGallon {
-	color: var(--busterGallon);
+	color: var(--busterGallon) !important;
 }
 .blackHook {
-	color: var(--blackHook);
+	color: var(--blackHook) !important;
 }
 .mukara {
-	color: var(--mukara);
+	color: var(--mukara) !important;
 }
 
 /* screenspace effects */
