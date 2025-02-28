@@ -163,4 +163,9 @@
 			min-width: 500px;
 		}
 	}
+	@media (prefers-color-scheme: light) {
+		hr {
+			border-color: #ccc;
+		}
+	}
 </style>

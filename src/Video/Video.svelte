@@ -529,5 +529,26 @@
 		.reportIssueBtn:hover {
 			background-color: #ccc;
 		}
+		.fxActive {
+			background: linear-gradient(
+				-45deg,
+				#f9f9f9 20%,
+				var(--blueCop),
+				var(--megaTrucker),
+				var(--megaAmbler),
+				var(--phoenixFire),
+				var(--shadowX),
+				var(--dexter),
+				var(--fletaZ),
+				var(--wildGuardy),
+				var(--buffaloCrush),
+				var(--busterGallon),
+				var(--blackHook),
+				#f9f9f9 80%
+			);
+			background-size: 350% 200%;
+			background-repeat: no-repeat;
+			background-color: #f9f9f9 !important;
+		}
 	}
 </style>

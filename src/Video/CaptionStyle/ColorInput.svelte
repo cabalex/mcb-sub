@@ -49,8 +49,7 @@
 		padding: 0;
 		align-self: center;
 		border-radius: 50%;
-		border: none;
-		border: none;
+		border: 1px solid #444;
 		cursor: pointer;
 	}
 	input {
