@@ -127,6 +127,7 @@
 	.captionPreview {
 		width: 100%;
 		min-height: 75px;
+		max-height: 75px;
 		display: flex;
 		justify-content: center;
 		align-items: center;

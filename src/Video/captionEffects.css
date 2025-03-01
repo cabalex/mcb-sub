@@ -125,6 +125,12 @@
 .shakexxl.ua span {
 	animation: shakexxl calc(var(--random-length, 1) * 0.1) infinite, animate 20s infinite linear;
 }
+.xl span {
+	font-size: 1.5em;
+}
+.xxl span {
+	font-size: 2em;
+}
 
 .sarcasm span {
 	font-style: italic;
@@ -232,6 +238,25 @@
 		font-weight: bold;
 		font-size: 1.2em;
 	}
+}
+
+.youHumans .word:last-child span {
+	animation: shakexl 0.2s linear infinite;
+	color: var(--phoenixFire) !important;
+	font-weight: bold;
+	font-size: 1.5em;
+	animation-fill-mode: both;
+	font-family: monospace;
+}
+
+.blueShine span {
+	--bg-size: 2000%;
+	background: linear-gradient(45deg, var(--blueCop) 20%, white, var(--blueCop) 80%) 0 0 /
+		var(--bg-size) 100%;
+	color: transparent !important;
+	background-clip: text;
+	-webkit-background-clip: text;
+	animation: animate 40s infinite linear;
 }
 
 /* Cardbots */
