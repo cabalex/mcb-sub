@@ -21,6 +21,7 @@
 		document.title = pageTitle;
 		document.querySelector("meta[property='og:title']")?.setAttribute('content', pageTitle);
 		document.querySelector("meta[property='og:description']")?.setAttribute('content', description);
+		document.querySelector("meta[name='description']")?.setAttribute('content', description);
 		document
 			.querySelector("meta[property='og:image']")
 			?.setAttribute('content', `https://img.youtube.com/vi/${video.id}/maxresdefault.jpg`);
@@ -37,6 +38,9 @@
 		document
 			.querySelector("meta[property='og:image']")
 			?.setAttribute('content', 'https://i.ytimg.com/vi/1Q3m1V59Lfg/maxresdefault.jpg');
+		document
+			.querySelector("meta[name='description']")
+			?.setAttribute('content', 'Watch Metal Cardbot with English subtitles');
 	}
 
 	let urlParams = new URLSearchParams(window.location.search);
