@@ -78,7 +78,8 @@ const subtitles: Season[] = [
 			{ name: 'Reunion with Gigantrex!', id: 'Rw06vJ8OJIg' },
 			{ name: 'The Greatest Power Awakens!', id: 'sy7IirZENS8', fx: true },
 			{ name: "Red Blitz's Sincerity", id: '2ix1fypVifg', fx: true },
-			{ name: "Can't Stop!", id: 'pw70mJ0vwZU' }
+			{ name: "Can't Stop!", id: 'pw70mJ0vwZU' },
+			{ name: 'Catch Me! Outlaw of the Sea!', id: 'Ini9Ziuhz_M' }
 		]
 	}
 ].map((season) => {
@@ -111,7 +112,10 @@ export const translationNotes: { [key: string]: { [key: string]: string } } = {
             <p>Throughout Season 2, we use they/it to refer to Cielo, since staff working on the show have said <a href="https://x.com/blue_audax/status/1821548930016170271" target="_blank">"there are no female robots in Season 2"</a>. Though Cielo has a female voice actor and Cardbots are inherently genderless, they often take on masculine appearances and pronouns; all Season 1 Cardbots are referred to as "he/it" in the English dub.</p>
             <p>While there is a discussion to be had about gender bias in the mecha genre as a whole, we'll be using these pronouns to stay true to the creators' intent.</p>`,
 		Y6ORwgjJcIw: `<p>Throughout the episode, the phrase "수단과 방법을 가려서은 안 된다" (<i>sudangwa bangbeob-eul galyeoseoeun an doenda</i>) is used by Red Blitz, Musclehyde, and Jun to mean "You must not be picky about the means and methods".</p>
-            <p>In this fansub, we have translated it as "By any means necessary", but @staro_sphere also suggested "We must leave no stone unturned" as an alternative.</p>`
+            <p>In this fansub, we have translated it as "By any means necessary", but @staro_sphere also suggested "We must leave no stone unturned" as an alternative.</p>`,
+		Ini9Ziuhz_M: `<p>Jun eventually suggests the operation "거대상어 외주일 낚시!" (<i>geodaesang-eo oeju-il nakksi</i>), which @staro_sphere more directly translated as "Giant Shark Outrigger Fishing". We changed this to "Hook, Line, and Sinker!" to maintain the spirit of the original line while making it more understandable for general audiences.</p>
+			<p>And yes, Musclehyde's Crane "Bhuh" is the official translation of his Weapon Card (크레인 부지), as seen in his <a href="https://youtu.be/zTbADlD9ftA?t=205" target="_blank">introduction video</a>. It would make more sense for it to be Crane Site (as 부지 directly means "construction site"), but maybe they translated it this way because bhuh might mean ground in Hindi or something? We're not sure. Maybe it's a pun!</p>
+			<p>...also, @PalmtreePanic may have made Red Blitz's cursing fish related. 🦐</p>`
 	}
 };
 

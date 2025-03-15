@@ -221,9 +221,10 @@
 
 	let showTranslationNotes = false;
 	let showCaptionStyle = false;
-	let captionStyle: CaptionStyle = JSON.parse(
-		localStorage.getItem('mcb-captionStyle') ?? JSON.stringify(defaultStyle)
-	);
+	let captionStyle: CaptionStyle = {
+		...defaultStyle,
+		...JSON.parse(localStorage.getItem('mcb-captionStyle') ?? JSON.stringify(defaultStyle))
+	};
 </script>
 
 <div class="video" class:fullscreen bind:this={videoElem}>
@@ -483,6 +484,9 @@
 			z-index: 10;
 			width: 100%;
 			background-color: #444;
+		}
+		.video.fullscreen .btnrowScrollWrapper {
+			display: none;
 		}
 		.btnrow {
 			margin-top: 0;

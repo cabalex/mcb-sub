@@ -148,9 +148,11 @@
 }
 .subtitleArea:has(.flipped) {
 	align-items: flex-start !important;
+	top: min(50%, calc(17px + var(--bottomOffset, 0px))) !important;
+	height: auto !important;
 }
 .subtitleArea.hover:has(.flipped) {
-	top: 70px !important;
+	top: min(50%, calc(70px + var(--bottomOffset, 0px))) !important;
 }
 
 @keyframes sarcasm {
@@ -257,6 +259,27 @@
 	background-clip: text;
 	-webkit-background-clip: text;
 	animation: animate 40s infinite linear;
+}
+.changeFail {
+	background-color: transparent !important;
+}
+.changeFail > * {
+	transform: rotate(5deg);
+	background-color: black;
+	color: var(--redBlitz) !important;
+	z-index: 1;
+	font-size: 1.5em;
+}
+.changeFail span {
+	background-color: transparent;
+}
+
+.changeFail:before {
+	content: 'Metal Cardbot! Change Up!';
+	background-color: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	bottom: 0;
+	padding: 0 0.25ch;
 }
 
 /* Cardbots */

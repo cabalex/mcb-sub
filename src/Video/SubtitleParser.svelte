@@ -45,7 +45,7 @@
 </script>
 
 {#if currentSubtitle}
-	<div class="subtitleArea" class:hover>
+	<div class="subtitleArea" class:hover style="--bottomOffset: {captionStyle.offsetPosition}px">
 		{#if currentSubtitle.text.includes(' (FX-')}
 			<CaptionEffect
 				disabled={!captionStyle.fxEnabled}
@@ -74,7 +74,7 @@
 <style>
 	.subtitleArea {
 		position: absolute;
-		bottom: 17px;
+		bottom: calc(17px + var(--bottomOffset, 0px));
 		left: 0;
 		width: 100%;
 		height: calc(100% - 20px);
@@ -88,7 +88,7 @@
 			top 0.1s ease-in-out;
 	}
 	.subtitleArea.hover {
-		bottom: 70px;
+		bottom: calc(70px + var(--bottomOffset, 0px));
 	}
 	.subtitle {
 		max-width: 80%;
