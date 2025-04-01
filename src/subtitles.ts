@@ -80,7 +80,8 @@ const subtitles: Season[] = [
 			{ name: "Red Blitz's Sincerity", id: '2ix1fypVifg', fx: true },
 			{ name: "Can't Stop!", id: 'pw70mJ0vwZU' },
 			{ name: 'Catch Me! Outlaw of the Sea!', id: 'Ini9Ziuhz_M' },
-			{ name: 'Help Me, Deep Bite!', id: 'ZdEtjdIbBh4' }
+			{ name: 'Help Me, Deep Bite!', id: 'ZdEtjdIbBh4' },
+			{ name: 'Pure White Wings, Sky Gallop', id: '2nPc20St3us' }
 		]
 	}
 ].map((season) => {

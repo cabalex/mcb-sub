@@ -58,6 +58,12 @@
 
 	$: subtitleStyles = applyStyle(captionStyle);
 	$: wordStyles = applyWordStyle(captionStyle);
+
+	let aprilFools = document.body.classList.contains('april-fools');
+	function removeAprilFools() {
+		document.body.classList.remove('april-fools');
+		aprilFools = false;
+	}
 </script>
 
 <!-- svelte-ignore a11y-no-static-element-interactions -->
@@ -121,6 +127,10 @@
 			<option value="0.7">70%</option>
 			<option value="1">100%</option>
 		</SelectNumberInput>
+		{#if aprilFools}
+			<hr />
+			<button class="april-fools-disable" on:click={removeAprilFools}> 🎉 April Fools! </button>
+		{/if}
 		<div class="btnrow">
 			<button
 				disabled={isDefault}
@@ -134,6 +144,16 @@
 </div>
 
 <style>
+	.april-fools-disable {
+		font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+		background-color: var(--blueCop);
+		transition: all 0.2s ease-in-out;
+		color: white;
+		border-radius: 100px;
+	}
+	.april-fools-disable:hover {
+		background-color: var(--redBlitz);
+	}
 	.captionPreview {
 		width: 100%;
 		min-height: 75px;
