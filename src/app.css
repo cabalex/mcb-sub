@@ -1,7 +1,7 @@
 /* April fools! */
 @font-face {
 	font-family: 'Mowtown Body';
-	src: url(./MowtownBody.otf?inline) format('opentype');
+	src: url(./assets/MowtownBody.otf) format('opentype');
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
