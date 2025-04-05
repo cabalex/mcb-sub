@@ -242,6 +242,73 @@
 	}
 }
 
+.glitch span {
+	animation-delay: var(--random-length) !important;
+	animation: glitch var(--random-length) linear infinite;
+	color: var(--redBlitz) !important;
+	animation-fill-mode: both;
+	font-family: monospace;
+	filter: drop-shadow(0 0 5px var(--blueCop));
+}
+.glitch span:after {
+	content: attr(data-text);
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	opacity: 0.5;
+	animation-delay: var(--random-length) !important;
+	animation: glitch calc(var(--random-length) * 1.1) linear infinite;
+	color: var(--phoenixFire) !important;
+}
+
+@keyframes glitch {
+	0% {
+		transform: translate(0);
+	}
+	10% {
+		transform: translate(5%, -5%);
+	}
+	20% {
+		transform: translate(-5%, 5%);
+	}
+	29% {
+		transform: translate(-5%, -5%);
+	}
+	30% {
+		transform: translate(5%, -5%) rotate(180deg);
+		content: '1';
+	}
+	39% {
+		transform: translate(5%, -5%) rotate(180deg);
+		content: '0';
+		font-weight: bold;
+	}
+	40% {
+		transform: translate(-5%, 5%);
+	}
+	50% {
+		transform: translate(5%, -5%);
+	}
+	60% {
+		transform: translate(-5%, 5%);
+	}
+	70% {
+		transform: translate(5%, -5%);
+	}
+	80% {
+		transform: translate(-5%, 5%);
+	}
+	90% {
+		transform: translate(5%, -5%);
+	}
+	100% {
+		transform: translate(0);
+	}
+}
+
 .youHumans .word:last-child span {
 	animation: shakexl 0.2s linear infinite;
 	color: var(--phoenixFire) !important;

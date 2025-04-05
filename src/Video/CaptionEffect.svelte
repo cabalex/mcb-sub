@@ -17,10 +17,12 @@
 		{@const wordOffset = parts.slice(0, i).join(' ').length}
 		<div
 			class="word"
+			data-text={word}
 			style={`--offset: ${wordOffset * 0.52}s; animation-delay: -${wordOffset * 0.52}s`}
 		>
 			{#each word.split('') as letter, j}
 				<span
+					data-text={letter}
 					style={`--random-length: ${Math.random()}s; animation-delay: -${((wordOffset + j) * 0.52) % 5}s`}
 					>{letter}</span
 				>
