@@ -248,7 +248,6 @@
 	color: var(--redBlitz) !important;
 	animation-fill-mode: both;
 	font-family: monospace;
-	filter: drop-shadow(0 0 5px var(--blueCop));
 }
 .glitch span:after {
 	content: attr(data-text);

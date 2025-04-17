@@ -82,7 +82,8 @@ const subtitles: Season[] = [
 			{ name: 'Catch Me! Outlaw of the Sea!', id: 'Ini9Ziuhz_M' },
 			{ name: 'Help Me, Deep Bite!', id: 'ZdEtjdIbBh4' },
 			{ name: 'Pure White Wings, Sky Gallop', id: '2nPc20St3us' },
-			{ name: 'Midnight Ghost Train', id: 'r2W9OkNQjIQ', fx: true }
+			{ name: 'Midnight Ghost Train', id: 'r2W9OkNQjIQ', fx: true },
+			{ name: 'Runaway Locomotive Blastrain', id: 'ERhxa8LiPmw' }
 		]
 	}
 ].map((season) => {
