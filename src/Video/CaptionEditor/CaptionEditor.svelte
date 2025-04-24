@@ -378,6 +378,7 @@
 				<span class="reversed">
 					{#each customLines.slice(0, lenEnds) as line, i}
 						{@const start = line.start}
+						{@const end = line.end}
 						<div
 							class="line"
 							class:active={currentTime > (line.start ?? 0) && currentTime < (line.end ?? Infinity)}
@@ -394,12 +395,23 @@
 								</div>
 							{/if}
 							<textarea bind:value={line.text} />
-							<button
-								class={'setEnd ' + lengthWarning((line.end ?? 0) - (line.start ?? 0), line.text)}
-								style="padding: 0.6em"
-								on:click={() => setEnd(i, getTime())}>{toTime(line.end)}</button
-							>
-							{#if i < lenStarts - 1}
+							{#if i < lenStarts - 1 && end !== null}
+								<div class="timeLayout">
+									<button
+										class={'setEnd ' +
+											lengthWarning((line.end ?? 0) - (line.start ?? 0), line.text)}
+										style="border-radius: 5px 0 0 0"
+										on:click={() => setEnd(i, getTime())}>{toTime(line.end)}</button
+									>
+									<div class="btnrow">
+										<button class="backTime" on:click={() => setEnd(i, end - 0.1)}>-.1s</button>
+										<button
+											class="fwdTime"
+											style="border-radius: 0px"
+											on:click={() => setEnd(i, end + 0.1)}>+.1s</button
+										>
+									</div>
+								</div>
 								<button
 									disabled={line.end === customLines[i + 1].start}
 									class="primary toNext"

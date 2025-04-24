@@ -83,7 +83,8 @@ const subtitles: Season[] = [
 			{ name: 'Help Me, Deep Bite!', id: 'ZdEtjdIbBh4' },
 			{ name: 'Pure White Wings, Sky Gallop', id: '2nPc20St3us' },
 			{ name: 'Midnight Ghost Train', id: 'r2W9OkNQjIQ', fx: true },
-			{ name: 'Runaway Locomotive Blastrain', id: 'ERhxa8LiPmw' }
+			{ name: 'Runaway Locomotive Blastrain', id: 'ERhxa8LiPmw' },
+			{ name: 'Exclusive! Steel Interview', id: 'AC1GDGiJ3hA' }
 		]
 	}
 ].map((season) => {
