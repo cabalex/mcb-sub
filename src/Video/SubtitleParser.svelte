@@ -11,6 +11,7 @@
 	export let target: any;
 	export let hover: boolean;
 	export let captionStyle: CaptionStyle;
+	export let bilingual: boolean = false;
 
 	let currentSubtitle: (typeof subtitles)[number] | null = null;
 
@@ -45,7 +46,7 @@
 </script>
 
 {#if currentSubtitle}
-	<div class="subtitleArea" class:hover style="--bottomOffset: {captionStyle.offsetPosition}px">
+	<div class="subtitleArea" class:bilingual class:hover style="--bottomOffset: {captionStyle.offsetPosition}px">
 		{#if currentSubtitle.text.includes(' (FX-')}
 			<CaptionEffect
 				disabled={!captionStyle.fxEnabled}
@@ -54,6 +55,35 @@
 				text={currentSubtitle.text.split(' (FX-')[0]}
 				effect={currentSubtitle.text.split(' (FX-')[1].split(')')[0]}
 			/>
+		{:else if bilingual}
+			{@const parts = currentSubtitle.text.split(" / ")}
+			<div
+				class="subtitle"
+				style={subtitleStyles}
+				class:needsFixing={parts[0].includes('FIX_THIS')}
+			>
+				{#each parts[0].replace(' (FIX_THIS)', '').split(/[ \n]/) as word}
+					<span style={wordStyles}>{word}</span>
+					{#if currentSubtitle.text.includes(word + '\n')}
+						<span style={wordStyles} class="newline"></span>
+					{/if}
+				{/each}
+			</div>
+			{#if parts.length > 1}
+			<div style="flex-grow: 1"></div>
+			<div
+				class="subtitle"
+				style={"font-style: italic; " + subtitleStyles}
+				class:needsFixing={parts[1].includes('FIX_THIS')}
+			>
+				{#each parts[1].replace(' (FIX_THIS)', '').split(/[ \n]/) as word}
+					<span style={wordStyles}>{word}</span>
+					{#if currentSubtitle.text.includes(word + '\n')}
+						<span style={wordStyles} class="newline"></span>
+					{/if}
+				{/each}
+			</div>
+			{/if}
 		{:else}
 			<div
 				class="subtitle"
@@ -77,18 +107,21 @@
 		bottom: calc(17px + var(--bottomOffset, 0px));
 		left: 0;
 		width: 100%;
-		height: calc(100% - 20px);
+		height: calc(100% - calc(calc(17px + var(--bottomOffset, 0px))) * 2);
 		color: white;
 		pointer-events: none;
 		display: flex;
-		justify-content: center;
-		align-items: flex-end;
+		flex-direction: column;
+		justify-content: flex-end;
+		align-items: center;
 		transition:
 			bottom 0.1s ease-in-out,
-			top 0.1s ease-in-out;
+			top 0.1s ease-in-out,
+			height 0.1s ease-in-out;
 	}
 	.subtitleArea.hover {
 		bottom: calc(70px + var(--bottomOffset, 0px));
+		height: calc(100% - calc(calc(70px + var(--bottomOffset, 0px))) * 2);
 	}
 	.subtitle {
 		max-width: 80%;

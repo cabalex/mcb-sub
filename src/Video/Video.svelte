@@ -255,7 +255,7 @@
 				}}
 			/>
 			{#if target && $editor === null}
-				<SubtitleParser {captionStyle} subtitles={subs} {target} {hover} />
+				<SubtitleParser {captionStyle} subtitles={subs} {target} {hover} bilingual={$video.label === "OP"} />
 			{/if}
 			<button class="fullscreenBtn" on:click={toggleFullscreen} class:visible={hover}>
 				{#if fullscreen}
