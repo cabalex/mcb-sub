@@ -85,7 +85,8 @@ const subtitles: Season[] = [
 			{ name: 'Pure White Wings, Sky Gallop', id: '2nPc20St3us' },
 			{ name: 'Midnight Ghost Train', id: 'r2W9OkNQjIQ', fx: true },
 			{ name: 'Runaway Locomotive Blastrain', id: 'ERhxa8LiPmw' },
-			{ name: 'Exclusive! Steel Interview', id: 'AC1GDGiJ3hA' }
+			{ name: 'Exclusive! Steel Interview', id: 'AC1GDGiJ3hA' },
+			{ name: 'Fair and Square! Vector and Bit Brothers', id: 'nr8xAuarerk' }
 		]
 	}
 ].map((season) => {

@@ -395,7 +395,7 @@
 								</div>
 							{/if}
 							<textarea bind:value={line.text} />
-							{#if i < lenStarts - 1 && end !== null}
+							{#if end !== null}
 								<div class="timeLayout">
 									<button
 										class={'setEnd ' +
@@ -412,6 +412,7 @@
 										>
 									</div>
 								</div>
+								{#if i < lenStarts - 1}
 								<button
 									disabled={line.end === customLines[i + 1].start}
 									class="primary toNext"
@@ -422,6 +423,7 @@
 								>
 									➡️
 								</button>
+								{/if}
 							{/if}
 						</div>
 					{/each}
@@ -443,7 +445,7 @@
 						{@const start = line.start}
 						{@const end = line.end}
 						<div
-							class="line addBelow"
+							class="line addAbove"
 							class:active={start !== null &&
 								currentTime > start &&
 								end !== null &&
@@ -482,7 +484,7 @@
 									➡️
 								</button>
 							{/if}
-							<button class="addBelow" on:click={() => addLineBelow(i)}>+ Add line below</button>
+							<button class="addAbove" on:click={() => addLineBelow(i)}>+ Add line</button>
 						</div>
 					{/each}
 				</span>
@@ -574,21 +576,21 @@
 	.line button.setEnd {
 		border-radius: 5px 0 0 5px;
 	}
-	.line.addBelow {
+	.line.addAbove {
 		margin-bottom: 16px;
 		position: relative;
 		overflow: unset;
-		border-radius: 5px 5px 0 0;
+		border-radius: 0 0 5px 5px;
 	}
-	.line.addBelow button.addBelow {
+	.line.addAbove button.addAbove {
 		position: absolute;
-		top: 100%;
+		bottom: 100%;
 		left: -1px;
 		width: calc(100% + 2px);
 		height: 16px;
 		font-size: 10px;
 		padding: 0;
-		border-radius: 0 0 5px 5px;
+		border-radius: 5px 5px 0 0;
 		z-index: 1;
 	}
 	.lines {

@@ -6,19 +6,31 @@
 	export let subtitleStyles = '';
 	export let wordStyles = '';
 
+	function useBackground(effect: string) {
+		const nonBgEffects = ['bold', 'italic', 'xl', 'xxl'];
+		for (const fx of effect.split(' ')) {
+			if (!nonBgEffects.includes(fx)) {
+				return true;
+			}
+		}
+		return false;
+	}
+	$: background = useBackground(effect);
+
 	$: parts = text.split(/[ \n]/);
 </script>
 
 <div
 	class={'subtitle ' + (disabled ? '' : effect)}
-	style={`--random-length: ${Math.random()}s; ${subtitleStyles}; ${wordStyles}`}
+	class:useBackground={background}
+	style={`--random-length: ${Math.random()}s; ${subtitleStyles}; ${background ? wordStyles : ''}`}
 >
 	{#each parts as word, i}
 		{@const wordOffset = parts.slice(0, i).join(' ').length}
 		<div
 			class="word"
 			data-text={word}
-			style={`--offset: ${wordOffset * 0.52}s; animation-delay: -${wordOffset * 0.52}s`}
+			style={`--offset: ${wordOffset * 0.52}s; animation-delay: -${wordOffset * 0.52}s; ${!background ? wordStyles : ''}`}
 		>
 			{#each word.split('') as letter, j}
 				<span
@@ -39,7 +51,6 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 24px;
-		background-color: rgba(0, 0, 0, 0.7);
 	}
 	.subtitle .word {
 		display: inline-block;
@@ -47,6 +58,9 @@
 	}
 	.subtitle span {
 		display: inline-block;
+	}
+	.useBackground, .subtitle:not(.useBackground) .word {
+		background-color: rgba(0, 0, 0, 0.7);
 	}
 	@media screen and (max-width: 700px) {
 		.subtitle {
