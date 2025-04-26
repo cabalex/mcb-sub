@@ -26,9 +26,9 @@
 		if (target === e.detail.target) return;
 		target = e.detail.target;
 		console.log('Playing', e.detail.target);
-		console.log(e.detail.target.getOption('captions', 'track'));
-		e.detail.target.setOption('captions', 'track', { languageCode: 'ko' });
-		console.log(e.detail.target.getOption('captions', 'track'));
+		//console.log(e.detail.target.getOption('captions', 'track'));
+		//e.detail.target.setOption('captions', 'track', { languageCode: 'ko' });
+		//console.log(e.detail.target.getOption('captions', 'track'));
 		hover = true;
 		timeout = setTimeout(() => (hover = false), 3000);
 	}
@@ -258,7 +258,6 @@
 						fs: 0,
 						playsinline: 1,
 						rel: 0,
-						au_d: 'ko'
 					}
 				}}
 			/>
