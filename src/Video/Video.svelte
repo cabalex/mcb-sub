@@ -100,23 +100,31 @@
 	}
 
 	let videoElem: HTMLDivElement;
-	function toggleFullscreen() {
+	// requestFullscreen is not supported on iOS. (it is supported on iPad >:( )
+	let fakeFullscreen = false;
+	async function toggleFullscreen() {
 		shownFullscreenTooltip();
 		if (fullscreen) {
-			document.exitFullscreen();
+			if (!fakeFullscreen) document.exitFullscreen();
 			fullscreen = false;
+			fakeFullscreen = false;
 			try {
 				screen.orientation.unlock();
 			} catch (e) {
 				// Locking not supported
 			}
 		} else {
-			videoElem.requestFullscreen();
-			fullscreen = true;
 			try {
-				screen.orientation.lock('landscape');
+				await videoElem.requestFullscreen();
+				fullscreen = true;
+				try {
+					screen.orientation.lock('landscape');
+				} catch (e) {
+					// Locking not supported
+				}
 			} catch (e) {
-				// Locking not supported
+				fullscreen = true;
+				fakeFullscreen = true;
 			}
 		}
 	}
@@ -227,7 +235,7 @@
 	};
 </script>
 
-<div class="video" class:fullscreen bind:this={videoElem}>
+<div class="video" class:fullscreen class:fakeFullscreen bind:this={videoElem}>
 	{#if $video}
 		<!-- svelte-ignore a11y-no-static-element-interactions -->
 		<div
@@ -338,6 +346,10 @@
 	<CaptionStyleModal bind:showCaptionStyle bind:captionStyle />
 {/if}
 
+<svelte:body
+	on:fullscreenchange={() => (fullscreen = document.fullscreenElement !== null)}
+/>
+
 <style>
 	.video {
 		position: relative;
@@ -348,6 +360,25 @@
 		align-items: center;
 		justify-content: center;
 		flex-direction: column;
+	}
+	.fakeFullscreen {
+		position: fixed;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		z-index: 100;
+		background-color: black;
+		overflow: hidden;
+	}
+	:global(body:has(.fakeFullscreen)) {
+		overflow: hidden;
+		margin: 0;
+		margin-top: 1px;
+		padding: 0;
+		border: 0;
+		width: 100%;
+		height: 100%;
 	}
 	.videoInner {
 		max-width: calc(16 / 9 * 100vh);
