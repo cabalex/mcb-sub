@@ -86,7 +86,8 @@ const subtitles: Season[] = [
 			{ name: 'Midnight Ghost Train', id: 'r2W9OkNQjIQ', fx: true },
 			{ name: 'Runaway Locomotive Blastrain', id: 'ERhxa8LiPmw' },
 			{ name: 'Exclusive! Steel Interview', id: 'AC1GDGiJ3hA' },
-			{ name: 'Fair and Square! Vector and Bit Brothers', id: 'nr8xAuarerk' }
+			{ name: 'Fair and Square! Vector and Bit Brothers', id: 'nr8xAuarerk' },
+			{ name: 'The True Master of the Metal Breath', id: 'wbj59CLjZuA' }
 		]
 	}
 ].map((season) => {
@@ -114,7 +115,7 @@ export const translationNotes: { [key: string]: { [key: string]: string } } = {
         <p><b>Metal Cardbot is property of SAMG/Navy, and I do not claim any right to anything streamed on this website</b> (with the exception of the fan subtitles, which were created by myself and other fans of the series). Please support the series and its creators!</p>`
 	},
 	'/fansub': {
-		KmHp3PSBHXM: `<p>At the flashback beginning at 3:09, Black Hook insults Heavy Iron, causing them to fight. The literal translation is along the lines of "What did you say, you shooting-star-sized eyes?!" (meaning "small eyes"), which doesn't make much sense in English. We changed it to "Does this weird-eyed guy have something to say about me?".</p>
+		KmHp3PSBHXM: `<p>At the flashback beginning at <span class="timestamp">3:09</span>, Black Hook insults Heavy Iron, causing them to fight. The literal translation is along the lines of "What did you say, you shooting-star-sized eyes?!" (meaning "small eyes"), which doesn't make much sense in English. We changed it to "Does this weird-eyed guy have something to say about me?".</p>
             <h2>About the genders of Cardbots</h2>
             <p>Throughout Season 2, we use they/it to refer to Cielo, since staff working on the show have said <a href="https://x.com/blue_audax/status/1821548930016170271" target="_blank">"there are no female robots in Season 2"</a>. Though Cielo has a female voice actor and Cardbots are inherently genderless, they often take on masculine appearances and pronouns; all Season 1 Cardbots are referred to as "he/it" in the English dub.</p>
             <p>While there is a discussion to be had about gender bias in the mecha genre as a whole, we'll be using these pronouns to stay true to the creators' intent.</p>`,
@@ -122,7 +123,9 @@ export const translationNotes: { [key: string]: { [key: string]: string } } = {
             <p>In this fansub, we have translated it as "By any means necessary", but @staro_sphere also suggested "We must leave no stone unturned" as an alternative.</p>`,
 		Ini9Ziuhz_M: `<p>Jun eventually suggests the operation "거대상어 외주일 낚시!" (<i>geodaesang-eo oeju-il nakksi</i>), which @staro_sphere more directly translated as "Giant Shark Outrigger Fishing". We changed this to "Hook, Line, and Sinker!" to maintain the spirit of the original line while making it more understandable for general audiences.</p>
 			<p>And yes, Musclehyde's Crane "Bhuh" is the official translation of his Weapon Card (크레인 부지), as seen in his <a href="https://youtu.be/zTbADlD9ftA?t=205" target="_blank">introduction video</a>. It would make more sense for it to be Crane Site (as 부지 directly means "construction site"), but maybe they translated it this way because bhuh might mean ground in Hindi or something? We're not sure. Maybe it's a pun!</p>
-			<p>...also, @PalmtreePanic may have made Red Blitz's cursing fish related. 🦐</p>`
+			<p>...also, @PalmtreePanic may have made Red Blitz's cursing fish related. 🦐</p>`,
+		wbj59CLjZuA: `<p><span class="timestamp">2:51</span> - Blue Cop's line means something along the lines of "Glober makes you so charmed/entranced that you let him go off and take control of the conversation". We found "caught up by his words" to be the best way to convey this, but it's still not great.</p>
+			<p><span class="timestamp">4:56</span> - This line is a general joke/pun making fun of Red Blitz's Crimson Kick. @staro_sphere suggested "red roly poly kick", but it's probably closer to a more silly version of "storm kick". There is probably a more accurate translation of this line possible, but... 🦐</p>`
 	}
 };
 

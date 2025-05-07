@@ -151,6 +151,14 @@ button:disabled {
 	line-height: 1.5;
 	flex-grow: 1;
 }
+.modalContent .timestamp {
+	font-weight: bold;
+	color: #aaa;
+	cursor: pointer;
+}
+.modalContent .timestamp:hover {
+	text-decoration: underline;
+}
 .notice {
 	border: 1px solid orange;
 	background-color: rgba(255, 165, 0, 0.1);

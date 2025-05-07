@@ -227,6 +227,30 @@
 	}
 	$: getScreenspaceEffect(target);
 
+	$: {
+		if (
+			$source !== null &&
+			'path' in $source &&
+			$video !== null &&
+			translationNotes[$source.path] &&
+			translationNotes[$source.path][$video.id] &&
+			showTranslationNotes
+		) {
+			setTimeout(() => {
+				// Set .timestamp jump events
+				const timestamps = document.querySelectorAll('.timestamp');
+				timestamps.forEach((timestamp) => {
+					timestamp.addEventListener('click', (e) => {
+						e.stopPropagation();
+						const time = parseTimestamp('0:' + timestamp.innerText);
+						if (isNaN(time)) return;
+						if (target) target.seekTo(time);
+					});
+				});
+			}, 0);
+		}
+	}
+
 	let showTranslationNotes = false;
 	let showCaptionStyle = false;
 	let captionStyle: CaptionStyle = {
@@ -257,12 +281,18 @@
 						autoplay: 1,
 						fs: 0,
 						playsinline: 1,
-						rel: 0,
+						rel: 0
 					}
 				}}
 			/>
 			{#if target && $editor === null}
-				<SubtitleParser {captionStyle} subtitles={subs} {target} {hover} bilingual={$video.label === "OP"} />
+				<SubtitleParser
+					{captionStyle}
+					subtitles={subs}
+					{target}
+					{hover}
+					bilingual={$video.label === 'OP'}
+				/>
 			{/if}
 			<button class="fullscreenBtn" on:click={toggleFullscreen} class:visible={hover}>
 				{#if fullscreen}
@@ -345,9 +375,7 @@
 	<CaptionStyleModal bind:showCaptionStyle bind:captionStyle />
 {/if}
 
-<svelte:body
-	on:fullscreenchange={() => (fullscreen = document.fullscreenElement !== null)}
-/>
+<svelte:body on:fullscreenchange={() => (fullscreen = document.fullscreenElement !== null)} />
 
 <style>
 	.video {
