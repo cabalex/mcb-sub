@@ -87,7 +87,8 @@ const subtitles: Season[] = [
 			{ name: 'Runaway Locomotive Blastrain', id: 'ERhxa8LiPmw' },
 			{ name: 'Exclusive! Steel Interview', id: 'AC1GDGiJ3hA' },
 			{ name: 'Fair and Square! Vector and Bit Brothers', id: 'nr8xAuarerk' },
-			{ name: 'The True Master of the Metal Breath', id: 'wbj59CLjZuA' }
+			{ name: 'The True Master of the Metal Breath', id: 'wbj59CLjZuA' },
+			{ name: 'Glober\'s Last Stand', id: 'xJbp4uef1ro' }
 		]
 	}
 ].map((season) => {
