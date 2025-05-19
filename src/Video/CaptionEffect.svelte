@@ -35,7 +35,7 @@
 			{#each word.split('') as letter, j}
 				<span
 					data-text={letter}
-					style={`--random-length: ${Math.random()}s; animation-delay: -${((wordOffset + j) * 0.52) % 5}s`}
+					style={`--random-length: ${Math.random()}s; --offset: ${((wordOffset + j) * 0.52) % 5}s; animation-delay: -${((wordOffset + j) * 0.52) % 5}s`}
 					>{letter}</span
 				>
 			{/each}
@@ -59,7 +59,8 @@
 	.subtitle span {
 		display: inline-block;
 	}
-	.useBackground, .subtitle:not(.useBackground) .word {
+	.useBackground,
+	.subtitle:not(.useBackground) .word {
 		background-color: rgba(0, 0, 0, 0.7);
 	}
 	@media screen and (max-width: 700px) {

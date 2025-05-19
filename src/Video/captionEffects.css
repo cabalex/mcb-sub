@@ -138,8 +138,9 @@
 }
 
 .voice span {
+	animation-delay: calc(var(--offset) / 4) !important;
 	color: var(--mukara) !important;
-	animation: voice 5s ease-in-out infinite;
+	animation: voice 1s ease-in-out infinite;
 	font-style: italic;
 }
 
@@ -169,13 +170,19 @@
 
 @keyframes voice {
 	0% {
+		transform: translateY(0);
+	}
+	25% {
 		transform: translateY(-2%);
 	}
 	50% {
+		transform: translateY(0%);
+	}
+	75% {
 		transform: translateY(2%);
 	}
 	100% {
-		transform: translateY(-2%);
+		transform: translateY(0%);
 	}
 }
 
