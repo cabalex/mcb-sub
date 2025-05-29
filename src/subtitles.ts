@@ -14,52 +14,80 @@ const subtitles: Season[] = [
 						name: 'SAMG Entertainment',
 						link: 'https://www.mewatch.sg/show/Metal-Cardbot-(Dual-Sound)-486086'
 					}
+				],
+				episodes: [
+					{ name: 'Opening', id: '1070bnqHcHY', label: 'OP' },
+					{ name: 'Mystery of the Police Car Robot!', id: 'ZLcqsmPCHLY' },
+					{ name: 'The Dancing Dump Truck', id: '3ElOpqFXaSU' },
+					{ name: 'Farewell, Blue Cop', id: '5RCpJwrhkrs' },
+					{ name: 'The Black Ambulance', id: '52W_cb1f1ao' },
+					{ name: 'Fire Truck With a Phobia', id: 'c_CdqDAyGqI' },
+					{ name: 'The Invisible Challenger', id: 'YGHc9jfOsb0' },
+					{ name: 'Defeating the Heli-Tornado', id: 'ksRW6iMADzQ' },
+					{ name: 'The Secret is Out!', id: 'jzz3UOpvuV0' },
+					{ name: '0 Seconds to Destruction', id: 'rkhiv9q4FJw' },
+					{ name: 'Attack of the Final Boss!', id: '1lqFbWgblmk' },
+					{ name: 'The Mysterious Transfer Student', id: 'sfh5bi5Njtc' },
+					{ name: "Blue Cop's Special Training!", id: 'aU5wLVRQIWQ' },
+					{ name: 'Guardian of the Forest', id: 'PkNgHFctIIg' },
+					{ name: 'Operation Underground Battle', id: '5igwoiB4sAE' },
+					{ name: 'A Metal Cardbot from the Sky!', id: '8wpIPp7c094' },
+					{ name: 'The Vagabond in the Sky', id: '4kAhVJnzL9w' },
+					{ name: 'Showdown Between Blue Cop and Wild Guardy!', id: 't5_mM9bdq00' },
+					{ name: 'The Great Showdown! Giant VS Giant!', id: 'ScF3TTBBfyo' },
+					{ name: 'The Hungry Metal Cardbot', id: 'hOeQeLZ4ccg' },
+					{ name: 'Metal Breath Gets Stolen', id: 'jk6TC3f6Uls' },
+					{ name: "Anna's Metal Breath", id: 'QmVE7ZhwIv4' },
+					{ name: 'Goodbye, Buffalo Crush', id: 'FGG_QsPm5k8' },
+					{ name: 'Buster Gallon, the Betrayer', id: 'B8IYxvIrf9o' },
+					{ name: 'Black Hook Strikes Back', id: 'UCixUDwUZtA' },
+					{ name: 'Heavy Battle', id: '798fkUeeMOU' },
+					{ name: 'The Final Battle', id: 'L0WnJ7Kz_rw', fx: true }
 				]
 			}
-		],
-		episodes: [
-			{ name: 'Opening', id: '1070bnqHcHY', label: 'OP' },
-			{ name: 'Mystery of the Police Car Robot!', id: 'ZLcqsmPCHLY' },
-			{ name: 'The Dancing Dump Truck', id: '3ElOpqFXaSU' },
-			{ name: 'Farewell, Blue Cop', id: '5RCpJwrhkrs' },
-			{ name: 'The Black Ambulance', id: '52W_cb1f1ao' },
-			{ name: 'Fire Truck With a Phobia', id: 'c_CdqDAyGqI' },
-			{ name: 'The Invisible Challenger', id: 'YGHc9jfOsb0' },
-			{ name: 'Defeating the Heli-Tornado', id: 'ksRW6iMADzQ' },
-			{ name: 'The Secret is Out!', id: 'jzz3UOpvuV0' },
-			{ name: '0 Seconds to Destruction', id: 'rkhiv9q4FJw' },
-			{ name: 'Attack of the Final Boss!', id: '1lqFbWgblmk' },
-			{ name: 'The Mysterious Transfer Student', id: 'sfh5bi5Njtc' },
-			{ name: "Blue Cop's Special Training!", id: 'aU5wLVRQIWQ' },
-			{ name: 'Guardian of the Forest', id: 'PkNgHFctIIg' },
-			{ name: 'Operation Underground Battle', id: '5igwoiB4sAE' },
-			{ name: 'A Metal Cardbot from the Sky!', id: '8wpIPp7c094' },
-			{ name: 'The Vagabond in the Sky', id: '4kAhVJnzL9w' },
-			{ name: 'Showdown Between Blue Cop and Wild Guardy!', id: 't5_mM9bdq00' },
-			{ name: 'The Great Showdown! Giant VS Giant!', id: 'ScF3TTBBfyo' },
-			{ name: 'The Hungry Metal Cardbot', id: 'hOeQeLZ4ccg' },
-			{ name: 'Metal Breath Gets Stolen', id: 'jk6TC3f6Uls' },
-			{ name: "Anna's Metal Breath", id: 'QmVE7ZhwIv4' },
-			{ name: 'Goodbye, Buffalo Crush', id: 'FGG_QsPm5k8' },
-			{ name: 'Buster Gallon, the Betrayer', id: 'B8IYxvIrf9o' },
-			{ name: 'Black Hook Strikes Back', id: 'UCixUDwUZtA' },
-			{ name: 'Heavy Battle', id: '798fkUeeMOU' },
-			{ name: 'The Final Battle', id: 'L0WnJ7Kz_rw', fx: true }
 		]
 	},
 	{
 		title: 'Metal Cardbot S',
 		subtitle: 'Season 2',
 		icon: './season2.jpg',
-		incomplete: true,
 		sources: [
 			{
 				name: 'Fansub',
 				path: '/fansub',
 				language: 'en',
+				incomplete: true,
 				credits: [
 					{ name: '@staro_sphere', link: 'https://x.com/staro_sphere' },
 					{ name: '@PalmtreePanic', link: 'https://x.com/PalmtreePanic' }
+				],
+				episodes: [
+					{
+						name: 'Metal Cardbot Awakens from the Stone Tablet?!',
+						id: '3P-D6WLA424'
+					},
+					{ name: 'The Second Metal Card!', id: 'kwxZy0fOmG4' },
+					{ name: 'Menace Up in the Sky!', id: 'KmHp3PSBHXM' },
+					{ name: 'Cielo is Upset!', id: 'outtz10cTjY' },
+					{ name: 'Exclusive! Steel Reporter', id: 'hvcwuisAcWw' },
+					{ name: "Musclehyde's Choice!", id: 'Y6ORwgjJcIw' },
+					{ name: 'The Great Cave Escape!', id: 'OeCr53P6z6c' },
+					{ name: "It's Okay, Rock Crush", id: 'TyGBkSwejk4' },
+					{ name: 'Reunion with Gigantrex!', id: 'Rw06vJ8OJIg' },
+					{ name: 'The Greatest Power Awakens!', id: 'sy7IirZENS8', fx: true },
+					{ name: "Red Blitz's Sincerity", id: '2ix1fypVifg', fx: true },
+					{ name: "Can't Stop!", id: 'pw70mJ0vwZU' },
+					{ name: 'Catch Me! Outlaw of the Sea!', id: 'Ini9Ziuhz_M' },
+					{ name: 'Help Me, Deep Bite!', id: 'ZdEtjdIbBh4' },
+					{ name: 'Pure White Wings, Sky Gallop', id: '2nPc20St3us' },
+					{ name: 'Midnight Ghost Train', id: 'r2W9OkNQjIQ', fx: true },
+					{ name: 'Runaway Locomotive Blastrain', id: 'ERhxa8LiPmw' },
+					{ name: 'Exclusive! Steel Interview', id: 'AC1GDGiJ3hA' },
+					{ name: 'Fair and Square! Vector and Bit Brothers', id: 'nr8xAuarerk' },
+					{ name: 'The True Master of the Metal Breath', id: 'wbj59CLjZuA' },
+					{ name: "Glober's Last Stand", id: 'xJbp4uef1ro' },
+					{ name: 'A Gift From Mukara', id: 'cvzhjJ7RJgE', fx: true },
+					{ name: 'The Revival of Flame Nova', id: 'BEjuMKd_Cew' }
 				]
 			},
 			{
@@ -70,52 +98,28 @@ const subtitles: Season[] = [
 					{ name: 'Soiya', link: 'https://twitter.com/913son3' },
 					{ name: '매지컬비둘기/MP', link: 'https://twitter.com/MagicPigeon4' }
 				],
-				exclude: [
-					0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25,
-					26
+				episodes: [
+					{
+						name: '石板から目覚めたメタルカードボット',
+						id: '3P-D6WLA424'
+					}
 				]
 			}
-		],
-		episodes: [
-			{ name: 'Opening', id: 'w3QOebaRTSI', label: 'OP' },
-			{
-				name: 'Metal Cardbot Awakens from the Stone Tablet?!',
-				id: '3P-D6WLA424'
-			},
-			{ name: 'The Second Metal Card!', id: 'kwxZy0fOmG4' },
-			{ name: 'Menace Up in the Sky!', id: 'KmHp3PSBHXM' },
-			{ name: 'Cielo is Upset!', id: 'outtz10cTjY' },
-			{ name: 'Exclusive! Steel Reporter', id: 'hvcwuisAcWw' },
-			{ name: "Musclehyde's Choice!", id: 'Y6ORwgjJcIw' },
-			{ name: 'The Great Cave Escape!', id: 'OeCr53P6z6c' },
-			{ name: "It's Okay, Rock Crush", id: 'TyGBkSwejk4' },
-			{ name: 'Reunion with Gigantrex!', id: 'Rw06vJ8OJIg' },
-			{ name: 'The Greatest Power Awakens!', id: 'sy7IirZENS8', fx: true },
-			{ name: "Red Blitz's Sincerity", id: '2ix1fypVifg', fx: true },
-			{ name: "Can't Stop!", id: 'pw70mJ0vwZU' },
-			{ name: 'Catch Me! Outlaw of the Sea!', id: 'Ini9Ziuhz_M' },
-			{ name: 'Help Me, Deep Bite!', id: 'ZdEtjdIbBh4' },
-			{ name: 'Pure White Wings, Sky Gallop', id: '2nPc20St3us' },
-			{ name: 'Midnight Ghost Train', id: 'r2W9OkNQjIQ', fx: true },
-			{ name: 'Runaway Locomotive Blastrain', id: 'ERhxa8LiPmw' },
-			{ name: 'Exclusive! Steel Interview', id: 'AC1GDGiJ3hA' },
-			{ name: 'Fair and Square! Vector and Bit Brothers', id: 'nr8xAuarerk' },
-			{ name: 'The True Master of the Metal Breath', id: 'wbj59CLjZuA' },
-			{ name: "Glober's Last Stand", id: 'xJbp4uef1ro' },
-			{ name: 'A Gift From Mukara', id: 'cvzhjJ7RJgE', fx: true },
-			{ name: 'The Revival of Flame Nova', id: 'BEjuMKd_Cew' }
 		]
 	}
 ].map((season) => {
-	let i = 0;
-	season.episodes = season.episodes.map((episode) => {
-		// @ts-ignore
-		if (!episode.label) {
-			i++;
-			episode.label = `Episode ${i}`;
-		}
-		episode.context = season;
-		return episode;
+	season.sources.map((source) => {
+		let i = 0;
+		source.episodes = source.episodes.map((episode) => {
+			// @ts-ignore
+			if (!episode.label) {
+				i++;
+				episode.label = `Episode ${i}`;
+			}
+			episode.context = season;
+			return episode;
+		});
+		return source;
 	});
 	return season;
 }) as Season[];
@@ -149,16 +153,15 @@ export interface Season {
 	title: string;
 	subtitle: string;
 	icon: string;
-	incomplete: boolean;
 	sources: Source[];
-	episodes: Episode[];
 }
 
 export interface Source {
 	name: string;
 	path: string;
 	language: string;
-	exclude?: number[];
+	episodes: Episode[];
+	incomplete: boolean;
 	credits: { name: string; link: string }[];
 }
 

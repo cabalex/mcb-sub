@@ -137,9 +137,12 @@
 	const dispatch = createEventDispatcher();
 
 	let playlistIndex = 0;
-	if ($video !== null && !playlists[playlistIndex].episodes.includes($video)) {
-		// get the correct season
-		playlistIndex = playlists.findIndex((playlist) => playlist.episodes.includes($video));
+	// Find season from source
+	for (let i = 0; i < playlists.length; i++) {
+		if (playlists[i].sources.some((s) => s.path === $source?.path)) {
+			playlistIndex = i;
+			break;
+		}
 	}
 	let seasonDropdownOpen = false;
 	let sourceDropdownOpen = false;
@@ -273,46 +276,48 @@
 		</div>
 	{/if}
 	<div class="episodes">
-		{#each $source && 'episodes' in $source ? $source.episodes : playlists[playlistIndex].episodes.filter((_, i) => !$source?.exclude?.includes(i)) as episode, i}
-			<button
-				class:active={$video?.id === episode.id}
-				class="episode"
-				on:click={() => playVideo(episode)}
-			>
-				<img alt={episode.name} src={`https://img.youtube.com/vi/${episode.id}/0.jpg`} />
-				<div class="text">
-					<h3>{episode.name}</h3>
-					<div class="tags">
-						<span class="tag">{episode.label}</span>
-						{#if $editor}
-							{#if $editor.episodes.map((x) => x.id).includes(episode.id)}
-								<span class="tag success">CC</span>
-							{:else}
-								<span class="tag outline">No CC</span>
+		{#if $source !== null}
+			{#each $source.episodes as episode, i}
+				<button
+					class:active={$video?.id === episode.id}
+					class="episode"
+					on:click={() => playVideo(episode)}
+				>
+					<img alt={episode.name} src={`https://img.youtube.com/vi/${episode.id}/0.jpg`} />
+					<div class="text">
+						<h3>{episode.name}</h3>
+						<div class="tags">
+							<span class="tag">{episode.label}</span>
+							{#if $editor}
+								{#if $editor.episodes.map((x) => x.id).includes(episode.id)}
+									<span class="tag success">CC</span>
+								{:else}
+									<span class="tag outline">No CC</span>
+								{/if}
 							{/if}
-						{/if}
+						</div>
 					</div>
-				</div>
-			</button>
-		{/each}
-		{#if !($source && 'episodes' in $source) && playlists[playlistIndex].incomplete && playlistIndex !== 2}
-			<i style="text-align: center; width: 100%; display: block; padding: 10px 0;">
-				Check back next week for new episodes!
-			</i>
-		{/if}
-		{#if playlistIndex === 2}
-			<div class="unknownSeason">
-				<img
-					src={unknownSeason}
-					alt="A Cardbot from Season 2"
-					style="max-height: min(50vh, 200px); max-width: 70%"
-				/>
+				</button>
+			{/each}
+			{#if $source.incomplete && playlistIndex !== 2}
 				<i style="text-align: center; width: 100%; display: block; padding: 10px 0;">
-					We don't know when the next episode will premiere on YouTube.<br />Check back later!
+					Check back next week for new episodes!
 				</i>
-			</div>
+			{/if}
+			{#if playlistIndex === 2}
+				<div class="unknownSeason">
+					<img
+						src={unknownSeason}
+						alt="A Cardbot from Season 2"
+						style="max-height: min(50vh, 200px); max-width: 70%"
+					/>
+					<i style="text-align: center; width: 100%; display: block; padding: 10px 0;">
+						We don't know when the next episode will premiere on YouTube.<br />Check back later!
+					</i>
+				</div>
+			{/if}
 		{/if}
-		{#if ($source && 'episodes' in $source ? $source.episodes : playlists[playlistIndex].episodes).length === 0}
+		{#if $source === null || $source.episodes.length === 0}
 			<div class="unknownSeason">
 				<img
 					src={unknownSeason}

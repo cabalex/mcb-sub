@@ -38,14 +38,7 @@
 		console.log('Ended', e.detail.target);
 		if ($editor !== null) return;
 
-		if ($video !== null && 'context' in $video) {
-			// move to next episode
-			const episodes = $video.context.episodes;
-			let index = episodes.indexOf($video);
-			if (index < episodes.length - 1) {
-				video.set(episodes[index + 1]);
-			}
-		} else if ($video !== null && $source !== null && 'episodes' in $source) {
+		if ($video !== null && $source !== null) {
 			// move to next custom episode
 			let index = $source.episodes.indexOf($video);
 			if (index < $source.episodes.length - 1) {

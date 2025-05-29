@@ -161,11 +161,11 @@
 					});
 				}
 				// sort episodes
-				if ('context' in $video) {
+				if ('context' in $video && $video.context.sources.length > 0) {
 					draft.episodes.sort(
 						(a, b) =>
-							$video.context.episodes.findIndex((x) => x.id === a.id) -
-							$video.context.episodes.findIndex((x) => x.id === b.id)
+							$video.context.sources[0].episodes.findIndex((x) => x.id === a.id) -
+							$video.context.sources[0].episodes.findIndex((x) => x.id === b.id)
 					);
 				}
 				return draft;
@@ -413,16 +413,16 @@
 									</div>
 								</div>
 								{#if i < lenStarts - 1}
-								<button
-									disabled={line.end === customLines[i + 1].start}
-									class="primary toNext"
-									on:click={() => {
-										customLines[i].end = customLines[i + 1].start;
-										customLines = [...customLines];
-									}}
-								>
-									➡️
-								</button>
+									<button
+										disabled={line.end === customLines[i + 1].start}
+										class="primary toNext"
+										on:click={() => {
+											customLines[i].end = customLines[i + 1].start;
+											customLines = [...customLines];
+										}}
+									>
+										➡️
+									</button>
 								{/if}
 							{/if}
 						</div>

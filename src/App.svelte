@@ -50,13 +50,15 @@
 		// find video
 		for (let season of subtitles) {
 			if (season.sources.length === 0) continue;
-			for (let episode of season.episodes) {
-				if (episode.id === videoId) {
-					const sub = season.sources.find((x) => x.path === subId) || season.sources[0];
-					currentVideo.set(episode);
-					currentSub.set(sub);
-					setMediaDetails(episode);
-					break;
+			const sub = season.sources.find((x) => x.path === subId) || season.sources[0];
+			if (sub) {
+				for (let episode of sub.episodes) {
+					if (episode.id === videoId) {
+						currentVideo.set(episode);
+						currentSub.set(sub);
+						setMediaDetails(episode);
+						break;
+					}
 				}
 			}
 		}
