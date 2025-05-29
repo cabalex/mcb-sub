@@ -89,7 +89,8 @@ const subtitles: Season[] = [
 			{ name: 'Fair and Square! Vector and Bit Brothers', id: 'nr8xAuarerk' },
 			{ name: 'The True Master of the Metal Breath', id: 'wbj59CLjZuA' },
 			{ name: "Glober's Last Stand", id: 'xJbp4uef1ro' },
-			{ name: 'A Gift From Mukara', id: 'cvzhjJ7RJgE', fx: true }
+			{ name: 'A Gift From Mukara', id: 'cvzhjJ7RJgE', fx: true },
+			{ name: 'The Revival of Flame Nova', id: 'BEjuMKd_Cew' }
 		]
 	}
 ].map((season) => {
