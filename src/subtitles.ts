@@ -61,6 +61,19 @@ const subtitles: Season[] = [
 					{ name: '@staro_sphere', link: 'https://x.com/staro_sphere' },
 					{ name: '@PalmtreePanic', link: 'https://x.com/PalmtreePanic' }
 				]
+			},
+			{
+				name: '日本語',
+				path: '/jp',
+				language: 'jp',
+				credits: [
+					{ name: 'Soiya', link: 'https://twitter.com/913son3' },
+					{ name: '매지컬비둘기/MP', link: 'https://twitter.com/MagicPigeon4' }
+				],
+				exclude: [
+					0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25,
+					26
+				]
 			}
 		],
 		episodes: [
@@ -145,6 +158,7 @@ export interface Source {
 	name: string;
 	path: string;
 	language: string;
+	exclude?: number[];
 	credits: { name: string; link: string }[];
 }
 

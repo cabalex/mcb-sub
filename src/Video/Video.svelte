@@ -64,8 +64,14 @@
 		if (typeof toFetch === 'string') {
 			let response = await fetch(toFetch);
 			if (!response.ok) return console.error('Failed to fetch subtitle');
+			if (response.headers.get('content-type') === 'text/html') {
+				return console.error('Subtitle is not a valid SRT file');
+			}
 			let data = await response.text();
-			let lines = data.split('\n\n');
+			let lines = data
+				.split('\n\n')
+				.map((x) => x.trim())
+				.filter((x) => x.length > 0);
 			subs = [];
 			let i = 0;
 			for (let line of lines) {

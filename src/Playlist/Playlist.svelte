@@ -273,7 +273,7 @@
 		</div>
 	{/if}
 	<div class="episodes">
-		{#each $source && 'episodes' in $source ? $source.episodes : playlists[playlistIndex].episodes as episode, i}
+		{#each $source && 'episodes' in $source ? $source.episodes : playlists[playlistIndex].episodes.filter((_, i) => !$source?.exclude?.includes(i)) as episode, i}
 			<button
 				class:active={$video?.id === episode.id}
 				class="episode"
@@ -498,7 +498,7 @@
 		gap: 10px;
 		padding: 10px;
 	}
-	.episode:hover {
+	.episode:not(:disabled):hover {
 		background-color: #555;
 	}
 	.episode.active {
