@@ -503,7 +503,7 @@
 		gap: 10px;
 		padding: 10px;
 	}
-	.episode:not(:disabled):hover {
+	.episode:not(:disabled):not(.active):hover {
 		background-color: #555;
 	}
 	.episode.active {
@@ -582,11 +582,11 @@
 		.episode {
 			border-top: 1px solid #bbb;
 		}
-		.episode:hover {
+		.episode:not(:disabled):not(.active):hover {
 			background-color: #ccc;
 		}
 		.episode.active {
-			background-color: #bbb;
+			background-color: #aaa;
 		}
 		.tag.outline {
 			color: #666;

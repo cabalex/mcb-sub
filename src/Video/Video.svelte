@@ -419,8 +419,9 @@
 		right: 0px;
 		border-radius: 5px 0 0 0;
 		z-index: 100;
-		width: 48px;
-		height: 48px;
+		width: 38px;
+		height: 38px;
+		padding: 0;
 		background-color: #333;
 		color: white;
 		border: none;

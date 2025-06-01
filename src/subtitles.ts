@@ -87,7 +87,8 @@ const subtitles: Season[] = [
 					{ name: 'The True Master of the Metal Breath', id: 'wbj59CLjZuA' },
 					{ name: "Glober's Last Stand", id: 'xJbp4uef1ro' },
 					{ name: 'A Gift From Mukara', id: 'cvzhjJ7RJgE', fx: true },
-					{ name: 'The Revival of Flame Nova', id: 'BEjuMKd_Cew' }
+					{ name: 'The Revival of Flame Nova', id: 'BEjuMKd_Cew' },
+					{ name: 'Search for the Speranza', id: 'arhU41qy4ic' }
 				]
 			},
 			{
