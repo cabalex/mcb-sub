@@ -39,6 +39,12 @@
 
 	$: subtitleStyles = applyStyle(captionStyle);
 	$: wordStyles = applyWordStyle(captionStyle);
+	$: {
+		if (subtitles) {
+			// Reset current subtitle if subtitles change
+			currentSubtitle = null;
+		}
+	}
 
 	onMount(() => {
 		requestAnimationFrame(subtitleUpdate);
@@ -112,7 +118,7 @@
 {/if}
 
 <!-- Hardcoded final countdown: TODO: remove afterward -->
-{#if target && target.playerInfo.videoData.video_id === '8nGDlfiNOG8' && atEnd}
+{#if target && target?.playerInfo?.videoData?.video_id === '8nGDlfiNOG8' && atEnd}
 	<FinalCountdown />
 {/if}
 
