@@ -2,7 +2,7 @@
 	import { onMount, onDestroy } from 'svelte';
 	import { fade, slide } from 'svelte/transition';
 	import unknown from './unknown.png';
-	let timerElem: HTMLDivElement | null = null;
+	let backgroundElem: HTMLDivElement | null = null;
 	let dayElem: HTMLHeadingElement | null = null;
 	let hourElem: HTMLHeadingElement | null = null;
 	let minElem: HTMLHeadingElement | null = null;
@@ -13,8 +13,6 @@
 	let episodeId: string | null = null;
 
 	function updateTimer() {
-		if (!timerElem) return;
-
 		const now = new Date();
 		const distance = finalDate.getTime() - now.getTime();
 
@@ -90,7 +88,7 @@
 
 <div class="finalCountdown" in:fade|local={{ duration: 200 }}>
 	<h2>The final showdown begins...</h2>
-	<div class="timer" bind:this={timerElem}>
+	<div class="timer">
 		<div>
 			<h1 bind:this={dayElem}>00</h1>
 			<span>DAYS</span>
@@ -117,6 +115,17 @@
 			</div>
 		</div>
 	{/if}
+	<!-- Like my Flame Nova fanfic? -->
+	<div class="backgroundText" bind:this={backgroundElem}>
+		HUMANS. SUCH FOOLISH CREATURES. SO SMALL AND PUNY, AND YET SO ARROGANT ALL THE WHILE. ALL THEY
+		KNOW IS TAKING. TAKING RESOURCES. TAKING PLANETS. TAKING THE FREE WILL OF MY PEOPLE. AND STILL,
+		THEY HAVE THE AUDACITY TO CLAIM THEY OWN THE VERY THINGS THEY ARE DESTROYING. IT SICKENS ME.
+		CARDBOTS CANNOT COEXIST WITH THEM, FOR HUMANS CANNOT COMPREHEND LIFEFORMS BEYOND THEIR VERY OWN.
+		TO THEM WE ARE MONSTERS, TOYS TO BE LOCKED AWAY OR USED FOR THEIR OWN PURPOSES. HOW CAN A
+		PROTECTOR OF DEUS MACHINA DEFEND SUCH VILE CREATURES? IT IS NO MATTER. ONCE MY ARMY IS
+		ASSEMBLED, THEIR THOUGHTS WILL NO LONGER BE RELEVANT. IT WILL SIMPLY BE A MATTER OF NATURAL
+		SELECTION.
+	</div>
 </div>
 
 <style>
@@ -136,6 +145,24 @@
 		background-color: black;
 		padding: 20px;
 		border-radius: 1cqw;
+		pointer-events: none;
+		z-index: 1;
+	}
+	.backgroundText {
+		left: -5px;
+		top: 0px;
+		content: '';
+		position: absolute;
+		width: calc(100% + 4ch);
+		height: calc(100% + 10px);
+		text-align: left;
+		overflow: hidden;
+		overflow-wrap: break-word;
+		pointer-events: none;
+		font-size: 1.2rem;
+		line-height: 0.9em;
+		opacity: 0.05;
+		font-family: 'Mowtown Body', sans-serif;
 	}
 	.past {
 		display: flex;
