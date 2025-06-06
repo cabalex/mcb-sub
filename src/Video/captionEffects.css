@@ -10,6 +10,7 @@
 	--buffaloCrush: #ea619e;
 	--busterGallon: #34b7bc;
 	--blackHook: #638cc7;
+	--heavyIron: #d0586a;
 
 	--redBlitz: #ff0062;
 	--cielo: #006fff;
@@ -388,6 +389,9 @@
 }
 .blackHook {
 	color: var(--blackHook) !important;
+}
+.heavyIron {
+	color: var(--heavyIron) !important;
 }
 .mukara {
 	color: var(--mukara) !important;

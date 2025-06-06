@@ -13,6 +13,7 @@
 		defaultStyle,
 		type CaptionStyle
 	} from './CaptionStyle/CaptionStyle.svelte';
+	import LocalVideo from './LocalVideo/LocalVideo.svelte';
 
 	export let video: Writable<Episode | CustomEpisode | null>;
 	export let source: Writable<Source | CustomDraft | null>;
@@ -270,6 +271,9 @@
 			on:mouseout={clearHover}
 			on:blur={clearHover}
 		>
+			{#if process.env.NODE_ENV === 'development' && $video.id === ''}
+				<LocalVideo on:play={onPlay} on:end={onEnd} />
+			{/if}
 			<SvelteYouTube
 				videoId={$video.id}
 				on:play={onPlay}

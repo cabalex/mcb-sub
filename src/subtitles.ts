@@ -88,7 +88,8 @@ const subtitles: Season[] = [
 					{ name: "Glober's Last Stand", id: 'xJbp4uef1ro' },
 					{ name: 'A Gift From Mukara', id: 'cvzhjJ7RJgE', fx: true },
 					{ name: 'The Revival of Flame Nova', id: 'BEjuMKd_Cew' },
-					{ name: 'Search for the Speranza', id: 'arhU41qy4ic' }
+					{ name: 'Search for the Speranza', id: 'arhU41qy4ic' },
+					{ name: 'Battle of the Red Ark', id: '8nGDlfiNOG8', fx: true }
 				]
 			},
 			{
