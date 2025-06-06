@@ -6,8 +6,26 @@
 	export let subtitleStyles = '';
 	export let wordStyles = '';
 
+	const nonBgEffects = [
+		'bold',
+		'italic',
+		'xl',
+		'xxl',
+		'blueCop',
+		'megaTrucker',
+		'phoenixFire',
+		'megaAmbler',
+		'shadowX',
+		'wildGuardy',
+		'dexter',
+		'fletaZ',
+		'buffaloCrush',
+		'busterGallon',
+		'blackHook',
+		'heavyIron',
+		'mukara'
+	];
 	function useBackground(effect: string) {
-		const nonBgEffects = ['bold', 'italic', 'xl', 'xxl'];
 		for (const fx of effect.split(' ')) {
 			if (!nonBgEffects.includes(fx)) {
 				return true;

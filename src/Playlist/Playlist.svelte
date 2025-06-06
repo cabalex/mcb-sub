@@ -299,7 +299,11 @@
 					</div>
 				</button>
 			{/each}
-			{#if $source.incomplete && playlistIndex !== 2}
+			{#if $source.incomplete && playlistIndex !== 2 && $source.path === '/fansub'}
+				<i style="text-align: center; width: 100%; display: block; padding: 10px 0;">
+					Check back next week for the final episode.
+				</i>
+			{:else if $source.path !== '/fansub'}
 				<i style="text-align: center; width: 100%; display: block; padding: 10px 0;">
 					Check back next week for new episodes!
 				</i>

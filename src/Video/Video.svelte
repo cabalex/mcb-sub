@@ -273,21 +273,22 @@
 		>
 			{#if process.env.NODE_ENV === 'development' && $video.id === ''}
 				<LocalVideo on:play={onPlay} on:end={onEnd} />
+			{:else}
+				<SvelteYouTube
+					videoId={$video.id}
+					on:play={onPlay}
+					on:end={onEnd}
+					responsive={true}
+					options={{
+						playerVars: {
+							autoplay: 1,
+							fs: 0,
+							playsinline: 1,
+							rel: 0
+						}
+					}}
+				/>
 			{/if}
-			<SvelteYouTube
-				videoId={$video.id}
-				on:play={onPlay}
-				on:end={onEnd}
-				responsive={true}
-				options={{
-					playerVars: {
-						autoplay: 1,
-						fs: 0,
-						playsinline: 1,
-						rel: 0
-					}
-				}}
-			/>
 			{#if target && $editor === null}
 				<SubtitleParser
 					{captionStyle}

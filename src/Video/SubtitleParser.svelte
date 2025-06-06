@@ -6,12 +6,15 @@
 		applyWordStyle,
 		type CaptionStyle
 	} from './CaptionStyle/CaptionStyle.svelte';
+	import FinalCountdown from '../assets/FinalCountdown.svelte';
 
 	export let subtitles: Array<{ start: number; end: number; text: string }>;
 	export let target: any;
 	export let hover: boolean;
 	export let captionStyle: CaptionStyle;
 	export let bilingual: boolean = false;
+
+	let atEnd = false;
 
 	let currentSubtitle: (typeof subtitles)[number] | null = null;
 
@@ -20,6 +23,8 @@
 		if (mounted) requestAnimationFrame(subtitleUpdate);
 		if (!target) return;
 		let time = target.getCurrentTime();
+
+		atEnd = target.getDuration() - time < 0.1 || target.getPlayerState() === 0;
 
 		if (currentSubtitle && time >= currentSubtitle.start && time < currentSubtitle.end) return;
 		for (let sub of subtitles) {
@@ -46,7 +51,12 @@
 </script>
 
 {#if currentSubtitle}
-	<div class="subtitleArea" class:bilingual class:hover style="--bottomOffset: {captionStyle.offsetPosition}px">
+	<div
+		class="subtitleArea"
+		class:bilingual
+		class:hover
+		style="--bottomOffset: {captionStyle.offsetPosition}px"
+	>
 		{#if currentSubtitle.text.includes(' (FX-')}
 			<CaptionEffect
 				disabled={!captionStyle.fxEnabled}
@@ -56,7 +66,7 @@
 				effect={currentSubtitle.text.split(' (FX-')[1].split(')')[0]}
 			/>
 		{:else if bilingual}
-			{@const parts = currentSubtitle.text.split(" / ")}
+			{@const parts = currentSubtitle.text.split(' / ')}
 			<div
 				class="subtitle"
 				style={subtitleStyles}
@@ -70,19 +80,19 @@
 				{/each}
 			</div>
 			{#if parts.length > 1}
-			<div style="flex-grow: 1"></div>
-			<div
-				class="subtitle"
-				style={"font-style: italic; " + subtitleStyles}
-				class:needsFixing={parts[1].includes('FIX_THIS')}
-			>
-				{#each parts[1].replace(' (FIX_THIS)', '').split(/[ \n]/) as word}
-					<span style={wordStyles}>{word}</span>
-					{#if currentSubtitle.text.includes(word + '\n')}
-						<span style={wordStyles} class="newline"></span>
-					{/if}
-				{/each}
-			</div>
+				<div style="flex-grow: 1"></div>
+				<div
+					class="subtitle"
+					style={'font-style: italic; ' + subtitleStyles}
+					class:needsFixing={parts[1].includes('FIX_THIS')}
+				>
+					{#each parts[1].replace(' (FIX_THIS)', '').split(/[ \n]/) as word}
+						<span style={wordStyles}>{word}</span>
+						{#if currentSubtitle.text.includes(word + '\n')}
+							<span style={wordStyles} class="newline"></span>
+						{/if}
+					{/each}
+				</div>
 			{/if}
 		{:else}
 			<div
@@ -99,6 +109,11 @@
 			</div>
 		{/if}
 	</div>
+{/if}
+
+<!-- Hardcoded final countdown: TODO: remove afterward -->
+{#if target && target.playerInfo.videoData.video_id === '8nGDlfiNOG8' && atEnd}
+	<FinalCountdown />
 {/if}
 
 <style>
