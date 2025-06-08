@@ -103,8 +103,33 @@ const subtitles: Season[] = [
 				episodes: [
 					{
 						name: '石板から目覚めたメタルカードボット',
-						id: '3P-D6WLA424'
-					}
+						id: '3P-D6WLA424',
+						label: '1話'
+					},
+					{ name: '二番目のメタルカード', id: 'kwxZy0fOmG4', label: '2話' },
+					{ name: '空の上の脅威', id: 'KmHp3PSBHXM', label: '3話' },
+					{ name: 'シエロは機嫌が悪い', id: 'outtz10cTjY', label: '4話' },
+					{ name: 'スクープ！鋼鉄の取材記者', id: 'hvcwuisAcWw', label: '5話' },
+					{ name: 'マッスルハイドの選択', id: 'Y6ORwgjJcIw', label: '6話' },
+					{ name: '洞窟大脱出', id: 'OeCr53P6z6c', label: '7話' },
+					{ name: '大丈夫だよ、ロッククラッシュ！', id: 'TyGBkSwejk4', label: '8話' },
+					//{ name: 'Reunion with Gigantrex!', id: 'Rw06vJ8OJIg', label: '9話' },
+					//{ name: 'The Greatest Power Awakens!', id: 'sy7IirZENS8', label: '10話', fx: true },
+					//{ name: "Red Blitz's Sincerity", id: '2ix1fypVifg', label: '11話', fx: true },
+					//{ name: "Can't Stop!", id: 'pw70mJ0vwZU', label: '12話' },
+					//{ name: 'Catch Me! Outlaw of the Sea!', id: 'Ini9Ziuhz_M', label: '13話' },
+					{ name: '助けて、ディープバイト!', id: 'ZdEtjdIbBh4', label: '14話' },
+					//{ name: 'Pure White Wings, Sky Gallop', id: '2nPc20St3us', label: '15話' },
+					//{ name: 'Midnight Ghost Train', id: 'r2W9OkNQjIQ', fx: true, label: '16話' },
+					{ name: '暴走機関車、ブラストレイン', id: 'ERhxa8LiPmw', label: '17話' },
+					{ name: '独占！鋼鉄のインタビュー', id: 'AC1GDGiJ3hA', label: '18話' },
+					{ name: '正々堂々！ベクトルとビット兄弟！', id: 'nr8xAuarerk', label: '19話' },
+					{ name: 'メタルブレスの真の主人', id: 'wbj59CLjZuA', label: '20話' },
+					{ name: 'グローバーの最期', id: 'xJbp4uef1ro', label: '21話' },
+					{ name: 'ムカラの贈り物', id: 'cvzhjJ7RJgE', label: '22話', fx: true },
+					{ name: 'フレイムノヴァの復活', id: 'BEjuMKd_Cew', label: '23話' },
+					{ name: 'スペランジャー号を探して', id: 'arhU41qy4ic', label: '24話' },
+					{ name: '赤い箱舟の戦闘', id: '8nGDlfiNOG8', label: '25話', fx: true }
 				]
 			}
 		]

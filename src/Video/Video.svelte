@@ -293,6 +293,7 @@
 				<SubtitleParser
 					{captionStyle}
 					subtitles={subs}
+					path={$source?.path ?? null}
 					{target}
 					{hover}
 					bilingual={$video.label === 'OP'}

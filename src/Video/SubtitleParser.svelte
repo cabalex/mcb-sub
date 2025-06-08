@@ -9,6 +9,7 @@
 	import FinalCountdown from '../assets/FinalCountdown.svelte';
 
 	export let subtitles: Array<{ start: number; end: number; text: string }>;
+	export let path: string | null = null;
 	export let target: any;
 	export let hover: boolean;
 	export let captionStyle: CaptionStyle;
@@ -118,7 +119,7 @@
 {/if}
 
 <!-- Hardcoded final countdown: TODO: remove afterward -->
-{#if target && target?.playerInfo?.videoData?.video_id === '8nGDlfiNOG8' && atEnd}
+{#if path === '/fansub' && target && target?.playerInfo?.videoData?.video_id === '8nGDlfiNOG8' && atEnd}
 	<FinalCountdown />
 {/if}
 

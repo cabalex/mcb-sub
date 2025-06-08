@@ -3,7 +3,7 @@
 	import playlists, { type Episode, type Source, type Season } from '../subtitles.js';
 	import ChevronDown from '../assets/chevron-down.svg';
 	import unknownSeason from '../assets/unknown.png';
-	import { slide } from 'svelte/transition';
+	import { fade, slide } from 'svelte/transition';
 	import {
 		deleteCustomSub,
 		getCustomSubs,
@@ -277,11 +277,12 @@
 	{/if}
 	<div class="episodes">
 		{#if $source !== null}
-			{#each $source.episodes as episode, i}
+			{#each $source.episodes as episode (episode.id)}
 				<button
 					class:active={$video?.id === episode.id}
 					class="episode"
 					on:click={() => playVideo(episode)}
+					transition:fade={{ duration: 200 }}
 				>
 					<img alt={episode.name} src={`https://img.youtube.com/vi/${episode.id}/0.jpg`} />
 					<div class="text">
@@ -303,7 +304,7 @@
 				<i style="text-align: center; width: 100%; display: block; padding: 10px 0;">
 					Check back next week for the final episode.
 				</i>
-			{:else if $source.path !== '/fansub'}
+			{:else if $source.incomplete}
 				<i style="text-align: center; width: 100%; display: block; padding: 10px 0;">
 					Check back next week for new episodes!
 				</i>
