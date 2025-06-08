@@ -62,6 +62,7 @@ const subtitles: Season[] = [
 					{ name: '@PalmtreePanic', link: 'https://x.com/PalmtreePanic' }
 				],
 				episodes: [
+					{ name: 'Opening', id: 'w3QOebaRTSI', label: 'OP' },
 					{
 						name: 'Metal Cardbot Awakens from the Stone Tablet?!',
 						id: '3P-D6WLA424'
