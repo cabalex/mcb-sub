@@ -8,6 +8,7 @@
 		textOpacity: number;
 		fontWeight: number;
 		fxEnabled: boolean;
+		improveMachineTranslation: boolean;
 	}
 
 	export const defaultStyle = {
@@ -18,9 +19,8 @@
 		offsetPosition: 0,
 		textOpacity: 1,
 		fontWeight: 400,
-		fxEnabled:
-			localStorage.getItem('mcb-effectsDisabled') !== 'true' ||
-			window.matchMedia(`(prefers-reduced-motion: reduce)`).matches !== true
+		fxEnabled: window.matchMedia(`(prefers-reduced-motion: reduce)`).matches !== true,
+		improveMachineTranslation: false
 	};
 
 	export function applyStyle(style: CaptionStyle) {
@@ -54,6 +54,12 @@
 		localStorage.setItem('mcb-captionStyle', JSON.stringify(captionStyle));
 	}
 
+	$: {
+		if (captionStyle.fxEnabled) {
+			captionStyle.improveMachineTranslation = false;
+		}
+	}
+
 	$: isDefault = JSON.stringify(captionStyle) === JSON.stringify(defaultStyle);
 
 	$: subtitleStyles = applyStyle(captionStyle);
@@ -75,18 +81,31 @@
 		transition:fly={{ duration: 100, y: 50 }}
 	>
 		<div class="captionPreview">
-			<div class="subtitle" style={subtitleStyles}>
-				<span style={wordStyles}>Blue</span>
-				<span style={wordStyles}>Cop,</span>
-				<span style={wordStyles}>set</span>
-				<span style={wordStyles}>up!</span>
-			</div>
+			{#if captionStyle.improveMachineTranslation}
+				<div class="subtitle" style={subtitleStyles}>
+					<span style={wordStyles}>Blue Cop, set up!</span>
+				</div>
+			{:else}
+				<div class="subtitle" style={subtitleStyles}>
+					<span style={wordStyles}>Blue</span>
+					<span style={wordStyles}>Cop,</span>
+					<span style={wordStyles}>set</span>
+					<span style={wordStyles}>up!</span>
+				</div>
+			{/if}
 		</div>
 		<BoolInput
 			label="Enable FX (select episodes)"
 			description="FX may override certain caption settings."
 			bind:value={captionStyle.fxEnabled}
 		/>
+		<div class:inputDisabled={captionStyle.fxEnabled}>
+			<BoolInput
+				label="Improve machine translation"
+				description="Make captions more readable for browser translation features. (FX must be disabled.)"
+				bind:value={captionStyle.improveMachineTranslation}
+			/>
+		</div>
 		<hr />
 		<SelectNumberInput label="Text size" bind:value={captionStyle.fontSize}>
 			<option value="6">25%</option>
@@ -188,6 +207,10 @@
 	}
 	.subtitle span {
 		padding: 0 0.25ch;
+	}
+	.inputDisabled {
+		pointer-events: none;
+		opacity: 0.5;
 	}
 	@media screen and (min-width: 900px) {
 		.captionPreview {

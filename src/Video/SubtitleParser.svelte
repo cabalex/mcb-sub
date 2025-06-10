@@ -25,7 +25,7 @@
 		if (!target) return;
 		let time = target.getCurrentTime();
 
-		atEnd = target.getDuration() - time < 0.1 || target.getPlayerState() === 0;
+		atEnd = (time > 0 && target.getDuration() - time < 0.1) || target.getPlayerState() === 0;
 
 		if (currentSubtitle && time >= currentSubtitle.start && time < currentSubtitle.end) return;
 		for (let sub of subtitles) {
@@ -40,10 +40,19 @@
 
 	$: subtitleStyles = applyStyle(captionStyle);
 	$: wordStyles = applyWordStyle(captionStyle);
+	$: splitter = captionStyle.improveMachineTranslation ? /[\n]/ : /[ \n]/;
 	$: {
 		if (subtitles) {
 			// Reset current subtitle if subtitles change
 			currentSubtitle = null;
+		}
+	}
+	$: {
+		if (!currentSubtitle && captionStyle.improveMachineTranslation) {
+			let area = document.getElementsByClassName('subtitleArea');
+			if (area.length > 0) {
+				area[0].remove();
+			}
 		}
 	}
 
@@ -58,42 +67,80 @@
 </script>
 
 {#if currentSubtitle}
-	<div
-		class="subtitleArea"
-		class:bilingual
-		class:hover
-		style="--bottomOffset: {captionStyle.offsetPosition}px"
-	>
-		{#if currentSubtitle.text.includes(' (FX-')}
-			<CaptionEffect
-				disabled={!captionStyle.fxEnabled}
-				{subtitleStyles}
-				{wordStyles}
-				text={currentSubtitle.text.split(' (FX-')[0]}
-				effect={currentSubtitle.text.split(' (FX-')[1].split(')')[0]}
-			/>
-		{:else if bilingual}
-			{@const parts = currentSubtitle.text.split(' / ')}
+	{#if captionStyle.improveMachineTranslation}
+		{@const machineTranslatedText = currentSubtitle.text.split('(FX-')[0].split(' / ')[0]}
+		{#key machineTranslatedText}
 			<div
-				class="subtitle"
-				style={subtitleStyles}
-				class:needsFixing={parts[0].includes('FIX_THIS')}
+				class="subtitleArea"
+				class:bilingual
+				class:hover
+				style="--bottomOffset: {captionStyle.offsetPosition}px"
 			>
-				{#each parts[0].replace(' (FIX_THIS)', '').split(/[ \n]/) as word}
-					<span style={wordStyles}>{word}</span>
-					{#if currentSubtitle.text.includes(word + '\n')}
-						<span style={wordStyles} class="newline"></span>
-					{/if}
-				{/each}
-			</div>
-			{#if parts.length > 1}
-				<div style="flex-grow: 1"></div>
 				<div
 					class="subtitle"
-					style={'font-style: italic; ' + subtitleStyles}
-					class:needsFixing={parts[1].includes('FIX_THIS')}
+					style={subtitleStyles}
+					class:needsFixing={machineTranslatedText.includes('FIX_THIS')}
 				>
-					{#each parts[1].replace(' (FIX_THIS)', '').split(/[ \n]/) as word}
+					{#each machineTranslatedText.replace(' (FIX_THIS)', '').split(splitter) as word}
+						<span style={wordStyles}>{word}</span>
+						{#if machineTranslatedText.includes(word + '\n')}
+							<span style={wordStyles} class="newline"></span>
+						{/if}
+					{/each}
+				</div>
+			</div>
+		{/key}
+	{:else}
+		<div
+			class="subtitleArea"
+			class:bilingual
+			class:hover
+			style="--bottomOffset: {captionStyle.offsetPosition}px"
+		>
+			{#if currentSubtitle.text.includes(' (FX-')}
+				<CaptionEffect
+					disabled={!captionStyle.fxEnabled}
+					{subtitleStyles}
+					{wordStyles}
+					text={currentSubtitle.text.split(' (FX-')[0]}
+					effect={currentSubtitle.text.split(' (FX-')[1].split(')')[0]}
+				/>
+			{:else if bilingual}
+				{@const parts = currentSubtitle.text.split(' / ')}
+				<div
+					class="subtitle"
+					style={subtitleStyles}
+					class:needsFixing={parts[0].includes('FIX_THIS')}
+				>
+					{#each parts[0].replace(' (FIX_THIS)', '').split(splitter) as word}
+						<span style={wordStyles}>{word}</span>
+						{#if currentSubtitle.text.includes(word + '\n')}
+							<span style={wordStyles} class="newline"></span>
+						{/if}
+					{/each}
+				</div>
+				{#if parts.length > 1}
+					<div style="flex-grow: 1"></div>
+					<div
+						class="subtitle"
+						style={'font-style: italic; ' + subtitleStyles}
+						class:needsFixing={parts[1].includes('FIX_THIS')}
+					>
+						{#each parts[1].replace(' (FIX_THIS)', '').split(splitter) as word}
+							<span style={wordStyles}>{word}</span>
+							{#if currentSubtitle.text.includes(word + '\n')}
+								<span style={wordStyles} class="newline"></span>
+							{/if}
+						{/each}
+					</div>
+				{/if}
+			{:else}
+				<div
+					class="subtitle"
+					style={subtitleStyles}
+					class:needsFixing={currentSubtitle.text.includes('FIX_THIS')}
+				>
+					{#each currentSubtitle.text.replace(' (FIX_THIS)', '').split(splitter) as word}
 						<span style={wordStyles}>{word}</span>
 						{#if currentSubtitle.text.includes(word + '\n')}
 							<span style={wordStyles} class="newline"></span>
@@ -101,21 +148,8 @@
 					{/each}
 				</div>
 			{/if}
-		{:else}
-			<div
-				class="subtitle"
-				style={subtitleStyles}
-				class:needsFixing={currentSubtitle.text.includes('FIX_THIS')}
-			>
-				{#each currentSubtitle.text.replace(' (FIX_THIS)', '').split(/[ \n]/) as word}
-					<span style={wordStyles}>{word}</span>
-					{#if currentSubtitle.text.includes(word + '\n')}
-						<span style={wordStyles} class="newline"></span>
-					{/if}
-				{/each}
-			</div>
-		{/if}
-	</div>
+		</div>
+	{/if}
 {/if}
 
 <!-- Hardcoded final countdown: TODO: remove afterward -->
