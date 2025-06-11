@@ -282,13 +282,14 @@
 					class:active={$video?.id === episode.id}
 					class="episode"
 					on:click={() => playVideo(episode)}
-					transition:fade={{ duration: 200 }}
 				>
 					<img alt={episode.name} src={`https://img.youtube.com/vi/${episode.id}/0.jpg`} />
 					<div class="text">
-						<h3>{episode.name}</h3>
+						{#key episode.name}
+							<h3 transition:slide={{ duration: 200 }}>{episode.name}</h3>
+						{/key}
 						<div class="tags">
-							<span class="tag">{episode.label}</span>
+							<span class="tag" transition:slide={{ duration: 200 }}>{episode.label}</span>
 							{#if $editor}
 								{#if $editor.episodes.map((x) => x.id).includes(episode.id)}
 									<span class="tag success">CC</span>

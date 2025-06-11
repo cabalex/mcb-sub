@@ -355,6 +355,12 @@
 	bottom: 0;
 	padding: 0 0.25ch;
 }
+/* Todo: this is sort of a hacky solution for localizing FX */
+/* Will need to find a better way to do this for future localizations */
+/* Luckily, this is the only effect that uses pseudoelement text... */
+.changeFail.lang-JP:before {
+	content: 'メタルカードボット チェンジアップ';
+}
 
 /* Cardbots */
 .blueCop {
