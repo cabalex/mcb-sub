@@ -152,11 +152,11 @@ Metal Breath! Pick Up! (FX-both)
 
 39
 00:01:50,793 --> 00:01:51,233
-Cielo! (FX-jun left)
+Cielo! (FX-mukara right)
 
 40
 00:01:51,233 --> 00:01:52,240
-Fleta Z! (FX-mukara right)
+Fleta Z! (FX-jun left)
 
 41
 00:01:52,240 --> 00:01:53,099
