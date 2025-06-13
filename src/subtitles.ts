@@ -3,7 +3,6 @@ const subtitles: Season[] = [
 		title: 'Metal Cardbot',
 		subtitle: 'Season 1',
 		icon: './season1.png',
-		incomplete: false,
 		sources: [
 			{
 				name: 'Dub',
@@ -56,7 +55,6 @@ const subtitles: Season[] = [
 				name: 'Fansub',
 				path: '/fansub',
 				language: 'en',
-				incomplete: true,
 				credits: [
 					{ name: '@staro_sphere', link: 'https://x.com/staro_sphere' },
 					{ name: '@PalmtreePanic', link: 'https://x.com/PalmtreePanic' }
@@ -90,7 +88,8 @@ const subtitles: Season[] = [
 					{ name: 'A Gift From Mukara', id: 'cvzhjJ7RJgE', fx: true },
 					{ name: 'The Revival of Flame Nova', id: 'BEjuMKd_Cew' },
 					{ name: 'Search for the Speranza', id: 'arhU41qy4ic' },
-					{ name: 'Battle of the Red Ark', id: '8nGDlfiNOG8', fx: true }
+					{ name: 'Battle of the Red Ark', id: '8nGDlfiNOG8', fx: true },
+					{ name: 'Return of Steel', id: 'ACqsVI_TFl4', fx: true, chat: true }
 				]
 			},
 			{

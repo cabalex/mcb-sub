@@ -192,33 +192,42 @@
 
 	let screenspaceEffect = '';
 
-	const screenspaceTimings = [
-		{ start: 1 * 60 + 55.1, end: 1 * 60 + 55.5, animation: 'bonkRight' },
-		{ start: 1 * 60 + 57, end: 1 * 60 + 57.5, animation: 'bonkRight' },
-		{ start: 1 * 60 + 59.4, end: 2 * 60, animation: 'bonkUp' },
-		{ start: 2 * 60 + 49.3, end: 2 * 60 + 50.3, animation: 'bonkRight' },
-		{ start: 3 * 60 + 16.3, end: 3 * 60 + 17, animation: 'bonkLeft' },
-		{ start: 3 * 60 + 21.2, end: 3 * 60 + 22, animation: 'bonkRight' },
-		{ start: 3 * 60 + 24.3, end: 3 * 60 + 25, animation: 'bonkUp' },
-		{ start: 3 * 60 + 23, end: 3 * 60 + 24, animation: 'bonkDown' },
-		{ start: 3 * 60 + 45.8, end: 3 * 60 + 47, animation: 'bonkDown' },
-		{ start: 3 * 60 + 47.9, end: 3 * 60 + 49, animation: 'impactSmall' },
-		{ start: 5 * 60 + 17.5, end: 5 * 60 + 18, animation: 'impact' },
-		{ start: 5 * 60 + 18, end: 5 * 60 + 24.5, animation: 'screenshake' },
-		{ start: 6 * 60 + 16.7, end: 6 * 60 + 18, animation: 'impact' },
-		{ start: 6 * 60 + 23.8, end: 6 * 60 + 25, animation: 'impactSmall' }
-	];
+	type Timing = { start: number; end: number; animation: string };
+	const screenspaceTimings: { [key: string]: Timing[] } = {
+		L0WnJ7Kz_rw: [
+			{ start: 1 * 60 + 55.1, end: 1 * 60 + 55.5, animation: 'bonkRight' },
+			{ start: 1 * 60 + 57, end: 1 * 60 + 57.5, animation: 'bonkRight' },
+			{ start: 1 * 60 + 59.4, end: 2 * 60, animation: 'bonkUp' },
+			{ start: 2 * 60 + 49.3, end: 2 * 60 + 50.3, animation: 'bonkRight' },
+			{ start: 3 * 60 + 16.3, end: 3 * 60 + 17, animation: 'bonkLeft' },
+			{ start: 3 * 60 + 21.2, end: 3 * 60 + 22, animation: 'bonkRight' },
+			{ start: 3 * 60 + 24.3, end: 3 * 60 + 25, animation: 'bonkUp' },
+			{ start: 3 * 60 + 23, end: 3 * 60 + 24, animation: 'bonkDown' },
+			{ start: 3 * 60 + 45.8, end: 3 * 60 + 47, animation: 'bonkDown' },
+			{ start: 3 * 60 + 47.9, end: 3 * 60 + 49, animation: 'impactSmall' },
+			{ start: 5 * 60 + 17.5, end: 5 * 60 + 18, animation: 'impact' },
+			{ start: 5 * 60 + 18, end: 5 * 60 + 24.5, animation: 'screenshake' },
+			{ start: 6 * 60 + 16.7, end: 6 * 60 + 18, animation: 'impact' },
+			{ start: 6 * 60 + 23.8, end: 6 * 60 + 25, animation: 'impactSmall' }
+		],
+		ACqsVI_TFl4: [
+			{ start: 7 * 60 + 20.5, end: 7 * 60 + 22, animation: 'impactSmall' },
+			{ start: 9 * 60 + 5, end: 9 * 60 + 7, animation: 'flashbang' },
+			{ start: 9 * 60 + 10.3, end: 9 * 60 + 11, animation: 'slice' },
+			{ start: 9 * 60 + 11, end: 9 * 60 + 35, animation: 'sliceAfter' },
+			{ start: 9 * 60 + 35, end: 9 * 60 + 39.15, animation: 'fnDie' }
+		]
+	};
 	function getScreenspaceEffect(target: any) {
-		if ($video?.id !== 'L0WnJ7Kz_rw' || !target) return;
+		const timings = screenspaceTimings[$video?.id ?? ''];
+		if (!timings || !target) return;
 		requestAnimationFrame(getScreenspaceEffect.bind(null, target));
 		if (fullscreen || !captionStyle.fxEnabled) {
 			screenspaceEffect = '';
 			return;
 		}
 		let currentTime = target.getCurrentTime();
-		let effect = screenspaceTimings.find(
-			(timing) => currentTime >= timing.start && currentTime <= timing.end
-		);
+		let effect = timings.find((timing) => currentTime >= timing.start && currentTime <= timing.end);
 		if (effect && target.getPlayerState() === 1) {
 			screenspaceEffect = effect.animation;
 		} else {
@@ -271,7 +280,7 @@
 			on:mouseout={clearHover}
 			on:blur={clearHover}
 		>
-			{#if process.env.NODE_ENV === 'development' && $video.id === ''}
+			{#if process.env.NODE_ENV === 'development' && $video.id === 'local'}
 				<LocalVideo on:play={onPlay} on:end={onEnd} />
 			{:else}
 				<SvelteYouTube
@@ -294,6 +303,9 @@
 					{captionStyle}
 					subtitles={subs}
 					path={$source?.path ?? null}
+					credits={$source?.episodes.indexOf($video) === ($source?.episodes.length || 0) - 1
+						? $source?.credits
+						: null}
 					{target}
 					{hover}
 					bilingual={$video.label === 'OP'}

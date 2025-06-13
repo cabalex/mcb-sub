@@ -179,7 +179,9 @@
 					.padStart(2, '0');
 				let minutes = (Math.floor(time / 60) % 60).toString().padStart(2, '0');
 				let seconds = (Math.floor(time) % 60).toString().padStart(2, '0');
-				let milliseconds = Math.floor((time % 1) * 1000);
+				let milliseconds = Math.floor((time % 1) * 1000)
+					.toString()
+					.padStart(3, '0');
 				return `${hours}:${minutes}:${seconds},${milliseconds}`;
 			};
 			let srt = '';

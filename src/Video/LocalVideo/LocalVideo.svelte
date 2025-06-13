@@ -11,14 +11,16 @@
 					target: {
 						getCurrentTime: () => video?.currentTime,
 						getDuration: () => video?.duration,
-						getPlayerState: () => (video?.paused ? '2' : '1'),
+						getPlayerState: () => (video?.paused ? 2 : 1),
 						playVideo: () => video?.play(),
 						pauseVideo: () => video?.pause(),
 						seekTo: (seconds: number) => {
 							if (video) video.currentTime = seconds;
 						},
-						videoData: {
-							video_id: 'a'
+						playerInfo: {
+							videoData: {
+								video_id: 'local'
+							}
 						}
 					}
 				});

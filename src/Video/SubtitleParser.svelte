@@ -7,12 +7,15 @@
 		type CaptionStyle
 	} from './CaptionStyle/CaptionStyle.svelte';
 	import FinalCountdown from '../assets/FinalCountdown.svelte';
+	import Credits from '../assets/Credits.svelte';
+	import type { Episode } from '../subtitles';
 
 	export let subtitles: Array<{ start: number; end: number; text: string }>;
 	export let path: string | null = null;
 	export let target: any;
 	export let hover: boolean;
 	export let captionStyle: CaptionStyle;
+	export let credits: Episode['credits'] = [];
 	export let bilingual: boolean = false;
 
 	let atEnd = false;
@@ -38,9 +41,19 @@
 		currentSubtitle = null;
 	}
 
+	function* split(word: string, splitter: RegExp = /[ \n]/) {
+		let w = '';
+		for (let part of word.split(splitter)) {
+			yield part;
+			w += part + (word[w.length] || '');
+			if (word[w.length - 1] === '\n') {
+				yield '\n';
+			}
+		}
+	}
+
 	$: subtitleStyles = applyStyle(captionStyle);
 	$: wordStyles = applyWordStyle(captionStyle);
-	$: splitter = captionStyle.improveMachineTranslation ? /[\n]/ : /[ \n]/;
 	$: {
 		if (subtitles) {
 			// Reset current subtitle if subtitles change
@@ -81,11 +94,8 @@
 					style={subtitleStyles}
 					class:needsFixing={machineTranslatedText.includes('FIX_THIS')}
 				>
-					{#each machineTranslatedText.replace(' (FIX_THIS)', '').split(splitter) as word}
-						<span style={wordStyles}>{word}</span>
-						{#if machineTranslatedText.includes(word + '\n')}
-							<span style={wordStyles} class="newline"></span>
-						{/if}
+					{#each split(machineTranslatedText.replace(' (FIX_THIS)', '')) as word}
+						<span style={wordStyles} class:newline={word === '\n'}>{word}</span>
 					{/each}
 				</div>
 			</div>
@@ -112,11 +122,8 @@
 					style={subtitleStyles}
 					class:needsFixing={parts[0].includes('FIX_THIS')}
 				>
-					{#each parts[0].replace(' (FIX_THIS)', '').split(splitter) as word}
-						<span style={wordStyles}>{word}</span>
-						{#if currentSubtitle.text.includes(word + '\n')}
-							<span style={wordStyles} class="newline"></span>
-						{/if}
+					{#each split(parts[0].replace(' (FIX_THIS)', '')) as word}
+						<span style={wordStyles} class:newline={word === '\n'}>{word}</span>
 					{/each}
 				</div>
 				{#if parts.length > 1}
@@ -126,11 +133,8 @@
 						style={'font-style: italic; ' + subtitleStyles}
 						class:needsFixing={parts[1].includes('FIX_THIS')}
 					>
-						{#each parts[1].replace(' (FIX_THIS)', '').split(splitter) as word}
-							<span style={wordStyles}>{word}</span>
-							{#if currentSubtitle.text.includes(word + '\n')}
-								<span style={wordStyles} class="newline"></span>
-							{/if}
+						{#each split(parts[1].replace(' (FIX_THIS)', '')) as word}
+							<span style={wordStyles} class:newline={word === '\n'}>{word}</span>
 						{/each}
 					</div>
 				{/if}
@@ -140,11 +144,8 @@
 					style={subtitleStyles}
 					class:needsFixing={currentSubtitle.text.includes('FIX_THIS')}
 				>
-					{#each currentSubtitle.text.replace(' (FIX_THIS)', '').split(splitter) as word}
-						<span style={wordStyles}>{word}</span>
-						{#if currentSubtitle.text.includes(word + '\n')}
-							<span style={wordStyles} class="newline"></span>
-						{/if}
+					{#each split(currentSubtitle.text) as word}
+						<span style={wordStyles} class:newline={word === '\n'}>{word}</span>
 					{/each}
 				</div>
 			{/if}
@@ -152,9 +153,8 @@
 	{/if}
 {/if}
 
-<!-- Hardcoded final countdown: TODO: remove afterward -->
-{#if path === '/fansub' && target && target?.playerInfo?.videoData?.video_id === '8nGDlfiNOG8' && atEnd}
-	<FinalCountdown />
+{#if target && atEnd && credits !== null}
+	<Credits {credits} />
 {/if}
 
 <style>

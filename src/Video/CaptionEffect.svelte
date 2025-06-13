@@ -23,7 +23,11 @@
 		'busterGallon',
 		'blackHook',
 		'heavyIron',
-		'mukara'
+		'mukara',
+		'redBlitz',
+		'cielo',
+		'musclehyde',
+		'gigantrex'
 	];
 	function useBackground(effect: string) {
 		for (const fx of effect.split(' ')) {

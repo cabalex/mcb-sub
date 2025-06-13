@@ -1,5 +1,6 @@
 :root {
 	--blueCop: #1e90ff;
+	--jun: #74b9ff;
 	--megaTrucker: #f3bf4b;
 	--phoenixFire: #ff2400;
 	--megaAmbler: #85be94;
@@ -366,6 +367,9 @@
 .blueCop {
 	color: var(--blueCop) !important;
 }
+.jun {
+	color: var(--jun) !important;
+}
 .megaTrucker {
 	color: var(--megaTrucker) !important;
 }
@@ -401,6 +405,120 @@
 }
 .mukara {
 	color: var(--mukara) !important;
+}
+.redBlitz {
+	color: var(--redBlitz) !important;
+}
+.cielo {
+	color: var(--cielo) !important;
+}
+.musclehyde {
+	color: var(--musclehyde) !important;
+}
+.gigantrex {
+	color: var(--gigantrex) !important;
+}
+
+.both span {
+	--bg-size: 600%;
+	background: linear-gradient(90deg, var(--jun), var(--mukara), var(--jun)) 0 0 / var(--bg-size)
+		100%;
+	color: transparent !important;
+	font-weight: 500 !important;
+	background-clip: text;
+	-webkit-background-clip: text;
+	animation: animate 20s infinite linear;
+}
+.subtitleArea:has(.left) {
+	align-items: flex-start !important;
+	left: 15% !important;
+	width: 85% !important;
+}
+.subtitleArea:has(.right) {
+	align-items: flex-end !important;
+	right: 15% !important;
+	width: 85% !important;
+}
+.subtitleArea:has(.split) {
+	align-items: center !important;
+	left: 15% !important;
+	right: 15% !important;
+	width: 70% !important;
+}
+.split {
+	width: 100%;
+	background-color: transparent !important;
+	justify-content: space-between !important;
+}
+.split > *:nth-child(1) {
+	color: var(--redBlitz) !important;
+}
+.split > *:nth-child(2) {
+	color: var(--blueCop) !important;
+}
+.split > * {
+	background-color: rgba(0, 0, 0, 0.7) !important;
+}
+.punisher {
+	position: relative;
+	font-size: 4em !important;
+	background-color: transparent !important;
+}
+.punisher span {
+	--bg-size: 1000%;
+	position: relative;
+	font-style: italic;
+	background: linear-gradient(
+			90deg,
+			var(--blueCop),
+			var(--megaTrucker),
+			var(--megaAmbler),
+			var(--phoenixFire),
+			var(--shadowX),
+			var(--dexter),
+			var(--fletaZ),
+			var(--wildGuardy),
+			var(--buffaloCrush),
+			var(--busterGallon),
+			var(--blackHook),
+			var(--blueCop)
+		)
+		0 0 / var(--bg-size) 100%;
+	color: transparent !important;
+	font-weight: 900 !important;
+	background-clip: text;
+	-webkit-background-clip: text;
+	animation: animate 20s infinite linear;
+	transform: translate(-0.25em, -0.25em);
+	z-index: 1;
+}
+.punisher:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: -15%;
+	width: 130%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	clip-path: polygon(100% 0, 84% 100%, 0 100%, 18% 0);
+}
+.punisher:after {
+	content: '갤럭시즈 퍼니셔';
+	color: #777 !important;
+	position: absolute;
+	top: 0.5em;
+	font-size: 0.75em;
+	font-weight: bold;
+	font-style: italic;
+	left: calc(-50% + 20px);
+	width: 200%;
+	text-align: center;
+	height: 100%;
+}
+@media screen and (max-width: 900px) {
+	.punisher {
+		font-size: 6vw !important;
+	}
 }
 
 /* screenspace effects */
@@ -536,5 +654,160 @@
 	}
 	100% {
 		transform: translate(0);
+	}
+}
+main:has(.flashbang) {
+	animation: flashbang 0.5s ease-in-out;
+	animation-fill-mode: forwards;
+}
+main:has(.flashbang) .playlist,
+main:has(.flashbang) .btnrowScrollWrapper {
+	animation: playlistFlashbang 0.5s ease-in-out;
+	animation-fill-mode: forwards;
+}
+@keyframes flashbang {
+	0% {
+		background-color: transparent;
+	}
+	50% {
+		background-color: white;
+	}
+	75% {
+		background-color: rgba(255, 128, 0, 0.5);
+	}
+	100% {
+		background-color: transparent;
+	}
+}
+@keyframes playlistFlashbang {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+main:has(.slice) {
+	animation: sliceFlashbang 0.4s ease-in-out;
+	animation-fill-mode: forwards;
+}
+main:has(.slice) .playlist,
+main:has(.slice) .btnrowScrollWrapper {
+	animation: slicePlaylistFlashbang 0.5s ease-in-out;
+	animation-fill-mode: forwards;
+}
+main:has(.sliceAfter),
+main:has(.fnDie) {
+	overflow: hidden;
+}
+main:has(.sliceAfter) .playlist,
+main:has(.fnDie) .playlist {
+	transform: rotate(3deg) translateY(3vh);
+	clip-path: polygon(0% 45%, 100% 52%, 0% 55%, 0% 100%, 100% 100%, 100% 0, 0% 0);
+	animation: slash 0.4s linear;
+}
+@keyframes slash {
+	0% {
+		transform: rotate(3deg) translateY(3vh) translateX(0vw);
+	}
+	10% {
+		transform: rotate(3deg) translateY(3vh) translateX(5vw);
+	}
+	20% {
+		transform: rotate(3deg) translateY(3vh) translateX(-0.5vw);
+	}
+	30% {
+		transform: rotate(3deg) translateY(3vh) translateX(0.75vw);
+	}
+	40% {
+		transform: rotate(3deg) translateY(3vh) translateX(-0.25vw);
+	}
+	50% {
+		transform: rotate(3deg) translateY(3vh) translateX(0.35vw);
+	}
+	60% {
+		transform: rotate(3deg) translateY(3vh) translateX(-0.15vw);
+	}
+	70% {
+		transform: rotate(3deg) translateY(3vh) translateX(0.15vw);
+	}
+	80% {
+		transform: rotate(3deg) translateY(3vh) translateX(-0.05vw);
+	}
+	90% {
+		transform: rotate(3deg) translateY(3vh) translateX(0.1vw);
+	}
+}
+main:has(.sliceAfter) .playlist:after,
+main:has(.fnDie) .playlist:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(
+		to bottom,
+		transparent 35%,
+		rgba(81, 168, 255, 0.75) 40%,
+		white 53%,
+		rgba(81, 168, 255, 0.75) 60%,
+		transparent 65%,
+		transparent
+	);
+	clip-path: polygon(100% 50%, 100% 55%, 0% 70%, 0% 30%);
+	filter: blur(10px);
+}
+@keyframes sliceFlashbang {
+	0% {
+		background-color: transparent;
+	}
+	25% {
+		background-color: rgba(0, 128, 255, 0.5);
+	}
+	100% {
+		background-color: white;
+	}
+}
+@keyframes slicePlaylistFlashbang {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+main:has(.fnDie) {
+	animation: blackout 3s ease-out;
+	animation-fill-mode: forwards;
+}
+main:has(.fnDie) .playlist,
+main:has(.fnDie) .btnrowScrollWrapper {
+	animation: playlistBlackout 3s ease-out;
+	animation-fill-mode: forwards;
+}
+@keyframes blackout {
+	0% {
+		background-color: transparent;
+	}
+	75% {
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+	100% {
+		background-color: black;
+	}
+}
+@keyframes playlistBlackout {
+	0% {
+		opacity: 1;
+	}
+	75% {
+		opacity: 0.5;
+	}
+	100% {
+		opacity: 0;
 	}
 }
