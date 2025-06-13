@@ -89,7 +89,7 @@ const subtitles: Season[] = [
 					{ name: 'The Revival of Flame Nova', id: 'BEjuMKd_Cew' },
 					{ name: 'Search for the Speranza', id: 'arhU41qy4ic' },
 					{ name: 'Battle of the Red Ark', id: '8nGDlfiNOG8', fx: true },
-					{ name: 'Return of Steel', id: 'ACqsVI_TFl4', fx: true, chat: true }
+					{ name: 'Return of Steel', id: 'ACqsVI_TFl4', fx: true }
 				]
 			},
 			{
@@ -129,7 +129,8 @@ const subtitles: Season[] = [
 					{ name: 'ムカラの贈り物', id: 'cvzhjJ7RJgE', label: '22話', fx: true },
 					{ name: 'フレイムノヴァの復活', id: 'BEjuMKd_Cew', label: '23話' },
 					{ name: 'スペランジャー号を探して', id: 'arhU41qy4ic', label: '24話' },
-					{ name: '赤い箱舟の戦闘', id: '8nGDlfiNOG8', label: '25話', fx: true }
+					{ name: '赤い箱舟の戦闘', id: '8nGDlfiNOG8', label: '25話', fx: true },
+					{ name: '鋼鉄の帰還', id: 'ACqsVI_TFl4', label: '26話', fx: true }
 				]
 			}
 		]

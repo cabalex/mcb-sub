@@ -486,6 +486,7 @@
 		0 0 / var(--bg-size) 100%;
 	color: transparent !important;
 	font-weight: 900 !important;
+	padding-right: 0.1em;
 	background-clip: text;
 	-webkit-background-clip: text;
 	animation: animate 20s infinite linear;
