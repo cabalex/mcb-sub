@@ -108,7 +108,7 @@ const subtitles: Season[] = [
 					},
 					{ name: '二番目のメタルカード', id: 'kwxZy0fOmG4', label: '2話' },
 					{ name: '空の上の脅威', id: 'KmHp3PSBHXM', label: '3話' },
-					{ name: 'シエロは機嫌が悪い', id: 'outtz10cTjY', label: '4話' },
+					{ name: 'シエロはご機嫌ななめ!', id: 'outtz10cTjY', label: '4話' },
 					{ name: 'スクープ！鋼鉄の取材記者', id: 'hvcwuisAcWw', label: '5話' },
 					{ name: 'マッスルハイドの選択', id: 'Y6ORwgjJcIw', label: '6話' },
 					{ name: '洞窟大脱出', id: 'OeCr53P6z6c', label: '7話' },
