@@ -59,7 +59,12 @@
 		seasonDropdownOpen = false;
 		playlistIndex = playlists.indexOf(playlist);
 		if (playlists[playlistIndex].sources.length > 0) {
-			source.set(playlists[playlistIndex].sources[0]);
+			let newSource = playlists[playlistIndex].sources[0];
+			if ($source && 'path' in $source) {
+				newSource =
+					playlists[playlistIndex].sources.find((s) => s.path === $source.path) || newSource;
+			}
+			source.set(newSource);
 		}
 	}
 
@@ -76,6 +81,10 @@
 		if (s) {
 			editor.set(s);
 		} else {
+			// TODO: may need fixing - title set on source here, but not retroactively
+			// Not sure if this makes a difference: only causes issues when a source is
+			// used across multiple playlists? And it only matters if the default source
+			// is used across multiple playlists, since that's the one it pulls from
 			editor.set({
 				version: 1,
 				title: playlists[playlistIndex].title,
@@ -83,6 +92,7 @@
 				icon: playlists[playlistIndex].icon,
 				incomplete: false,
 				source: {
+					title: playlists[playlistIndex].title,
 					path: '/' + Math.random().toString(36).slice(2),
 					language: 'en',
 					name: 'Custom Sub',
@@ -139,7 +149,11 @@
 	let playlistIndex = 0;
 	// Find season from source
 	for (let i = 0; i < playlists.length; i++) {
-		if (playlists[i].sources.some((s) => s.path === $source?.path)) {
+		console.log($source);
+		if (
+			playlists[i].sources.some((s) => s.path === $source?.path) &&
+			$source?.title === playlists[i].title
+		) {
 			playlistIndex = i;
 			break;
 		}

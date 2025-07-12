@@ -10,7 +10,7 @@ const subtitles: Season[] = [
 				path: '/dub',
 				credits: [
 					{
-						name: 'SAMG Entertainment',
+						name: 'Central Entertainment',
 						link: 'https://www.mewatch.sg/show/Metal-Cardbot-(Dual-Sound)-486086'
 					}
 				],
@@ -42,6 +42,44 @@ const subtitles: Season[] = [
 					{ name: 'Black Hook Strikes Back', id: 'UCixUDwUZtA' },
 					{ name: 'Heavy Battle', id: '798fkUeeMOU' },
 					{ name: 'The Final Battle', id: 'L0WnJ7Kz_rw', fx: true }
+				]
+			},
+			{
+				name: '日本語',
+				path: '/jp',
+				language: 'jp',
+				credits: [
+					{ name: 'Soiya', link: 'https://twitter.com/913son3' },
+					{ name: '매지컬비둘기/MP', link: 'https://twitter.com/MagicPigeon4' }
+				],
+				episodes: [
+					//{ name: 'Opening', id: '1070bnqHcHY', label: 'OP' },
+					{ name: '登場! パトカーロボット!?', id: 'ZLcqsmPCHLY', label: '1話' },
+					{ name: '踊るダンプトラック', id: '3ElOpqFXaSU', label: '2話' }
+					//{ name: 'Farewell, Blue Cop', id: '5RCpJwrhkrs' },
+					//{ name: 'The Black Ambulance', id: '52W_cb1f1ao' },
+					//{ name: 'Fire Truck With a Phobia', id: 'c_CdqDAyGqI' },
+					//{ name: 'The Invisible Challenger', id: 'YGHc9jfOsb0' },
+					//{ name: 'Defeating the Heli-Tornado', id: 'ksRW6iMADzQ' },
+					//{ name: 'The Secret is Out!', id: 'jzz3UOpvuV0' },
+					//{ name: '0 Seconds to Destruction', id: 'rkhiv9q4FJw' },
+					//{ name: 'Attack of the Final Boss!', id: '1lqFbWgblmk' },
+					//{ name: 'The Mysterious Transfer Student', id: 'sfh5bi5Njtc' },
+					//{ name: "Blue Cop's Special Training!", id: 'aU5wLVRQIWQ' },
+					//{ name: 'Guardian of the Forest', id: 'PkNgHFctIIg' },
+					//{ name: 'Operation Underground Battle', id: '5igwoiB4sAE' },
+					//{ name: 'A Metal Cardbot from the Sky!', id: '8wpIPp7c094' },
+					//{ name: 'The Vagabond in the Sky', id: '4kAhVJnzL9w' },
+					//{ name: 'Showdown Between Blue Cop and Wild Guardy!', id: 't5_mM9bdq00' },
+					//{ name: 'The Great Showdown! Giant VS Giant!', id: 'ScF3TTBBfyo' },
+					//{ name: 'The Hungry Metal Cardbot', id: 'hOeQeLZ4ccg' },
+					//{ name: 'Metal Breath Gets Stolen', id: 'jk6TC3f6Uls' },
+					//{ name: "Anna's Metal Breath", id: 'QmVE7ZhwIv4' },
+					//{ name: 'Goodbye, Buffalo Crush', id: 'FGG_QsPm5k8' },
+					//{ name: 'Buster Gallon, the Betrayer', id: 'B8IYxvIrf9o' },
+					//{ name: 'Black Hook Strikes Back', id: 'UCixUDwUZtA' },
+					//{ name: 'Heavy Battle', id: '798fkUeeMOU' },
+					//{ name: 'The Final Battle', id: 'L0WnJ7Kz_rw', fx: true }
 				]
 			}
 		]
@@ -138,6 +176,7 @@ const subtitles: Season[] = [
 ].map((season) => {
 	season.sources.map((source) => {
 		let i = 0;
+		source.title = season.title;
 		source.episodes = source.episodes.map((episode) => {
 			// @ts-ignore
 			if (!episode.label) {
@@ -161,6 +200,14 @@ export const translationNotes: { [key: string]: { [key: string]: string } } = {
 		</div>
 		<p>Welcome to the Metal Cardbot unofficial fan sub website! Here you'll find all (freely) uploaded episodes of Metal Cardbot, translated into English. These are embedded directly from the metalcardbotTV YouTube channel, so there's no piracy involved!</p>
         <p><b>Metal Cardbot is property of SAMG/Navy, and I do not claim any right to anything streamed on this website</b> (with the exception of the fan subtitles, which were created by myself and other fans of the series). Please support the series and its creators!</p>`
+	},
+	'/jp': {
+		ZLcqsmPCHLY: `
+		<div class="notice">
+		<h2>🔊 英語が聞こえますか?</h2>
+		<p><b>SAMGはこのエピソードに英語吹き替えを追加しました。動画を再生すると自動的に選択されます。</b> これをオフにする方法はなく、このウェブサイトでは再生される音声トラックを制御できません。<b>設定 > 音声トラック > 韓国語（オリジナル）</b> をクリックして手動で変更する必要があります。<br />ご不便をおかけして申し訳ございません :(</p>
+		</div>
+		`
 	},
 	'/fansub': {
 		KmHp3PSBHXM: `<p>At the flashback beginning at <span class="timestamp">3:09</span>, Black Hook insults Heavy Iron, causing them to fight. The literal translation is along the lines of "What did you say, you shooting-star-sized eyes?!" (meaning "small eyes"), which doesn't make much sense in English. We changed it to "Does this weird-eyed guy have something to say about me?".</p>
@@ -186,6 +233,7 @@ export interface Season {
 
 export interface Source {
 	name: string;
+	title: string;
 	path: string;
 	language: string;
 	episodes: Episode[];
