@@ -220,7 +220,10 @@
 	};
 	function getScreenspaceEffect(target: any) {
 		const timings = screenspaceTimings[$video?.id ?? ''];
-		if (!timings || !target) return;
+		if (!timings || !target) {
+			screenspaceEffect = '';
+			return;
+		}
 		requestAnimationFrame(getScreenspaceEffect.bind(null, target));
 		if (fullscreen || !captionStyle.fxEnabled) {
 			screenspaceEffect = '';
