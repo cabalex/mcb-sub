@@ -234,7 +234,7 @@
 			screenspaceEffect = '';
 		}
 	}
-	$: getScreenspaceEffect(target);
+	$: if ($video) getScreenspaceEffect(target);
 
 	$: {
 		if (
