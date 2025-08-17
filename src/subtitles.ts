@@ -55,12 +55,12 @@ const subtitles: Season[] = [
 				episodes: [
 					//{ name: 'Opening', id: '1070bnqHcHY', label: 'OP' },
 					{ name: '登場! パトカーロボット!?', id: 'ZLcqsmPCHLY', label: '1話' },
-					{ name: '踊るダンプトラック', id: '3ElOpqFXaSU', label: '2話' }
-					//{ name: 'Farewell, Blue Cop', id: '5RCpJwrhkrs' },
-					//{ name: 'The Black Ambulance', id: '52W_cb1f1ao' },
-					//{ name: 'Fire Truck With a Phobia', id: 'c_CdqDAyGqI' },
-					//{ name: 'The Invisible Challenger', id: 'YGHc9jfOsb0' },
-					//{ name: 'Defeating the Heli-Tornado', id: 'ksRW6iMADzQ' },
+					{ name: '踊るダンプトラック', id: '3ElOpqFXaSU', label: '2話' },
+					{ name: 'ブルーコップとの別れ', id: '5RCpJwrhkrs', label: '3話' },
+					{ name: '黒い救急車', id: '52W_cb1f1ao', label: '4話' },
+					{ name: '怖がりな消防車', id: 'c_CdqDAyGqI', label: '5話' },
+					{ name: '見えない挑戦者', id: 'YGHc9jfOsb0', label: '6話' },
+					{ name: 'ヘリトルネードをやっつけろ!', id: 'ksRW6iMADzQ', label: '7話' }
 					//{ name: 'The Secret is Out!', id: 'jzz3UOpvuV0' },
 					//{ name: '0 Seconds to Destruction', id: 'rkhiv9q4FJw' },
 					//{ name: 'Attack of the Final Boss!', id: '1lqFbWgblmk' },
