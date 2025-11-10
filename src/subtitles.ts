@@ -65,21 +65,21 @@ const subtitles: Season[] = [
 					{ name: 'モータウン崩壊0秒前', id: 'rkhiv9q4FJw', label: '9話' },
 					{ name: 'ラスボスの襲来!', id: '1lqFbWgblmk', label: '10話' },
 					{ name: '謎の転校生', id: 'sfh5bi5Njtc', label: '11話' },
-					{ name: "ブルーコップ、特訓強行！", id: 'aU5wLVRQIWQ', label: '12話' },
+					{ name: 'ブルーコップ、特訓強行！', id: 'aU5wLVRQIWQ', label: '12話' },
 					{ name: '森の守り神', id: 'PkNgHFctIIg', label: '13話' },
 					{ name: '地下掃討(そうとう)作戦', id: '5igwoiB4sAE', label: '14話' },
 					{ name: '空の彼方からやって来たメタルカードボット！', id: '8wpIPp7c094', label: '15話' },
 					{ name: '空をさまよう流浪客(るろうかく)', id: '4kAhVJnzL9w', label: '16話' },
 					{ name: 'ブルーコップとワイルドガーディの対決!', id: 't5_mM9bdq00', label: '17話' },
-					//{ name: 'The Great Showdown! Giant VS Giant!', id: 'ScF3TTBBfyo' },
-					//{ name: 'The Hungry Metal Cardbot', id: 'hOeQeLZ4ccg' },
-					//{ name: 'Metal Breath Gets Stolen', id: 'jk6TC3f6Uls' },
-					//{ name: "Anna's Metal Breath", id: 'QmVE7ZhwIv4' },
-					//{ name: 'Goodbye, Buffalo Crush', id: 'FGG_QsPm5k8' },
-					//{ name: 'Buster Gallon, the Betrayer', id: 'B8IYxvIrf9o' },
-					//{ name: 'Black Hook Strikes Back', id: 'UCixUDwUZtA' },
-					//{ name: 'Heavy Battle', id: '798fkUeeMOU' },
-					//{ name: 'The Final Battle', id: 'L0WnJ7Kz_rw', fx: true }
+					{ name: '大激突!ジャイアントvsジャイアント!!', id: 'ScF3TTBBfyo', label: '18話' },
+					{ name: '腹ペコ メタルカードボット', id: 'hOeQeLZ4ccg', label: '19話' },
+					{ name: '盗まれた、メタルブレス', id: 'jk6TC3f6Uls', label: '20話' },
+					{ name: 'アンナのメタルブレス', id: 'QmVE7ZhwIv4', label: '21話' },
+					{ name: 'グッバイ バッファロークラッシュ!', id: 'FGG_QsPm5k8', label: '22話' },
+					{ name: '裏切り者 バスターギャロン', id: 'B8IYxvIrf9o', label: '23話' },
+					{ name: 'ブラックフックの逆襲', id: 'UCixUDwUZtA', label: '24話' },
+					{ name: 'へビーバトル', id: '798fkUeeMOU', label: '25話' },
+					{ name: '最後の決戦', id: 'L0WnJ7Kz_rw', label: '26話', fx: true }
 				]
 			}
 		]

@@ -56,9 +56,9 @@
 .italic {
 	font-style: italic;
 }
-.shake,
 .shake span {
-	animation: shake calc(var(--random-length, 1) * 0.1) infinite;
+	animation: shake calc(var(--random-length, 10000) * 0.2) infinite;
+	animation-delay: calc(var(--offset) * -0.2) !important;
 }
 @keyframes shake {
 	0% {
