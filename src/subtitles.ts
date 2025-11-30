@@ -53,7 +53,7 @@ const subtitles: Season[] = [
 					{ name: '매지컬비둘기/MP', link: 'https://twitter.com/MagicPigeon4' }
 				],
 				episodes: [
-					//{ name: 'Opening', id: '1070bnqHcHY', label: 'OP' },
+					{ name: 'OP', id: '1070bnqHcHY', label: 'OP' },
 					{ name: '登場! パトカーロボット!?', id: 'ZLcqsmPCHLY', label: '1話' },
 					{ name: '踊るダンプトラック', id: '3ElOpqFXaSU', label: '2話' },
 					{ name: 'ブルーコップとの別れ', id: '5RCpJwrhkrs', label: '3話' },
@@ -139,6 +139,7 @@ const subtitles: Season[] = [
 					{ name: '매지컬비둘기/MP', link: 'https://twitter.com/MagicPigeon4' }
 				],
 				episodes: [
+					{ name: 'OP', id: 'w3QOebaRTSI', label: 'OP' },
 					{
 						name: '石板から目覚めたメタルカードボット',
 						id: '3P-D6WLA424',
@@ -162,11 +163,11 @@ const subtitles: Season[] = [
 					{ name: '暴走機関車、ブラストレイン', id: 'ERhxa8LiPmw', label: '17話' },
 					{ name: '独占！鋼鉄のインタビュー', id: 'AC1GDGiJ3hA', label: '18話' },
 					{ name: '正々堂々！ベクトルとビット兄弟！', id: 'nr8xAuarerk', label: '19話' },
-					{ name: 'メタルブレスの真の主人', id: 'wbj59CLjZuA', label: '20話' },
+					{ name: 'メタルブレスの真の主', id: 'wbj59CLjZuA', label: '20話' },
 					{ name: 'グローバーの最期', id: 'xJbp4uef1ro', label: '21話' },
 					{ name: 'ムカラの贈り物', id: 'cvzhjJ7RJgE', label: '22話', fx: true },
 					{ name: 'フレイムノヴァの復活', id: 'BEjuMKd_Cew', label: '23話' },
-					{ name: 'スペランツァー号を探して', id: 'arhU41qy4ic', label: '24話' },
+					{ name: 'スペランサ号を探して', id: 'arhU41qy4ic', label: '24話' },
 					{ name: '赤い箱舟の戦闘', id: '8nGDlfiNOG8', label: '25話', fx: true },
 					{ name: '鋼鉄の帰還', id: 'ACqsVI_TFl4', label: '26話', fx: true }
 				]
