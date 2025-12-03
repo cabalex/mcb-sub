@@ -328,11 +328,11 @@
 				<div class="unknownSeason">
 					<img
 						src={unknownSeason}
-						alt="A Cardbot from Season 2"
-						style="max-height: min(50vh, 200px); max-width: 70%"
+						alt="A Cardbot from Season 3"
+						style="max-height: min(50vh, 200px); max-width: 80%"
 					/>
 					<i style="text-align: center; width: 100%; display: block; padding: 10px 0;">
-						We don't know when the next episode will premiere on YouTube.<br />Check back later!
+						When episodes begin premiering on YouTube, you'll find fan subtitles here.<br />Check back later!
 					</i>
 				</div>
 			{/if}
@@ -341,7 +341,7 @@
 			<div class="unknownSeason">
 				<img
 					src={unknownSeason}
-					alt="A Cardbot from Season 2"
+					alt="A Cardbot from Season 3"
 					style="max-height: min(50vh, 200px); max-width: 70%"
 				/>
 				<i style="text-align: center; width: 100%; display: block; padding: 10px 0;">
@@ -363,9 +363,22 @@
 {/if}
 
 <style>
+	.episodes:has(.unknownSeason) {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+	}
+	.episodes:has(.unknownSeason) .active {
+		position: sticky;
+	}
 	.unknownSeason {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		flex-grow: 1;
 		flex-shrink: 1;
-		padding-top: 10vh;
 		margin: auto;
 		text-align: center;
 		max-width: 70%;

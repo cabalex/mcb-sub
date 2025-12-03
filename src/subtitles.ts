@@ -173,6 +173,26 @@ const subtitles: Season[] = [
 				]
 			}
 		]
+	},
+	{
+		title: 'Metal Cardbot W',
+		subtitle: 'Season 3',
+		icon: './season3.jpg',
+		sources: [
+			{
+				name: 'Fansub',
+				path: '/fansub',
+				language: 'en',
+				credits: [
+					{ name: '@staro_sphere', link: 'https://x.com/staro_sphere' },
+					{ name: '@PalmtreePanic', link: 'https://x.com/PalmtreePanic' }
+				],
+				episodes: [
+					{ name: 'Teaser', id: '4J3vusCIhhc', label: 'Teaser' },
+					{ name: 'Opening', id: 'wuMN8mCNLdk', label: 'OP' }
+				]
+			}
+		]
 	}
 ].map((season) => {
 	season.sources.map((source) => {
@@ -221,7 +241,11 @@ export const translationNotes: { [key: string]: { [key: string]: string } } = {
 			<p>And yes, Musclehyde's Crane "Bhuh" is the official translation of his Weapon Card (크레인 부지), as seen in his <a href="https://youtu.be/zTbADlD9ftA?t=205" target="_blank">introduction video</a>. It would make more sense for it to be Crane Site (as 부지 directly means "construction site"), but maybe they translated it this way because bhuh might mean ground in Hindi or something? We're not sure. Maybe it's a pun!</p>
 			<p>...also, @PalmtreePanic may have made Red Blitz's cursing fish related. 🦐</p>`,
 		wbj59CLjZuA: `<p><span class="timestamp">2:51</span> - Blue Cop's line means something along the lines of "Glober makes you so charmed/entranced that you let him go off and take control of the conversation". We found "caught up by his words" to be the best way to convey this, but it's still not great.</p>
-			<p><span class="timestamp">4:56</span> - This line is a general joke/pun making fun of Red Blitz's Crimson Kick. @staro_sphere suggested "red roly poly kick", but it's probably closer to a more silly version of "storm kick". There is probably a more accurate translation of this line possible, but... 🦐</p>`
+			<p><span class="timestamp">4:56</span> - This line is a general joke/pun making fun of Red Blitz's Crimson Kick. @staro_sphere suggested "red roly poly kick", but it's probably closer to a more silly version of "storm kick". There is probably a more accurate translation of this line possible, but... 🦐</p>`,
+		wuMN8mCNLdk: `<p>Welcome to Metal Cardbot W!</p>
+			<p>New this season is that we wanted to make sure the opening is <i>actually singable</i> in English. This involves a lot of lyrical compromises to keep the same rhythm and syllable count while retaining the original meaning. Nevertheless, we hope you enjoy it!</p>
+			<p>One of the lyrics we wanted to keep is <span class="timestamp">0:44</span>, "우주의 별처럼" ("like the stars across the universe"), but we couldn't make "universe" work in this context. It may not be as cool, but "like all the stars in the sky!" is fun to sing, we think.</p>
+			<p>Metal Cardbot W premieres this December 4th on EBS, but due to copyright restrictions, we will not be able to provide subtitles until the episodes begin uploading to YouTube (usually this happens around 4 months after the first episode is broadcasted). Check back later!</p>`
 	}
 };
 
