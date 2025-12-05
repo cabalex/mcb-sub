@@ -191,6 +191,19 @@ const subtitles: Season[] = [
 					{ name: 'Teaser', id: '4J3vusCIhhc', label: 'Teaser' },
 					{ name: 'Opening', id: 'wuMN8mCNLdk', label: 'OP' }
 				]
+			},
+			{
+				name: '日本語',
+				path: '/jp',
+				language: 'jp',
+				credits: [
+					{ name: 'Soiya', link: 'https://twitter.com/913son3' },
+					{ name: '매지컬비둘기/MP', link: 'https://twitter.com/MagicPigeon4' }
+				],
+				episodes: [
+					{ name: 'ティーザー', id: '4J3vusCIhhc', label: 'ティーザー' },
+					{ name: 'OP', id: 'wuMN8mCNLdk', label: 'OP' }
+				]
 			}
 		]
 	}

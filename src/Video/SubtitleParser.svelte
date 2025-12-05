@@ -117,17 +117,7 @@
 				/>
 			{:else if bilingual}
 				{@const parts = currentSubtitle.text.split(' / ')}
-				<div
-					class="subtitle"
-					style={subtitleStyles}
-					class:needsFixing={parts[0].includes('FIX_THIS')}
-				>
-					{#each split(parts[0].replace(' (FIX_THIS)', '')) as word}
-						<span style={wordStyles} class:newline={word === '\n'}>{word}</span>
-					{/each}
-				</div>
 				{#if parts.length > 1}
-					<div style="flex-grow: 1"></div>
 					<div
 						class="subtitle"
 						style={'font-style: italic; ' + subtitleStyles}
@@ -137,7 +127,17 @@
 							<span style={wordStyles} class:newline={word === '\n'}>{word}</span>
 						{/each}
 					</div>
+					<div style="flex-grow: 1"></div>
 				{/if}
+				<div
+					class="subtitle"
+					style={subtitleStyles}
+					class:needsFixing={parts[0].includes('FIX_THIS')}
+				>
+					{#each split(parts[0].replace(' (FIX_THIS)', '')) as word}
+						<span style={wordStyles} class:newline={word === '\n'}>{word}</span>
+					{/each}
+				</div>
 			{:else}
 				<div
 					class="subtitle"
