@@ -24,12 +24,11 @@
 	let hover = false;
 	let target: { getCurrentTime: () => any } | null = null;
 	function onPlay(e) {
+		if (e.detail.target.getCurrentTime() < 1) {
+			detectSkipIntro(e.detail.target);
+		}
 		if (target === e.detail.target) return;
 		target = e.detail.target;
-		console.log('Playing', e.detail.target);
-		//console.log(e.detail.target.getOption('captions', 'track'));
-		//e.detail.target.setOption('captions', 'track', { languageCode: 'ko' });
-		//console.log(e.detail.target.getOption('captions', 'track'));
 		hover = true;
 		timeout = setTimeout(() => (hover = false), 3000);
 	}
@@ -237,7 +236,33 @@
 			screenspaceEffect = '';
 		}
 	}
-	$: if ($video) getScreenspaceEffect(target);
+
+	let showSkipIntro = false;
+	function skipIntro(target: any) {
+		if (target && $video && typeof $video.intro === 'number') {
+			target.seekTo($video.intro);
+			showSkipIntro = false;
+		}
+	}
+
+	function detectSkipIntro(target: any) {
+		if (!target || typeof $video?.intro !== 'number') {
+			showSkipIntro = false;
+			return;
+		}
+
+		let currentTime = target.getCurrentTime();
+		if (currentTime <= 10 && currentTime < $video.intro - 0.5) {
+			showSkipIntro = true;
+			requestAnimationFrame(detectSkipIntro.bind(null, target));
+		} else {
+			showSkipIntro = false;
+		}
+	}
+
+	$: if ($video) {
+		getScreenspaceEffect(target);
+	}
 
 	$: {
 		if (
@@ -313,6 +338,9 @@
 					{hover}
 					bilingual={$video.label === 'OP'}
 				/>
+			{/if}
+			{#if showSkipIntro}
+				<button class="skipIntroBtn" on:click={() => skipIntro(target)}>Skip Intro</button>
 			{/if}
 			<button class="fullscreenBtn" on:click={toggleFullscreen} class:visible={hover}>
 				{#if fullscreen}
@@ -468,6 +496,22 @@
 	.fullscreenBtn:hover {
 		opacity: 1;
 		animation: none;
+	}
+	.skipIntroBtn {
+		position: absolute;
+		bottom: max(10%, 50px);
+		right: 10px;
+		z-index: 10;
+		padding: 8px 24px;
+		border-radius: 5px;
+		background-color: rgba(50, 50, 50, 0.7);
+		color: white;
+		font-size: min(2em, max(1em, 2vw));
+		border: none;
+		cursor: pointer;
+	}
+	.skipIntroBtn:hover {
+		background-color: rgba(50, 50, 50, 1);
 	}
 	.btnrow {
 		display: flex;

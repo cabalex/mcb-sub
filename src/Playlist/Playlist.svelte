@@ -22,10 +22,10 @@
 	$: {
 		if ($source === null && playlists[playlistIndex].sources.length > 0) {
 			source.set(playlists[playlistIndex].sources[0]);
-		} else if ($source && 'title' in $source) {
+		} else if ($source && 'title' in $source && 'subtitle' in $source) {
 			playlistIndex = Math.max(
 				0,
-				playlists.findIndex((playlist) => playlist.title === $source.title)
+				playlists.findIndex((playlist) => playlist.title === $source.title && playlist.subtitle === $source.subtitle)
 			);
 		}
 	}
@@ -152,7 +152,7 @@
 		console.log($source);
 		if (
 			playlists[i].sources.some((s) => s.path === $source?.path) &&
-			$source?.title === playlists[i].title
+			$source?.title === playlists[i].title && $source?.subtitle === playlists[i].subtitle
 		) {
 			playlistIndex = i;
 			break;

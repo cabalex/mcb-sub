@@ -189,7 +189,8 @@ const subtitles: Season[] = [
 				],
 				episodes: [
 					{ name: 'Teaser', id: '4J3vusCIhhc', label: 'Teaser' },
-					{ name: 'Opening', id: 'wuMN8mCNLdk', label: 'OP' }
+					{ name: 'Opening', id: 'wuMN8mCNLdk', label: 'OP' },
+					{ name: 'Era of Change', id: 'igqcOBDjKYE', intro: 71 }
 				]
 			},
 			{
@@ -211,6 +212,7 @@ const subtitles: Season[] = [
 	season.sources.map((source) => {
 		let i = 0;
 		source.title = season.title;
+		source.subtitle = season.subtitle;
 		source.episodes = source.episodes.map((episode) => {
 			// @ts-ignore
 			if (!episode.label) {
@@ -284,6 +286,7 @@ export interface Episode {
 	id: string;
 	label: string;
 	fx?: boolean;
+	intro?: number;
 	context: Season;
 }
 

@@ -309,7 +309,7 @@
 			<textarea
 				value={customLines.map((x) => x.text.replace('\n', '\\n')).join('\n')}
 				on:change={(e) => updateText(e.target.value)}
-				placeholder={'Mystery of the Police Car Robot!\nI was so close...'}
+				placeholder={'Each line written here will be turned into individual subtitle timings. Or, paste an SRT file to load timings automatically...'}
 			/>
 			<button on:click={loadFromSubtitles}> Load from default subtitles </button>
 			<div class="btnrow">
