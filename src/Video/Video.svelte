@@ -340,7 +340,13 @@
 				/>
 			{/if}
 			{#if showSkipIntro}
-				<button class="skipIntroBtn" on:click={() => skipIntro(target)}>Skip Intro</button>
+				<button class="skipIntroBtn" on:click={() => skipIntro(target)}>
+					{#if $source?.language !== 'en'}
+						⏩
+					{:else}
+						Skip Intro
+					{/if}
+				</button>
 			{/if}
 			<button class="fullscreenBtn" on:click={toggleFullscreen} class:visible={hover}>
 				{#if fullscreen}

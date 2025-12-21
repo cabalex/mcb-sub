@@ -204,7 +204,7 @@ const subtitles: Season[] = [
 				episodes: [
 					{ name: 'ティーザー', id: '4J3vusCIhhc', label: 'ティーザー' },
 					{ name: 'OP', id: 'wuMN8mCNLdk', label: 'OP' },
-					{ name: '変化の時代', id: 'igqcOBDjKYE', intro: 71 }
+					{ name: '変化の時代', id: 'igqcOBDjKYE', label: '1話', intro: 71 }
 				]
 			}
 		]
