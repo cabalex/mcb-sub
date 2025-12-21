@@ -2,7 +2,7 @@
 	import { type Writable } from 'svelte/store';
 	import playlists, { type Episode, type Source, type Season } from '../subtitles.js';
 	import ChevronDown from '../assets/chevron-down.svg';
-	import unknownSeason from '../assets/unknown.png';
+	import unknownSeason from '../assets/unknown-holidays.png';
 	import { fade, slide } from 'svelte/transition';
 	import {
 		deleteCustomSub,
