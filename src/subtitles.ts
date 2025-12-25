@@ -190,7 +190,8 @@ const subtitles: Season[] = [
 				episodes: [
 					{ name: 'Teaser', id: '4J3vusCIhhc', label: 'Teaser' },
 					{ name: 'Opening', id: 'wuMN8mCNLdk', label: 'OP' },
-					{ name: 'Era of Change', id: 'igqcOBDjKYE', intro: 71 }
+					{ name: 'Era of Change', id: 'igqcOBDjKYE', intro: 71 },
+					{ name: "Wild Cardbot's Roar", id: '91ZQRAqYUj4', intro: 71 }
 				]
 			},
 			{
