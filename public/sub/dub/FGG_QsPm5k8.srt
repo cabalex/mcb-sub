@@ -849,7 +849,7 @@ So... he had to tell us everything that happened.
 
 213
 00:10:56,533 --> 00:11:00,312
-Uh, there is a robot from Machina planet called Blue Cop! (FIX_THIS)
+Uh, there is a robot from Machina planet called Blue Cop!
 
 214
 00:11:00,312 --> 00:11:02,788
