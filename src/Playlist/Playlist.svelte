@@ -2,7 +2,12 @@
 	import { type Writable } from 'svelte/store';
 	import playlists, { type Episode, type Source, type Season } from '../subtitles.js';
 	import ChevronDown from '../assets/chevron-down.svg';
-	import unknownSeason from '../assets/unknown-holidays.png';
+	import unknown0 from '../assets/unknown.png';
+	import unknown1 from '../assets/unknown-1.png';
+	import unknown2 from '../assets/unknown-2.png';
+	import unknown3 from '../assets/unknown-3.png';
+	import unknown4 from '../assets/unknown-4.png';
+	import unknown5 from '../assets/unknown-5.png';
 	import { fade, slide } from 'svelte/transition';
 	import {
 		deleteCustomSub,
@@ -14,6 +19,53 @@
 	} from '../editor';
 	import EditorModal from './EditorModal.svelte';
 	import { createEventDispatcher } from 'svelte';
+
+	const unknowns = [{
+		src: unknown0,
+		message: "When episodes begin premiering on YouTube, you'll find fan subtitles here.<br />Check back later!"
+	},
+	{
+		src: unknown1,
+		message: "Waiting for something to happen?"
+	},
+	{
+		src: unknown2,
+		message: "When episodes begin premeowing on YouTube, you'll find fan subtitles here.<br />Check back later!"
+	},
+	{
+		src: unknown3,
+		message: "When epawsodes begin premeowing on YouTube, you'll find fang subtitles here.<br />Claw back later!"
+	},
+	{
+		src: unknown4,
+		message: "It seems like Tigun has made some new friends.<br />Subtitles will appear here any day now!<br />We're \"paw-sitive\" about it..."
+	},
+	{
+		src: unknown5,
+		message: "Cuuuuuute! <br />(Check back later for subtitles.)"
+	}]
+
+	function getUnknownMsg() {
+		let index = Number(localStorage.getItem('mcb-unknown-index') ?? -1);
+		let time = Number(localStorage.getItem('mcb-unknown-time')) ?? Date.now();
+		if (isNaN(index) || index < 0 || isNaN(time)) {
+			index = 0;
+			time = Date.now();
+			localStorage.setItem('mcb-unknown-index', index.toString());
+			localStorage.setItem('mcb-unknown-time', Date.now().toString());
+			return unknowns[0];
+		}
+		if (index > unknowns.length - 1) {
+			index = unknowns.length - 1;
+		}
+		if (Date.now() - time > 1000 * 60 * 60 * 24) {
+			index = Math.min(index + 1, unknowns.length - 1);
+			localStorage.setItem('mcb-unknown-index', index.toString());
+			localStorage.setItem('mcb-unknown-time', Date.now().toString());
+		}
+
+		return unknowns[index];
+	}
 
 	export let video: Writable<Episode | CustomEpisode | null>;
 	export let source: Writable<Source | CustomDraft | null>;
@@ -325,14 +377,15 @@
 				</i>
 			{/if}
 			{#if playlistIndex === 2}
+				{@const { src, message } = getUnknownMsg()}
 				<div class="unknownSeason">
 					<img
-						src={unknownSeason}
+						src={src}
 						alt="A Cardbot from Season 3"
-						style="max-height: min(50vh, 200px); max-width: 80%"
+						style={src === unknown0 ? "max-height: min(50vh, 200px); max-width: 80%; padding-top: 1rem" : 'padding-top: 0.5rem; max-width: 90%'}
 					/>
 					<i style="text-align: center; width: 100%; display: block; padding: 10px 0;">
-						When episodes begin premiering on YouTube, you'll find fan subtitles here.<br />Check back later!
+						{@html message}
 					</i>
 				</div>
 			{/if}
@@ -340,7 +393,7 @@
 		{#if $source === null || $source.episodes.length === 0}
 			<div class="unknownSeason">
 				<img
-					src={unknownSeason}
+					src={unknown0}
 					alt="A Cardbot from Season 3"
 					style="max-height: min(50vh, 200px); max-width: 70%"
 				/>
@@ -381,7 +434,7 @@
 		flex-shrink: 1;
 		margin: auto;
 		text-align: center;
-		max-width: 70%;
+		max-width: 90%;
 	}
 	.playlist {
 		width: 100%;
