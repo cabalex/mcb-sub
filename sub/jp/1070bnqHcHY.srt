@@ -1,76 +1,68 @@
 1
-00:00:05,799 --> 00:00:09,319
-走れカードを探して / Dallyeogaja kadeureul chajaseo
+00:00:05,635 --> 00:00:09,089
+もっと高く高く舞い上がれ / Deo nopi nopi naraolla
 
 2
-00:00:09,319 --> 00:00:11,711
-険しいこの道の最期まで / heomhan i gil kkeutkkaji
+00:00:09,089 --> 00:00:12,015
+明日のために走れ / naeireul wihae dallyeoga
 
 3
-00:00:11,711 --> 00:00:12,890
-叫べ! / Oechyeo!
+00:00:12,015 --> 00:00:14,892
+星の海からきた巨人をさがしだせ / byeolbada geoineul chaja
 
 4
-00:00:12,890 --> 00:00:15,452
-"メタルカードボット Go!" (Let's go!)
+00:00:14,892 --> 00:00:18,389
+力強く叫べ / himchage oechyeobwa
 
 5
-00:00:15,452 --> 00:00:21,628
-力を集め 僕たちはできるさ / himeul moa urin hal su isseo
+00:00:18,389 --> 00:00:21,234
+メタルカードボットS!
 
 6
-00:00:21,628 --> 00:00:24,402
-キミと僕 力を合わせて / neowa na himeul hapchyeo
+00:00:21,234 --> 00:00:24,110
+キミと道を歩き / Neowa gireul geotgo
 
 7
-00:00:24,402 --> 00:00:27,978
-戦い進もう / ssawo nagaja
+00:00:24,110 --> 00:00:27,559
+時間は薄れ / siganeun huimihaejyeo
 
 8
-00:00:27,978 --> 00:00:33,137
-だれも 僕たちを 止められない(止められない) / amudo uril mageul su eopseo (eopseo)
+00:00:27,559 --> 00:00:30,061
+変わってしまった世界の中で / byeonhan sesang soge 
 
 9
-00:00:33,137 --> 00:00:36,375
-素敵な 勇気と力と / meotjin yonggiwa himeuro
+00:00:30,061 --> 00:00:33,881
+再び目を開け / dasi nuneul tteo
 
 10
-00:00:36,375 --> 00:00:38,609
-メタルブレスで / metal beureseuro
+00:00:33,881 --> 00:00:36,899
+Set Up! 今日も始まる / Set Up! oneuldo sijakae
 
 11
-00:00:38,609 --> 00:00:40,414
-カードを集め / kadeureul moa
+00:00:36,899 --> 00:00:39,899
+Change Up! 明日のために / Change Up! naeirui uril wihae
 
 12
-00:00:40,414 --> 00:00:43,414
-この道の最後まで～ / i gil kkeutkkaji
+00:00:39,899 --> 00:00:45,683
+キミをさがしだす時まで もう一度走れ / neol chajeul ttaekkaji hanbeon deo dallyeoga
 
 13
-00:00:43,414 --> 00:00:46,981
-走れ カードを探して / Dallyeogaja kadeureul chajaseo
+00:00:45,683 --> 00:00:49,109
+もっと高く高く舞い上がれ / Deo nopi nopi naraolla
 
 14
-00:00:46,981 --> 00:00:49,459
-険しい この道の最後まで / heomhan i gil kkeutkkaji
+00:00:49,109 --> 00:00:52,365
+キミのために走れ / Neoreul wihae dallyeoga 
 
 15
-00:00:49,459 --> 00:00:50,384
-叫べ! / oechyeo!
+00:00:52,365 --> 00:00:55,232
+鋼鉄の友情を集め / gangcheol ujeongeul moa
 
 16
-00:00:50,384 --> 00:00:52,990
-"メタルカードボット Go!" (Let's go!)
+00:00:55,232 --> 00:00:58,143
+力強く走れ / himchage dallyeo
 
 17
-00:00:52,990 --> 00:00:56,878
-力を集め 僕たちはできるさ / himeul moa urin hal su isseo
-
-18
-00:00:56,878 --> 00:00:57,878
-出動! / Chuldong!
-
-19
-00:00:57,878 --> 00:01:01,615
-メタルカードボット / Metal Cardbot
+00:00:58,143 --> 00:01:02,432
+メタルカードボット!
 
