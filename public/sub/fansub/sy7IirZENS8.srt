@@ -128,7 +128,7 @@ For you, food means...
 
 33
 00:02:16,497 --> 00:02:20,134
-It means energy sources to keep our engines running. 
+It means energy sources to keep our engines running.
 
 34
 00:02:20,134 --> 00:02:25,538
@@ -136,7 +136,7 @@ It means energy sources to keep our engines running.
 
 35
 00:02:25,538 --> 00:02:29,554
-We had wind power, but no technology to generate electricity from it. 
+We had wind power, but no technology to generate electricity from it.
 
 36
 00:02:29,554 --> 00:02:31,917
@@ -180,11 +180,11 @@ Does he seem a bit too smitten?
 
 46
 00:02:59,293 --> 00:03:02,780
-Hey, be quiet! Ms. Mona, can you please speak up a little bi- 
+Hey, be quiet! Ms. Mona, can you please speak up a little bi-
 
 47
 00:03:02,780 --> 00:03:03,723
-Wh-what? 
+Wh-what?
 
 48
 00:03:03,723 --> 00:03:04,467
@@ -203,11 +203,11 @@ Now, now, let's stay calm and evacuate!
 Yes, a red robot and a giant semi truck have appeared here, at the Seaside Par-
 
 52
-00:03:14,157 --> 00:03:15,337
+00:03:14,157 --> 00:03:15,336
 Ah!
 
 53
-00:03:15,337 --> 00:03:16,420
+00:03:15,336 --> 00:03:16,420
 Kent!
 
 54
@@ -288,7 +288,7 @@ Once Gigantrex recharges his energy, we won't be able to stop him anymore.
 
 73
 00:04:25,793 --> 00:04:29,206
-Hang on a minute, Captain. It'll start any minute now!
+Hang on a little longer, Captain. It'll start any minute now!
 
 74
 00:04:29,581 --> 00:04:31,187
@@ -332,7 +332,7 @@ It was you who told us to get along with the humans! What happened to you?!
 
 84
 00:05:14,432 --> 00:05:16,401
-I told you... 
+I told you...
 
 85
 00:05:19,297 --> 00:05:20,901
@@ -376,7 +376,7 @@ Do you know how much we've suffered because of you?
 
 95
 00:05:53,978 --> 00:05:56,593
-Red Blitz did nothing wrong! 
+Red Blitz did nothing wrong!
 
 96
 00:05:57,906 --> 00:06:01,132
@@ -523,7 +523,7 @@ It's alright, everyone. I'm here...
 The Captain is really back now!
 
 132
-00:09:00,226 --> 00:09:02,394
+00:09:00,225 --> 00:09:02,394
 Now now, don't cry...
 
 133
@@ -572,7 +572,7 @@ Behold! The flames of hell!
 REX! (FX-shakexl phoenixFire bold)
 
 144
-00:09:36,392 --> 00:09:38,247
+00:09:36,392 --> 00:09:38,246
 INFERNO! (FX-shakexxl phoenixFire bold)
 
 145
@@ -604,11 +604,11 @@ See that? This is the power of my Captain! You've lost! So hurry up and give us 
 W-We're not done yet!
 
 152
-00:10:20,971 --> 00:10:21,746
+00:10:20,971 --> 00:10:21,745
 Blue Cop!
 
 153
-00:10:21,746 --> 00:10:28,966
+00:10:21,745 --> 00:10:28,966
 I... no, we... cannot lose here. Until we regain our companions, the friends we made here on this Earth!
 
 154
@@ -633,7 +633,7 @@ Why does this child wield the power of Deus Machina?!
 
 159
 00:11:18,918 --> 00:11:23,326
-Now, speak out loud! Speak out the words that come to your mind! (FX-mukara voice)
+Now, shout out loud! Shout out the words that come to your mind! (FX-mukara voice)
 
 160
 00:11:23,326 --> 00:11:25,748
@@ -644,6 +644,6 @@ Blue Cop! Superior Docking!
 Blue Cop Trinity! Set up! (FX-trinity)
 
 162
-00:11:36,471 --> 00:11:39,689
+00:11:36,471 --> 00:11:39,688
 Blue Cop! Show them your power!
 
