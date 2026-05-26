@@ -150,7 +150,6 @@
 	transform: rotate(180deg);
 }
 .subtitleArea:has(.flipped) {
-	align-items: flex-start !important;
 	top: min(50%, calc(17px + var(--bottomOffset, 0px))) !important;
 	height: auto !important;
 }
