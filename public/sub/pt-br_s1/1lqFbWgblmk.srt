@@ -1,0 +1,645 @@
+1
+00:00:02,262 --> 00:00:05,404
+O Ataque do Chefão Final!
+
+2
+00:00:08,016 --> 00:00:11,704
+Navegue, navegue, navegue...
+Navegue no seu barco!
+
+3
+00:00:11,728 --> 00:00:15,150
+Vamos juntos pelo ma-
+
+4
+00:00:17,681 --> 00:00:19,314
+O que é aquilo?
+
+5
+00:00:25,180 --> 00:00:26,180
+Hã?
+
+6
+00:00:47,701 --> 00:00:50,536
+O Jun parece estar de ótimo humor hoje!
+
+7
+00:00:50,560 --> 00:00:54,052
+Os pais dele o deram uma
+bicicleta nova de aniversário.
+
+8
+00:00:56,475 --> 00:00:58,828
+E isso não é tudo que eu consigo fazer!
+
+9
+00:01:00,376 --> 00:01:03,875
+Ah, também parece que a Anna deu esse
+cachecol para ele. Ele gostou bastante.
+
+10
+00:01:03,899 --> 00:01:05,120
+É verdade...
+
+11
+00:01:05,719 --> 00:01:08,656
+Pergunta. O que é um aniversário?
+
+12
+00:01:09,036 --> 00:01:11,312
+É o dia em que ele saiu da barriga da mãe.
+
+13
+00:01:11,543 --> 00:01:13,662
+Saiu de onde?
+
+14
+00:01:13,705 --> 00:01:14,930
+Não, não...
+
+15
+00:01:15,190 --> 00:01:17,733
+É o dia em que se
+comemora o seu nascimento.
+
+16
+00:01:17,758 --> 00:01:19,387
+Ah...
+
+17
+00:01:20,891 --> 00:01:23,402
+Então, eles estavam celebrando o Jun?
+
+18
+00:01:23,427 --> 00:01:25,629
+Não deveríamos dar alguma
+coisa para ele também?
+
+19
+00:01:25,653 --> 00:01:26,686
+Um presente?
+
+20
+00:01:26,710 --> 00:01:28,292
+Mas eu não tenho dinheiro...
+
+21
+00:01:28,316 --> 00:01:30,517
+Ei, e se economizássemos combustível?
+
+22
+00:01:30,541 --> 00:01:32,169
+Mas o preço do combustível aumentou!
+
+23
+00:01:32,505 --> 00:01:34,411
+Pessoal, preciso conversar com vocês.
+
+24
+00:01:34,646 --> 00:01:35,692
+Hã?
+
+25
+00:01:40,456 --> 00:01:43,142
+Isso estava dentro da cápsula
+de fuga que paramos ontem.
+
+26
+00:01:43,166 --> 00:01:44,892
+É um reboque?
+
+27
+00:01:45,641 --> 00:01:48,132
+Onde está o caminhão que o puxa?
+
+28
+00:01:48,156 --> 00:01:50,637
+Ficou na parte da cápsula
+que se separou e caiu no mar.
+
+29
+00:01:50,920 --> 00:01:55,251
+Então o dono desse reboque
+estava dentro da cápsula?
+
+30
+00:01:56,196 --> 00:01:57,196
+Jun.
+
+31
+00:01:57,220 --> 00:02:00,054
+Use o Metal Breath para
+acessar os dados do reboque.
+
+32
+00:02:01,487 --> 00:02:02,952
+Tipo assim?
+
+33
+00:02:07,599 --> 00:02:09,317
+Acesso aos dados concluído.
+
+34
+00:02:11,572 --> 00:02:13,582
+Codinome: Heavy Iron.
+
+35
+00:02:13,879 --> 00:02:15,428
+O Heavy Iron?!
+
+36
+00:02:15,452 --> 00:02:17,732
+Então ele pousou aqui...
+
+37
+00:02:18,505 --> 00:02:20,313
+Por quê? Qual o problema?
+
+38
+00:02:20,337 --> 00:02:23,445
+Ele é um Metal Cardbot muito perigoso.
+
+39
+00:02:23,469 --> 00:02:28,845
+O fora da lei mais forte e cruel, que acaba
+brutalmente qualquer um de quem não gosta!
+
+40
+00:02:28,870 --> 00:02:32,807
+Ele virá atrás desse reboque,
+porque ele faz parte do corpo dele.
+
+41
+00:02:32,831 --> 00:02:34,917
+Talvez já seja tarde demais...
+
+42
+00:02:36,344 --> 00:02:37,542
+Anna!
+
+43
+00:02:37,566 --> 00:02:39,844
+Tarde demais? Como assim?
+
+44
+00:02:40,664 --> 00:02:41,961
+Olhem isto.
+
+45
+00:02:44,347 --> 00:02:48,524
+Vejamos... Um navio petroleiro explodiu
+nas águas próximas a Mowtown.
+
+46
+00:02:48,548 --> 00:02:53,144
+Um sobrevivente disse ter visto
+uma enorme sombra nadando no oceano.
+
+47
+00:02:53,168 --> 00:02:54,805
+Será que bateu em uma baleia?
+
+48
+00:02:54,829 --> 00:02:56,374
+Não, isso é...
+
+49
+00:02:56,398 --> 00:02:58,157
+Será que é... o Heavy Iron?
+
+50
+00:02:58,181 --> 00:02:59,299
+Lascou!
+
+51
+00:03:01,597 --> 00:03:04,593
+Este é o local onde a cápsula de fuga caiu.
+
+52
+00:03:04,617 --> 00:03:06,377
+O navio petroleiro afundou aqui.
+
+53
+00:03:06,401 --> 00:03:09,607
+Quer dizer que ele está 
+indo para Mowtown?
+
+54
+00:03:10,044 --> 00:03:12,154
+Vamos levar o reboque para fora da cidade!
+
+55
+00:03:12,178 --> 00:03:14,051
+Não queremos que ninguém se machuque!
+
+56
+00:03:14,480 --> 00:03:15,610
+Sim.
+
+57
+00:03:15,635 --> 00:03:17,770
+Mas quem vai puxá-lo?
+
+58
+00:03:23,677 --> 00:03:27,489
+Affê! Eu sabia que isso ia acontecer!
+
+59
+00:03:32,230 --> 00:03:36,517
+Pare de reclamar. Certifique-se de
+rebocar com cuidado, entendeu?
+
+60
+00:03:36,541 --> 00:03:39,342
+Esse reboque é pesado demais!
+
+61
+00:03:43,591 --> 00:03:45,116
+Jun! Ali!
+
+62
+00:03:54,842 --> 00:03:56,060
+Ei vocês!
+
+63
+00:03:56,084 --> 00:03:58,558
+Onde pensam que estão levando o meu corpo?
+
+64
+00:03:58,582 --> 00:03:59,643
+Heavy Iron!
+
+65
+00:03:59,667 --> 00:04:01,315
+Ele nos alcançou tão rápido!
+
+66
+00:04:04,506 --> 00:04:06,597
+Tem um canteiro de obras vazio ali!
+
+67
+00:04:06,750 --> 00:04:08,133
+Vamos para lá!
+
+68
+00:04:08,157 --> 00:04:11,456
+Mega Ambler e Phoenix Fire!
+Tentem segurar o Heavy Iron aqui!
+
+69
+00:04:11,480 --> 00:04:12,480
+Pode deixar!
+
+70
+00:04:15,550 --> 00:04:17,027
+Prepare-se, fora da lei.
+
+71
+00:04:17,051 --> 00:04:19,654
+É! Nós vamos enfrentar você!
+
+72
+00:04:20,010 --> 00:04:22,111
+Seus pirralhos insolentes!
+
+73
+00:04:30,333 --> 00:04:33,131
+Ótimo! Aqui ninguém vai se machucar!
+
+74
+00:04:33,155 --> 00:04:36,475
+E agora? O Heavy Iron vai chegar logo.
+
+75
+00:04:36,499 --> 00:04:38,951
+Vamos esconder o reboque
+naquele túnel primeiro!
+
+76
+00:04:40,639 --> 00:04:42,698
+Você precisa entrar de ré!
+
+77
+00:04:42,722 --> 00:04:44,356
+É o quê? Como assim?
+
+78
+00:04:44,380 --> 00:04:47,251
+Pode ser difícil sair se entrar de frente.
+
+79
+00:04:47,581 --> 00:04:49,548
+Eu vou guiá-lo. Vamos, depressa!
+
+80
+00:04:49,572 --> 00:04:51,830
+Humf, que chatão...
+
+81
+00:04:57,715 --> 00:04:59,007
+Patético.
+
+82
+00:05:00,134 --> 00:05:01,134
+Pare!
+
+83
+00:05:02,442 --> 00:05:03,442
+Lá vem ele!
+
+84
+00:05:06,992 --> 00:05:08,444
+Metal Breath, Pick Up!
+
+85
+00:05:10,264 --> 00:05:11,948
+Shadow X, Set Up!
+
+86
+00:05:20,508 --> 00:05:22,883
+Shadow X, Spinning Cutter!
+
+87
+00:05:23,077 --> 00:05:24,875
+Spinning Cutter!
+
+88
+00:05:27,522 --> 00:05:29,211
+Por que ele é tão resistente?!
+
+89
+00:05:29,324 --> 00:05:32,831
+Entendo. Então, Heli-Tornado!
+
+90
+00:05:33,003 --> 00:05:34,290
+Pode deixar!
+
+91
+00:05:34,314 --> 00:05:36,381
+Heli-Tornado!
+
+92
+00:05:38,963 --> 00:05:40,853
+Ha ha! O que acha disso?!
+
+93
+00:05:48,691 --> 00:05:50,364
+Ah, não! Não pode ser!
+
+94
+00:05:50,388 --> 00:05:51,388
+Jun!
+
+95
+00:05:52,173 --> 00:05:53,511
+Blue Cop, Set Up!
+
+96
+00:06:04,122 --> 00:06:06,970
+Blue Cop, Thunderbolt Smash!
+
+97
+00:06:12,382 --> 00:06:13,556
+Thunderbolt...
+
+98
+00:06:13,743 --> 00:06:14,996
+Smash!!
+
+99
+00:06:24,380 --> 00:06:26,176
+Blue Cop! Você está bem?!
+
+100
+00:06:29,446 --> 00:06:31,146
+Onde está o meu corpo?
+
+101
+00:06:31,657 --> 00:06:32,894
+Está aqui!
+
+102
+00:06:35,394 --> 00:06:37,918
+Quer o seu corpo? Então venha buscá-lo!
+
+103
+00:06:39,811 --> 00:06:41,590
+Anna, vamos nos esconder!
+
+104
+00:06:48,842 --> 00:06:49,842
+Agora!
+
+105
+00:06:51,212 --> 00:06:54,922
+Blue Cop! Destrua a entrada
+do túnel com um Burst Shot!
+
+106
+00:06:54,947 --> 00:06:56,097
+Entendido!
+
+107
+00:07:08,746 --> 00:07:10,907
+Jun, deu certo!
+
+108
+00:07:10,931 --> 00:07:12,952
+O que aconteceu? O quê?
+
+109
+00:07:13,201 --> 00:07:16,135
+Conseguimos! É o fim
+da linha para o caminhão!
+
+110
+00:07:19,836 --> 00:07:21,581
+O-o que é isso?
+
+111
+00:07:21,605 --> 00:07:22,605
+O que está acontecendo?!
+
+112
+00:07:38,937 --> 00:07:41,405
+Vocês pirralhos já estão me irritando.
+
+113
+00:07:41,429 --> 00:07:43,644
+Estou falando sério.
+
+114
+00:07:44,129 --> 00:07:48,264
+Bastava devolverem o meu reboque.
+
+115
+00:07:48,858 --> 00:07:51,309
+Agora vocês vão pagar por isso.
+
+116
+00:07:51,814 --> 00:07:54,365
+Essa é a verdadeira forma do Heavy Iron!
+
+117
+00:07:54,389 --> 00:07:56,570
+É ainda maior do que eu imaginava.
+
+118
+00:07:56,859 --> 00:07:59,800
+Parece que... ele ficou furioso!
+
+119
+00:07:59,824 --> 00:08:02,400
+Só porque é grande
+não quer dizer que seja forte!
+
+120
+00:08:04,824 --> 00:08:06,742
+Vamos atacá-lo em sequência!
+
+121
+00:08:07,811 --> 00:08:09,752
+Mega Ambler, Set Up!
+
+122
+00:08:13,396 --> 00:08:16,282
+Mega Ambler, use o Forceps Crush
+para impedi-lo de se mover!
+
+123
+00:08:16,306 --> 00:08:17,306
+Sim!
+
+124
+00:08:28,645 --> 00:08:30,336
+Forceps Crush!
+
+125
+00:08:34,365 --> 00:08:37,006
+Phoenix Fire, Set Up!
+
+126
+00:08:40,776 --> 00:08:42,645
+Sua vez, Phoenix Fire!
+
+127
+00:08:42,669 --> 00:08:43,990
+Burning Hammer!
+
+128
+00:08:47,279 --> 00:08:51,040
+Yaaah! Burning Hammer!
+
+129
+00:08:57,691 --> 00:08:59,568
+O que achou do meu ataque?!
+
+130
+00:09:00,403 --> 00:09:06,309
+Ha ha ha! Isso mal arranhou
+meu corpo de ferro maciço.
+
+131
+00:09:06,723 --> 00:09:10,108
+Vou mostrar a vocês
+o que é poder de verdade!
+
+132
+00:09:14,771 --> 00:09:16,131
+Essa não!
+
+133
+00:09:20,296 --> 00:09:21,722
+O-o que é aquilo?!
+
+134
+00:09:21,746 --> 00:09:23,654
+Ele vai destruir tudo!
+
+135
+00:09:27,109 --> 00:09:30,725
+Iron Cannon!!
+
+136
+00:09:44,443 --> 00:09:47,171
+Não, Anna! Você está bem?!
+
+137
+00:09:48,897 --> 00:09:50,631
+Theo. Você está bem?
+
+138
+00:09:50,655 --> 00:09:53,429
+Acho que sim... Ainda estamos vivos?
+
+139
+00:09:53,836 --> 00:09:56,714
+Agora vocês entenderam, seus pirralhos...
+
+140
+00:09:56,914 --> 00:10:00,335
+Eu sou o Metal Cardbot mais poderoso.
+
+141
+00:10:00,359 --> 00:10:02,276
+Heavy Iron!
+
+142
+00:10:04,894 --> 00:10:08,002
+Agora, ajoelhem-se perante mim.
+
+143
+00:10:08,026 --> 00:10:12,753
+Jurem lealdade a mim,
+e eu os deixarei viver.
+
+144
+00:10:12,777 --> 00:10:16,390
+A esta altura, vocês já
+sabem que resistir é inútil.
+
+145
+00:10:27,195 --> 00:10:28,865
+O-o que foi isso?!
+
+146
+00:10:29,642 --> 00:10:31,688
+É agora, Blue Cop!
+
+147
+00:10:31,712 --> 00:10:34,045
+Megavolt Punch!
+
+148
+00:10:35,154 --> 00:10:37,590
+Megavolt...
+
+149
+00:10:42,510 --> 00:10:44,075
+Punch!!
+
+150
+00:11:00,115 --> 00:11:03,474
+Vou encerrar por hoje,
+já que encontrei meu corpo.
+
+151
+00:11:03,498 --> 00:11:04,708
+Mas...
+
+152
+00:11:04,733 --> 00:11:07,130
+Vocês ainda pagarão por isso!
+
+153
+00:11:10,363 --> 00:11:12,515
+Obrigado. Você salvou todos nós.
+
+154
+00:11:14,383 --> 00:11:15,913
+Desapareceu.
+
+155
+00:11:18,024 --> 00:11:21,036
+Mas... quem poderia ter sido?
