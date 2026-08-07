@@ -81,6 +81,46 @@ const subtitles: Season[] = [
 					{ name: 'へビーバトル', id: '798fkUeeMOU', label: '25話' },
 					{ name: '最後の決戦', id: 'L0WnJ7Kz_rw', label: '26話', fx: true }
 				]
+			},
+			{
+				name: 'Português',
+				language: 'pt-br',
+				path: '/pt-br_s1',
+				credits: [
+					{
+						name: 'Metal Cardbots Brasil',
+						link: 'https://www.youtube.com/@metal.cardbotsbrasil'
+					}
+				],
+				episodes: [
+					{ name: 'Abertura', id: '1070bnqHcHY', label: 'OP' },
+					{ name: 'O Mistério da Viatura Robô!', id: 'ZLcqsmPCHLY' },
+					{ name: 'O Caminhão Dançarino', id: '3ElOpqFXaSU' },
+					{ name: 'Adeus, Blue Cop', id: '5RCpJwrhkrs' },
+					{ name: 'A Ambulância Sombria', id: '52W_cb1f1ao' },
+					{ name: 'O Caminhão de Bombeiros com Medo de Fogo', id: 'c_CdqDAyGqI' },
+					{ name: 'O Desafiante Invisível', id: 'YGHc9jfOsb0' },
+					{ name: 'Derrotando o Heli-Tornado', id: 'ksRW6iMADzQ' },
+					{ name: 'O Segredo Foi Revelado!', id: 'jzz3UOpvuV0' },
+					{ name: '0 Segundos Até o Impacto', id: 'rkhiv9q4FJw' },
+					{ name: 'O Ataque do Chefão Final!', id: '1lqFbWgblmk' },
+					{ name: 'O Misterioso Aluno Transferido', id: 'sfh5bi5Njtc' },
+					{ name: "O Treinamento Especial do Blue Cop!", id: 'aU5wLVRQIWQ' },
+					{ name: 'O Guardião da Floresta', id: 'PkNgHFctIIg' },
+					{ name: 'Operação: Batalha Subterrânea', id: '5igwoiB4sAE' },
+					{ name: 'Um Metal Cardbot Alado!', id: '8wpIPp7c094' },
+					{ name: 'O Andarilho dos Céus', id: '4kAhVJnzL9w' },
+					{ name: 'O Duelo entre Blue Cop e Wild Guardy!', id: 't5_mM9bdq00' },
+					{ name: 'O Grande Confronto! Gigante vs Gigante!', id: 'ScF3TTBBfyo' },
+					{ name: 'O Metal Cardbot Faminto', id: 'hOeQeLZ4ccg' },
+					{ name: 'O Metal Breath é Roubado', id: 'jk6TC3f6Uls' },
+					{ name: "O Metal Breath da Anna", id: 'QmVE7ZhwIv4' },
+					{ name: 'Adeus, Buffalo Crush!', id: 'FGG_QsPm5k8' },
+					{ name: 'Buster Gallon, o Traidor', id: 'B8IYxvIrf9o' },
+					{ name: 'O Contra-Ataque de Black Hook', id: 'UCixUDwUZtA' },
+					{ name: 'A Ferro e Fogo', id: '798fkUeeMOU' },
+					{ name: 'A Batalha Final', id: 'L0WnJ7Kz_rw', fx: true }
+				]
 			}
 		]
 	},
