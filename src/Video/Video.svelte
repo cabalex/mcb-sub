@@ -393,7 +393,19 @@
 			</div>
 		</div>
 	{:else}
-		<h1>Choose an episode! ➡️</h1>
+		<main class="noVideo">
+			<h1>Metal Cardbot SUB</h1>
+			<p>This site allows you to watch full episodes of Metal Cardbot, Metal Cardbot S, and Metal Cardbot W with subtitles in English and other languages. More episodes will be added as they are released on the official Korean Metal Cardbot YouTube channel.</p>
+			<p><b>What is Metal Cardbot?</b></p>
+			<p>Metal Cardbot is a 2023 animated Korean mecha series created and animated by SAMG Entertainment under the direction of OSROCTION. A boy named Jun discovers the Metal Breath, a mysterious device that allows him to capture and command a species of transforming robots known as Metal Cardbots, who take refuge on Earth after their home planet Machina was destroyed. Can he work with the Metal Cardbot Blue Cop to ensure their peaceful coexistence with humans?</p>
+			<p><b>How does the site work?</b></p>
+			<p>Click an episode on the sidebar to start watching, or click the season name to change seasons. You can also change or create your own subtitles by clicking the 📜 menu. Metal Cardbot SUB simply overlays subtitles on top of official Metal Cardbot YouTube videos - no piracy or reuploading of content is involved.</p>
+			<p>Metal Cardbot is property of SAMG/EBS/OSRO, and this site is not affiliated with nor endorsed by its creators. While we work to ensure our subtitles follow the production team's intent as closely as possible, these subtitles are unofficial.</p>
+			<p><b>Where are the missing episodes of Metal Cardbot W?</b></p>
+			<p>We are currently waiting for the official Metal Cardbot YouTube channel to upload full episodes of Metal Cardbot W. Unfortunately, we don't have an estimated date of when this may happen, but it is likely to be in Fall 2026. Once they appear on YouTube, we will have subtitles here shortly after.</p>
+			<p><b>Who created this site?</b></p>
+			<p>This site was created by cabalex, who also assisted <a href="https://x.com/staro_sphere">@staro_sphere</a> and <a href="https://x.com/PalmtreePanic">@PalmtreePanic</a> with the English fan subtitles. While the website is open-source under MIT license, all fan subtitles are the work of their respective contributors - please do not rehost them on other sites without the permission or credit of their creators.</p>
+		</main>
 	{/if}
 </div>
 
@@ -442,6 +454,17 @@
 		justify-content: center;
 		flex-direction: column;
 	}
+	.noVideo {
+		overflow: auto;
+		max-height: calc(100dvh - 1rem);
+		max-width: 800px;
+		padding: 0 1em;
+		text-align: left;
+	}
+	.noVideo h1 {
+		font-size: 2em;
+		margin-bottom: 0.5em;
+	}
 	.fakeFullscreen {
 		position: fixed;
 		top: 0;
@@ -467,6 +490,7 @@
 		width: 100%;
 		margin: 0 auto;
 		max-height: 100vh;
+		background-color: #000;
 	}
 	.fullscreenBtn {
 		position: absolute;
@@ -474,10 +498,10 @@
 		right: 0px;
 		border-radius: 5px 0 0 0;
 		z-index: 100;
-		width: 38px;
-		height: 38px;
+		width: 48px;
+		height: 48px;
 		padding: 0;
-		background-color: #333;
+		background-color: rgba(0, 0, 0, 0.7);
 		color: white;
 		border: none;
 		display: flex;
@@ -597,7 +621,7 @@
 		}
 	}
 	@media screen and (max-width: 900px) {
-		h1 {
+		.noVideo {
 			display: none;
 		}
 		.fullscreenTooltip {
