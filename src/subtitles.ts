@@ -85,7 +85,7 @@ const subtitles: Season[] = [
 			{
 				name: 'Português',
 				language: 'pt-br',
-				path: '/pt-br_s1',
+				path: '/pt-br',
 				credits: [
 					{
 						name: 'Metal Cardbots Brasil',
