@@ -62,18 +62,27 @@
 			}
 			let data = await response.text();
 			let lines = data
-				.split('\n\n')
+				.split(/\r?\n\r?\n/)
 				.map((x) => x.trim())
 				.filter((x) => x.length > 0);
 			subs = [];
-			let i = 0;
-			for (let line of lines) {
-				if (line.startsWith((i + 1).toString() + '\n')) {
-					i++;
-					const sublines = line.split('\n');
-					const sub = { start: -1, end: 1, text: '' };
-					[sub.start, sub.end] = sublines[1].split(' --> ').map(parseTimestamp);
+
+			for (let line of lines) {				
+				const sublines = line.split(/\r?\n/);
+
+				if (sublines.length >= 3) {
+					const sub = {
+						start: -1,
+						end: 1,
+						text: ''
+					};
+
+					[sub.start, sub.end] = sublines[1]
+						.split(' --> ')
+						.map(parseTimestamp);
+
 					sub.text = sublines.slice(2).join('\n');
+
 					subs.push(sub);
 				}
 			}
