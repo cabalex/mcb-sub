@@ -5,6 +5,45 @@ const subtitles: Season[] = [
 		icon: './season1.png',
 		sources: [
 			{
+				name: 'Fansub',
+				path: '/fansub',
+				incomplete: true,
+				language: 'en',
+				credits: [
+					{ name: '@staro_sphere', link: 'https://x.com/staro_sphere' },
+					{ name: '@PalmtreePanic', link: 'https://x.com/PalmtreePanic' }
+				],
+				episodes: [
+					{ name: 'Opening', id: '1070bnqHcHY', label: 'OP' },
+					{ name: 'Mystery of the Police Car Robot!', id: 'ZLcqsmPCHLY' },
+					{ name: 'The Dancing Dump Truck', id: '3ElOpqFXaSU' },
+					{ name: 'Farewell, Blue Cop', id: '5RCpJwrhkrs' },
+					{ name: 'The Black Ambulance', id: '52W_cb1f1ao' },
+					{ name: 'Fire Truck With a Phobia', id: 'c_CdqDAyGqI' },
+					{ name: 'The Invisible Challenger', id: 'YGHc9jfOsb0' },
+					{ name: 'Defeating the Heli-Tornado', id: 'ksRW6iMADzQ' },
+					{ name: 'The Secret is Out!', id: 'jzz3UOpvuV0' },
+					//{ name: '0 Seconds to Destruction', id: 'rkhiv9q4FJw' },
+					//{ name: 'Attack of the Final Boss!', id: '1lqFbWgblmk' },
+					//{ name: 'The Mysterious Transfer Student', id: 'sfh5bi5Njtc' },
+					//{ name: "Blue Cop's Special Training!", id: 'aU5wLVRQIWQ' },
+					//{ name: 'Guardian of the Forest', id: 'PkNgHFctIIg' },
+					//{ name: 'Operation Underground Battle', id: '5igwoiB4sAE' },
+					//{ name: 'A Metal Cardbot from the Sky!', id: '8wpIPp7c094' },
+					//{ name: 'The Vagabond in the Sky', id: '4kAhVJnzL9w' },
+					//{ name: 'Showdown Between Blue Cop and Wild Guardy!', id: 't5_mM9bdq00' },
+					//{ name: 'The Great Showdown! Giant VS Giant!', id: 'ScF3TTBBfyo' },
+					//{ name: 'The Hungry Metal Cardbot', id: 'hOeQeLZ4ccg' },
+					//{ name: 'Metal Breath Gets Stolen', id: 'jk6TC3f6Uls' },
+					//{ name: "Anna's Metal Breath", id: 'QmVE7ZhwIv4' },
+					//{ name: 'Goodbye, Buffalo Crush', id: 'FGG_QsPm5k8' },
+					//{ name: 'Buster Gallon, the Betrayer', id: 'B8IYxvIrf9o' },
+					//{ name: 'Black Hook Strikes Back', id: 'UCixUDwUZtA' },
+					//{ name: 'Heavy Battle', id: '798fkUeeMOU' },
+					//{ name: 'The Final Battle', id: 'L0WnJ7Kz_rw', fx: true }
+				]
+			},
+			{
 				name: 'Dub',
 				language: 'en',
 				path: '/dub',
@@ -82,6 +121,51 @@ const subtitles: Season[] = [
 					{ name: '最後の決戦', id: 'L0WnJ7Kz_rw', label: '26話', fx: true }
 				]
 			}
+		]
+	},
+	{
+		title: 'Metal Cardbot',
+		subtitle: 'Bonus Commentary',
+		icon: '',
+		sources: [
+			{
+				name: 'Fansub',
+				path: '/fansub',
+				incomplete: true,
+				language: 'en',
+				credits: [
+					{ name: '@staro_sphere', link: 'https://x.com/staro_sphere' },
+					{ name: '@PalmtreePanic', link: 'https://x.com/PalmtreePanic' }
+				],
+				episodes: [
+					{ name: 'Metal Cardbot, Setup!', id: 'a3E3hI4IvtE' },
+					{ name: 'Music, Dance, and Mega Trucker!', id: '76ehNTVG_n0' },
+					{ name: 'Parting and Reunion', id: 'RnW29FT1BNw' },
+					{ name: 'The Unlicensed Doctor, Mega Ambler', id: 'zfUWdr70hQM' },
+					{ name: 'A Fire Truck Afraid of Fire!', id: 'rFlGRxXwTgc' },
+					{ name: 'The Mischievous Shadow X!', id: '0yXyPosbWt0' },
+					{ name: 'Friends, Not Underlings!', id: 'AjUlusynew0' },
+					{ name: 'Hide Your Identity!', id: 'G0VfzBt6NlQ' },
+					//{ name: 'A Desperate Crisis!', id: 'raLz0wKf-yw' },
+					//{ name: 'The Rise of the Outlaw!', id: '02YSgDyo_CI' },
+					//{ name: 'Friend or Foe?', id: 'Q2kVjG4l-Ak' },
+					//{ name: "Blue Cop's Special Training!", id: '1wJtNd1HFWk' },
+					//{ name: 'First Encounter with Dexter!', id: '0dPMG7EN3YA' },
+					//{ name: 'The Ultimate Team Play!', id: '0S-HeY5unyg' },
+					//{ name: 'Fleta Z Appears!', id: 'vUtYO6hiqcI' },
+					//{ name: 'The Hunter in the Wilds, Fleta Z!', id: '3YJc3TrEkPI' },
+					//{ name: 'Showdown! Wild Guardy!', id: 'LZSNQd85GFY' },
+					//{ name: 'Pirates and Outlaws!', id: '8CMWTw0Ukgk' },
+					//{ name: 'Me Hungry! Me Full!', id: 'oK7uOQxrboQ' },
+					//{ name: 'The Mini Gallon Trio!', id: 'qZx1IjJ_Amo' },
+					//{ name: "Z & Anna!", id: '7F5luX8CeOc' },
+					//{ name: 'Fool VS Fool!', id: 'FGG_QsPm5k8' },
+					//{ name: "Buster Gallon's Betrayal!", id: 'INULf-kLo_s' },
+					//{ name: "'Captain' Black Hook!", id: 'qfcbkEmXkmw' },
+					//{ name: 'The Outlaw, Heavy Iron!', id: '-w3No8Nzrgc' },
+					//{ name: 'Metal Cardbot, Change Up!', id: '3Kb9XXhb3D4', fx: true }
+				]
+			},
 		]
 	},
 	{
@@ -182,6 +266,7 @@ const subtitles: Season[] = [
 			{
 				name: 'Fansub',
 				path: '/fansub',
+				incomplete: true,
 				language: 'en',
 				credits: [
 					{ name: '@staro_sphere', link: 'https://x.com/staro_sphere' },
@@ -191,7 +276,8 @@ const subtitles: Season[] = [
 					{ name: 'Teaser', id: '4J3vusCIhhc', label: 'Teaser' },
 					{ name: 'Opening', id: 'wuMN8mCNLdk', label: 'OP' },
 					{ name: 'Era of Change', id: 'igqcOBDjKYE', intro: 71 },
-					{ name: "Wild Cardbot's Roar", id: '91ZQRAqYUj4', intro: 71 }
+					{ name: "Wild Cardbot's Roar", id: '91ZQRAqYUj4', intro: 71 },
+					{ name: "Claws, Wings, and Fangs", id: 'Yjj9oBZlp1M' }
 				]
 			},
 			{
@@ -235,7 +321,7 @@ export const translationNotes: { [key: string]: { [key: string]: string } } = {
 		ZLcqsmPCHLY: `
 		<div class="notice">
 		<h2>🔊 Hearing English?</h2>
-		<p><b>SAMG has added the English dub to this episode, which is automatically selected when you play the video.</b> There is no way to turn this off, and this website has no control over what audio track is played. You must manually change it by clicking <b>Settings > Audio Tracks > Korean original</b>.<br />I apologize for the inconvenience :(</p>
+		<p><b>SAMG has added the English dub to this episode, which is automatically selected when you play the video.</b> Metal Cardbot SUB has no control over what audio track is played - you must manually change it by clicking <b>Settings > Audio Tracks > Korean original</b>. (This option may not be available on mobile.)<br />Sorry for the inconvenience!</p>
 		</div>
 		<p>Welcome to the Metal Cardbot unofficial fan sub website! Here you'll find all (freely) uploaded episodes of Metal Cardbot, translated into English. These are embedded directly from the metalcardbotTV YouTube channel, so there's no piracy involved!</p>
         <p><b>Metal Cardbot is property of SAMG/Navy, and I do not claim any right to anything streamed on this website</b> (with the exception of the fan subtitles, which were created by myself and other fans of the series). Please support the series and its creators!</p>`
@@ -249,6 +335,13 @@ export const translationNotes: { [key: string]: { [key: string]: string } } = {
 		`
 	},
 	'/fansub': {
+		ZLcqsmPCHLY: `
+			<div class="notice">
+			<h2>🔊 Hearing English?</h2>
+			<p><b>SAMG has added the English dub to this episode, which is automatically selected when you play the video.</b> Metal Cardbot SUB has no control over what audio track is played - you must manually change it by clicking <b>Settings > Audio Tracks > Korean original</b>. (This option may not be available on mobile.)<br />Sorry for the inconvenience!</p>
+			</div>
+			<p>Welcome to the Metal Cardbot unofficial fan sub website! Here you'll find all (freely) uploaded episodes of Metal Cardbot, translated into English. These are embedded directly from the metalcardbotTV YouTube channel, so there's no piracy involved!</p>
+			<p><b>Metal Cardbot is property of SAMG/Navy, and I do not claim any right to anything streamed on this website</b> (with the exception of the fan subtitles, which were created by myself and other fans of the series). Please support the series and its creators!</p>`,
 		KmHp3PSBHXM: `<p>At the flashback beginning at <span class="timestamp">3:09</span>, Black Hook insults Heavy Iron, causing them to fight. The literal translation is along the lines of "What did you say, you shooting-star-sized eyes?!" (meaning "small eyes"), which doesn't make much sense in English. We changed it to "Does this weird-eyed guy have something to say about me?".</p>
             <h2>About the genders of Cardbots</h2>
             <p>Throughout Season 2, <b>we use they/them to refer to Cardbots with feminine appearances</b>, such as Cielo. We do this because <b style="color: orange">we have no confirmation as to what gender feminine Cardbots take on in Metal Cardbot S, if Cardbots have gender at all</b>.</p>
@@ -265,7 +358,8 @@ export const translationNotes: { [key: string]: { [key: string]: string } } = {
 		wuMN8mCNLdk: `<p>Welcome to Metal Cardbot W!</p>
 			<p>New this season is that we wanted to make sure the opening is <i>actually singable</i> in English. This involves a lot of lyrical compromises to keep the same rhythm and syllable count while retaining the original meaning. Nevertheless, we hope you enjoy it!</p>
 			<p>One of the lyrics we wanted to keep is <span class="timestamp">0:44</span>, "우주의 별처럼" ("like the stars across the universe"), but we couldn't make "universe" work in this context. It may not be as cool, but "like all the stars in the sky!" is fun to sing, we think.</p>
-			<p>Metal Cardbot W premieres this December 4th on EBS, but due to copyright restrictions, we will not be able to provide subtitles until the episodes begin uploading to YouTube (usually this happens around 4 months after the first episode is broadcasted). Check back later!</p>`
+			<p>Metal Cardbot W premieres this December 4th on EBS, but due to copyright restrictions, we will not be able to provide subtitles until the episodes begin uploading to YouTube (usually this happens around 4 months after the first episode is broadcasted). Check back later!</p>`,
+		rFlGRxXwTgc: `<p>For some reason, Jun calls this episode "Blue Cop's Special Training" despite the episode not being named that.`
 	}
 };
 

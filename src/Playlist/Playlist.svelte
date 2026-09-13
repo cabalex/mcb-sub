@@ -42,7 +42,7 @@
 	},
 	{
 		src: unknown5,
-		message: "Cuuuuuute! <br />(Check back later for subtitles.)"
+		message: "Cuuuuuute! <br />(We're still waiting on the YouTube uploads...)"
 	}]
 
 	function getUnknownMsg() {
@@ -221,13 +221,15 @@
 		on:click={() => (seasonDropdownOpen = !seasonDropdownOpen)}
 		disabled={$editor !== null}
 	>
-		{#key playlistIndex}
-			<img
-				class="poster"
-				alt={playlists[playlistIndex].title}
-				src={playlists[playlistIndex].icon}
-			/>
-		{/key}
+		{#if playlists[playlistIndex].icon}
+			{#key playlistIndex}
+				<img
+					class="poster"
+					alt={playlists[playlistIndex].title}
+					src={playlists[playlistIndex].icon}
+				/>
+			{/key}
+		{/if}
 		<div class="text">
 			<h2>{playlists[playlistIndex].title}</h2>
 			<p>{playlists[playlistIndex].subtitle}</p>
@@ -243,8 +245,10 @@
 	{#if seasonDropdownOpen}
 		<div class="headerOptions" transition:slide={{ duration: 200 }}>
 			{#each playlists.filter((_, i) => i !== playlistIndex) as playlist}
-				<button class="headerOption" on:click={changeSeason.bind(null, playlist)}>
-					<img class="poster" alt={playlist.title} src={playlist.icon} />
+				<button class="headerOption" class:short={!playlist.icon} on:click={changeSeason.bind(null, playlist)}>
+					{#if playlist.icon}
+						<img class="poster" alt={playlist.title} src={playlist.icon} />
+					{/if}
 					<div class="text">
 						<h2>{playlist.title}</h2>
 						<p>{playlist.subtitle}</p>
@@ -367,27 +371,14 @@
 					</div>
 				</button>
 			{/each}
-			{#if $source.incomplete && playlistIndex !== 2 && $source.path === '/fansub'}
+			{#if $source.incomplete}
 				<i style="text-align: center; width: 100%; display: block; padding: 10px 0;">
-					Check back next week for the final episode.
-				</i>
-			{:else if $source.incomplete}
-				<i style="text-align: center; width: 100%; display: block; padding: 10px 0;">
+					{#if $source?.name === "Fansub" && $source?.subtitle === "Season 1"}
+					Check back next week for new episodes, or switch to the 📜 Dub to keep watching.
+					{:else}
 					Check back next week for new episodes!
+					{/if}
 				</i>
-			{/if}
-			{#if playlistIndex === 2}
-				{@const { src, message } = getUnknownMsg()}
-				<div class="unknownSeason">
-					<img
-						src={src}
-						alt="A Cardbot from Season 3"
-						style={src === unknown0 ? "max-height: min(50vh, 200px); max-width: 80%; padding-top: 1rem" : 'padding-top: 0.5rem; max-width: 90%'}
-					/>
-					<i style="text-align: center; width: 100%; display: block; padding: 10px 0;">
-						{@html message}
-					</i>
-				</div>
 			{/if}
 		{/if}
 		{#if $source === null || $source.episodes.length === 0}
@@ -406,7 +397,7 @@
 	{#if !$editor && $source && 'source' in $source}
 		<div class="btnrow" style="gap: 0">
 			<button class="editSub" on:click={() => openEditor($source)}>✏️ Edit custom sub</button>
-			<button class="editSub" on:click={() => removeSub($source)}>❌ Remove sub</button>
+			<button class="editSub" on:click={() => removeSub()}>❌ Remove sub</button>
 		</div>
 	{/if}
 </div>
@@ -462,7 +453,7 @@
 		border-radius: 0;
 		outline: none;
 	}
-	.source:hover:has(.headerOption:hover) {
+	.source:not(.headerOptions.source):hover:has(.headerOption:hover) {
 		border-color: transparent;
 	}
 	.source a {
@@ -515,6 +506,23 @@
 		height: 75px;
 		flex-shrink: 0;
 	}
+	button.headerOption.short {
+		height: 30px;
+		padding-left: 68px;
+		background-color: #3f3f3f;
+	}
+	button.headerOption.short .text {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		gap: 1ch;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	button.headerOption.short .text h2 {
+		font-size: 1em;
+	}
 	button.header:focus:not(:focus-visible) {
 		outline: none;
 	}
@@ -543,13 +551,16 @@
 		top: 75px;
 		left: 0;
 		width: 100%;
-		box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+		box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
 		display: flex;
 		flex-direction: column;
 		border-radius: 0 0 5px 5px;
 		overflow: hidden;
 		max-height: 50vh;
 		overflow-y: auto;
+		border: 1px solid #666;
+		box-sizing: border-box;
+		border-top: 0;
 	}
 	.headerOptions.source {
 		top: calc(100% + 1px);
@@ -649,11 +660,20 @@
 		.source a {
 			color: black;
 		}
+		.headerOptions {
+			border-color: #999;
+		}
+		.headerOptions hr {
+			border-color: #999;
+		}
 		button.header {
 			background-color: #ccc;
 		}
 		button.headerOption {
 			background-color: #bbb;
+		}
+		button.headerOption.short {
+			background-color: #aaa;
 		}
 		button.header img:not(.poster),
 		button.source img:not(.poster) {

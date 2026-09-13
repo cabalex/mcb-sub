@@ -382,7 +382,7 @@
 						{@const start = line.start}
 						{@const end = line.end}
 						<div
-							class="line"
+							class="line addAbove"
 							class:active={currentTime > (line.start ?? 0) && currentTime < (line.end ?? Infinity)}
 						>
 							{#if start !== null}
@@ -427,6 +427,7 @@
 									</button>
 								{/if}
 							{/if}
+							<button class="addAbove" on:click={() => addLineBelow(i)}>+ Add line</button>
 						</div>
 					{/each}
 				</span>

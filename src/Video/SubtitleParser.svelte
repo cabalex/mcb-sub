@@ -9,6 +9,7 @@
 	import FinalCountdown from '../assets/FinalCountdown.svelte';
 	import Credits from '../assets/Credits.svelte';
 	import type { Episode } from '../subtitles';
+	import CommentaryCaption from './CommentaryCaption.svelte';
 
 	export let subtitles: Array<{ start: number; end: number; text: string }>;
 	export let path: string | null = null;
@@ -107,7 +108,9 @@
 			class:hover
 			style="--bottomOffset: {captionStyle.offsetPosition}px"
 		>
-			{#if currentSubtitle.text.includes(' (FX-')}
+			{#if currentSubtitle.text.startsWith("{") && currentSubtitle.text.includes("}")}
+				<CommentaryCaption name={currentSubtitle.text.split("}")[0].slice(1)} text={currentSubtitle.text.split("}")[1]} {subtitleStyles} />
+			{:else if currentSubtitle.text.includes(' (FX-')}
 				<CaptionEffect
 					disabled={!captionStyle.fxEnabled}
 					{subtitleStyles}
@@ -176,8 +179,8 @@
 			height 0.1s ease-in-out;
 	}
 	.subtitleArea.hover {
-		bottom: calc(70px + var(--bottomOffset, 0px));
-		height: calc(100% - calc(calc(70px + var(--bottomOffset, 0px))) * 2);
+		bottom: calc(100px + var(--bottomOffset, 0px));
+		height: calc(100% - calc(calc(100px + var(--bottomOffset, 0px))) * 2);
 	}
 	.subtitle {
 		max-width: 80%;

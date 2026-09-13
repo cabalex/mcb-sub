@@ -30,7 +30,7 @@
 		if (target === e.detail.target) return;
 		target = e.detail.target;
 		hover = true;
-		timeout = setTimeout(() => (hover = false), 3000);
+		timeout = setTimeout(() => (hover = false), 4000);
 	}
 
 	function onEnd(e) {
@@ -132,7 +132,7 @@
 	function hovered(e) {
 		hover = true;
 		if (timeout) clearTimeout(timeout);
-		timeout = setTimeout(() => (hover = false), 3000);
+		timeout = setTimeout(() => (hover = false), 4000);
 	}
 
 	function clearHover() {
@@ -402,7 +402,7 @@
 			<p>Click an episode on the sidebar to start watching, or click the season name to change seasons. You can also change or create your own subtitles by clicking the 📜 menu. Metal Cardbot SUB simply overlays subtitles on top of official Metal Cardbot YouTube videos - no piracy or reuploading of content is involved.</p>
 			<p>Metal Cardbot is property of SAMG/EBS/OSRO, and this site is not affiliated with nor endorsed by its creators. While we work to ensure our subtitles follow the production team's intent as closely as possible, these subtitles are unofficial.</p>
 			<p><b>Where are the missing episodes of Metal Cardbot W?</b></p>
-			<p>We are currently waiting for the official Metal Cardbot YouTube channel to upload full episodes of Metal Cardbot W. Unfortunately, we don't have an estimated date of when this may happen, but it is likely to be in Fall 2026. Once they appear on YouTube, we will have subtitles here shortly after.</p>
+			<p>The official Metal Cardbot YouTube channel is currently uploading one episode per week as of September 11, 2026. Subtitles will appear here within 48 hours, so make sure to check back or follow <a href="https://x.com/mekabox_">@mekabox_</a> on Twitter for updates.</p>
 			<p><b>Who created this site?</b></p>
 			<p>This site was created by cabalex, who also assisted <a href="https://x.com/staro_sphere">@staro_sphere</a> and <a href="https://x.com/PalmtreePanic">@PalmtreePanic</a> with the English fan subtitles. While the website is open-source under MIT license, all fan subtitles are the work of their respective contributors - please do not rehost them on other sites without the permission or credit of their creators.</p>
 		</main>
