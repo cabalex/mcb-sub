@@ -1,0 +1,753 @@
+1
+00:00:01,565 --> 00:00:04,809
+The Mysterious Transfer Student
+
+2
+00:00:11,448 --> 00:00:12,739
+This is Blue Cop.
+
+3
+00:00:12,739 --> 00:00:15,275
+I have yet to find Heavy Iron's vehicle.
+
+4
+00:00:15,275 --> 00:00:17,475
+I will resume my patrol.
+
+5
+00:00:21,763 --> 00:00:25,471
+No sign of any large trailers here either, over.
+
+6
+00:00:27,466 --> 00:00:28,931
+Ugh...
+
+7
+00:00:30,646 --> 00:00:33,521
+How can such a big guy be so hard to find?
+
+8
+00:00:33,521 --> 00:00:36,630
+Maybe he has the power to disappear, like someone else we know.
+
+9
+00:00:36,630 --> 00:00:37,567
+You two!
+
+10
+00:00:38,176 --> 00:00:40,533
+Now's not the time to be slacking off!
+
+11
+00:00:42,289 --> 00:00:43,932
+You startled me!
+
+12
+00:00:43,932 --> 00:00:48,554
+Alright, alright! Let's get back to the mission! Hup-two, Hup-two! Hurry up!
+
+13
+00:00:48,554 --> 00:00:49,795
+Alright, we're coming.
+
+14
+00:00:49,795 --> 00:00:52,759
+Ugh... that naggy little brat.
+
+15
+00:00:52,759 --> 00:00:54,368
+No complaining!
+
+16
+00:00:54,368 --> 00:00:57,368
+Everyone, please keep up the search.
+
+17
+00:00:57,878 --> 00:00:58,753
+Roger that!
+
+18
+00:00:59,503 --> 00:00:59,503
+Ugh...
+
+19
+00:01:00,298 --> 00:01:01,899
+They say that sighing chases away good fortune.
+
+20
+00:01:02,000 --> 00:01:05,090
+Thanks.
+
+21
+00:01:05,884 --> 00:01:06,569
+That'll be four dollars.
+
+22
+00:01:07,000 --> 00:01:09,000
+You're charging me for it?!
+
+23
+00:01:09,200 --> 00:01:11,287
+I was just kidding. Here.
+
+24
+00:01:12,561 --> 00:01:14,864
+I know how you must be feeling.
+
+25
+00:01:14,864 --> 00:01:20,341
+We can't find Heavy Iron, who defeated Blue Cop.
+
+26
+00:01:20,341 --> 00:01:24,771
+And we don't know who the Metal Cardbot who helped us out was.
+
+27
+00:01:24,771 --> 00:01:27,509
+So, are you telling me to be patient,
+
+28
+00:01:27,509 --> 00:01:29,682
+and that they'll all turn up in due time?
+
+29
+00:01:29,682 --> 00:01:31,965
+No, I think we'd better hurry.
+
+30
+00:01:32,626 --> 00:01:34,984
+Looks like it's going to rain.
+
+31
+00:01:35,496 --> 00:01:38,906
+Oh no! I gotta get going then!
+
+32
+00:01:38,906 --> 00:01:41,734
+When everyone gets back, tell them to get inside the garage.
+
+33
+00:01:41,734 --> 00:01:43,424
+Alright. Take care!
+
+34
+00:01:43,424 --> 00:01:44,269
+Later!
+
+35
+00:01:53,200 --> 00:01:55,384
+Is all this rain also because I sighed?
+
+36
+00:01:59,216 --> 00:02:01,105
+Hey you!
+
+37
+00:02:01,105 --> 00:02:03,590
+Watch where you're driving, will ya?!
+
+38
+00:02:09,651 --> 00:02:13,638
+Alright class, settle down! We have a new student joining us today!
+
+39
+00:02:13,638 --> 00:02:14,610
+Come on in.
+
+40
+00:02:18,187 --> 00:02:19,937
+Please introduce yourself.
+
+41
+00:02:20,353 --> 00:02:22,146
+My name is Crest.
+
+42
+00:02:23,771 --> 00:02:25,389
+Nice to meet you all.
+
+43
+00:02:25,670 --> 00:02:27,764
+Ah!
+
+44
+00:02:28,162 --> 00:02:31,340
+Ah! He's so handsome!
+
+45
+00:02:31,340 --> 00:02:33,312
+He'll make my channel blow up!
+
+46
+00:02:34,275 --> 00:02:37,882
+What are they all squealing about, huh?!
+
+47
+00:02:38,949 --> 00:02:41,728
+He's not so handsome. Am I right, Jun?
+
+48
+00:02:41,977 --> 00:02:45,250
+To real men, looks aren't important! It's what's on the inside that counts!
+
+49
+00:02:45,250 --> 00:02:46,531
+Right, Anna?
+
+50
+00:02:46,870 --> 00:02:50,621
+Ah... good looks really are everything!
+
+51
+00:02:50,621 --> 00:02:53,651
+That's enough, everyone! Now let's see...
+
+52
+00:02:53,651 --> 00:02:55,896
+You can go sit behind Vance over there.
+
+53
+00:02:55,896 --> 00:02:57,280
+Thank you very much, teacher.
+
+54
+00:02:58,514 --> 00:03:00,770
+That's a nice watch you're wearing.
+
+55
+00:03:00,787 --> 00:03:03,163
+y-yeah...
+
+56
+00:03:04,597 --> 00:03:08,770
+Let's get started with the lesson, then. Please open your textbooks to page 48.
+
+57
+00:03:10,465 --> 00:03:12,447
+Crest, where did you move here from?
+
+58
+00:03:12,447 --> 00:03:14,461
+Eastpolis.
+
+59
+00:03:14,461 --> 00:03:16,508
+I had to move here because of my parents' jobs.
+
+60
+00:03:16,508 --> 00:03:20,425
+I'm not familiar with this town yet. Do you think you could show me around sometime?
+
+61
+00:03:20,425 --> 00:03:23,103
+-Of course! 
+-Any time!
+
+62
+00:03:23,103 --> 00:03:24,209
+Thank you, I appreciate it.
+
+63
+00:03:26,818 --> 00:03:29,966
+Hmph! Just look at that jerk. He's already making moves!
+
+64
+00:03:30,437 --> 00:03:32,199
+Let's see how he likes this!
+
+65
+00:03:36,127 --> 00:03:36,864
+Watch out!
+
+66
+00:03:39,776 --> 00:03:41,340
+Huh?!
+
+67
+00:03:41,686 --> 00:03:43,632
+You should be more careful, Vance.
+
+68
+00:03:43,632 --> 00:03:45,331
+How do you know my name?!
+
+69
+00:03:45,331 --> 00:03:49,204
+I already know everyone's names. I memorized the list of students enrolled here.
+
+70
+00:03:49,204 --> 00:03:50,932
+C'mon, that's a lie!
+
+71
+00:03:51,430 --> 00:03:53,275
+I'm not lying, Lavi.
+
+72
+00:03:53,275 --> 00:03:55,110
+That's Theo behind you.
+
+73
+00:03:55,110 --> 00:03:56,173
+And Anna...
+
+74
+00:03:56,173 --> 00:03:56,965
+Vera...
+
+75
+00:03:56,965 --> 00:03:57,812
+Kate...
+
+76
+00:03:57,812 --> 00:03:58,807
+Helena...
+
+77
+00:03:58,807 --> 00:03:59,819
+And Naomi.
+
+78
+00:03:59,819 --> 00:04:01,979
+Wow, that's amazing!
+
+79
+00:04:01,979 --> 00:04:03,812
+Just give me back the ball!
+
+80
+00:04:03,812 --> 00:04:05,193
+Take it from me, then.
+
+81
+00:04:05,401 --> 00:04:05,870
+It's mine now!
+
+82
+00:04:08,036 --> 00:04:09,634
+Stop moving!
+
+83
+00:04:15,780 --> 00:04:16,483
+It went in!
+
+84
+00:04:16,483 --> 00:04:17,994
+Such a good shot!
+
+85
+00:04:19,225 --> 00:04:20,831
+Just a little trick I learned.
+
+86
+00:04:20,831 --> 00:04:22,451
+Hey Vance, wait up!
+
+87
+00:04:22,716 --> 00:04:24,766
+Did I overdo it?
+
+88
+00:04:25,550 --> 00:04:28,225
+Not even Vance could do a thing...
+
+89
+00:04:29,310 --> 00:04:30,899
+So his name is Crest?
+
+90
+00:04:36,283 --> 00:04:38,370
+You find the new kid suspicious?
+
+91
+00:04:38,370 --> 00:04:41,480
+There's something about the way he looks and acts...
+
+92
+00:04:41,480 --> 00:04:43,199
+It just doesn't seem right.
+
+93
+00:04:43,199 --> 00:04:45,750
+Hehe! Are you sure you're not just jealous that Anna is into him?
+
+94
+00:04:45,750 --> 00:04:50,579
+Argh, it's not that! He took an interest in my Metal Breath too!
+
+95
+00:04:50,579 --> 00:04:52,672
+Something does seem a little off...
+
+96
+00:04:52,672 --> 00:04:54,930
+What are you two talking about?
+
+97
+00:04:54,930 --> 00:04:56,163
+Aaah!
+
+98
+00:04:56,699 --> 00:04:59,350
+C-Crest, what are you doing here?
+
+99
+00:04:59,350 --> 00:05:01,925
+I'm sorry, I hope now's not a bad time?
+
+100
+00:05:01,925 --> 00:05:04,500
+Anna, did you bring him here?
+
+101
+00:05:04,500 --> 00:05:05,879
+Well, of course!
+
+102
+00:05:05,879 --> 00:05:07,831
+Crest said he has something he wants to talk to you about.
+
+103
+00:05:07,831 --> 00:05:09,947
+You should have said something before coming!
+
+104
+00:05:09,947 --> 00:05:13,461
+Why? You'd just be riding around on your bike anyway.
+
+105
+00:05:13,461 --> 00:05:17,173
+This isn't a playground for kids. You should all head home already.
+
+106
+00:05:17,173 --> 00:05:18,920
+But Jun can stay?!
+
+107
+00:05:18,920 --> 00:05:22,961
+I never gave him permission either. He just barges in whenever he wants!
+
+108
+00:05:22,961 --> 00:05:27,213
+Wah? Now you're just being mean, Uncle Edo! You told me I could come hang out any time-
+
+109
+00:05:27,213 --> 00:05:30,143
+T-That's for sale! You shouldn't touch it!
+
+110
+00:05:30,143 --> 00:05:32,276
+I'm sorry, I haven't seen a car like this before-
+
+111
+00:05:32,276 --> 00:05:37,000
+Haha, no way, are you serious?! There are so many of these c-cars around here!
+
+112
+00:05:37,000 --> 00:05:37,875
+Y-yeah...
+
+113
+00:05:37,875 --> 00:05:41,747
+You only moved here recently, so that's probably why it's new to you...
+
+114
+00:05:41,747 --> 00:05:44,814
+It looks a lot like the R48 used in highway patrol,
+
+115
+00:05:44,814 --> 00:05:47,295
+but the shape of the hood and exhaust pipes are different.
+
+116
+00:05:47,295 --> 00:05:51,298
+Woah, Crest! You're an expert on cars too?!
+
+117
+00:05:51,298 --> 00:05:55,915
+Well, this is a custom vehicle. It's been modified according to the owner's specifications.
+
+118
+00:05:55,915 --> 00:05:58,718
+Hmm... Is that so?
+
+119
+00:05:58,718 --> 00:06:01,713
+Haha, y-yeah! That's why!
+
+120
+00:06:01,713 --> 00:06:03,891
+But what did you want to talk about?
+
+121
+00:06:03,891 --> 00:06:06,740
+Sorry for the sudden request, but I have a favor to ask.
+
+122
+00:06:06,740 --> 00:06:10,759
+Just say the word! Crest can ask for anything he wants!
+
+123
+00:06:10,759 --> 00:06:12,367
+That's not for you to decide!
+
+124
+00:06:12,367 --> 00:06:13,826
+Aah! Guys!
+
+125
+00:06:13,826 --> 00:06:15,213
+What's wrong, Anna?!
+
+126
+00:06:16,584 --> 00:06:17,860
+W-what is it?!
+
+127
+00:06:21,899 --> 00:06:22,973
+That's...
+
+128
+00:06:22,973 --> 00:06:25,242
+That's the Metal Cardbot from the other day!
+
+129
+00:06:25,242 --> 00:06:27,329
+The views will be out of this world!
+
+130
+00:06:27,329 --> 00:06:31,422
+Bring me Blue Cop. I know he's hiding here somewhere!
+
+131
+00:06:31,422 --> 00:06:34,377
+W-what? Lemme see who we're dealing with!
+
+132
+00:06:34,377 --> 00:06:37,487
+Hang on. We'll be discovered if we make a move now.
+
+133
+00:06:43,136 --> 00:06:46,425
+Come out and show yourself, you coward!
+
+134
+00:06:47,790 --> 00:06:51,120
+I'm back. I didn't find any leads either.
+
+135
+00:06:53,807 --> 00:06:54,946
+Isn't that...!
+
+136
+00:06:54,946 --> 00:06:56,889
+What's going on, who is this guy?
+
+137
+00:06:57,146 --> 00:07:00,475
+H-Hello, first responders! Over here!
+
+138
+00:07:02,899 --> 00:07:04,170
+Ah! O-oh, right!
+
+139
+00:07:04,492 --> 00:07:05,961
+Come on, let's go!
+
+140
+00:07:05,961 --> 00:07:07,754
+But I'm not even hurt!
+
+141
+00:07:07,754 --> 00:07:09,475
+Uh... just get in for now!
+
+142
+00:07:09,475 --> 00:07:10,865
+Jun? Aren't you coming?!
+
+143
+00:07:10,865 --> 00:07:13,411
+W-well.. uhh... there's no space for me in there!
+
+144
+00:07:13,411 --> 00:07:18,161
+I have my bike, so I'll go by myself, o-okay?
+
+145
+00:07:18,161 --> 00:07:20,151
+Theo, take care of them, okay?
+
+146
+00:07:20,151 --> 00:07:22,204
+Okay. You be careful too.
+
+147
+00:07:27,322 --> 00:07:28,487
+The coast is clear, Blue Cop!
+
+148
+00:07:36,692 --> 00:07:38,600
+You, identify yourself.
+
+149
+00:07:38,600 --> 00:07:42,757
+My name is Wild Guardy. And I am going to be king of the Metal Cardbots!
+
+150
+00:07:42,757 --> 00:07:45,665
+Ha! King of us? What a joke.
+
+151
+00:07:45,665 --> 00:07:48,680
+Hang on! Wild Guardy. Weren't you on our side?
+
+152
+00:07:48,680 --> 00:07:51,831
+Yeah! You helped us in the battle against Heavy Iron, remember?
+
+153
+00:07:51,831 --> 00:07:57,213
+Hmph. Do not be mistaken. I just didn't want a bunch of weaklings to steal my victory.
+
+154
+00:07:57,213 --> 00:07:58,417
+What?
+
+155
+00:07:58,417 --> 00:08:01,540
+The one who will take you down shall be I;
+
+156
+00:08:01,540 --> 00:08:02,608
+The great, Wild Guardy!
+
+157
+00:08:04,954 --> 00:08:06,334
+Jun!
+
+158
+00:08:13,985 --> 00:08:15,826
+Metal Breath, pickup!
+
+159
+00:08:17,605 --> 00:08:19,490
+Blue Cop, setup!
+
+160
+00:08:40,653 --> 00:08:43,307
+Blue Cop! Burst Shot!
+
+161
+00:08:44,889 --> 00:08:46,619
+Burst Shot!
+
+162
+00:08:50,312 --> 00:08:51,754
+Way to go!
+
+163
+00:08:57,970 --> 00:09:00,288
+Yeah well, that thing's got nothing on my shield!
+
+164
+00:09:00,288 --> 00:09:02,870
+I hope that's not all you've got?
+
+165
+00:09:02,870 --> 00:09:04,331
+Of course not!
+
+166
+00:09:04,692 --> 00:09:07,918
+Blue Cop! Thunderbolt Smash!
+
+167
+00:09:11,548 --> 00:09:12,596
+Thunderbolt...
+
+168
+00:09:12,677 --> 00:09:13,600
+Smash!!
+
+169
+00:09:27,562 --> 00:09:30,360
+Thunderbolt Smash didn't work.
+
+170
+00:09:30,494 --> 00:09:36,619
+My shield has been tempered by the magma of planet Machina for over thousands of years.
+
+171
+00:09:36,619 --> 00:09:38,812
+Your feeble attacks are useless!
+
+172
+00:09:46,427 --> 00:09:49,250
+Wild... Slash!
+
+173
+00:09:56,850 --> 00:09:57,970
+Blue Cop!
+
+174
+00:09:58,567 --> 00:10:00,951
+Hey! You alright?
+
+175
+00:10:02,783 --> 00:10:04,258
+Jun! Tag me in!
+
+176
+00:10:04,527 --> 00:10:05,850
+It's no use.
+
+177
+00:10:05,850 --> 00:10:07,667
+You're no match for me.
+
+178
+00:10:07,667 --> 00:10:09,663
+Huh? What did you say?
+
+179
+00:10:12,129 --> 00:10:15,590
+Haaaaaaaa haa!
+
+180
+00:10:20,697 --> 00:10:19,697
+///
+
+181
+00:10:23,125 --> 00:10:24,595
+Are you okay, Blue bro?
+
+182
+00:10:24,595 --> 00:10:27,537
+Since when did you and Blue Cop become brothers?
+
+183
+00:10:27,537 --> 00:10:31,533
+Another pest has shown up.
+
+184
+00:10:31,533 --> 00:10:34,499
+I'll be waiting for our next showdown, Blue Cop.
+
+185
+00:10:43,331 --> 00:10:45,570
+Come back, Wild Guardy...!
+
+186
+00:10:45,903 --> 00:10:47,320
+Blue Cop!
+
+187
+00:10:49,642 --> 00:10:51,354
+B-Blue Cop, are you alright?!
+
+188
+00:10:51,354 --> 00:10:53,499
+Say something, Blue Cop!
+

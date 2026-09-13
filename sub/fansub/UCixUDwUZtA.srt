@@ -1,0 +1,857 @@
+1
+00:00:01,485 --> 00:00:04,953
+Black Hook Strikes Back
+
+2
+00:00:08,131 --> 00:00:09,102
+What's all this?
+
+3
+00:00:09,102 --> 00:00:11,673
+All of these are my inventions.
+
+4
+00:00:11,673 --> 00:00:15,919
+Buster Gallon, self proclaimed genius inventor on planet Machina.
+
+5
+00:00:15,919 --> 00:00:18,588
+You could have left out the "self proclaimed" part...
+
+6
+00:00:18,588 --> 00:00:19,527
+Is this a pen?
+
+7
+00:00:19,527 --> 00:00:23,300
+That is a cheat pen that will automatically write the correct answers for you.
+
+8
+00:00:23,300 --> 00:00:25,114
+With this I could be the top of the cl-
+
+9
+00:00:25,114 --> 00:00:26,454
+Auckpth!
+
+10
+00:00:27,902 --> 00:00:32,472
+It's actually a pen that punishes those who would try to cheat with it.
+
+11
+00:00:32,472 --> 00:00:33,895
+And... what's this?
+
+12
+00:00:33,895 --> 00:00:37,106
+It's a brush that makes your hair beautiful with just one stroke.
+
+13
+00:00:37,106 --> 00:00:38,750
+Wow, really?
+
+14
+00:00:40,167 --> 00:00:42,901
+See? Beautiful, isn't it?
+
+15
+00:00:42,901 --> 00:00:45,468
+These inventions are all pretty silly...
+
+16
+00:00:45,468 --> 00:00:47,271
+But aren't they fun?
+
+17
+00:00:47,271 --> 00:00:48,509
+What do you mean?
+
+18
+00:00:48,509 --> 00:00:49,753
+What's so fun about this?!
+
+19
+00:00:49,753 --> 00:00:54,948
+To me, it's the most fun to see the ridiculous look on people's faces after they've been tricked!
+
+20
+00:00:54,948 --> 00:00:57,399
+Really? That's what you find "fun"?
+
+21
+00:00:57,399 --> 00:01:00,158
+Are we sure we should accept this prankster as our teammate?
+
+22
+00:01:00,158 --> 00:01:02,503
+No way! Can trust him as far as you can throw him!
+
+23
+00:01:02,503 --> 00:01:03,420
+I have to agree.
+
+24
+00:01:03,420 --> 00:01:05,186
+I don't trust him either.
+
+25
+00:01:05,186 --> 00:01:07,906
+No... But he... oh...
+
+26
+00:01:07,906 --> 00:01:09,149
+I trust him!
+
+27
+00:01:09,149 --> 00:01:10,442
+What?!
+
+28
+00:01:10,442 --> 00:01:11,331
+Jun?!
+
+29
+00:01:11,331 --> 00:01:12,962
+Why not? He's so fun!
+
+30
+00:01:12,962 --> 00:01:15,373
+I enjoy a good prank too, you know!
+
+31
+00:01:15,373 --> 00:01:16,480
+I think you're being too trusting.
+
+32
+00:01:16,480 --> 00:01:20,480
+You'll regret it if you end up getting stabbed in the back. But by then, it'll be too late.
+
+33
+00:01:20,480 --> 00:01:24,393
+But... if you keep expecting the worst of someone, you'll never build any trust!
+
+34
+00:01:24,393 --> 00:01:26,438
+I'll trust you. Jun.
+
+35
+00:01:26,438 --> 00:01:27,198
+Great!
+
+36
+00:01:27,198 --> 00:01:30,387
+Then that means you can trust me in that we can trust Buster Gallon!
+
+37
+00:01:30,387 --> 00:01:32,718
+What does that even mean?
+
+38
+00:01:33,539 --> 00:01:37,539
+Anyway! Welcome to the team! It's great to have you, Buster Gallon!
+
+39
+00:01:38,867 --> 00:01:39,768
+Hm?
+
+40
+00:01:39,768 --> 00:01:41,620
+What's going on?
+
+41
+00:01:44,210 --> 00:01:45,486
+What's wrong?
+
+42
+00:01:45,486 --> 00:01:46,986
+Is it a power outage?
+
+43
+00:01:49,829 --> 00:01:51,652
+What's going on?
+
+44
+00:01:51,652 --> 00:01:52,579
+What's happening?
+
+45
+00:01:54,668 --> 00:01:57,378
+This doesn't seem like a simple blackout.
+
+46
+00:01:57,378 --> 00:02:00,376
+The current dropped, but it hasn't stopped completely.
+
+47
+00:02:00,376 --> 00:02:02,852
+Do you think there could be a problem at the power plant?
+
+48
+00:02:02,852 --> 00:02:05,534
+Huh? Daddy?! Is that true?!
+
+49
+00:02:05,534 --> 00:02:06,968
+What is it, Anna?
+
+50
+00:02:06,968 --> 00:02:09,626
+A strange ship has appeared at Mowtown's electrical facility!
+
+51
+00:02:09,626 --> 00:02:10,931
+What?! Is it...
+
+52
+00:02:10,931 --> 00:02:12,430
+It's Black Hook!
+
+53
+00:02:17,545 --> 00:02:21,274
+Hahahaha! Give me everything you've got!
+
+54
+00:02:23,620 --> 00:02:26,646
+Aah! At this rate, the entire city will be shut down!
+
+55
+00:02:26,646 --> 00:02:27,800
+Hurry! We gotta stop him!
+
+56
+00:02:27,800 --> 00:02:29,318
+Got it!
+
+57
+00:02:29,318 --> 00:02:30,485
+Black Hook...
+
+58
+00:02:30,485 --> 00:02:32,277
+Everyone, take back!
+
+59
+00:02:36,471 --> 00:02:40,432
+I wonder... what is he trying to do by attacking the electrical facility?
+
+60
+00:02:40,432 --> 00:02:45,150
+Black Hook is trying to absorb all of the electricity to power himself up!
+
+61
+00:02:45,150 --> 00:02:49,103
+Trying to take in all of that energy at once... Typical of Black Hook!
+
+62
+00:02:52,444 --> 00:02:54,349
+That sure is one greedy pirate.
+
+63
+00:02:54,349 --> 00:02:58,569
+He was already strong in the first place! We'll never beat him if he absorbs all that power.
+
+64
+00:02:59,247 --> 00:03:01,758
+Theo! Anna! I have an idea!
+
+65
+00:03:05,639 --> 00:03:07,377
+Yahaha!
+
+66
+00:03:07,377 --> 00:03:10,710
+Still not enough! More! MORE!
+
+67
+00:03:18,634 --> 00:03:21,843
+Anyone who interrupts my meal will be crushed!
+
+68
+00:03:22,764 --> 00:03:23,520
+Huh?
+
+69
+00:03:24,639 --> 00:03:25,211
+What?!
+
+70
+00:03:25,949 --> 00:03:27,983
+Water Splash!
+
+71
+00:03:30,520 --> 00:03:32,271
+Let's go! Mega Ambler!
+
+72
+00:03:36,299 --> 00:03:38,560
+Mega Ambler, Forceps Shock!
+
+73
+00:03:40,699 --> 00:03:41,209
+Forceps Shock!
+
+74
+00:03:41,408 --> 00:03:43,271
+Hyeeaagh!
+
+75
+00:03:49,843 --> 00:03:50,905
+We did it!
+
+76
+00:03:50,905 --> 00:03:53,978
+The water conducted electricity, just as Jun planned!
+
+77
+00:03:53,978 --> 00:03:55,389
+Augh, my car...
+
+78
+00:03:55,745 --> 00:03:57,685
+Don't get smart with me, you punks!!
+
+79
+00:04:01,568 --> 00:04:03,508
+Guys, come back!
+
+80
+00:04:07,319 --> 00:04:11,752
+Ha! Did you really think that little plan of yours would be enough to stop me?
+
+81
+00:04:11,752 --> 00:04:13,497
+Then how about this?
+
+82
+00:04:13,497 --> 00:04:14,584
+Fleta Z!
+
+83
+00:04:16,245 --> 00:04:17,518
+Fleta Z, setup!
+
+84
+00:04:21,100 --> 00:04:23,634
+Fleta Z, Beak Arrow!
+
+85
+00:04:23,634 --> 00:04:24,740
+Beak Arrow!
+
+86
+00:04:27,177 --> 00:04:29,408
+Heh! This puny arrow is nothing to me!
+
+87
+00:04:29,408 --> 00:04:30,899
+Now, Fleta Z!
+
+88
+00:04:30,899 --> 00:04:31,487
+Right!
+
+89
+00:04:34,379 --> 00:04:37,200
+Why isn't it coming out?! W-What?
+
+90
+00:04:37,769 --> 00:04:39,677
+I'm losing energy!
+
+91
+00:04:39,677 --> 00:04:41,216
+Haven't you ever heard of a grounding conductor?
+
+92
+00:04:41,216 --> 00:04:45,711
+It's a safety device that sends excess electricity from washing machines and refrigerators into the ground!
+
+93
+00:04:45,711 --> 00:04:49,492
+Now all the energy you absorbed will be sent back into the ground!
+
+94
+00:04:49,492 --> 00:04:50,324
+You did it!
+
+95
+00:04:50,324 --> 00:04:51,503
+That's our Jun!
+
+96
+00:04:51,503 --> 00:04:54,302
+My car!
+It's all thanks to you guys!
+
+97
+00:04:54,302 --> 00:04:55,691
+Why, you little...
+
+98
+00:04:57,552 --> 00:04:59,262
+How 'bout I share some with you?
+
+99
+00:05:00,778 --> 00:05:02,252
+Fleta Z, come back!
+
+100
+00:05:03,557 --> 00:05:06,220
+You brats are starting to get on my nerves!
+
+101
+00:05:06,220 --> 00:05:07,555
+It's about time you've been punished!
+
+102
+00:05:07,555 --> 00:05:09,194
+Mega Trucker, setup!
+
+103
+00:05:10,430 --> 00:05:11,685
+Shoulder Shield!
+
+104
+00:05:14,259 --> 00:05:16,286
+How long do you think you can keep that up?!
+
+105
+00:05:19,572 --> 00:05:21,483
+Mega Trucker can't handle this on his own!
+
+106
+00:05:21,483 --> 00:05:22,869
+Right. We all have to work together!
+
+107
+00:05:23,069 --> 00:05:24,455
+Alright. Let's do it!
+
+108
+00:05:26,656 --> 00:05:28,423
+We all got your back!
+
+109
+00:05:28,423 --> 00:05:30,766
+Oh! We haven't done this move in a while!
+
+110
+00:05:30,766 --> 00:05:32,831
+Buffalo Crush! Buster Gallon!
+
+111
+00:05:32,831 --> 00:05:34,187
+You guys will help too, right?
+
+112
+00:05:34,908 --> 00:05:36,737
+I guess we don't have a choice.
+
+113
+00:05:36,737 --> 00:05:38,625
+Buffalo Crush will help you!
+
+114
+00:05:40,129 --> 00:05:43,189
+And here we have the two shameless traitors.
+
+115
+00:05:43,189 --> 00:05:47,946
+You sold your souls to that Earthling runt, and now you dare to strike me down?!
+
+116
+00:05:47,946 --> 00:05:51,266
+Me Buffalo Crush... never sold soul to anyone!
+
+117
+00:05:51,266 --> 00:05:51,824
+What'd you say?!
+
+118
+00:05:52,516 --> 00:05:55,377
+Planet Machina gone.
+
+119
+00:05:55,377 --> 00:05:58,430
+We have to live on Earth now.
+
+120
+00:05:58,430 --> 00:06:00,100
+You. Me. Everyone!
+
+121
+00:06:00,100 --> 00:06:01,475
+Stop talking!
+
+122
+00:06:02,141 --> 00:06:03,449
+Oh no!
+
+123
+00:06:03,449 --> 00:06:06,232
+After exerting all of that energy, he still has the strength to charge his finishing blow?!
+
+124
+00:06:07,235 --> 00:06:08,935
+Everyone, concentrate on the shield!
+
+125
+00:06:08,935 --> 00:06:10,314
+Bring it on!
+
+126
+00:06:10,314 --> 00:06:11,692
+No! There's no time!
+
+127
+00:06:13,978 --> 00:06:16,879
+Grand... Captain's Cannon!
+
+128
+00:06:26,148 --> 00:06:30,519
+Oh my. I've never been one to lose my cool,
+
+129
+00:06:30,519 --> 00:06:32,406
+and here I almost ended up destroying the Metal Breath.
+
+130
+00:06:33,153 --> 00:06:36,249
+Oh no... Everyone? Pull yourselves together!
+
+131
+00:06:36,249 --> 00:06:39,391
+Now, you are the only ones left.
+
+132
+00:06:39,391 --> 00:06:40,853
+Run away, Jun!
+
+133
+00:06:46,237 --> 00:06:47,399
+I can't do that!
+
+134
+00:06:48,730 --> 00:06:52,798
+Never... I will never run and leave my friends behind!
+
+135
+00:06:52,798 --> 00:06:53,776
+Ever!
+
+136
+00:07:01,213 --> 00:07:02,312
+That light...?
+
+137
+00:07:02,721 --> 00:07:05,403
+Could it be? The light of the forbidden power?!
+
+138
+00:07:05,403 --> 00:07:07,189
+Forbidden... power?
+
+139
+00:07:07,189 --> 00:07:09,689
+A legendary force from planet Machina!
+
+140
+00:07:09,689 --> 00:07:12,552
+So powerful that it had to be sealed away!
+
+141
+00:07:12,552 --> 00:07:15,893
+I should have known... it existed within the Metal Breath!
+
+142
+00:07:15,893 --> 00:07:16,877
+Small fry!
+
+143
+00:07:16,877 --> 00:07:20,463
+Give it to me right now! Hand it over!
+
+144
+00:07:20,463 --> 00:07:22,735
+I-I don't know what any of that is!
+
+145
+00:07:22,735 --> 00:07:24,129
+But I will never let you have it!
+
+146
+00:07:28,338 --> 00:07:30,628
+What is he doing?!
+
+148
+00:07:31,129 --> 00:07:34,461
+Buster Gallon... You?!
+
+149
+00:07:34,461 --> 00:07:35,692
+Here you go.
+
+150
+00:07:35,692 --> 00:07:38,117
+It's all yours now... Captain.
+
+151
+00:07:38,117 --> 00:07:39,206
+He's kidding, right?!
+
+152
+00:07:39,206 --> 00:07:40,389
+Did he just betray us?!
+
+153
+00:07:40,389 --> 00:07:41,697
+This can't be!...
+
+154
+00:07:42,137 --> 00:07:44,716
+Well done, Buster Gallon!
+
+155
+00:07:44,716 --> 00:07:48,269
+You... I knew I could always put my trust in you!
+
+156
+00:07:48,269 --> 00:07:51,913
+With this, the universe will be ours! Hahaha!
+
+157
+00:07:51,913 --> 00:07:55,812
+What did I tell you?! I knew we shouldn't have taken him in!
+
+158
+00:07:57,278 --> 00:07:58,978
+I believe I told you.
+
+159
+00:07:58,978 --> 00:08:02,000
+It is my greatest joy to see the ridiculous look on your faces...
+
+160
+00:08:02,000 --> 00:08:05,564
+...after you've been tricked.
+
+161
+00:08:05,564 --> 00:08:06,487
+Yeah!
+
+162
+00:08:06,487 --> 00:08:08,478
+This is our last chance!
+
+163
+00:08:08,478 --> 00:08:11,108
+Ack! What is this?!
+
+164
+00:08:11,108 --> 00:08:12,269
+I can't see anything!
+
+165
+00:08:13,858 --> 00:08:15,346
+Now's our chance, Buster Gallon!
+
+166
+00:08:15,346 --> 00:08:16,295
+I'm on it!
+
+167
+00:08:23,439 --> 00:08:27,490
+My energy! After all of this!!
+
+168
+00:08:27,781 --> 00:08:29,446
+Buster Gallon, setup!
+
+169
+00:08:37,638 --> 00:08:39,912
+Thank you for believing in me, Captain.
+
+170
+00:08:39,912 --> 00:08:42,370
+Buster Gallon! Twin Vulcan!
+
+171
+00:08:43,913 --> 00:08:45,600
+Twin Vulcan!
+
+172
+00:08:46,600 --> 00:08:48,306
+Buster Blaster!
+
+173
+00:08:49,639 --> 00:08:50,879
+Buster Blaster!
+
+174
+00:08:52,363 --> 00:08:55,604
+Who would have thought I'd be betrayed twice!
+
+175
+00:08:55,604 --> 00:08:59,514
+I must've lost my edge. I don't deserve to be called Captain...!
+
+176
+00:08:59,605 --> 00:09:00,792
+Jun!
+
+177
+00:09:00,792 --> 00:09:01,354
+Blue Cop!
+
+178
+00:09:09,254 --> 00:09:10,524
+Infinity...
+
+179
+00:09:10,524 --> 00:09:11,687
+Force...
+
+180
+00:09:11,687 --> 00:09:13,471
+Break!!
+
+181
+00:09:29,681 --> 00:09:30,687
+This is it!
+
+182
+00:09:32,134 --> 00:09:35,211
+Metal Cardbot, Change Up!
+
+183
+00:09:54,850 --> 00:09:56,624
+Black Hook, sealed!
+
+184
+00:09:59,134 --> 00:10:00,668
+It's over...
+
+185
+00:10:01,931 --> 00:10:03,263
+You did it, Jun!
+
+186
+00:10:04,264 --> 00:10:06,697
+For a moment, I thought we were done for...
+
+187
+00:10:06,697 --> 00:10:09,359
+Hey you, Buster Gallon. Just who's side are you on?
+
+188
+00:10:09,359 --> 00:10:10,999
+What do you mean, "who's side"?
+
+189
+00:10:10,999 --> 00:10:12,446
+Don't act like you don't know.
+
+190
+00:10:12,446 --> 00:10:14,774
+Were you really thinking of betraying us?
+
+191
+00:10:14,774 --> 00:10:17,416
+I'm not so sure myself. However...
+
+192
+00:10:17,416 --> 00:10:18,437
+However?
+
+193
+00:10:18,437 --> 00:10:20,346
+Jun believed in me.
+
+194
+00:10:20,346 --> 00:10:23,647
+So I started thinking about believing in him too.
+
+195
+00:10:23,647 --> 00:10:25,221
+Buster Gallon!
+
+196
+00:10:25,221 --> 00:10:27,653
+Glad to have you on the team!
+
+197
+00:10:27,653 --> 00:10:28,817
+The pleasure is mine.
+
+198
+00:10:32,138 --> 00:10:33,969
+Agh!! My arm!!
+
+199
+00:10:35,431 --> 00:10:37,278
+Jun! Are you alright?!
+
+200
+00:10:39,320 --> 00:10:42,126
+Ehehehe! I got you good! Haha!
+
+201
+00:10:42,126 --> 00:10:44,513
+Oh, my... you got me this time.
+
+202
+00:10:45,644 --> 00:10:47,451
+Ugh... really, Jun?
+
+203
+00:10:47,451 --> 00:10:50,518
+You still have the energy for pranks?
+
+204
+00:10:52,600 --> 00:10:56,889
+Oh... what do I tell the insurance company about this?
+
+205
+00:10:56,889 --> 00:11:00,582
+Maybe that you made a supreme sacrifice to protect the peace of Mowtown!
+
+206
+00:11:00,582 --> 00:11:02,100
+That's not gonna work!
+
+207
+00:11:02,797 --> 00:11:04,360
+It's my dad.
+
+208
+00:11:04,360 --> 00:11:05,355
+Hello?
+
+209
+00:11:05,355 --> 00:11:07,217
+What's going on, Daddy?
+
+210
+00:11:07,217 --> 00:11:10,388
+Anna, where are you right now? Are you okay?
+
+211
+00:11:10,388 --> 00:11:13,423
+I'm calling because something strange is happening at the landfill.
+
+212
+00:11:13,423 --> 00:11:17,735
+Look there! A giant mass of ore has just begun to rise out of Landfill 30!
+
+213
+00:11:17,735 --> 00:11:20,879
+This dome-shaped structure looks large enough to cover the entire landfill!
+
+214
+00:11:20,879 --> 00:11:24,490
+Should we consider this mysterious phenomenon to be a simple act of nature?!
+
+215
+00:11:25,740 --> 00:11:27,302
+What is that...?
+

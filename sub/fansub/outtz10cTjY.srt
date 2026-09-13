@@ -525,7 +525,7 @@ This is bad!
 131
 00:08:54,730 --> 00:08:56,822
 -While the danger of wildfires spreading to residential areas is raising public concern,
--If only Phoenix Fire was here...
+-If only Phoenix Fire were here...
 
 132
 00:08:56,822 --> 00:08:59,110
