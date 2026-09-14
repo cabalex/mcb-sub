@@ -340,7 +340,7 @@
 					{captionStyle}
 					subtitles={subs}
 					path={$source?.path ?? null}
-					credits={$source?.episodes.indexOf($video) === ($source?.episodes.length || 0) - 1
+					credits={!$source?.incomplete && $source?.episodes.indexOf($video) === ($source?.episodes.length || 0) - 1
 						? $source?.credits
 						: null}
 					{target}
