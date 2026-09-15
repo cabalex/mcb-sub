@@ -34,4 +34,4 @@ If they don't meet the criteria, don't worry! You can still make your subs and s
 Unfortunately, this isn't supported at this time. Due to copyright restrictions, we also cannot allow fan reuploads of newer episodes to be published on the site.
 
 ### What if I want to update my subtitles later?
-Please send a message or pull request when you do, but please *do not send more than one update per 2 weeks.* A speedy response is not guaranteed!
+Please send a message or pull request when you do, but please *do not send more than one update per week.* A speedy response is not guaranteed!

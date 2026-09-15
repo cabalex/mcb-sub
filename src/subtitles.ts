@@ -332,7 +332,8 @@ const subtitles: Season[] = [
 					{ name: 'ティーザー', id: '4J3vusCIhhc', label: 'ティーザー' },
 					{ name: 'OP', id: 'wuMN8mCNLdk', label: 'OP' },
 					{ name: '変化の時代', id: 'igqcOBDjKYE', label: '1話', intro: 71 },
-					{ name: 'ワイルドカードボットの咆哮', id: '91ZQRAqYUj4', label: '2話', intro: 71 }
+					{ name: 'ワイルドカードボットの咆哮', id: '91ZQRAqYUj4', label: '2話', intro: 71 },
+					{ name: '爪、翼、そして歯', id: 'Yjj9oBZlp1M', label: '3話' }
 				]
 			}
 		]
