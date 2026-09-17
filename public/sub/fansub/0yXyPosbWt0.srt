@@ -44,7 +44,7 @@ Shadow X, setup!
 
 12
 00:00:36,712 --> 00:00:38,948
-Shall we get started?
+{Jun} Shall we get started?
 
 13
 00:00:44,753 --> 00:00:45,468

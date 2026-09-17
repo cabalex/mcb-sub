@@ -400,6 +400,9 @@ export const translationNotes: { [key: string]: { [key: string]: string } } = {
 			<p>New this season is that we wanted to make sure the opening is <i>actually singable</i> in English. This involves a lot of lyrical compromises to keep the same rhythm and syllable count while retaining the original meaning. Nevertheless, we hope you enjoy it!</p>
 			<p>One of the lyrics we wanted to keep is <span class="timestamp">0:44</span>, "우주의 별처럼" ("like the stars across the universe"), but we couldn't make "universe" work in this context. It may not be as cool, but "like all the stars in the sky!" is fun to sing, we think.</p>
 			<p>Metal Cardbot W premieres this December 4th on EBS, but due to copyright restrictions, we will not be able to provide subtitles until the episodes begin uploading to YouTube (usually this happens around 4 months after the first episode is broadcasted). Check back later!</p>`,
+		YGHc9jfOsb0: `<p>At <span class="timestamp">4:32</span>, Mega Trucker says the line "It's an acorn measuring contest." to refer to pointless fight between Jun and Shadow X.</p>
+		<p>In Korean, the phrase "도토리 키재기" (<i>dotoriki jaegi</i>, literally "acorn height measuring") refers to a comparison between small or insignificant things, like acorns. It's used humorously to point out that there isn't really a difference between the two things being compared (Jun and Shadow X act the same).</p>
+		<p>The dub uses "Like apples to oranges" to convey this phrase, but that's the wrong saying ("apples to oranges" means two things that can't be compared because they're so different). We used "Like apples to apples", but a similar, much more vulgar saying in English would be "It's a pissing contest".</p>`,
 		rFlGRxXwTgc: `<p>For some reason, Jun calls this episode "Blue Cop's Special Training" despite the episode not being named that.`
 	}
 };
