@@ -377,11 +377,12 @@ What?!
 
 95
 00:05:16,478 --> 00:05:20,684
-{Jun} This is how the story of Blue Cop and I met!
+{Jun} That was the story of how Blue Cop and I met!
 
 96
 00:05:20,684 --> 00:05:23,000
-{Jun} Let's see each other again next time,
+{Jun} I'll see you again next time,
 
+97
 00:05:23,000 --> 00:05:27,101
 {Jun} for the next episode of "Metal Cardbot Commentary"!

@@ -227,11 +227,11 @@ No, it's a VTOL aircraft. Vertical Take-Off and Landing.
 They were camouflaged to blend into their surroundings!
 
 58
-00:03:08,562 --> 00:03:10,384
+00:03:08,562 --> 00:03:12,180
 I think there was something else like that on Earth. Looks kinda like a lizard...
 
 59
-00:03:10,384 --> 00:03:13,294
+00:03:12,180 --> 00:03:13,294
 Chameleon.
 
 60
@@ -367,11 +367,11 @@ Yeah?! Well, that's a stupid name for a plane!
 What did you say, you little runt?!
 
 93
-00:04:32,274 --> 00:04:34,430
-It's an acorn measuring contest.
+00:04:32,274 --> 00:04:34,230
+Like apples to apples.
 
 94
-00:04:34,430 --> 00:04:35,944
+00:04:34,230 --> 00:04:36,533
 They must both be five years old.
 
 95
@@ -404,7 +404,7 @@ Roger!
 
 102
 00:04:51,375 --> 00:04:55,598
-How do you plan to catch a plane that can fly and become invisible?!
+Hey, how do you plan to catch a plane that can fly and turn invisible?!
 
 103
 00:04:57,665 --> 00:04:58,764
