@@ -317,7 +317,8 @@ const subtitles: Season[] = [
 					{ name: 'Opening', id: 'wuMN8mCNLdk', label: 'OP' },
 					{ name: 'Era of Change', id: 'igqcOBDjKYE', intro: 71 },
 					{ name: "Wild Cardbot's Roar", id: '91ZQRAqYUj4', intro: 71 },
-					{ name: "Claws, Wings, and Fangs", id: 'Yjj9oBZlp1M' }
+					{ name: "Claws, Wings, and Fangs", id: 'Yjj9oBZlp1M' },
+					{ name: "Capture", id: 'S7fdeOjtINQ'}
 				]
 			},
 			{
