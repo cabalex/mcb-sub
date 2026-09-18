@@ -106,7 +106,7 @@
 			class="subtitleArea"
 			class:bilingual
 			class:hover
-			style="--bottomOffset: {captionStyle.offsetPosition}px"
+			style="--bottomOffset: {captionStyle.offsetPosition}%"
 		>
 			{#if currentSubtitle.text.startsWith("{") && currentSubtitle.text.includes("}")}
 				<CommentaryCaption name={currentSubtitle.text.split("}")[0].slice(1)} text={currentSubtitle.text.split("}")[1]} {subtitleStyles} />
@@ -162,11 +162,12 @@
 
 <style>
 	.subtitleArea {
+		--nativeOffset: 7%;
 		position: absolute;
-		bottom: calc(17px + var(--bottomOffset, 0px));
+		bottom: calc(var(--nativeOffset) + var(--bottomOffset, 0px));
 		left: 0;
 		width: 100%;
-		height: calc(100% - calc(calc(17px + var(--bottomOffset, 0px))) * 2);
+		height: calc(100% - calc(calc(var(--nativeOffset) + var(--bottomOffset, 0px))) * 2);
 		color: white;
 		pointer-events: none;
 		display: flex;
@@ -179,8 +180,9 @@
 			height 0.1s ease-in-out;
 	}
 	.subtitleArea.hover {
-		bottom: calc(100px + var(--bottomOffset, 0px));
-		height: calc(100% - calc(calc(100px + var(--bottomOffset, 0px))) * 2);
+		--hoverOffset: min(50px, 20%);
+		bottom: calc(var(--nativeOffset) + var(--hoverOffset) + var(--bottomOffset, 0px));
+		height: calc(100% - calc(calc(var(--nativeOffset) + var(--hoverOffset) + var(--bottomOffset, 0px))) * 2);
 	}
 	.subtitle {
 		max-width: 80%;

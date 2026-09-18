@@ -70,6 +70,14 @@
 		document.body.classList.remove('april-fools');
 		aprilFools = false;
 	}
+
+	// Old offsetPosition worked on px; new works on percentage;
+	// reset any out of bounds values to 0 to avoid subtitles being offscreen
+	$: {
+		if (captionStyle.offsetPosition < -7 || captionStyle.offsetPosition > 42) {
+			captionStyle.offsetPosition = 0;
+		}
+	}
 </script>
 
 <!-- svelte-ignore a11y-no-static-element-interactions -->
@@ -116,13 +124,15 @@
 			<option value="34">150%</option>
 			<option value="48">200%</option>
 		</SelectNumberInput>
-		<SelectNumberInput label="Position offset" bind:value={captionStyle.offsetPosition}>
-			<option value="-17">None</option>
+		<SelectNumberInput label="Vertical offset" bind:value={captionStyle.offsetPosition}>
+			<option value="-7">None</option>
+			<option value="-3.5">0.5x</option>
 			<option value="0">Normal</option>
-			<option value="17">2x</option>
-			<option value="51">3x</option>
-			<option value="85">5x</option>
-			<option value="170">10x</option>
+			<option value="3.5">1.5x</option>
+			<option value="7">2x</option>
+			<option value="14">3x</option>
+			<option value="21">5x</option>
+			<option value="42">10x</option>
 		</SelectNumberInput>
 		<SelectNumberInput label="Font weight" bind:value={captionStyle.fontWeight}>
 			<option value="200">Thin</option>
