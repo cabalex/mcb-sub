@@ -374,7 +374,7 @@
 			{#if $source.incomplete}
 				<i style="text-align: center; width: 100%; display: block; padding: 10px 0;">
 					{#if $source?.name === "Fansub" && $source?.subtitle === "Season 1"}
-					Check back next week for new episodes, or switch to the 📜 Dub to keep watching.
+					We're still resubbing Season 1, but you can keep watching by opening the 📜 menu and selecting the "Dub" subtitles.
 					{:else}
 					Check back next week for new episodes!
 					{/if}
