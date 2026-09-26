@@ -22,13 +22,22 @@
 	let fullscreen = false;
 
 	let hover = false;
-	let target: { getCurrentTime: () => any } | null = null;
+	let target: { getCurrentTime: () => any, unloadModule: (module: string) => void } | null = null;
 	function onPlay(e) {
 		if (e.detail.target.getCurrentTime() < 1) {
 			detectSkipIntro(e.detail.target);
 		}
 		if (target === e.detail.target) return;
+
 		target = e.detail.target;
+		window.target = target;
+		if (target !== null) {
+			try {
+				// Disable captions completelly
+				target.unloadModule("captions");
+				target.unloadModule("cc");
+			} catch (exception) { }
+		}
 		hover = true;
 		timeout = setTimeout(() => (hover = false), 4000);
 	}
