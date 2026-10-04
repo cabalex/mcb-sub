@@ -319,7 +319,8 @@ const subtitles: Season[] = [
 					{ name: "Wild Cardbot's Roar", id: '91ZQRAqYUj4', intro: 71 },
 					{ name: "Claws, Wings, and Fangs", id: 'Yjj9oBZlp1M' },
 					{ name: "Capture", id: 'S7fdeOjtINQ'},
-					{ name: "Again? The Mysterious Transfer Student", id: 'xOvh1DkkyKg' }
+					{ name: "Again? The Mysterious Transfer Student", id: 'xOvh1DkkyKg' },
+					{ name: "Taming a Tank", id: 'EFcWlHgevXk' }
 				]
 			},
 			{
@@ -335,7 +336,9 @@ const subtitles: Season[] = [
 					{ name: 'OP', id: 'wuMN8mCNLdk', label: 'OP' },
 					{ name: '変化の時代', id: 'igqcOBDjKYE', label: '1話', intro: 71 },
 					{ name: 'ワイルドカードボットの咆哮', id: '91ZQRAqYUj4', label: '2話', intro: 71 },
-					{ name: '爪、翼、そして歯', id: 'Yjj9oBZlp1M', label: '3話' }
+					{ name: '爪、翼、そして歯', id: 'Yjj9oBZlp1M', label: '3話' },
+					{ name: "捕獲", id: 'S7fdeOjtINQ', label: '4話' },
+					{ name: "また？謎の転校生", id: 'xOvh1DkkyKg', label: '5話' }
 				]
 			}
 		]
