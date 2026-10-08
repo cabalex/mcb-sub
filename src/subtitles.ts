@@ -338,7 +338,8 @@ const subtitles: Season[] = [
 					{ name: 'ワイルドカードボットの咆哮', id: '91ZQRAqYUj4', label: '2話', intro: 71 },
 					{ name: '爪、翼、そして歯', id: 'Yjj9oBZlp1M', label: '3話' },
 					{ name: "捕獲", id: 'S7fdeOjtINQ', label: '4話' },
-					{ name: "また？謎の転校生", id: 'xOvh1DkkyKg', label: '5話' }
+					{ name: "また？謎の転校生", id: 'xOvh1DkkyKg', label: '5話' },
+					{ name: "タンクを手懐けよう", id: 'EFcWlHgevXk', label: '6話' }
 				]
 			}
 		]
