@@ -1,5 +1,5 @@
 1
-00:00:00,0 --> 00:00:03,992
+00:00:00,000 --> 00:00:03,992
 [The Revival of Flame Nova]
 It is time for me to return... to my true form!
 
@@ -113,22 +113,22 @@ H-hey! Honey! Look!
 
 29
 00:01:57,400 --> 00:02:01,352
-I'm sorry to have to do this to my savior, Gigantrex. 
+I'm sorry to have to do this to my savior, Gigantrex.
 
 30
 00:02:01,352 --> 00:02:02,804
 But thanks to you...
 
 31
-00:02:02,804 --> 00:02:08,854
+00:02:02,804 --> 00:02:08,853
 I now possess an army of two billion Metal Cardbots, sleeping in the depths of the ocean along with the Speranza!
 
 32
-00:02:08,854 --> 00:02:10,253
+00:02:08,853 --> 00:02:10,252
 T-two billion?!
 
 33
-00:02:10,253 --> 00:02:11,574
+00:02:10,252 --> 00:02:11,574
 Tch... That son of a-!
 
 34
@@ -136,11 +136,11 @@ Tch... That son of a-!
 What are you going to do with them?!
 
 35
-00:02:13,372 --> 00:02:15,111
+00:02:13,372 --> 00:02:15,110
 You ask such an obvious question.
 
 36
-00:02:15,111 --> 00:02:20,852
+00:02:15,110 --> 00:02:20,852
 I'm going to have them wipe out the human population of this planet, and then I will build my kingdom of Metal Cardbots!
 
 37
@@ -156,7 +156,7 @@ A kingdom of...
 Metal Cardbots?!
 
 40
-00:02:24,131 --> 00:02:24,992
+00:02:24,131 --> 00:02:24,991
 What?!
 
 41
@@ -165,7 +165,7 @@ Stop talking nonsense, will you?!
 
 42
 00:02:28,170 --> 00:02:31,283
-I've heard enough about conquering Earth and all that! 
+I've heard enough about conquering Earth and all that!
 
 43
 00:02:31,283 --> 00:02:32,597
@@ -204,7 +204,7 @@ I too shall follow.
 Hahaha... It's reassuring to know you'll be joining me.
 
 52
-00:02:56,247 --> 00:03:00,140
+00:02:56,247 --> 00:03:00,139
 I merely wish to see how this all ends.
 
 53
@@ -216,11 +216,11 @@ Very well. So long, for now.
 Wait!
 
 55
-00:03:11,854 --> 00:03:14,164
+00:03:11,853 --> 00:03:14,163
 Ugh. You're a total mess.
 
 56
-00:03:14,164 --> 00:03:18,848
+00:03:14,163 --> 00:03:18,848
 - The device is tattered and the spindle is warped.
 - Just what is going on?! Jun! Are you hurt? Let me have a look!-
 
@@ -235,11 +235,11 @@ Ugh. You're a total mess.
 - Daaaaaad!
 
 59
-00:03:21,543 --> 00:03:24,289
+00:03:21,543 --> 00:03:24,288
 No one can use the Metal Breath except for it's chosen owner.
 
 60
-00:03:24,289 --> 00:03:27,436
+00:03:24,288 --> 00:03:27,436
 But I never considered the Metal Breath and its owner being stolen at the same time.
 
 61
@@ -255,11 +255,11 @@ His name was Flame Nova, right? Who exactly is he?
 I don't know!
 
 64
-00:03:33,155 --> 00:03:35,36
+00:03:33,155 --> 00:03:35,360
 He wasn't part of our crew.
 
 65
-00:03:35,36 --> 00:03:37,185
+00:03:35,360 --> 00:03:37,185
 So he was with Sky Gallop and those brothers all along?!
 
 66
@@ -276,22 +276,22 @@ That would mean he was a Star Guardian too!
 
 69
 00:03:44,174 --> 00:03:48,489
-He was a valiant Metal Cardbot who was a three-time recipient of the Machina Cross. 
+He was a valiant Metal Cardbot who was a three-time recipient of the Machina Cross.
 
 70
-00:03:48,489 --> 00:03:52,176
-But one day, he suddenly rebelled against Deus Machina. 
+00:03:48,489 --> 00:03:52,175
+But one day, he suddenly rebelled against Deus Machina.
 
 71
-00:03:52,176 --> 00:03:56,637
+00:03:52,175 --> 00:03:56,637
 He broke into the sanctuary of planet Machina in an attempt to steal the memory core of Deus Machina.
 
 72
-00:03:56,637 --> 00:03:59,779
+00:03:56,637 --> 00:03:59,778
 ENTERING THE SANCTUARY IS A CAPITAL OFFENSE. (FX-italic)
 
 73
-00:03:59,779 --> 00:04:04,322
+00:03:59,778 --> 00:04:04,322
 THEREFORE, I WILL SEPARATE YOUR BODY AND SEAL IT SO IT CAN NEVER BE RECOMBINED. (FX-italic)
 
 74
@@ -307,7 +307,7 @@ That goes to show how serious the crime he committed was.
 But I thought he died when planet Machina collapsed.
 
 77
-00:04:13,9 --> 00:04:18,394
+00:04:13,900 --> 00:04:18,394
 I cannot believe that such a felon survived and came all the way to this planet to hijack our ship.
 
 78
@@ -325,18 +325,18 @@ Inside the Speranza, two billion of our people sleep in the form of Metal Cards.
 - H-how much is 2 billion...?
 
 81
-00:04:27,817 --> 00:04:28,796
+00:04:27,817 --> 00:04:28,795
 - Is there any way to stop him?
 
 82
-00:04:28,796 --> 00:04:30,576
+00:04:28,795 --> 00:04:30,576
 - Is there any way to stop him?
-- Excuse me, Mr. Theo? A moment, please.
+- Excuse me, Mr. Teo? A moment, please.
 
 83
 00:04:30,576 --> 00:04:31,954
 - There is one way.
-- Excuse me, Mr. Theo? A moment, please.
+- Excuse me, Mr. Teo? A moment, please.
 
 84
 00:04:31,954 --> 00:04:32,629
@@ -399,11 +399,11 @@ Hehe, that's right!
 Once we connect these vehicle transport containers, we can fly all the way to Porcaca together.
 
 99
-00:05:06,180 --> 00:05:08,109
+00:05:06,180 --> 00:05:08,108
 How did you get all of these, anyway?
 
 100
-00:05:08,109 --> 00:05:12,598
+00:05:08,108 --> 00:05:12,598
 Ahem. I am how! I bought some old, unused containers.
 
 101
@@ -415,11 +415,11 @@ Uncle, is your wallet okay these days?
 Master Crest paid for them.
 
 103
-00:05:17,884 --> 00:05:20,59
+00:05:17,884 --> 00:05:20,589
 I'm just glad I can help like this.
 
 104
-00:05:20,59 --> 00:05:22,129
+00:05:20,589 --> 00:05:22,129
 Can we really cross the ocean with these?
 
 105
@@ -427,11 +427,11 @@ Can we really cross the ocean with these?
 Do not worry! My interdimensional rails can take us anywhere.
 
 106
-00:05:26,822 --> 00:05:28,48
+00:05:26,822 --> 00:05:28,480
 Are you sure about that?
 
 107
-00:05:28,48 --> 00:05:29,677
+00:05:28,480 --> 00:05:29,677
 O-of course!
 
 108
@@ -459,23 +459,23 @@ I've never flown in the sky before!
 I guess it'll be a bit like swimming in the ocean.
 
 114
-00:05:40,168 --> 00:05:43,650
+00:05:40,168 --> 00:05:43,649
 Good, good. It's great to have a bunch of big behemoths for this job.
 
 115
-00:05:43,650 --> 00:05:48,134
+00:05:43,649 --> 00:05:48,134
 Let's get started! First we move these over- Hey-hey-hey, you! Last behemoth! Come here and help us! Chop chop!
 
 116
-00:05:48,134 --> 00:05:50,909
+00:05:48,134 --> 00:05:50,908
 W-what's that? Are you talking about me?
 
 117
-00:05:51,310 --> 00:05:53,26
-...Guys, wait a minute. 
+00:05:51,310 --> 00:05:53,259
+...Guys, wait a minute.
 
 118
-00:05:53,26 --> 00:05:58,983
+00:05:53,259 --> 00:05:58,983
 I don't have the Metal Breath anymore. You don't have to follow my orders now. So...
 
 119
@@ -495,11 +495,11 @@ What are you saying all of a sudden, Jun?
 We've been fighting side by side all along. I don't want to just sit back and watch from the sidelines!
 
 123
-00:06:07,860 --> 00:06:10,39
+00:06:07,860 --> 00:06:10,389
 Heh, heh! Well said, kid!
 
 124
-00:06:10,39 --> 00:06:14,281
+00:06:10,389 --> 00:06:14,281
 And you said that the Speranza is at the bottom of the sea. That means you'll need my help.
 
 125
@@ -515,15 +515,15 @@ We need to save Peruru.
 If we don't, Mukara will never forgive us.
 
 128
-00:06:21,603 --> 00:06:23,169
+00:06:21,603 --> 00:06:23,168
 We'll go with you, too.
 
 129
-00:06:23,169 --> 00:06:25,240
+00:06:23,168 --> 00:06:25,240
 Yeah! Let's go save Peruru!
 
 130
-00:06:25,240 --> 00:06:27,708
+00:06:25,240 --> 00:06:27,707
 And we've got to pick up the kids who can't get home.
 
 131
@@ -539,7 +539,7 @@ Let's go, guys. Let's put a stop to Flame Nova's plans!
 Let's go!!
 
 134
-00:06:43,948 --> 00:06:46,673
+00:06:43,947 --> 00:06:46,673
 Haha, Blue Cop! You're really excited aren't ya- Huh?
 
 135
@@ -595,7 +595,7 @@ But that's not important. We'll be in big trouble if we stay in here. We gotta g
 How? You said we're in Flame Nova's body.
 
 148
-00:07:43,747 --> 00:07:46,138
+00:07:43,747 --> 00:07:46,137
 Hehehe. And we'll use that to our advantage!
 
 149
@@ -603,11 +603,11 @@ Hehehe. And we'll use that to our advantage!
 Is this the engine room?
 
 150
-00:07:49,216 --> 00:07:54,200
-They used whole, high-purity Machinasium as a battery to power the ship... 
+00:07:49,216 --> 00:07:54,199
+They used whole, high-purity Machinasium as a battery to power the ship...
 
 151
-00:07:54,200 --> 00:07:55,983
+00:07:54,199 --> 00:07:55,983
 Such ignorance.
 
 152
@@ -627,7 +627,7 @@ What's going on?
 The kid used the Metal Breath!
 
 156
-00:08:03,884 --> 00:08:05,739
+00:08:03,884 --> 00:08:05,738
 Get m'lady out! Now!!
 
 157
@@ -643,7 +643,7 @@ Cutter Whip!
 The Metal Breath!
 
 160
-00:08:17,528 --> 00:08:19,258
+00:08:17,528 --> 00:08:19,257
 We gotta run away first!
 
 161
@@ -655,11 +655,11 @@ Heh! You think you can get away?
 Wait. That girl is no longer useful to us.
 
 163
-00:08:28,783 --> 00:08:32,214
-The recent suspicious events in this city... 
+00:08:28,783 --> 00:08:32,213
+The recent suspicious events in this city...
 
 164
-00:08:32,214 --> 00:08:34,245
+00:08:32,213 --> 00:08:34,245
 You were at the heart of it, Jun!
 
 165
@@ -667,16 +667,16 @@ You were at the heart of it, Jun!
 Dad, We're doing this for both the Metal Cardbots and humanity-
 
 166
-00:08:37,138 --> 00:08:39,43
-Stay out of this, Anna! 
+00:08:37,138 --> 00:08:39,429
+Stay out of this, Anna!
 
 167
-00:08:39,43 --> 00:08:41,695
+00:08:39,429 --> 00:08:41,695
 I know you only want to protect them.
 
 168
 00:08:41,695 --> 00:08:44,421
-However, I also have a duty to protect my citizens! 
+However, I also have a duty to protect my citizens!
 
 169
 00:08:44,421 --> 00:08:46,947
@@ -728,18 +728,18 @@ You!
 
 181
 00:09:20,316 --> 00:09:25,149
-You might think that the Metal Cardbots are a threat if you only watch the news. 
+You might think that the Metal Cardbots are a threat if you only watch the news.
 
 182
 00:09:25,149 --> 00:09:31,225
-But... While there's one bot that likes to cause trouble, they have a lot of passion. There's a cowardly bot that is kinder than anyone else. 
+But... While there's one bot that likes to cause trouble, they have a lot of passion. There's a cowardly bot that is kinder than anyone else.
 
 183
-00:09:31,225 --> 00:09:35,308
-Metal Cardbots are just like us. They're all different, and there are more good guys than bad! 
+00:09:31,225 --> 00:09:35,307
+Metal Cardbots are just like us. They're all different, and there are more good guys than bad!
 
 184
-00:09:35,308 --> 00:09:38,167
+00:09:35,307 --> 00:09:38,167
 So, don't you dare hurt my friends!
 
 185
@@ -747,19 +747,19 @@ So, don't you dare hurt my friends!
 Friends? Those Metal Cardbots are your friends?
 
 186
-00:09:40,658 --> 00:09:44,722
+00:09:40,658 --> 00:09:44,721
 Dad. You taught me to be nice to everyone.
 
 187
-00:09:44,722 --> 00:09:48,186
+00:09:44,721 --> 00:09:48,186
 And you also taught me to reach out to help a friend in need.
 
 188
-00:09:48,186 --> 00:09:51,324
+00:09:48,186 --> 00:09:51,323
 Metal Cardbots are our friends in need!
 
 189
-00:09:51,324 --> 00:09:55,663
+00:09:51,323 --> 00:09:55,663
 And we don't have much time! We need to go save our other friends! Right now!
 
 190
@@ -771,11 +771,11 @@ Go? Where are you going?
 The train to Porcaca will be departing soon. If you wish to board, please hurry.
 
 192
-00:10:02,974 --> 00:10:06,90
+00:10:02,974 --> 00:10:06,899
 Mr. Mayor. We will come back no matter what.
 
 193
-00:10:06,90 --> 00:10:10,206
+00:10:06,899 --> 00:10:10,206
 And when we come back, please tell us whether humanity can trust us or not.
 
 194
@@ -783,7 +783,7 @@ And when we come back, please tell us whether humanity can trust us or not.
 Very well. Please take care of Anna. And please come back safely.
 
 195
-00:10:17,235 --> 00:10:18,79
+00:10:17,235 --> 00:10:18,789
 We will!
 
 196
@@ -799,11 +799,11 @@ Tie me tighter! I don't want him to put a hole in my butt!
 That's why I asked if you wanted to change seats...
 
 199
-00:10:26,913 --> 00:10:27,529
+00:10:26,913 --> 00:10:27,528
 Never!
 
 200
-00:10:27,529 --> 00:10:29,947
+00:10:27,528 --> 00:10:29,947
 Captain, tell me if you start to have a headache again, alright?
 
 201
@@ -839,11 +839,11 @@ Tell Peruru that I'll make some for her when she comes back.
 Okay!
 
 209
-00:10:46,750 --> 00:10:48,351
-Excuse me!! 
+00:10:46,750 --> 00:10:48,350
+Excuse me!!
 
 210
-00:10:48,351 --> 00:10:51,153
+00:10:48,350 --> 00:10:51,153
 Lemme- Lemme go with you!!
 
 211
@@ -851,11 +851,11 @@ Lemme- Lemme go with you!!
 Mr. Jim?
 
 212
-00:10:52,787 --> 00:10:55,487
+00:10:52,787 --> 00:10:55,486
 It's not that I'm greedy for a scoop...!
 
 213
-00:10:55,487 --> 00:11:01,388
+00:10:55,486 --> 00:11:01,388
 ...well, maybe a little bit, but as a journalist, I want to tell the world the truth about Metal Cardbots!
 
 214

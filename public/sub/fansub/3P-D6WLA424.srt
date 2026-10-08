@@ -49,7 +49,7 @@ Ahh! Kids, how did you get up there?!
 
 13
 00:00:33,896 --> 00:00:36,149
-Your big brother Edo will carry you, so let's get down, okay?
+Your big brother Edd will carry you, so let's get down, okay?
 
 14
 00:00:36,149 --> 00:00:37,841
@@ -114,7 +114,7 @@ Yeah! Don't ever come back, you little troublemakers...
 
 29
 00:01:13,120 --> 00:01:14,405
-Uncle Edo!
+Uncle Edd!
 
 30
 00:01:14,405 --> 00:01:16,706
@@ -214,11 +214,11 @@ You know our newspaper sales are falling, right?
 Bring me something more provocative and sensational!
 
 54
-00:02:17,637 --> 00:02:18,366
+00:02:17,637 --> 00:02:18,365
 I will.
 
 55
-00:02:18,366 --> 00:02:19,884
+00:02:18,365 --> 00:02:19,884
 Hi, Mr. Hawkins.
 
 56
@@ -230,23 +230,23 @@ Hello.
 Looks like you're ill-tempered again today, Dad.
 
 58
-00:02:23,293 --> 00:02:26,551
+00:02:23,293 --> 00:02:26,550
 Oh, Vera! My sweet daughter!
 
 59
-00:02:26,551 --> 00:02:28,545
+00:02:26,550 --> 00:02:28,545
 Dad, I'm a grown woman!
 
 60
-00:02:29,544 --> 00:02:31,480
+00:02:29,544 --> 00:02:31,479
 You know dad, I have that.
 
 61
-00:02:31,480 --> 00:02:32,620
+00:02:31,479 --> 00:02:32,620
 Hm? Have what?
 
 62
-00:02:32,620 --> 00:02:35,628
+00:02:32,620 --> 00:02:35,627
 A provocative and sensational news story!
 
 63
@@ -254,11 +254,11 @@ A provocative and sensational news story!
 Sensational news he says... Who reads news from soon-to-be-extinct newspapers these days, anyway?
 
 64
-00:02:41,497 --> 00:02:43,337
+00:02:41,497 --> 00:02:43,336
 Oof. Oh, sorry.
 
 65
-00:02:45,680 --> 00:02:47,414
+00:02:45,680 --> 00:02:47,413
 Uh- what's up with them?
 
 66
@@ -290,7 +290,7 @@ There's nothing left for us?
 More will arrive tomorrow, so just wait until then.
 
 73
-00:02:58,602 --> 00:02:59,992
+00:02:58,602 --> 00:02:59,991
 Boooo!!!
 
 74
@@ -312,15 +312,15 @@ Oh, okay. I'll look into it...
 
 78
 00:03:10,972 --> 00:03:12,710
-Thank you, Edo.
+Thank you, Edd.
 
 79
-00:03:12,710 --> 00:03:16,932
+00:03:12,710 --> 00:03:16,931
 Dexter, can you please stop bringing more cats in here?
 Cute!
 
 80
-00:03:16,932 --> 00:03:18,895
+00:03:16,931 --> 00:03:18,895
 Don't worry, this one will be the last!
 
 81
@@ -328,11 +328,11 @@ Don't worry, this one will be the last!
 Please, let it be. I'll leave their food and snacks here...
 
 82
-00:03:22,521 --> 00:03:23,455
-Thanks, Edo.
+00:03:22,521 --> 00:03:23,454
+Thanks, Edd.
 
 83
-00:03:23,455 --> 00:03:25,780
+00:03:23,454 --> 00:03:25,780
 Don't mention it...
 
 84
@@ -373,11 +373,11 @@ Do I have patients?
 Everyone move!
 
 93
-00:04:07,0 --> 00:04:08,752
+00:04:07,000 --> 00:04:08,752
 Stop it, you two!
 
 94
-00:04:10,819 --> 00:04:15,228
+00:04:10,818 --> 00:04:15,228
 Ah, Uncle Ed-... Brother?
 
 95
@@ -618,7 +618,7 @@ Is that a Metal Breath?
 You! You're not Mukara! Where did you steal that Metal Breath?!
 
 154
-00:07:22,98 --> 00:07:22,829
+00:07:22,980 --> 00:07:22,829
 Mukara?
 
 155
@@ -711,7 +711,7 @@ Heh, not bad!
 Jun, hang on tight!
 
 177
-00:08:42,470 --> 00:08:43,178
+00:08:42,470 --> 00:08:43,177
 Stop right there!
 
 178
@@ -763,11 +763,11 @@ Who are you?
 You're the one who stole the stone tablet!
 
 190
-00:09:25,407 --> 00:09:26,299
+00:09:25,407 --> 00:09:26,298
 Are you okay?
 
 191
-00:09:26,299 --> 00:09:27,370
+00:09:26,298 --> 00:09:27,370
 This is nothing...
 
 192
@@ -800,7 +800,7 @@ Scarlet Hurricane!
 Everyone, stay back!
 
 199
-00:09:58,509 --> 00:09:59,135
+00:09:58,509 --> 00:09:59,134
 Blue Cop!
 
 200
@@ -816,11 +816,11 @@ I dunno who the heck you are, but the Metal Breath doesn't suit you.
 What are you doing?
 
 203
-00:10:21,850 --> 00:10:24,510
+00:10:21,850 --> 00:10:24,509
 Ooh, you captured a lot.
 
 204
-00:10:24,510 --> 00:10:26,272
+00:10:24,509 --> 00:10:26,272
 My Metal Breath...
 
 205
@@ -836,7 +836,7 @@ No!
 Guys!!
 
 208
-00:10:40,327 --> 00:10:44,466
+00:10:40,326 --> 00:10:44,466
 Now, the best punishment for a bad kid who steals...
 
 209
@@ -844,7 +844,7 @@ Now, the best punishment for a bad kid who steals...
 is a GOOD BEATING!
 
 210
-00:10:47,553 --> 00:10:48,216
+00:10:47,552 --> 00:10:48,216
 Blue Cop!
 
 211
@@ -853,7 +853,7 @@ Jun is my dearest friend. I won't forgive anyone who hurts him!
 
 212
 00:10:55,197 --> 00:10:56,120
-Shut up! 
+Shut up!
 
 213
 00:10:56,639 --> 00:10:58,990
@@ -865,7 +865,7 @@ Blue Cop...!
 
 215
 00:11:00,225 --> 00:11:04,398
-You just said you're friends, right? Then prove it! 
+You just said you're friends, right? Then prove it!
 
 216
 00:11:04,398 --> 00:11:05,205
@@ -880,11 +880,11 @@ Okay...
 What the?!
 
 219
-00:11:35,481 --> 00:11:37,460
+00:11:35,480 --> 00:11:37,168
 W-what is this?!
 
 220
-00:11:37,168 --> 00:11:38,789
+00:11:37,168 --> 00:11:38,788
 This power...?
 
 221

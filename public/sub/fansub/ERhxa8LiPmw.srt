@@ -15,7 +15,7 @@ Because I made a promise. I promised to take you to Oatland station.
 What?
 
 5
-00:00:16,679 --> 00:00:18,609
+00:00:16,678 --> 00:00:18,609
 Mr. Conductor...?
 
 6
@@ -27,7 +27,7 @@ Are you okay, ma'am?
 You're...
 
 8
-00:00:19,890 --> 00:00:23,246
+00:00:19,890 --> 00:00:23,245
 I'm Peruru! I came to rescue you, but...
 
 9
@@ -35,11 +35,11 @@ I'm Peruru! I came to rescue you, but...
 The train suddenly got faster!
 
 10
-00:00:31,089 --> 00:00:34,412
+00:00:31,088 --> 00:00:34,411
 Midnight Express... Was a robot!
 
 11
-00:00:34,412 --> 00:00:36,582
+00:00:34,411 --> 00:00:36,582
 And there were other robots too!
 
 12
@@ -55,11 +55,11 @@ My camera!!
 Now, now. Calm down, everyone. Calm down.
 
 15
-00:00:44,319 --> 00:00:46,994
+00:00:44,319 --> 00:00:46,993
 You know something! Tell me everything you know right now!
 
 16
-00:00:46,994 --> 00:00:48,810
+00:00:46,993 --> 00:00:48,810
 Why can't you tell me what that was?!
 
 17
@@ -79,7 +79,7 @@ We can't take them with us. Anna said to count on her.
 We called their parents, so they'll take care of them.
 
 21
-00:01:01,609 --> 00:01:04,439
+00:01:01,609 --> 00:01:04,438
 Jun! Blastrain is starting to speed up!
 
 22
@@ -99,11 +99,11 @@ Peruru is with her too, you know.
 AND PERURU!!
 
 26
-00:01:15,718 --> 00:01:19,169
+00:01:15,718 --> 00:01:19,168
 Cielo, I need to speak with Blastrain! Can you get close to him?
 
 27
-00:01:19,169 --> 00:01:19,816
+00:01:19,168 --> 00:01:19,816
 No problem!
 
 28
@@ -115,15 +115,15 @@ Blastrain! Slow down! It's dangerous to continue at this speed!
 Drat!
 
 30
-00:01:28,908 --> 00:01:31,439
+00:01:28,908 --> 00:01:31,438
 It's rude to ignore someone when they're speaking to you!
 
 31
-00:01:31,439 --> 00:01:32,439
+00:01:31,438 --> 00:01:32,438
 Jun!
 
 32
-00:01:32,439 --> 00:01:33,662
+00:01:32,438 --> 00:01:33,662
 Blue Cop? How are you holding up?
 
 33
@@ -152,18 +152,18 @@ On this planet, I could just keep running on the rails.
 
 39
 00:01:49,615 --> 00:01:54,371
-Ah! Mowtown's railroad is a third rail system that draws power from the tracks! 
+Ah! Mowtown's railroad is a third rail system that draws power from the tracks!
 
 40
-00:01:54,371 --> 00:01:59,772
+00:01:54,371 --> 00:01:59,771
 It's likely that the residual electricity was flowing into him and is causing him to malfunction!
 
 41
-00:01:59,772 --> 00:02:01,588
+00:01:59,771 --> 00:02:01,587
 So that's why he lost consciousness...
 
 42
-00:02:01,588 --> 00:02:03,251
+00:02:01,587 --> 00:02:03,251
 He ate something that's bad for him...
 
 43
@@ -175,31 +175,31 @@ So all we have to do is help him regain his consciousness, then?
 You can do that?
 
 45
-00:02:07,590 --> 00:02:11,171
+00:02:07,590 --> 00:02:11,170
 Did you forget how many Metal Cardbots I've fixed?!
 
 46
-00:02:11,171 --> 00:02:15,354
+00:02:11,170 --> 00:02:15,353
 But to do that, I have to get on a train running at a terrifying speed...
 
 47
-00:02:15,354 --> 00:02:18,364
+00:02:15,353 --> 00:02:18,364
 Don't you wanna... save Ms. Mona?!
 
 48
-00:02:18,364 --> 00:02:20,450
+00:02:18,364 --> 00:02:20,449
 I'LL SAVE HER FOR SURE, JUN!!!
 
 49
-00:02:20,450 --> 00:02:21,937
+00:02:20,449 --> 00:02:21,937
 FULL SPEED AHEAD!!!
 
 50
 00:02:21,937 --> 00:02:23,134
-You're the best, big bro Edo!
+You're the best, big bro Edd!
 
 51
-00:02:23,134 --> 00:02:26,195
+00:02:23,134 --> 00:02:26,194
 Alright! Let's do this!
 
 52
@@ -207,16 +207,16 @@ Alright! Let's do this!
 Ms. Monaaaaaa!!
 
 53
-00:02:30,643 --> 00:02:32,438
-Uncle Edo! Are you sure about thi-
+00:02:30,643 --> 00:02:32,437
+Uncle Edd! Are you sure about thi-
 
 54
-00:02:32,438 --> 00:02:35,158
+00:02:32,437 --> 00:02:35,158
 I'm coming for you! Sit tight!
 
 55
-00:02:36,676 --> 00:02:38,984
-Mr. Edo! Be careful!
+00:02:36,675 --> 00:02:38,984
+Mr. Edd! Be careful!
 
 56
 00:02:39,894 --> 00:02:43,941
@@ -231,11 +231,11 @@ You got it!
 I'll be coming for you!!
 
 59
-00:02:47,876 --> 00:02:50,825
+00:02:47,876 --> 00:02:50,824
 Alright. Slowly now, keep on like this and-
 
 60
-00:02:50,825 --> 00:02:52,879
+00:02:50,824 --> 00:02:52,878
 AAAHHHH!!
 
 61
@@ -244,46 +244,46 @@ Uncle!!
 
 62
 00:02:53,718 --> 00:02:54,473
-Mr. Edo!!
+Mr. Edd!!
 
 63
-00:02:54,473 --> 00:02:56,604
+00:02:54,473 --> 00:02:56,603
 I'm okay!
 
 64
-00:02:56,604 --> 00:02:57,199
+00:02:56,603 --> 00:02:57,199
 AGAIN.
 
 65
-00:02:57,199 --> 00:02:58,338
+00:02:57,199 --> 00:02:58,337
 Huh? O-okay...
 
 66
-00:02:58,338 --> 00:02:59,966
+00:02:58,337 --> 00:02:59,966
 The power of love is scary...
 
 67
-00:03:02,737 --> 00:03:03,463
+00:03:02,736 --> 00:03:03,462
 Just wait and I'll-
 
 68
-00:03:03,463 --> 00:03:05,701
+00:03:03,462 --> 00:03:05,700
 WOOOAAAHHH!!
 
 69
-00:03:06,201 --> 00:03:07,907
-Mr. Edo!
+00:03:06,200 --> 00:03:07,907
+Mr. Edd!
 
 70
-00:03:15,493 --> 00:03:16,581
+00:03:15,492 --> 00:03:16,580
 I got him!
 
 71
-00:03:17,152 --> 00:03:18,212
+00:03:17,151 --> 00:03:18,211
 Thank goodness.
 
 72
-00:03:18,212 --> 00:03:20,430
+00:03:18,211 --> 00:03:20,430
 Thank goodness for what?! Onto the next plan!
 
 73
@@ -295,7 +295,7 @@ What?
 MS. MONAAAA!!
 
 75
-00:03:22,834 --> 00:03:23,706
+00:03:22,834 --> 00:03:23,705
 Ma'am!
 
 76
@@ -303,15 +303,15 @@ Ma'am!
 Watch out for the cold!
 
 77
-00:03:27,784 --> 00:03:29,639
-Mr. Edo! It's dangerous!
+00:03:27,783 --> 00:03:29,639
+Mr. Edd! It's dangerous!
 
 78
 00:03:29,639 --> 00:03:31,521
 Jun. Don't imitate him.
 
 79
-00:03:31,920 --> 00:03:34,426
+00:03:31,920 --> 00:03:34,425
 Okay! A little closer!
 
 80
@@ -319,7 +319,7 @@ Okay! A little closer!
 I got it! Alright, stay close, Cielo!
 
 81
-00:03:39,466 --> 00:03:42,481
+00:03:39,466 --> 00:03:42,480
 Hurry up, uncle! Tunnel up ahead!
 
 82
@@ -343,15 +343,15 @@ AAAHHHHHHHH!!
 Another failure...
 
 87
-00:03:54,485 --> 00:03:56,201
+00:03:54,485 --> 00:03:56,200
 Oh! The sun is rising!
 
 88
-00:03:59,653 --> 00:04:02,700
+00:03:59,652 --> 00:04:02,699
 Jun, the first train from Oatland Station is about to depart.
 
 89
-00:04:02,700 --> 00:04:06,110
+00:04:02,699 --> 00:04:06,110
 The track Blastrain is traveling on is a single track, and if it continues like this,
 
 90
@@ -359,16 +359,16 @@ The track Blastrain is traveling on is a single track, and if it continues like 
 it will collide head-on with the train from the opposite direction!
 
 91
-00:04:08,661 --> 00:04:10,343
+00:04:08,661 --> 00:04:10,342
 THEN WHAT ABOUT MS. MONA?!
 
 92
-00:04:10,343 --> 00:04:11,584
+00:04:10,342 --> 00:04:11,584
 And Peruru!
 
 93
 00:04:11,584 --> 00:04:14,937
-- We don't have time to get Uncle Edo onto Blastrain!
+- We don't have time to get Uncle Edd onto Blastrain!
 - DO SOMETHING!! MS. MONA!!! AAAAAAARGH!!!
 
 94
@@ -384,7 +384,7 @@ Huh? You? But how?
 Of course, I don't know anything about machines. But we have a genius mechanic on our side!
 
 97
-00:04:24,106 --> 00:04:26,129
+00:04:24,105 --> 00:04:26,129
 Yes! I'm here!!
 
 98
@@ -404,7 +404,7 @@ I'd appreciate if you worried about me too...
 Alright, first things first...
 
 102
-00:04:38,855 --> 00:04:39,702
+00:04:38,855 --> 00:04:39,701
 ...and next...
 
 103
@@ -420,19 +420,19 @@ Alright, first things first...
 ...almost done!
 
 106
-00:04:47,303 --> 00:04:47,879
+00:04:47,302 --> 00:04:47,879
 Take care!
 
 107
-00:04:48,242 --> 00:04:49,0
+00:04:48,242 --> 00:04:49,000
 Like this?
 
 108
-00:04:49,0 --> 00:04:50,433
+00:04:49,000 --> 00:04:50,432
 Now, grab that wire from earlier and-
 
 109
-00:04:50,433 --> 00:04:54,603
+00:04:50,432 --> 00:04:54,603
 Hurry, uncle! We're closing in on Oatland station! We're out of time!
 
 110
@@ -488,11 +488,11 @@ He-hey!! What are you doing?!
 To... Where, exactly...?
 
 123
-00:06:03,975 --> 00:06:09,279
+00:06:03,975 --> 00:06:09,278
 I'm glad we didn't have a major accident, but Peruru and Ms. Mona are in danger! Let's hurry!
 
 124
-00:06:09,279 --> 00:06:09,759
+00:06:09,278 --> 00:06:09,759
 Okay!
 
 125
@@ -504,11 +504,11 @@ Jun, let me face him.
 Blue Cop! But you're hurt!
 
 127
-00:06:12,596 --> 00:06:15,55
+00:06:12,596 --> 00:06:15,550
 Blastrain is also injured.
 
 128
-00:06:15,55 --> 00:06:18,915
+00:06:15,550 --> 00:06:18,915
 We need to seal him as soon as possible so he can recover in the Metal Breath.
 
 129
@@ -516,15 +516,15 @@ We need to seal him as soon as possible so he can recover in the Metal Breath.
 I want to save Blastrain too. And I'm the only one who can do it!
 
 130
-00:06:23,634 --> 00:06:25,109
+00:06:23,634 --> 00:06:25,108
 Okay.
 
 131
-00:06:25,109 --> 00:06:26,569
+00:06:25,108 --> 00:06:26,569
 I'll make an opening for you, then.
 
 132
-00:06:29,79 --> 00:06:30,819
+00:06:29,790 --> 00:06:30,819
 Why are you in such a hurry?
 
 133
@@ -560,7 +560,7 @@ They'll get hurt if he fires that!
 Blue Cop!
 
 141
-00:07:20,19 --> 00:07:22,255
+00:07:20,189 --> 00:07:22,254
 Peruru! Ms. Mona! Hang on tight!
 
 142
@@ -568,7 +568,7 @@ Peruru! Ms. Mona! Hang on tight!
 Peruru! Ms. Mona!
 
 143
-00:07:27,254 --> 00:07:28,111
+00:07:27,254 --> 00:07:28,110
 Jump here, you two!
 
 144
@@ -636,15 +636,15 @@ Get ready, Blue Cop! Let's finish this!
 Wait! Don't hurt Mr. Blastrain! He's brought me all this way!
 
 160
-00:09:00,836 --> 00:09:03,400
+00:09:00,836 --> 00:09:03,399
 Don't worry. We're just trying to let him rest.
 
 161
-00:09:03,400 --> 00:09:04,386
+00:09:03,399 --> 00:09:04,385
 That's right, Ms. Mona.
 
 162
-00:09:04,386 --> 00:09:04,998
+00:09:04,385 --> 00:09:04,998
 Wh-when did you get here?
 
 163
@@ -652,31 +652,31 @@ Wh-when did you get here?
 He's just sick, so I'll fix him right up once they get the job done!
 
 164
-00:09:09,610 --> 00:09:11,732
-We can trust uncle Edo's skills.
+00:09:09,610 --> 00:09:11,731
+We can trust uncle Edd's skills.
 
 165
-00:09:11,732 --> 00:09:14,433
+00:09:11,731 --> 00:09:14,432
 He's fixed so many Metal Cardbots before!
 
 166
-00:09:14,433 --> 00:09:15,385
+00:09:14,432 --> 00:09:15,384
 Like my tooth!
 
 167
-00:09:15,385 --> 00:09:16,770
+00:09:15,384 --> 00:09:16,769
 And my butt!
 
 168
-00:09:16,984 --> 00:09:18,135
+00:09:16,984 --> 00:09:18,134
 You can trust in us.
 
 169
-00:09:18,972 --> 00:09:21,220
+00:09:18,971 --> 00:09:21,220
 Alright. I'm counting on you.
 
 170
-00:09:21,220 --> 00:09:21,703
+00:09:21,220 --> 00:09:21,702
 Alright!
 
 171
@@ -685,22 +685,22 @@ Last... Destination!!
 
 172
 00:09:28,370 --> 00:09:29,793
-Galaxies... 
+Galaxies...
 
 173
-00:09:34,379 --> 00:09:36,491
+00:09:34,379 --> 00:09:36,490
 Punisher!!
 
 174
-00:09:42,929 --> 00:09:46,373
+00:09:42,928 --> 00:09:46,373
 Thank you... for.. riding with us...
 
 175
-00:09:51,317 --> 00:09:53,539
+00:09:51,317 --> 00:09:53,538
 Metal Cardbot, change up!
 
 176
-00:10:07,506 --> 00:10:09,418
+00:10:07,505 --> 00:10:09,418
 Blastrain, sealed!
 
 177
@@ -712,7 +712,7 @@ Is Mr. Blastrain okay?!
 He's fine. We'll let him rest up in here for a while.
 
 179
-00:10:18,312 --> 00:10:19,963
+00:10:18,312 --> 00:10:19,962
 We'll have him repaired soon.
 
 180
@@ -720,7 +720,7 @@ We'll have him repaired soon.
 Thank goodness!
 
 181
-00:10:22,779 --> 00:10:24,465
+00:10:22,778 --> 00:10:24,465
 Have a safe trip!
 
 182
@@ -733,10 +733,10 @@ All of our secrets have been revealed to her.
 
 184
 00:10:28,118 --> 00:10:31,768
-I'm sure they'll be safe with Ms. Mona. Right, Uncle Edo?
+I'm sure they'll be safe with Ms. Mona. Right, Uncle Edd?
 
 185
-00:10:31,768 --> 00:10:34,525
+00:10:31,768 --> 00:10:34,524
 Please let Mao be okay, please let Mao be okay, please let Mao be okay...
 
 186
@@ -748,15 +748,15 @@ So that conductor robot is like a...
 Another side of me that moves by my will.
 
 188
-00:10:40,802 --> 00:10:43,799
+00:10:40,802 --> 00:10:43,798
 Woah, you guys can do that!?
 
 189
-00:10:43,799 --> 00:10:45,755
+00:10:43,798 --> 00:10:45,754
 It's a little bit strange to see a human sized Metal Cardbot.
 
 190
-00:10:45,755 --> 00:10:47,379
+00:10:45,754 --> 00:10:47,379
 Inspection all done.
 
 191
@@ -768,15 +768,15 @@ Jun, Thank you very much.
 Don't mention it. You should thank Peruru and Blue Cop instead of me.
 
 193
-00:10:51,923 --> 00:10:53,164
+00:10:51,923 --> 00:10:53,163
 Aren't you forgetting someone?
 
 194
-00:10:53,164 --> 00:10:54,241
+00:10:53,163 --> 00:10:54,240
 Excuse me!
 
 195
-00:10:54,241 --> 00:10:55,740
+00:10:54,240 --> 00:10:55,740
 Ah, Ms. Mona!
 
 196
@@ -784,11 +784,11 @@ Ah, Ms. Mona!
 Thanks for what you did back then. Here.
 
 197
-00:10:58,120 --> 00:11:00,404
+00:10:58,120 --> 00:11:00,403
 Aw, you didn't have to! I'm just doing my job-
 
 198
-00:11:00,404 --> 00:11:02,224
+00:11:00,403 --> 00:11:02,224
 Is Mr. Blastrain okay now?
 
 199
@@ -796,11 +796,11 @@ Is Mr. Blastrain okay now?
 Eh? Oh yeah, he is. I took good care of him!
 
 200
-00:11:05,274 --> 00:11:07,202
+00:11:05,274 --> 00:11:07,201
 Ah, Ms. Mona?
 
 201
-00:11:07,202 --> 00:11:07,745
+00:11:07,201 --> 00:11:07,745
 Yes!
 
 202
@@ -824,19 +824,19 @@ My brother?
 Was it... Mao, right?
 
 207
-00:11:19,144 --> 00:11:23,881
-Ah, Mao is... My pet dog living at my parent's house! 
+00:11:19,144 --> 00:11:23,880
+Ah, Mao is... My pet dog living at my parent's house!
 
 208
-00:11:23,881 --> 00:11:28,153
+00:11:23,880 --> 00:11:28,153
 He's all better thanks to you. He's made a full recovery!
 
 209
-00:11:28,153 --> 00:11:30,193
+00:11:28,153 --> 00:11:30,192
 Aww, so cute!
 
 210
-00:11:30,193 --> 00:11:31,301
+00:11:30,192 --> 00:11:31,301
 Mr. Blastrain?
 
 211
@@ -844,14 +844,14 @@ Mr. Blastrain?
 Ma'am?
 
 212
-00:11:31,716 --> 00:11:33,150
+00:11:31,716 --> 00:11:33,149
 Thank you very much.
 
 213
-00:11:37,236 --> 00:11:38,808
+00:11:37,235 --> 00:11:38,807
 He's malfunctioning again.
 
 214
-00:11:38,808 --> 00:11:42,398
-Uncle Edo! Why didn't you fix him properly?!
+00:11:38,807 --> 00:11:42,398
+Uncle Edd! Why didn't you fix him properly?!
 

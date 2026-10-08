@@ -108,7 +108,7 @@ Hm?
 
 28
 00:01:30,158 --> 00:01:31,698
-T-Theo?
+T-Teo?
 
 29
 00:01:36,180 --> 00:01:37,956
@@ -172,7 +172,7 @@ Whaddya mean? I need fixing? No way!
 
 44
 00:02:24,872 --> 00:02:28,704
-Uncle Edo's the best mechanic around. You can count on him, even if he is a bit of a grump.
+Uncle Edd's the best mechanic around. You can count on him, even if he is a bit of a grump.
 
 45
 00:02:28,704 --> 00:02:30,443
@@ -180,7 +180,7 @@ Hey, I heard that...
 
 46
 00:02:30,943 --> 00:02:32,848
-Jun! Uncle Edo!
+Jun! Uncle Edd!
 
 47
 00:02:33,031 --> 00:02:34,006
@@ -192,7 +192,7 @@ Aah, what a surprise, Anna! What brings you here?
 
 49
 00:02:40,788 --> 00:02:44,252
-It's an emergency! Theo has been kidnapped by the black ambulance!
+It's an emergency! Teo has been kidnapped by the black ambulance!
 
 50
 00:02:44,252 --> 00:02:45,061
@@ -208,11 +208,11 @@ Your name was... T...
 
 53
 00:02:54,872 --> 00:02:55,735
-Theo!
+Teo!
 
 54
 00:02:55,735 --> 00:02:57,800
-Oh, that's it! Theo!
+Oh, that's it! Teo!
 
 55
 00:02:57,800 --> 00:03:00,497
@@ -288,7 +288,7 @@ I saw it with my very own eyes!
 
 73
 00:03:45,461 --> 00:03:46,533
-Hey, it's Theo...
+Hey, it's Teo...
 
 74
 00:03:46,663 --> 00:03:47,860
@@ -312,7 +312,7 @@ You should respect his privacy, Anna!
 
 79
 00:03:55,711 --> 00:03:58,626
-Don't worry, you can leave the Theo case to me.
+Don't worry, you can leave the Teo case to me.
 
 80
 00:03:58,626 --> 00:04:02,337
@@ -324,7 +324,7 @@ Blue Cop!
 
 82
 00:04:09,627 --> 00:04:13,048
-I knew I could count on Theo. He even sent a map!
+I knew I could count on Teo. He even sent a map!
 
 83
 00:04:13,247 --> 00:04:15,217
@@ -332,7 +332,7 @@ So that means... they're a friend of yours?
 
 84
 00:04:16,218 --> 00:04:17,725
-Hang in there, Theo...
+Hang in there, Teo...
 
 85
 00:04:25,596 --> 00:04:26,862
@@ -380,7 +380,7 @@ I told you to stay still!
 
 96
 00:04:56,191 --> 00:04:57,634
-Theo! Are you okay?!
+Teo! Are you okay?!
 
 97
 00:04:57,634 --> 00:04:59,538
@@ -408,7 +408,7 @@ What should we do?
 
 103
 00:05:08,511 --> 00:05:10,314
-Don't worry about Theo!
+Don't worry about Teo!
 
 104
 00:05:10,314 --> 00:05:11,420
@@ -476,7 +476,7 @@ A-another one?
 
 120
 00:06:12,403 --> 00:06:13,526
-Theo, you gotta run!
+Teo, you gotta run!
 
 121
 00:06:14,228 --> 00:06:15,826
@@ -532,7 +532,7 @@ You've been slacking on your maintenance.
 
 134
 00:06:54,488 --> 00:06:56,687
-You should have listened to Edo...
+You should have listened to Edd...
 
 135
 00:07:01,677 --> 00:07:02,536
@@ -692,7 +692,7 @@ Is your arm alright?
 
 174
 00:09:54,149 --> 00:09:56,213
-I think I'll need a little help from Edo.
+I think I'll need a little help from Edd.
 
 175
 00:09:57,591 --> 00:09:58,459
@@ -700,11 +700,11 @@ Oh!
 
 176
 00:09:58,459 --> 00:10:00,019
-Theo! Are you okay?
+Teo! Are you okay?
 
 177
 00:10:02,166 --> 00:10:05,816
-Blue Cop... I can tell Theo, right? He's my best friend.
+Blue Cop... I can tell Teo, right? He's my best friend.
 
 178
 00:10:05,816 --> 00:10:06,765
@@ -716,7 +716,7 @@ Of course. If he's your friend.
 
 180
 00:10:11,888 --> 00:10:14,499
-Theo! There's something you need to know.
+Teo! There's something you need to know.
 
 181
 00:10:20,088 --> 00:10:21,033
@@ -744,7 +744,7 @@ I think you're all set now!
 
 187
 00:10:37,946 --> 00:10:40,168
-Theo. I have a favor to ask.
+Teo. I have a favor to ask.
 
 188
 00:10:40,168 --> 00:10:45,002

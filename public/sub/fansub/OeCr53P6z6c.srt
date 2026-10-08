@@ -119,11 +119,11 @@ What?!
 Is that true, Cielo?!
 
 31
-00:01:45,871 --> 00:01:49,070
+00:01:45,871 --> 00:01:49,069
 Why would I lie to you? I heard it from Red Blitz himself.
 
 32
-00:01:49,070 --> 00:01:50,853
+00:01:49,069 --> 00:01:50,853
 How did it break anyway?!
 
 33
@@ -171,12 +171,12 @@ It's true this time!
 We even got footage of it. Look!
 
 44
-00:02:24,360 --> 00:02:27,366
+00:02:24,360 --> 00:02:27,365
 (What are you doing, Lavi?! Come on!)
 (We need to get proof! Proof!)
 
 45
-00:02:27,366 --> 00:02:28,710
+00:02:27,365 --> 00:02:28,710
 I don't see anything.
 
 46
@@ -185,7 +185,7 @@ But you heard it, right? The monster's noise that goes "Roar!!"
 
 47
 00:02:31,227 --> 00:02:31,699
-I don't hear anything. 
+I don't hear anything.
 
 48
 00:02:31,699 --> 00:02:36,155
@@ -248,7 +248,7 @@ What are you thinking?
 Musclehyde woke up while being carried on a plane. What if Gigantrex suddenly woke up like him?
 
 63
-00:03:05,538 --> 00:03:07,729
+00:03:05,538 --> 00:03:07,626
 That makes sense.
 
 64
@@ -268,7 +268,7 @@ Is this the place where they saw the monster?
 Maybe it's already gone somewhere else?
 
 68
-00:03:25,616 --> 00:03:26,884
+00:03:25,615 --> 00:03:26,884
 Oh, over there!
 
 69
@@ -276,7 +276,7 @@ Oh, over there!
 Someone's here!
 
 70
-00:03:30,199 --> 00:03:30,991
+00:03:30,199 --> 00:03:30,990
 Huh?
 
 71
@@ -486,7 +486,7 @@ Turn back!!
 
 122
 00:06:34,100 --> 00:06:35,439
-Good grief. 
+Good grief.
 
 123
 00:06:36,749 --> 00:06:38,269
@@ -557,7 +557,7 @@ You're kidding?
 There's holes all over the place.
 
 140
-00:07:28,377 --> 00:07:33,550
+00:07:28,377 --> 00:07:33,153
 Ay, Rock Crush! Some friends are here to meet you. Can you poke your head out for us?
 
 141
@@ -690,7 +690,7 @@ Rock Crush and I have been friends since the days of planet Machina.
 
 173
 00:09:37,831 --> 00:09:44,831
-We each took an escape pod on the day Machina collapsed. After a long while, we arrived on Earth. 
+We each took an escape pod on the day Machina collapsed. After a long while, we arrived on Earth.
 
 174
 00:09:44,831 --> 00:09:48,514
@@ -786,7 +786,7 @@ He's not coming after us anymore...
 
 197
 00:11:22,618 --> 00:11:27,892
-You got off lucky, fellas. He doesn't come above ground after the sun rises. 
+You got off lucky, fellas. He doesn't come above ground after the sun rises.
 
 198
 00:11:27,892 --> 00:11:31,384

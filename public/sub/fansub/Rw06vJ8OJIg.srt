@@ -57,7 +57,7 @@ Could it have been in an accident, like with Musclehyde?
 
 15
 00:00:49,154 --> 00:00:53,457
-Perhaps. That's why I'm not jumping to conclusions just yet. There's another thing that bothers me. 
+Perhaps. That's why I'm not jumping to conclusions just yet. There's another thing that bothers me.
 
 16
 00:00:53,457 --> 00:00:55,173
@@ -113,7 +113,7 @@ Wh-w-w-w-what are they doing?!
 
 29
 00:02:41,586 --> 00:02:45,586
-- This is Edo Motors- Oh, it's you, Uncle Edo. What?
+- This is Edd Motors- Oh, it's you, Uncle Edd. What?
 - Jun! I'm in trouble!! Big trouble!! A Metal Cardbot showed up!!
 
 30
@@ -135,7 +135,7 @@ Trailer truck?
 34
 00:02:52,323 --> 00:02:53,543
 - Could it be?
-- The Captain! 
+- The Captain!
 
 35
 00:02:53,543 --> 00:02:55,288
@@ -147,7 +147,7 @@ The Route 4 Rest Area. I'm on a mountain road with no cell service, so I called 
 
 37
 00:03:16,740 --> 00:03:17,740
-Uncle Edo!
+Uncle Edd!
 
 38
 00:03:17,740 --> 00:03:19,324
@@ -162,7 +162,7 @@ If we're facing the Captain, you can count us in!
 Alright, let's hurry!
 
 41
-00:03:30,634 --> 00:03:33,741
+00:03:30,634 --> 00:03:33,740
 Hey! I just fixed this car!
 
 42
@@ -175,7 +175,7 @@ WAAAAAAAHHHHH!!!
 
 44
 00:03:51,174 --> 00:03:52,978
-You alright, Edo?
+You alright, Edd?
 
 45
 00:03:52,978 --> 00:03:55,418
@@ -234,7 +234,7 @@ Something must be wrong with him.
 This isn't the Captain we knew!
 
 59
-00:05:13,968 --> 00:05:15,490
+00:05:13,968 --> 00:05:15,480
 Mukara?
 
 60
@@ -255,7 +255,7 @@ The Metal Breath is a sign of trust between humans and Metal Cardbots.
 
 64
 00:05:34,858 --> 00:05:38,137
-But humans have trampled on that trust. 
+But humans have trampled on that trust.
 
 65
 00:05:39,298 --> 00:05:44,625
@@ -286,7 +286,7 @@ A descendant of Mukara? If that's so, I must not forgive you!
 What?!
 
 72
-00:06:01,0 --> 00:06:03,338
+00:06:01,000 --> 00:06:03,338
 I entrusted humans with my dream.
 
 73
@@ -298,11 +298,11 @@ A dream?
 You mean a world where humans and Metal Cardbots can coexist?
 
 75
-00:06:06,538 --> 00:06:08,758
+00:06:06,538 --> 00:06:08,757
 No, progress!
 
 76
-00:06:08,758 --> 00:06:12,358
+00:06:08,757 --> 00:06:12,358
 I wanted human civilization to advance through the power of science.
 
 77
@@ -310,11 +310,11 @@ I wanted human civilization to advance through the power of science.
 But! You humans monopolized the fruits of your budding civilization!
 
 78
-00:06:16,274 --> 00:06:18,37
+00:06:16,274 --> 00:06:18,370
 Wait, wait! We never monopolized anythi-
 
 79
-00:06:18,37 --> 00:06:20,725
+00:06:18,370 --> 00:06:20,725
 I do not need your excuses!
 
 80
@@ -374,7 +374,7 @@ Musclehyde! Set up!
 Dreadnought Storm!
 
 94
-00:07:32,829 --> 00:07:35,934
+00:07:32,829 --> 00:07:35,933
 Dreadnought Storm!!
 
 95
@@ -467,7 +467,7 @@ Hey! What do you think you're doing?!
 
 117
 00:10:10,235 --> 00:10:16,754
-You're right. Even after 4,000 years, we have yet to see a world where humans and Metal Cardbots can live together. 
+You're right. Even after 4,000 years, we have yet to see a world where humans and Metal Cardbots can live together.
 
 118
 00:10:16,754 --> 00:10:20,884
@@ -482,7 +482,7 @@ What Jun said! Believe in us!
 Silence!
 
 121
-00:10:28,250 --> 00:10:29,550
+00:10:28,250 --> 00:10:29,549
 Captain! Stop!!
 
 122

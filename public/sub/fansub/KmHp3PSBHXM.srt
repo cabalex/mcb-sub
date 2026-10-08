@@ -4,7 +4,7 @@ Menace Up in the Sky!
 
 2
 00:00:07,484 --> 00:00:12,400
-The village of Porcaca kept watch over 4 treasures. 
+The village of Porcaca kept watch over 4 treasures.
 
 3
 00:00:12,400 --> 00:00:14,445
@@ -31,11 +31,11 @@ There is also a tale that's been passed down for generations that says,
 "The giants must not be awakened until the time comes."
 
 9
-00:00:31,407 --> 00:00:32,241
+00:00:31,407 --> 00:00:32,240
 The time?
 
 10
-00:00:32,241 --> 00:00:36,267
+00:00:32,240 --> 00:00:36,267
 If I were them, my eyes would open right up to the smell of breakfast!
 
 11
@@ -64,7 +64,7 @@ Through space?
 
 17
 00:00:54,734 --> 00:00:58,256
-Not anymore. It started to become a problem, so I broke it! 
+Not anymore. It started to become a problem, so I broke it!
 
 18
 00:01:03,533 --> 00:01:07,549
@@ -95,11 +95,11 @@ Crest...
 It's my fault we're in this situation. I'll get them back no matter the cost.
 
 25
-00:01:33,908 --> 00:01:36,604
+00:01:33,908 --> 00:01:36,603
 Okay. I'll be counting on you, Crest!
 
 26
-00:01:39,403 --> 00:01:41,673
+00:01:39,402 --> 00:01:41,673
 My, leaving so soon?
 
 27
@@ -111,19 +111,19 @@ Ah... Yes! I-I'll make sure to stay to eat next time.
 Then I'll be leaving too-
 
 29
-00:01:47,545 --> 00:01:53,742
+00:01:47,545 --> 00:01:53,741
 You can't. My burger joint has a rule that any new friend Jun brings in has to eat all 10 burgers before they leave.
 
 30
-00:01:53,742 --> 00:01:55,639
+00:01:53,741 --> 00:01:55,639
 T-Ten burgers?!
 
 31
-00:01:55,639 --> 00:01:57,742
+00:01:55,639 --> 00:01:57,741
 Go ahead, have some.
 
 32
-00:01:57,742 --> 00:02:00,200
+00:01:57,741 --> 00:02:00,200
 You guys had to do this too?!
 
 33
@@ -139,7 +139,7 @@ Three months here...
 Thank you for the meal!
 
 36
-00:02:10,644 --> 00:02:11,783
+00:02:10,644 --> 00:02:11,782
 Delicious!
 
 37
@@ -147,7 +147,7 @@ Delicious!
 I'm glad you like them. By the way, where are you staying the night?
 
 38
-00:02:17,992 --> 00:02:19,199
+00:02:17,991 --> 00:02:19,199
 I'll have to look for someplace now.
 
 39
@@ -155,11 +155,11 @@ I'll have to look for someplace now.
 What? Now?
 
 40
-00:02:21,131 --> 00:02:24,926
+00:02:21,131 --> 00:02:24,925
 It's okay, Ma'am! I can sleep well anywhere.
 
 41
-00:02:24,926 --> 00:02:26,354
+00:02:24,925 --> 00:02:26,353
 That won't do!
 
 42
@@ -203,7 +203,7 @@ Come to think of it... it's too quiet.
 Turn on the radio, then.
 
 52
-00:03:03,555 --> 00:03:08,729
+00:03:03,555 --> 00:03:08,728
 Until yesterday it was so noisy here. Every day was so loud that I wanted to cover my ears...
 
 53
@@ -215,15 +215,15 @@ Until yesterday it was so noisy here. Every day was so loud that I wanted to cov
 Is that true?
 
 55
-00:03:15,400 --> 00:03:16,99
+00:03:15,400 --> 00:03:16,990
 No.
 
 56
-00:03:16,99 --> 00:03:17,980
+00:03:16,990 --> 00:03:17,979
 He is indeed the greatest charlatan in the universe.
 
 57
-00:03:17,980 --> 00:03:20,548
+00:03:17,979 --> 00:03:20,548
 What?! Does this weird-eyed guy have something to say about me?
 
 58
@@ -231,31 +231,31 @@ What?! Does this weird-eyed guy have something to say about me?
 Will they ever get tired of fighting?
 
 59
-00:03:23,203 --> 00:03:24,415
+00:03:23,203 --> 00:03:24,414
 That's proof of their friendship.
 
 60
-00:03:24,415 --> 00:03:27,465
+00:03:24,414 --> 00:03:27,465
 Why don't you compete with dancing? I'll be the judge!
 
 61
 00:03:27,465 --> 00:03:30,131
-Stop it! You promised that you'd cause no trouble when Jun is at school-!
+Stop it! You promised that you'd cause no trouble while Jun is at school-!
 
 62
-00:03:32,413 --> 00:03:34,355
+00:03:32,413 --> 00:03:34,354
 I've never seen Blue bro's bare head before!
 
 63
-00:03:34,355 --> 00:03:35,959
+00:03:34,354 --> 00:03:35,959
 It's my first time seeing it too.
 
 64
-00:03:37,737 --> 00:03:40,852
+00:03:37,736 --> 00:03:40,852
 ...But now, I'm all alone again.
 
 65
-00:03:41,629 --> 00:03:44,300
+00:03:41,628 --> 00:03:44,300
 I'm here with you, Blue Cop.
 Jun!
 
@@ -268,7 +268,7 @@ I'll make sure to get our Metal Breath back from Red Blitz, and everyone along w
 Yes. Let's try our best!
 
 68
-00:03:53,290 --> 00:03:57,335
+00:03:53,289 --> 00:03:57,335
 What? 4,000 years?! You mean we've been sleeping that long?!
 
 69
@@ -280,15 +280,15 @@ Well we needed to wait until the time came, but we've been asleep for too long.
 No use! It's completely busted!
 
 71
-00:04:05,782 --> 00:04:07,397
+00:04:05,782 --> 00:04:07,396
 Then what about the Speranza?
 
 72
-00:04:07,397 --> 00:04:13,456
+00:04:07,396 --> 00:04:13,455
 We can't go back there, I guess. The worst part is that we can't even find where Musclehyde and Captain Gigantrex went!
 
 73
-00:04:13,456 --> 00:04:17,245
+00:04:13,455 --> 00:04:17,245
 It's all because of that Jun kid, who was with the Star Guardian!
 
 74
@@ -313,11 +313,11 @@ Okay, now it's official!
 
 79
 00:04:30,182 --> 00:04:33,288
-Official? What do you mean? 
+Official? What do you mean?
 
 80
 00:04:34,365 --> 00:04:35,865
-Cielo! Hey!! 
+Cielo! Hey!!
 
 81
 00:04:36,466 --> 00:04:38,449
@@ -325,7 +325,7 @@ What do you mean?!
 
 82
 00:04:40,415 --> 00:04:45,922
-That kid must've taken Mukara's Metal Breath while we were sleeping. 
+That kid must've taken Mukara's Metal Breath while we were sleeping.
 
 83
 00:04:45,922 --> 00:04:47,963
@@ -392,17 +392,17 @@ Relax. It's not like you're being interrogated by the police or anything. All yo
 Ehh... W-well, uhh...
 
 99
-00:05:42,737 --> 00:05:43,529
+00:05:42,737 --> 00:05:43,528
 - Peruru!
 - It... looks like a robot, but at the same time it doesn't! Heheh...
 
 100
-00:05:43,529 --> 00:05:47,529
+00:05:43,528 --> 00:05:47,528
 - According to the tales in my village, it is said that the pottery was shattered when the giants sang. Can you do that?
 - It... looks like a robot, but at the same time it doesn't! Heheh...
 
 101
-00:05:47,529 --> 00:05:48,810
+00:05:47,528 --> 00:05:48,810
 - According to the tales in my village, it is said that the pottery was shattered when the giants sang. Can you do that?
 - But... I don't really know... uh...
 
@@ -412,11 +412,11 @@ Ehh... W-well, uhh...
 - But... I don't really know... uh...
 
 103
-00:05:50,612 --> 00:05:52,154
+00:05:50,612 --> 00:05:52,153
 Well? Speak up.
 
 104
-00:05:52,154 --> 00:05:55,213
+00:05:52,153 --> 00:05:55,213
 W-well... Ow!!
 
 105
@@ -441,7 +441,7 @@ It's Cielo!
 
 110
 00:06:10,843 --> 00:06:13,149
-It's headed to the main street in Mowtown!
+It's headed towards main street in Mowtown!
 
 111
 00:06:13,149 --> 00:06:15,509
@@ -458,7 +458,7 @@ Alright!
 
 114
 00:06:19,773 --> 00:06:23,312
-Hold on a minute. You're not going out like that, are you? 
+Hold on a minute. You're not going out like that, are you?
 
 115
 00:06:23,312 --> 00:06:25,951
@@ -479,11 +479,11 @@ Show yourself, boy! The Metal Breath you're wearing belongs to Mukara! Give it b
 
 119
 00:06:50,560 --> 00:06:52,798
-Oh man. They're making quite a scene.
+Oh man. She's making quite a scene.
 
 120
 00:06:52,798 --> 00:06:55,451
-We'll be in bigger trouble if we don't seal them now.
+We'll be in bigger trouble if we don't seal her now.
 
 121
 00:06:55,451 --> 00:06:56,358
@@ -535,7 +535,7 @@ Don't worry. I have a great idea.
 
 133
 00:07:36,850 --> 00:07:42,836
-- I don't know how you obtained that Metal Breath, but it's not yours!
+- I don't know how you got your hands on that Metal Breath, but it's not yours!
 - Dang it, you're so impatient. There's no way that kid will just show up even if you go on a full on rampage like that!
 
 134
@@ -551,7 +551,7 @@ I'm over here!
 If you want this, then-
 
 137
-00:07:54,731 --> 00:07:56,600
+00:07:54,730 --> 00:07:56,600
 What's wrong with you?!
 
 138
@@ -576,7 +576,7 @@ Not a chance!
 
 143
 00:08:19,480 --> 00:08:20,875
-They know our position!
+She knows our position!
 
 144
 00:08:20,875 --> 00:08:22,141
@@ -603,7 +603,7 @@ Now's not the time for that-!
 Where are you?
 
 150
-00:08:48,529 --> 00:08:49,679
+00:08:48,528 --> 00:08:49,678
 Got you!
 
 151
@@ -623,7 +623,7 @@ Oh no!
 You've got some nerve!
 
 155
-00:09:08,712 --> 00:09:10,980
+00:09:08,711 --> 00:09:10,980
 Always make sure to watch where you're going.
 
 156
@@ -647,7 +647,7 @@ Missiles are following us, Blue Cop!
 Hang on tight, Jun!
 
 161
-00:09:39,220 --> 00:09:40,525
+00:09:39,220 --> 00:09:40,524
 That nimble rat!
 
 162
@@ -687,7 +687,7 @@ Skyjet Shot!
 Mukara... Where are you...?!
 
 171
-00:10:48,832 --> 00:10:49,932
+00:10:48,831 --> 00:10:49,932
 It worked!
 
 172
@@ -704,7 +704,7 @@ You did it, Jun.
 
 175
 00:11:15,389 --> 00:11:18,865
-Of course we did! Thanks to Blue Cop and you. 
+Of course we did! Thanks to Blue Cop and you.
 
 176
 00:11:18,865 --> 00:11:20,263

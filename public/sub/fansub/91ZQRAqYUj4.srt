@@ -164,7 +164,7 @@ Blaion...
 
 42
 00:03:57,305 --> 00:04:00,296
-Uncle Edo, how's Blue Cop holding up?
+Uncle Edd, how's Blue Cop holding up?
 
 43
 00:04:00,296 --> 00:04:03,355
@@ -640,7 +640,7 @@ I'll fix that awful temper for you!
 
 161
 00:09:02,053 --> 00:09:03,624
-What are they doing here?!
+What is she doing here?!
 
 162
 00:09:03,624 --> 00:09:05,079
@@ -652,15 +652,15 @@ There are CCTV cameras for monitoring traffic throughout Mowtown's roads,
 
 164
 00:09:09,607 --> 00:09:11,735
-so we used them to roughly track them down.
+so we used them to roughly track her down.
 
 165
 00:09:11,735 --> 00:09:15,949
-They must've noticed the cameras and flown through the canal instead of on the road...
+She must've noticed the cameras and flown through the canal instead of on the road...
 
 166
 00:09:15,949 --> 00:09:18,148
-...But unfortunately for them, there were witnesses.
+...But unfortunately for her, there were witnesses.
 
 167
 00:09:24,046 --> 00:09:26,362
@@ -716,7 +716,7 @@ Looks like we were right.
 
 180
 00:10:00,317 --> 00:10:03,176
-Hmph! Just catch them already.
+Hmph! Just catch her already.
 
 181
 00:10:05,292 --> 00:10:08,250
@@ -780,7 +780,7 @@ No problem! Blue Cop! Burst Gun!
 
 196
 00:11:13,593 --> 00:11:14,887
-Found them! Go!
+Found her! Go!
 
 197
 00:11:17,852 --> 00:11:19,147
@@ -840,5 +840,5 @@ Soleil...?
 
 211
 00:12:39,266 --> 00:12:41,474
-I'll be taking them with me.
+I'll be taking her with me.
 

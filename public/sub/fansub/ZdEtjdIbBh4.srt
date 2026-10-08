@@ -3,19 +3,19 @@
 Help Me, Deep Bite!
 
 2
-00:00:06,434 --> 00:00:09,62
+00:00:06,434 --> 00:00:09,619
 I'm not gonna accept him as our ally!
 
 3
-00:00:09,961 --> 00:00:11,104
+00:00:09,961 --> 00:00:11,103
 Red Blitz...
 
 4
-00:00:11,704 --> 00:00:15,507
+00:00:11,704 --> 00:00:15,506
 Oi, fish! I don't like you.
 
 5
-00:00:15,507 --> 00:00:17,547
+00:00:15,506 --> 00:00:17,547
 What are you doing, Red Blitz?
 
 6
@@ -23,7 +23,7 @@ What are you doing, Red Blitz?
 What has Deep Bite ever done to you?
 
 7
-00:00:19,979 --> 00:00:22,730
+00:00:19,978 --> 00:00:22,730
 Do you really have to ask?! Look at this!
 
 8
@@ -47,7 +47,7 @@ Dad? What are you talking about?
 Don't you dare play dumb!
 
 13
-00:00:38,173 --> 00:00:42,345
+00:00:38,173 --> 00:00:42,344
 I'm sorry... I had a bad tooth ache at the time, so my memory's a bit hazy.
 
 14
@@ -67,32 +67,32 @@ Great idea!
 I was starting to get fed up with your attitude!
 
 18
-00:00:57,810 --> 00:01:00,113
+00:00:57,810 --> 00:01:00,112
 - Oh no!
 - He was such a gentleman before!
 
 19
-00:01:00,113 --> 00:01:02,79
+00:01:00,112 --> 00:01:02,789
 That explains why he was called an outlaw.
 
 20
-00:01:02,79 --> 00:01:03,189
+00:01:02,789 --> 00:01:03,189
 Shouldn't we stop them?
 
 21
-00:01:03,189 --> 00:01:04,701
+00:01:03,189 --> 00:01:04,700
 Stop it, you two! Don't fight!
 
 22
-00:01:04,701 --> 00:01:06,888
+00:01:04,700 --> 00:01:06,888
 Lemme go home already!
 
 23
-00:01:10,469 --> 00:01:12,850
+00:01:10,468 --> 00:01:12,849
 It's... not much of a fight.
 
 24
-00:01:14,150 --> 00:01:16,357
+00:01:14,150 --> 00:01:16,356
 Red Blitz is getting owned...
 
 25
@@ -108,7 +108,7 @@ I'm gonna make you pay, fish!
 The power gap between the two is overwhelming.
 
 28
-00:01:35,368 --> 00:01:36,633
+00:01:35,367 --> 00:01:36,633
 Poor Red Blitz...
 
 29
@@ -128,11 +128,11 @@ Now we're talkin'! I'm gonna make grilled fish outta you!
 What are you doing, Jun?!
 
 33
-00:02:01,605 --> 00:02:04,362
+00:02:01,605 --> 00:02:04,361
 I can't just stand by and watch Red Blitz get owned!
 
 34
-00:02:04,362 --> 00:02:06,446
+00:02:04,361 --> 00:02:06,445
 Heheh! Bring it on!
 
 35
@@ -145,26 +145,26 @@ How are you planning to sort this out?
 
 37
 00:02:15,430 --> 00:02:16,466
-Let's do this, Jun! 
+Let's do this, Jun!
 
 38
 00:02:16,466 --> 00:02:18,271
 Yeah! Crimson Shoot!
 
 39
-00:02:18,271 --> 00:02:19,366
+00:02:18,271 --> 00:02:19,365
 Jun!!!
 
 40
-00:02:19,366 --> 00:02:21,718
+00:02:19,365 --> 00:02:21,717
 Crimson Shoot!
 
 41
-00:02:21,718 --> 00:02:24,151
+00:02:21,717 --> 00:02:24,151
 Beam Trident!!
 
 42
-00:02:34,915 --> 00:02:35,745
+00:02:34,914 --> 00:02:35,745
 Nice job!
 
 43
@@ -172,19 +172,19 @@ Nice job!
 There's nothing nice about this!!
 
 44
-00:02:36,723 --> 00:02:37,975
+00:02:36,723 --> 00:02:37,974
 Let's go, Red Blitz!
 
 45
-00:02:37,975 --> 00:02:38,939
+00:02:37,974 --> 00:02:38,938
 Cielo!
 
 46
-00:02:38,939 --> 00:02:40,689
+00:02:38,938 --> 00:02:40,688
 Surely this is for the best!
 
 47
-00:02:40,689 --> 00:02:41,465
+00:02:40,688 --> 00:02:41,465
 Huh?
 
 48
@@ -192,7 +192,7 @@ Huh?
 They'll understand each other faster by talking with their fists!
 
 49
-00:02:48,801 --> 00:02:50,651
+00:02:48,800 --> 00:02:50,651
 You fought well back there!
 
 50
@@ -216,11 +216,11 @@ Is that how it goes in Mowtown?
 Of course not...
 
 55
-00:03:05,399 --> 00:03:09,77
+00:03:05,399 --> 00:03:09,770
 I'm not afraid of any fish out of water!
 
 56
-00:03:09,77 --> 00:03:11,156
+00:03:09,770 --> 00:03:11,156
 Jun! Let's finish this already!
 
 57
@@ -228,27 +228,27 @@ Jun! Let's finish this already!
 Sorry about this, Deep Bite. But... Scarlet Hurricane!
 
 58
-00:03:15,776 --> 00:03:17,100
+00:03:15,776 --> 00:03:17,099
 I don't want any part of this...
 
 59
-00:03:17,100 --> 00:03:18,502
+00:03:17,099 --> 00:03:18,502
 Scarlet...
 
 60
-00:03:18,502 --> 00:03:22,414
+00:03:18,502 --> 00:03:22,413
 Heh! You think I can only swim in the ocean?!
 
 61
-00:03:24,848 --> 00:03:27,277
+00:03:24,848 --> 00:03:27,276
 Hurricane!!
 
 62
-00:03:27,377 --> 00:03:30,183
+00:03:27,377 --> 00:03:30,182
 Trident! Submarine!!
 
 63
-00:03:38,219 --> 00:03:38,848
+00:03:38,218 --> 00:03:38,848
 Mist?
 
 64
@@ -272,11 +272,11 @@ There!
 Red Blitz?
 
 69
-00:03:59,647 --> 00:04:00,872
+00:03:59,646 --> 00:04:00,872
 Red Blitz!
 
 70
-00:04:03,701 --> 00:04:05,634
+00:04:03,700 --> 00:04:05,634
 This is getting serious...!
 
 71
@@ -284,11 +284,11 @@ This is getting serious...!
 What have you done?!
 
 72
-00:04:07,473 --> 00:04:09,850
+00:04:07,473 --> 00:04:09,849
 This is too much, even for what he did!
 
 73
-00:04:09,850 --> 00:04:13,271
+00:04:09,849 --> 00:04:13,271
 Be thankful I didn't swallow him whole!
 
 74
@@ -318,15 +318,15 @@ Instead of understanding each other, the fight only escalated...
 How are you going to fix this?
 
 80
-00:04:33,749 --> 00:04:35,577
+00:04:33,749 --> 00:04:35,576
 I can't leave things like this.
 
 81
-00:04:35,577 --> 00:04:37,452
+00:04:35,576 --> 00:04:37,451
 I-I'll go with you!
 
 82
-00:04:37,452 --> 00:04:40,350
+00:04:37,451 --> 00:04:40,350
 We'll bring Deep Bite back! You guys take care of Red Blitz!
 
 83
@@ -358,11 +358,11 @@ Don't bother. I'm used to that kind of reaction.
 I thought so.
 
 90
-00:05:05,300 --> 00:05:08,214
+00:05:05,300 --> 00:05:08,213
 I don't think you're an outlaw or someone dangerous.
 
 91
-00:05:08,214 --> 00:05:10,461
+00:05:08,213 --> 00:05:10,461
 Me neither. You don't seem dangerous.
 
 92
@@ -374,19 +374,19 @@ And that's coming from my intuition as a Star Guardian.
 Ugh. It's all because of my face.
 
 94
-00:05:13,973 --> 00:05:14,916
+00:05:13,973 --> 00:05:14,915
 Huh?
 
 95
-00:05:14,916 --> 00:05:20,684
-This scary looking face. It's the reason why everyone is afraid of me. 
+00:05:14,915 --> 00:05:20,684
+This scary looking face. It's the reason why everyone is afraid of me.
 
 96
-00:05:20,684 --> 00:05:23,803
+00:05:20,684 --> 00:05:23,802
 So then I thought, "I'll become someone who's truly terrifying!"
 
 97
-00:05:23,803 --> 00:05:26,514
+00:05:23,802 --> 00:05:26,514
 That's how I became an outlaw.
 
 98
@@ -470,15 +470,15 @@ Ah! Then how about this?
 Remember to follow the script, guys. I'll be the director and the producer!
 
 118
-00:06:33,326 --> 00:06:35,979
+00:06:33,326 --> 00:06:35,978
 But I've never tried acting before in my life...
 
 119
-00:06:35,979 --> 00:06:38,29
+00:06:35,978 --> 00:06:38,290
 Just believe in me, the director!
 
 120
-00:06:38,29 --> 00:06:40,737
+00:06:38,290 --> 00:06:40,737
 Make sure to have your lines memorized by tomorrow!
 
 121
@@ -491,14 +491,14 @@ You're all done.
 
 123
 00:06:48,649 --> 00:06:51,398
-Ow! I told you to be gentle! 
+Ow! I told you to be gentle!
 
 124
-00:06:52,194 --> 00:06:56,29
+00:06:52,194 --> 00:06:56,290
 It's still tingling... I'll make him pay the next time I see him!
 
 125
-00:06:56,29 --> 00:06:57,112
+00:06:56,290 --> 00:06:57,112
 Count me in!
 
 126
@@ -535,7 +535,7 @@ But he bit the Captain's head! I can't forgive him for that!
 
 134
 00:07:16,619 --> 00:07:18,718
-Cool your temper and use your head! 
+Cool your temper and use your head!
 
 135
 00:07:18,718 --> 00:07:22,374
@@ -554,7 +554,7 @@ I'm sure it was startling.
 If I were him, I would be angry too!
 
 139
-00:07:30,738 --> 00:07:35,384
+00:07:30,737 --> 00:07:35,384
 WE'RE IN TROUBLE! BIIIIIIIG TROUBLE!!
 
 140
@@ -566,11 +566,11 @@ Hey, hey, hey! What is he doing?!
 He suddenly went berserk!!
 
 142
-00:07:48,204 --> 00:07:53,178
+00:07:48,204 --> 00:07:53,177
 I'm a big bad mole monster- I mean, a big bad Metal Cardbot!
 
 143
-00:07:54,413 --> 00:07:55,808
+00:07:54,413 --> 00:07:55,807
 The heck is all this?
 
 144
@@ -583,18 +583,18 @@ Wha- You!
 
 146
 00:08:06,187 --> 00:08:11,959
-Not today, you evil Metal Cardbot! Deep Bite will not forget- 
+Not today, you evil Metal Cardbot! Deep Bite will not forget-
 
 147
-00:08:11,959 --> 00:08:16,339
+00:08:11,959 --> 00:08:16,338
 No, forego- Uh, foreign...
 
 148
-00:08:16,339 --> 00:08:20,278
+00:08:16,338 --> 00:08:20,278
 Ugh. I don't know what you're trying to do, but make them stop, Jun. It's dangerous.
 
 149
-00:08:20,577 --> 00:08:22,372
+00:08:20,576 --> 00:08:22,372
 M-me? I'm not doing anything!
 
 150
@@ -630,7 +630,7 @@ Rock Crush! I'm he-
 Musclehyde!
 
 158
-00:09:23,663 --> 00:09:25,289
+00:09:23,663 --> 00:09:25,288
 What is this?!
 
 159
@@ -642,11 +642,11 @@ Cielo!
 Go help them!
 
 161
-00:09:37,115 --> 00:09:38,645
+00:09:37,115 --> 00:09:38,644
 We'll continue fighting later!
 
 162
-00:09:38,645 --> 00:09:39,884
+00:09:38,644 --> 00:09:39,884
 Sounds good to me!
 
 163
@@ -658,7 +658,7 @@ Let's do this!
 Guys! Wake up!
 
 165
-00:09:58,939 --> 00:10:01,894
+00:09:58,938 --> 00:10:01,894
 Deep Bite! Thanks for helping us out.
 
 166
@@ -666,7 +666,7 @@ Deep Bite! Thanks for helping us out.
 It was nothing.
 
 167
-00:10:04,826 --> 00:10:07,486
+00:10:04,826 --> 00:10:07,485
 Tch. All that fuss over nothing.
 
 168
@@ -674,11 +674,11 @@ Tch. All that fuss over nothing.
 Mission failed, I guess...
 
 169
-00:10:11,485 --> 00:10:14,939
+00:10:11,485 --> 00:10:14,938
 Good grief, just do it already!
 
 170
-00:10:14,939 --> 00:10:19,414
+00:10:14,938 --> 00:10:19,413
 You wanted to seal him. Do it before I change my mind!
 
 171
@@ -694,11 +694,11 @@ Make no mistake! I just need him for his diving capabilities.
 You just can't be honest, can you?
 
 174
-00:10:29,482 --> 00:10:31,871
+00:10:29,481 --> 00:10:31,870
 Well then. I'll happily join ya, Jun.
 
 175
-00:10:31,871 --> 00:10:32,692
+00:10:31,870 --> 00:10:32,692
 Okay!
 
 176
@@ -706,23 +706,23 @@ Okay!
 Metal Cardbot! Change Up!
 
 177
-00:10:50,886 --> 00:10:53,659
+00:10:50,885 --> 00:10:53,658
 Deep Bite! Sealed!
 
 178
-00:10:54,312 --> 00:10:56,851
+00:10:54,312 --> 00:10:56,850
 I'll happily accept you too, Deep Bite.
 
 179
-00:10:56,851 --> 00:10:57,693
+00:10:56,850 --> 00:10:57,692
 Well done, Jun!
 
 180
-00:10:57,693 --> 00:10:59,722
+00:10:57,692 --> 00:10:59,721
 We have another friend on board!
 
 181
-00:10:59,722 --> 00:11:00,657
+00:10:59,721 --> 00:11:00,657
 Yeah!
 
 182
@@ -734,14 +734,14 @@ That kid sure is something.
 So... surely you have plans to clean this mess up.
 
 184
-00:11:10,730 --> 00:11:13,486
+00:11:10,730 --> 00:11:13,485
 Isn't that right, DI-REC-TOR?!
 
 185
-00:11:14,176 --> 00:11:16,559
+00:11:14,176 --> 00:11:16,558
 I TOLD YOU COUNTLESS TIMES TO STOP MAKING TROUBLE FOR ME!!!
 
 186
-00:11:16,559 --> 00:11:18,557
+00:11:16,558 --> 00:11:18,557
 I'M SORRY!!!
 

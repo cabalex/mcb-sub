@@ -136,7 +136,7 @@ I'm giving them a health checkup.
 
 35
 00:01:41,658 --> 00:01:43,493
-{Mega Ambler} Is Edo knowledgeable in that field?
+{Mega Ambler} Is Edd knowledgeable in that field?
 
 36
 00:01:43,493 --> 00:01:44,857
@@ -188,7 +188,7 @@ Whaddya mean? I need fixing? No way!
 
 48
 00:02:16,570 --> 00:02:20,492
-Uncle Edo's the best mechanic around. You can count on him, even if he is a bit of a grump.
+Uncle Edd's the best mechanic around. You can count on him, even if he is a bit of a grump.
 
 49
 00:02:20,492 --> 00:02:22,330
@@ -240,7 +240,7 @@ I told you to stay still!
 
 61
 00:02:52,950 --> 00:02:54,120
-Theo! Are you okay?!
+Teo! Are you okay?!
 
 62
 00:02:54,120 --> 00:02:55,245
@@ -252,7 +252,7 @@ Theo! Are you okay?!
 
 64
 00:02:58,269 --> 00:03:02,432
-{Jun} I... I was in a hurry to come and save Theo!
+{Jun} I... I was in a hurry to come and save Teo!
 
 65
 00:03:02,432 --> 00:03:03,614
@@ -424,7 +424,7 @@ Punch!!
 
 107
 00:05:10,281 --> 00:05:12,551
-{Jun} I was able to rescue Theo safely,
+{Jun} I was able to rescue Teo safely,
 
 108
 00:05:12,551 --> 00:05:15,521
