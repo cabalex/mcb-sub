@@ -83,7 +83,7 @@ Captain!!
 Tch, stop being so cocky! All you did was grow a little taller!
 
 22
-00:01:55,860 --> 00:02:00,739
+00:01:55,859 --> 00:02:00,739
 Stay back, Red Blitz. This fight is mine!
 
 23
@@ -511,7 +511,7 @@ Mega Crimson...
 Kick!!
 
 129
-00:09:39,539 --> 00:09:42,105
+00:09:39,538 --> 00:09:42,105
 Blue Cop! Star Rising Cannon!
 
 130

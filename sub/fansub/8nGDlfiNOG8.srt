@@ -1,5 +1,5 @@
 1
-00:00:01,652 --> 00:00:03,580
+00:00:01,651 --> 00:00:03,580
 That's the Speranza? It's terrifyingly huge.
 
 2
@@ -8,27 +8,27 @@ That's the Speranza? It's terrifyingly huge.
 That's the Speranza? It's terrifyingly huge.
 
 3
-00:00:04,948 --> 00:00:06,443
+00:00:04,948 --> 00:00:06,442
 I-Incredible!
 
 4
-00:00:07,243 --> 00:00:08,510
+00:00:07,243 --> 00:00:08,509
 Could that be an entrance?
 
 5
-00:00:08,510 --> 00:00:12,180
+00:00:08,509 --> 00:00:12,179
 Yes. But there's no way Flame Nova would have just left the gate open.
 
 6
-00:00:12,180 --> 00:00:15,330
+00:00:12,179 --> 00:00:15,330
 You might be able to force it open by manually overriding the control panel.
 
 7
-00:00:15,330 --> 00:00:17,529
+00:00:15,330 --> 00:00:17,528
 Alright! That's our cue to step up.
 
 8
-00:00:17,529 --> 00:00:21,814
+00:00:17,528 --> 00:00:21,814
 I've also been researching the escape pod technology for Metal Cardbots. I'm sure it can be of some help.
 
 9
@@ -44,15 +44,15 @@ Very good.
 All units! The Speranza must be retrieved, no matter the cost!
 
 12
-00:00:28,295 --> 00:00:29,21
+00:00:28,295 --> 00:00:29,210
 Roger!
 
 13
-00:00:31,452 --> 00:00:33,485
+00:00:31,452 --> 00:00:33,484
 I'm not dreaming, am I?
 
 14
-00:00:34,418 --> 00:00:36,119
+00:00:34,417 --> 00:00:36,118
 L-L-L-L-L-Look!!
 
 15
@@ -72,11 +72,11 @@ Where's your old friends and your Metal Breath, again?
 Red Blitz told me to look for the red door, but...
 
 19
-00:00:58,899 --> 00:01:01,302
+00:00:58,899 --> 00:01:01,301
 Easy peasy. We'll find it on the way.
 
 20
-00:01:01,302 --> 00:01:02,735
+00:01:01,301 --> 00:01:02,734
 Yeah. Let's hurry.
 
 21
@@ -88,15 +88,15 @@ This stage is too small for you. A bot who cries out for freedom...
 A bird trapped in a cage, if I must say.
 
 23
-00:01:13,164 --> 00:01:14,43
+00:01:13,164 --> 00:01:14,430
 Sky Gallop!!
 
 24
-00:01:14,43 --> 00:01:17,33
+00:01:14,430 --> 00:01:17,329
 This place is too unfavorable for a bot whose specialty is flying!
 
 25
-00:01:17,33 --> 00:01:20,347
+00:01:17,329 --> 00:01:20,347
 Worry not, I am not going down with a wound this ill.
 
 26
@@ -104,36 +104,36 @@ Worry not, I am not going down with a wound this ill.
 Now, let the duel continue!
 
 27
-00:01:22,862 --> 00:01:24,39
+00:01:22,861 --> 00:01:24,390
 With pleasure.
 
 28
-00:01:26,899 --> 00:01:29,826
+00:01:26,899 --> 00:01:29,825
 As expected. The deck defense system was alive and well!
 
 29
-00:01:29,826 --> 00:01:32,494
+00:01:29,825 --> 00:01:32,493
 Heh! I can easily dodge all of these bullets-
 
 30
-00:01:32,494 --> 00:01:35,350
+00:01:32,493 --> 00:01:35,349
 - Boy! Don't underestimate the firepower of our defense system!
 - Ow! Daaad!!
 
 31
-00:01:35,350 --> 00:01:37,706
+00:01:35,349 --> 00:01:37,706
 But we have to get in there somehow...
 
 32
-00:01:37,706 --> 00:01:40,15
+00:01:37,706 --> 00:01:40,150
 Ah! Everyone, follow me!
 
 33
-00:01:40,695 --> 00:01:41,735
+00:01:40,694 --> 00:01:41,734
 What are you going to do?
 
 34
-00:01:46,683 --> 00:01:47,900
+00:01:46,682 --> 00:01:47,900
 Now's our chance!
 
 35
@@ -141,7 +141,7 @@ Now's our chance!
 All units, charge!
 
 36
-00:01:58,987 --> 00:02:01,635
+00:01:58,986 --> 00:02:01,635
 Hey! You've got a lot of guts!
 
 37
@@ -161,27 +161,27 @@ Now, hand over the Metal Breath, or else...
 Stop!!
 
 41
-00:02:23,859 --> 00:02:27,695
+00:02:23,859 --> 00:02:27,694
 As long as thou art safe, milady, I care not what happens to me.
 
 42
-00:02:27,695 --> 00:02:29,55
+00:02:27,694 --> 00:02:29,550
 What are you talking about?!
 
 43
-00:02:29,55 --> 00:02:35,234
+00:02:29,550 --> 00:02:35,234
 I have been wandering in this strange new land all alone, yet thou have brought back the joy of flying to me.
 
 44
-00:02:35,234 --> 00:02:38,140
+00:02:35,234 --> 00:02:38,139
 So worry for me not and run!
 
 45
-00:02:38,140 --> 00:02:38,936
+00:02:38,139 --> 00:02:38,936
 No!
 
 46
-00:02:44,647 --> 00:02:47,12
+00:02:44,646 --> 00:02:47,120
 Metal Cardbot! Change Up!
 
 47
@@ -189,7 +189,7 @@ Metal Cardbot! Change Up!
 Sky Gallop...!
 
 48
-00:02:54,284 --> 00:02:55,400
+00:02:54,283 --> 00:02:55,400
 Sealed!
 
 49
@@ -197,15 +197,15 @@ Sealed!
 Glober!
 
 50
-00:02:57,784 --> 00:02:58,868
+00:02:57,783 --> 00:02:58,867
 Floor it!
 
 51
-00:03:01,352 --> 00:03:03,683
+00:03:01,352 --> 00:03:03,682
 Sky Gallop. What a fool...
 
 52
-00:03:03,683 --> 00:03:05,252
+00:03:03,682 --> 00:03:05,252
 Heh! Let's go after them!
 
 53
@@ -213,11 +213,11 @@ Heh! Let's go after them!
 I will take care of that child. You deal with the guests upstairs.
 
 54
-00:03:10,899 --> 00:03:13,493
+00:03:10,899 --> 00:03:13,492
 Blue Cop? Alright! Time for revenge!
 
 55
-00:03:13,493 --> 00:03:16,500
+00:03:13,492 --> 00:03:16,500
 Wait. You're not making sense. You want the two of us to fight all of them!?
 
 56
@@ -229,27 +229,27 @@ Heh. You scared, bro?
 That's not the point!
 
 58
-00:03:19,347 --> 00:03:22,879
+00:03:19,347 --> 00:03:22,878
 Do not worry. I will give you power.
 
 59
-00:03:22,879 --> 00:03:23,647
+00:03:22,878 --> 00:03:23,646
 Is that...?
 
 60
-00:03:25,729 --> 00:03:26,800
+00:03:25,728 --> 00:03:26,800
 Next!
 
 61
-00:03:28,140 --> 00:03:29,889
+00:03:28,139 --> 00:03:29,889
 Hey! That one was mine!
 
 62
-00:03:29,889 --> 00:03:30,979
+00:03:29,889 --> 00:03:30,978
 Sorry.
 
 63
-00:03:30,979 --> 00:03:33,465
+00:03:30,978 --> 00:03:33,465
 Great work. Let's go inside. Huh?
 
 64
@@ -261,39 +261,39 @@ What's this? Are they welcoming us in or what?
 No. Wait!
 
 66
-00:03:39,00 --> 00:03:41,176
+00:03:39,000 --> 00:03:41,175
 Flash Vector and Spark Bit brothers?
 
 67
-00:03:41,176 --> 00:03:43,927
+00:03:41,175 --> 00:03:43,926
 Great! Time for some revenge!
 
 68
-00:03:43,927 --> 00:03:45,998
+00:03:43,926 --> 00:03:45,997
 Don't they look a little off to you?
 
 69
-00:03:45,998 --> 00:03:47,700
+00:03:45,997 --> 00:03:47,699
 Yes. Something feels strange about them.
 
 70
-00:03:48,401 --> 00:03:51,38
+00:03:48,401 --> 00:03:51,379
 But... All we have to do is strike them down!!
 
 71
-00:03:51,38 --> 00:03:51,993
+00:03:51,379 --> 00:03:51,992
 Alright!
 
 72
-00:04:00,669 --> 00:04:03,599
+00:04:00,669 --> 00:04:03,598
 Was that pineapple-head's fist always this strong?!
 
 73
-00:04:03,599 --> 00:04:06,57
+00:04:03,598 --> 00:04:06,569
 I got blown away by a little guy like him?
 
 74
-00:04:06,57 --> 00:04:10,572
+00:04:06,569 --> 00:04:10,572
 The Cosmic Stone, a sacred stone that Deus Machina hid away in their sanctuary.
 
 75
@@ -313,11 +313,11 @@ All limits?
 Everyone stay back!
 
 79
-00:04:25,254 --> 00:04:27,690
+00:04:25,254 --> 00:04:27,689
 You're at a disadvantage without your Weapon Cards!
 
 80
-00:04:27,690 --> 00:04:28,884
+00:04:27,689 --> 00:04:28,884
 I'll join you!
 
 81
@@ -349,7 +349,7 @@ Oh no!
 There's no point in running.
 
 88
-00:04:49,341 --> 00:04:50,630
+00:04:49,341 --> 00:04:50,629
 Capture Whip!!
 
 89
@@ -409,15 +409,15 @@ I'll cover you!
 Glober!!
 
 103
-00:05:31,957 --> 00:05:35,172
+00:05:31,956 --> 00:05:35,172
 Big guys are always mean to me for some reason...
 
 104
-00:05:35,172 --> 00:05:36,635
+00:05:35,172 --> 00:05:36,634
 I'll be fine.
 
 105
-00:05:36,635 --> 00:05:41,500
+00:05:36,634 --> 00:05:41,500
 Keep the Metal Breath safe no matter what, for the sake of my people who sleep on this ship.
 
 106
@@ -425,11 +425,11 @@ Keep the Metal Breath safe no matter what, for the sake of my people who sleep o
 I will, so get some rest for now.
 
 107
-00:05:44,409 --> 00:05:48,115
+00:05:44,408 --> 00:05:48,115
 Now, then. End of the line, Lady Peruru.
 
 108
-00:06:05,456 --> 00:06:08,0
+00:06:05,456 --> 00:06:08,000
 Here it is. The panel Musclehyde told us about.
 
 109
@@ -453,7 +453,7 @@ Even if it's an alien spaceship, the basic circuitry is probably similar to ours
 (Jun, Peruru. Please be safe.) (FX-italic)
 
 114
-00:06:31,679 --> 00:06:33,613
+00:06:31,678 --> 00:06:33,612
 (Everyone... Jun...!) (FX-italic)
 
 115
@@ -461,15 +461,15 @@ Even if it's an alien spaceship, the basic circuitry is probably similar to ours
 Deep Bite! There!
 
 116
-00:06:39,17 --> 00:06:40,079
+00:06:39,170 --> 00:06:40,079
 This must be it.
 
 117
-00:06:48,88 --> 00:06:50,937
+00:06:48,879 --> 00:06:50,937
 REX! INFERNO!!
 
 118
-00:07:01,73 --> 00:07:02,923
+00:07:01,730 --> 00:07:02,923
 Children! Get back!
 
 119
@@ -481,11 +481,11 @@ DAD!!! (FX-bold)
 Caught you. It seems those brothers are on quite the rampage.
 
 121
-00:07:22,699 --> 00:07:24,71
+00:07:22,699 --> 00:07:24,709
 Ow... What was that?
 
 122
-00:07:24,71 --> 00:07:25,420
+00:07:24,709 --> 00:07:25,420
 Woah, that scared me! (FX-megaTrucker)
 
 123
@@ -529,15 +529,15 @@ Me need food too! (FX-buffaloCrush)
 It's the big guys who we're causing trouble, not us. (FX-busterGallon)
 
 133
-00:07:39,898 --> 00:07:42,26
+00:07:39,898 --> 00:07:42,259
 It's because that jerk stuck his big butt in my- (FX-blackHook)
 
 134
-00:07:42,26 --> 00:07:43,320
+00:07:42,259 --> 00:07:43,319
 Stop being so petty. (FX-heavyIron)
 
 135
-00:07:43,320 --> 00:07:44,149
+00:07:43,319 --> 00:07:44,149
 You want a piece of me?! (FX-blackHook)
 
 136
@@ -569,7 +569,7 @@ I'll never let you have it. For the sake of my friends!
 Friends? Are you talking about...
 
 143
-00:08:02,24 --> 00:08:03,706
+00:08:02,240 --> 00:08:03,706
 ...them, perhaps?
 
 144
@@ -597,7 +597,7 @@ We arrived on this planet without a place to live. It is inevitable that one of 
 Either the humans... or the Metal Cardbots!
 
 150
-00:08:20,742 --> 00:08:22,839
+00:08:20,742 --> 00:08:22,838
 Now, let us try this again.
 
 151
@@ -609,15 +609,15 @@ Don't tell me... You broke the seal on the Metal Cards?!
 Yes. The two billion comrades who have been sleeping on this ship shall finally awaken!
 
 153
-00:08:36,403 --> 00:08:37,130
+00:08:36,403 --> 00:08:37,129
 What the...?!
 
 154
-00:08:41,799 --> 00:08:42,780
+00:08:41,798 --> 00:08:42,779
 Honey!
 
 155
-00:08:42,780 --> 00:08:44,089
+00:08:42,779 --> 00:08:44,088
 A card?
 
 156
@@ -653,15 +653,15 @@ And that is to turn this planet into a second Machina!
 Take it off now, Peruru!
 
 164
-00:09:17,364 --> 00:09:20,492
+00:09:17,364 --> 00:09:20,491
 No...! I'll never take it off!
 
 165
-00:09:20,492 --> 00:09:24,357
+00:09:20,491 --> 00:09:24,356
 I'll save... Mukara's will...
 
 166
-00:09:24,357 --> 00:09:28,721
+00:09:24,356 --> 00:09:28,721
 And the friendship between... Humans and Metal Cardbots...!!
 
 167
@@ -681,19 +681,19 @@ Very well. Let's see how much you can handle.
 Mega Trucker!
 
 171
-00:09:42,509 --> 00:09:43,318
+00:09:42,509 --> 00:09:43,317
 Set Up!
 
 172
-00:09:46,569 --> 00:09:49,308
+00:09:46,568 --> 00:09:49,307
 Mega Power Tackle! (FX-megaTrucker)
 
 173
-00:09:49,799 --> 00:09:50,655
+00:09:49,798 --> 00:09:50,654
 Mega Ambler!
 
 174
-00:09:51,812 --> 00:09:53,72
+00:09:51,812 --> 00:09:53,720
 Forceps Shock! (FX-megaAmbler)
 
 175
@@ -701,19 +701,19 @@ Forceps Shock! (FX-megaAmbler)
 Hehehe! (FX-shadowX)
 
 176
-00:09:58,484 --> 00:09:59,703
+00:09:58,484 --> 00:09:59,702
 Who are these bots?!
 
 177
-00:10:00,203 --> 00:10:01,691
+00:10:00,202 --> 00:10:01,691
 Spinning Cutter!
 
 178
-00:10:03,07 --> 00:10:04,127
+00:10:03,070 --> 00:10:04,126
 Phoenix Fire!
 
 179
-00:10:06,32 --> 00:10:07,399
+00:10:06,320 --> 00:10:07,399
 Burning...
 
 180
@@ -721,23 +721,23 @@ Burning...
 Hammer!! (FX-phoenixFire)
 
 181
-00:10:16,624 --> 00:10:18,213
+00:10:16,624 --> 00:10:18,212
 You okay, Peruru?
 
 182
-00:10:18,213 --> 00:10:19,52
+00:10:18,212 --> 00:10:19,519
 Jun!
 
 183
-00:10:23,803 --> 00:10:24,708
+00:10:23,802 --> 00:10:24,707
 Behind you!
 
 184
-00:10:25,24 --> 00:10:25,953
+00:10:25,240 --> 00:10:25,952
 Rock Crush!!
 
 185
-00:10:28,823 --> 00:10:29,866
+00:10:28,822 --> 00:10:29,865
 Dexter!
 
 186
@@ -753,15 +753,15 @@ Th-thank you...
 Wild... Slash! (FX-wildGuardy)
 
 189
-00:10:47,677 --> 00:10:50,18
+00:10:47,677 --> 00:10:50,179
 I will never forgive you... (FX-wildGuardy)
 
 190
-00:10:50,18 --> 00:10:51,360
+00:10:50,179 --> 00:10:51,360
 for threatening my friend! (FX-wildGuardy)
 
 191
-00:10:51,360 --> 00:10:52,779
+00:10:51,360 --> 00:10:52,778
 Wild Guardy!!
 
 192
@@ -789,7 +789,7 @@ Aye Aye, Captain!! (FX-buffaloCrush)
 I haven't felt this much excitement in a long time! (FX-busterGallon)
 
 198
-00:11:08,982 --> 00:11:10,936
+00:11:08,981 --> 00:11:10,936
 Then...
 
 199
@@ -809,15 +809,15 @@ Greetings, hero of the Star Guardians. (FX-heavyIron)
 It can't be-?!
 
 203
-00:11:25,886 --> 00:11:28,764
+00:11:25,885 --> 00:11:28,764
 Since you don't seem to know much about them, I'll give you a special lesson!
 
 204
-00:11:28,764 --> 00:11:30,75
+00:11:28,764 --> 00:11:30,750
 Jun... You guys..!
 
 205
-00:11:30,75 --> 00:11:31,927
+00:11:30,750 --> 00:11:31,927
 All the bots here...
 
 206

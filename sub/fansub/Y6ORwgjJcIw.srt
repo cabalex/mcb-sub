@@ -219,11 +219,11 @@ It's just an animatronic?
 Tch. What a bummer. Let's go, Lavi.
 
 56
-00:03:07,157 --> 00:03:08,999
+00:03:07,157 --> 00:03:08,998
 I knew something wasn't right.
 
 57
-00:03:08,999 --> 00:03:11,240
+00:03:08,998 --> 00:03:11,240
 Guess I'll have to look for a scoop elsewhere...
 
 58
@@ -279,7 +279,7 @@ You did it! This will be on the front page tomorrow!
 Wait! It's just a robot for store promotion... Are you serious?
 
 71
-00:03:50,100 --> 00:03:53,627
+00:03:50,099 --> 00:03:53,627
 "Monster in Mowtown! Milky Way Mayhem!"
 
 72
@@ -395,11 +395,11 @@ Huh?
 What the heck are you doing?!
 
 100
-00:05:41,776 --> 00:05:43,49
+00:05:41,776 --> 00:05:43,490
 We can't be dragging civilians into this!
 
 101
-00:05:43,49 --> 00:05:47,889
+00:05:43,490 --> 00:05:47,889
 Huh! Who was it that brought a civilian into this in the first place?
 
 102
@@ -451,11 +451,11 @@ Now! Are you ready?
 Heh! You think you can beat the Crimson Flash?
 
 114
-00:06:24,605 --> 00:06:28,89
+00:06:24,605 --> 00:06:28,889
 One! Two! Three!
 
 115
-00:06:28,89 --> 00:06:29,180
+00:06:28,889 --> 00:06:29,180
 Begin!
 
 116
@@ -499,11 +499,11 @@ Musclehyde. Compete with me! What do you say?
 Mukara. I told you. Humans can't win against us.
 
 126
-00:07:17,278 --> 00:07:20,89
+00:07:17,278 --> 00:07:20,889
 You can't know unless you try.
 
 127
-00:07:20,89 --> 00:07:23,300
+00:07:20,889 --> 00:07:23,300
 Whoever gets to that dock first, wins!
 
 128
@@ -555,11 +555,11 @@ I won't let you reach Jun!
 Will you back off already?!
 
 140
-00:08:37,399 --> 00:08:38,626
+00:08:37,399 --> 00:08:38,625
 Three minutes left...
 
 141
-00:08:39,26 --> 00:08:40,470
+00:08:39,259 --> 00:08:40,470
 Admit that I won against-
 
 142

@@ -3,11 +3,11 @@
 Fair and Square! Vector and Bit Brothers
 
 2
-00:00:05,960 --> 00:00:11,64
+00:00:05,960 --> 00:00:11,640
 A steel giant came from an alien planet to challenge humanity....
 
 3
-00:00:11,64 --> 00:00:14,470
+00:00:11,640 --> 00:00:14,470
 Good grief. What a troublesome pair.
 
 4
@@ -15,19 +15,19 @@ Good grief. What a troublesome pair.
 Alien robot, it says! An alien robot!
 
 5
-00:00:15,682 --> 00:00:17,787
+00:00:15,682 --> 00:00:17,786
 You mean those monsters that seem to appear out of nowhere these days?
 
 6
-00:00:17,787 --> 00:00:19,541
+00:00:17,786 --> 00:00:19,541
 Yeah! Metal Cardbots, I think?
 
 7
-00:00:19,541 --> 00:00:22,139
+00:00:19,541 --> 00:00:22,138
 It says they came to Earth because their planet Machina exploded.
 
 8
-00:00:22,139 --> 00:00:25,193
+00:00:22,138 --> 00:00:25,193
 You actually believe that kind of news? That setting is so cliché!
 
 9
@@ -51,11 +51,11 @@ Hahahaha! We're about to make ten times our usual sales thanks to this article!
 Tomorrow's front page will also be about Metal Cardbots! Schedule the next interview!
 
 14
-00:00:38,921 --> 00:00:40,655
+00:00:38,920 --> 00:00:40,655
 Well, actually...
 
 15
-00:00:40,655 --> 00:00:41,247
+00:00:40,655 --> 00:00:41,246
 Eh?
 
 16
@@ -87,11 +87,11 @@ Speaking of which, what's your plan after we contact them?
 Of course we'll-
 
 23
-00:01:00,786 --> 00:01:03,00
+00:01:00,786 --> 00:01:03,000
 Of course we're going to have a revenge battle!!
 
 24
-00:01:03,00 --> 00:01:05,778
+00:01:03,000 --> 00:01:05,778
 Okay! We'll beat them up for sure this time!
 
 25
@@ -99,19 +99,19 @@ Okay! We'll beat them up for sure this time!
 We're not going to do that.
 
 26
-00:01:06,950 --> 00:01:12,350
+00:01:06,950 --> 00:01:12,349
 Those guys were strong enough to beat you before. What if you end up losing again?
 
 27
-00:01:12,350 --> 00:01:14,257
-Argh, I wasn't in peak performance!
+00:01:12,349 --> 00:01:14,257
+Argh, I wasn't at peak performance!
 
 28
-00:01:14,257 --> 00:01:16,141
+00:01:14,257 --> 00:01:16,140
 Alright, let's just calm down...
 
 29
-00:01:16,141 --> 00:01:17,817
+00:01:16,140 --> 00:01:17,817
 Then why are you trying to contact them?
 
 30
@@ -123,19 +123,19 @@ We have to teach them that they shouldn't be seen in public, don't you think?
 He's right. If we leave the Hidden Cardbots alone, something even worse could happen.
 
 32
-00:01:25,379 --> 00:01:29,368
+00:01:25,379 --> 00:01:29,367
 But if someone gets hurt during that time, the coexistence of humans and Metal Cardbots could be-
 
 33
-00:01:29,368 --> 00:01:30,942
+00:01:29,367 --> 00:01:30,942
 Let me handle that.
 
 34
-00:01:31,341 --> 00:01:34,30
+00:01:31,341 --> 00:01:34,299
 Glober! How long have you been eavesdropping?
 
 35
-00:01:34,30 --> 00:01:36,259
+00:01:34,299 --> 00:01:36,259
 I'm always by your side.
 
 36
@@ -151,23 +151,23 @@ Answer me, bro! What were you thinking when you did that?!
 (Sparking Force...!)
 
 39
-00:01:45,200 --> 00:01:46,492
+00:01:45,200 --> 00:01:46,491
 Don't tell me you did it...
 
 40
-00:01:46,492 --> 00:01:47,516
+00:01:46,491 --> 00:01:47,515
 (Knuckle!!)
 
 41
-00:01:47,516 --> 00:01:50,520
+00:01:47,515 --> 00:01:50,520
 ...because you thought I'd somehow lose!
 
 42
-00:01:50,520 --> 00:01:53,50
+00:01:50,520 --> 00:01:53,500
 It's not like that. I won't interrupt you any longer.
 
 43
-00:01:53,50 --> 00:01:54,695
+00:01:53,500 --> 00:01:54,694
 You better keep your word!
 
 44
@@ -211,23 +211,23 @@ Woah! I almost tripped over myself.
 What a peculiar brotherhood.
 
 54
-00:02:18,747 --> 00:02:24,361
+00:02:18,747 --> 00:02:24,360
 Flying to thy heart. Many thanks for bidding Pure White Wings Sky Gallop Transportation Service. How may I help thou?
 
 55
-00:02:24,361 --> 00:02:26,354
+00:02:24,360 --> 00:02:26,353
 Hey. It's me, Glober.
 
 56
-00:02:26,354 --> 00:02:28,360
-Eh? What the- They hung up!
+00:02:26,353 --> 00:02:28,360
+Eh? What the- She hung up!
 
 57
 00:02:28,360 --> 00:02:29,288
 Again! Again!
 
 58
-00:02:30,272 --> 00:02:33,478
+00:02:30,271 --> 00:02:33,478
 Flying to thy heart. Many thanks for bidding Pure White Wings Sky Gallop Transportation Servi-
 
 59
@@ -243,11 +243,11 @@ Did I not compose it clearly enough that thou art permanently banned? Never bid 
 Oi, wait wait wait!
 
 62
-00:02:39,441 --> 00:02:43,652
+00:02:39,441 --> 00:02:43,651
 I'm trying to introduce you to your new client! You'll be transporting a very interesting client to a very interesting place!
 
 63
-00:02:43,652 --> 00:02:46,432
+00:02:43,651 --> 00:02:46,432
 Interesting client? Who, to where?
 
 64
@@ -259,35 +259,35 @@ A Star Guardian, to the place where the Flash Vector and Spark Bit brothers are!
 Hmmm... A Star Guardian...
 
 66
-00:02:54,139 --> 00:02:56,729
+00:02:54,139 --> 00:02:56,728
 Yeah. He wants a duel with those two brothers.
 
 67
-00:02:56,729 --> 00:02:58,197
+00:02:56,728 --> 00:02:58,197
 Wait, we're not going to fight them!
 
 68
-00:02:58,197 --> 00:02:58,879
+00:02:58,197 --> 00:02:58,878
 Shhh!
 
 69
-00:02:58,879 --> 00:03:00,835
+00:02:58,878 --> 00:03:00,835
 Very well. Allow me to contemplate this.
 
 70
 00:03:04,650 --> 00:03:05,900
-Will they really show up?
+Will she really show up?
 
 71
-00:03:05,900 --> 00:03:07,30
+00:03:05,900 --> 00:03:07,300
 Don't worry.
 
 72
-00:03:07,30 --> 00:03:11,240
-Not only does Sky Gallop enjoy partaking in a good duel, but they also like to watch others duel.
+00:03:07,300 --> 00:03:11,240
+Not only does Sky Gallop enjoy partaking in a good duel, but she also likes to watch others duel.
 
 73
-00:03:11,240 --> 00:03:13,479
+00:03:11,240 --> 00:03:13,478
 I don't want to fight them...
 
 74
@@ -296,18 +296,18 @@ Guys! Over there!
 
 75
 00:03:16,204 --> 00:03:17,620
-They're here.
+She's here.
 
 76
 00:03:21,549 --> 00:03:28,157
 Oh, my lady Peruru. I brought some purple pansies for thee. In the language of flowers, pansies symbolize eternal promise-
 
 77
-00:03:28,157 --> 00:03:29,201
+00:03:28,157 --> 00:03:29,200
 Th-Thank you...
 
 78
-00:03:29,201 --> 00:03:30,323
+00:03:29,200 --> 00:03:30,323
 There's no time for that!
 
 79
@@ -319,17 +319,17 @@ It smells so good!
 You want it?
 
 81
-00:03:33,437 --> 00:03:34,164
+00:03:33,437 --> 00:03:34,163
 - N-no thanks...
 - Thanks for coming.
 
 82
-00:03:34,164 --> 00:03:34,564
+00:03:34,163 --> 00:03:34,563
 - N-no thanks...
 - Thanks for coming.
 
 83
-00:03:34,564 --> 00:03:37,978
+00:03:34,563 --> 00:03:37,978
 I assume thou art Blue Cop, The sole survivor amongst the Star Guardians.
 
 84
@@ -361,11 +361,11 @@ thou shall leave all thy Metal Breath-sealed servants hither. That is the condit
 S-servants?!
 
 91
-00:03:53,223 --> 00:03:54,849
+00:03:53,223 --> 00:03:54,848
 We're not servants!
 
 92
-00:03:54,849 --> 00:03:55,918
+00:03:54,848 --> 00:03:55,918
 Wait, are we?
 
 93
@@ -386,7 +386,7 @@ The original summons was for transporting the Star Guardian.
 
 97
 00:04:04,347 --> 00:04:09,691
-Above all, a duel should be fair and square. To have someone else step in and interfere with the duel is... 
+Above all, a duel should be fair and square. To have someone else step in and interfere with the duel is...
 
 98
 00:04:09,691 --> 00:04:11,947
@@ -437,11 +437,11 @@ Bon voyage!
 Kick their butts!
 
 110
-00:04:33,932 --> 00:04:35,950
+00:04:33,932 --> 00:04:35,949
 The airplane shall be landing soon.
 
 111
-00:04:35,950 --> 00:04:39,569
+00:04:35,949 --> 00:04:39,569
 Lady Peruru and other passengers, prepare to disembark.
 
 112
@@ -450,10 +450,10 @@ One million thirty-two, one million thirty-four, one million-
 
 113
 00:04:44,242 --> 00:04:48,415
-They always leave and come back without telling me. Take me with you sometime!
+She always leaves and comes back without telling me. Take me with you sometime!
 
 114
-00:04:49,159 --> 00:04:51,665
+00:04:49,158 --> 00:04:51,665
 This is it. The Hidden Cardbot's hideout...!
 
 115
@@ -466,7 +466,7 @@ So he was the one you said you were bringing along...
 
 117
 00:04:55,129 --> 00:04:55,848
-They said that?
+She said that?
 
 118
 00:04:55,848 --> 00:04:57,430
@@ -533,11 +533,11 @@ I always win!
 Now then, Lady Peruru, please take this seat. The rest of thou, sit wherever thy want.
 
 134
-00:05:46,143 --> 00:05:48,339
+00:05:46,143 --> 00:05:48,338
 Let's do this fair and square.
 
 135
-00:05:48,339 --> 00:05:53,889
+00:05:48,338 --> 00:05:53,889
 Fair and square, huh?! That's one of my favorite sayings! Heheh!
 
 136
@@ -609,12 +609,12 @@ That Star Guardian... He's blocking every hit!
 Don't underestimate Blue Cop's Palm Protection!
 
 153
-00:07:35,641 --> 00:07:41,0
-So far, so good... but I might need to lend Blue Cop a hand. 
+00:07:35,641 --> 00:07:41,000
+So far, so good... but I might need to lend Blue Cop a hand.
 
 154
-00:07:41,0 --> 00:07:44,730
-If I leave these guys be, they're going to become a nuisance to me- 
+00:07:41,000 --> 00:07:44,730
+If I leave these guys be, they're going to become a nuisance to me-
 
 155
 00:07:44,730 --> 00:07:45,360

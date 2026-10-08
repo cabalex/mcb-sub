@@ -22,7 +22,7 @@ Special training?
 Yes. Just leave it all to me.
 Yes, sir.
 A special training for Blue Cop?
-Yeah. Uncle Edo said that he's going to find a new place and that he's going to make new equipment for the special training.
+Yeah. Uncle Edd said that he's going to find a new place and that he's going to make new equipment for the special training.
 Really? Wow! I want to see that.
 I heard it will be ready today. Should I ask?
 Blue Cop!
@@ -83,11 +83,11 @@ I'm okay.
 Let's go again!
 Not a chance, mister!
 Haha! Well done, Vance! Yeah!
-Theo, you can do it!
+Teo, you can do it!
 Haha, you'll never beat me!
 Jun, want to have a go?
 Alright!
-I will help Theo take revenge!
+I will help Teo take revenge!
 Not this... not this...
 Aha! I'll choose you.
 Will this training even work for us mechanical lifeforms?
@@ -119,7 +119,7 @@ And then, respond a little before it lands.
 H-hey! Wait up! Augh...
 Ugh. That didn't help at all.
 No. I think I've got it.
-Edo! Let's try one more time.
+Edd! Let's try one more time.
 Attack pattern?
 Mhm. Each robot character has its own attack pattern and timing.
 Figure that out and you might be able to beat Vance.
@@ -178,7 +178,7 @@ Then... we could also power up like Blue Cop!
 Alright! Let's start training together!
 It could be Wild Guardy or Heavy Iron... we could beat them all!
 Let's do it, guys!
-But... where's Uncle Edo?
+But... where's Uncle Edd?
 My storage room...!
 I really thought I had him where I wanted.
 But I didn't manage to get the Metal Breath.

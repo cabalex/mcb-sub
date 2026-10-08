@@ -392,7 +392,7 @@ Yes. But it is very different from the newspaper on Earth.
 
 98
 00:06:18,807 --> 00:06:21,656
-That's Mukara's Metal Breath. 
+That's Mukara's Metal Breath.
 
 99
 00:06:21,656 --> 00:06:26,149
@@ -448,7 +448,7 @@ Jun...
 Don't fall for it, Musclehyde!
 
 112
-00:07:02,0 --> 00:07:03,278
+00:07:02,000 --> 00:07:03,278
 Red Blitz!
 
 113
@@ -457,7 +457,7 @@ Red Blitz! You're okay too!
 
 114
 00:07:05,144 --> 00:07:07,197
-Don't be fooled by that little brat! 
+Don't be fooled by that little brat!
 
 115
 00:07:09,223 --> 00:07:13,362
@@ -661,10 +661,10 @@ What's the matter? Get over here so we can continue the interview!
 
 165
 00:11:14,663 --> 00:11:18,341
-I met with Musclehyde today, so I'm done here. 
+I met with Musclehyde today, so I'm done here.
 
 166
-00:11:18,341 --> 00:11:20,590
+00:11:18,341 --> 00:11:20,557
 Let's go, Musclehyde.
 
 167
@@ -672,7 +672,7 @@ Let's go, Musclehyde.
 Ah! Red Blitz! Wait up!
 
 168
-00:11:24,207 --> 00:11:25,879
+00:11:24,206 --> 00:11:25,879
 Musclehyde! There's still more I need to say--
 
 169

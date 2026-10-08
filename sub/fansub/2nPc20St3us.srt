@@ -16,7 +16,7 @@ What's going on?
 
 5
 00:00:13,422 --> 00:00:18,518
-It's gone! I bought a limited edition caramel pudding flavored ice cream, and it's... 
+It's gone! I bought a limited edition caramel pudding flavored ice cream, and it's...
 
 6
 00:00:18,518 --> 00:00:19,492
@@ -59,11 +59,11 @@ That's not the point! I wanted to eat that ice cream right after my bath!
 You were in the wrong, Jun.
 
 16
-00:00:40,667 --> 00:00:42,909
+00:00:40,667 --> 00:00:42,908
 Yeah. I'd be just as mad.
 
 17
-00:00:42,909 --> 00:00:44,484
+00:00:42,908 --> 00:00:44,484
 You think I'm the bad guy here?!
 
 18
@@ -87,27 +87,27 @@ Limited edition ice cream? That's something you can't get, even if you have the 
 Glober!
 
 23
-00:00:57,646 --> 00:00:58,790
+00:00:57,646 --> 00:00:58,789
 What are you doing here?!
 
 24
-00:00:58,790 --> 00:01:03,500
+00:00:58,789 --> 00:01:03,500
 What a cold welcome. And here I thought I'd share some hot info, fresh outta the oven.
 
 25
-00:01:04,900 --> 00:01:06,70
+00:01:04,900 --> 00:01:06,700
 Gigantrex?!
 
 26
-00:01:06,70 --> 00:01:07,263
+00:01:06,700 --> 00:01:07,263
 Dad!!
 
 27
-00:01:07,263 --> 00:01:11,796
+00:01:07,263 --> 00:01:11,795
 This photo was taken a week ago in a jungle, 8000 kilometers away from Mowtown.
 
 28
-00:01:11,796 --> 00:01:13,260
+00:01:11,795 --> 00:01:13,260
 8000 kilometers?
 
 29
@@ -115,15 +115,15 @@ This photo was taken a week ago in a jungle, 8000 kilometers away from Mowtown.
 That's far across the ocean.
 
 30
-00:01:15,557 --> 00:01:17,550
+00:01:15,557 --> 00:01:17,549
 How did he get all the way over there?!
 
 31
-00:01:17,550 --> 00:01:22,462
+00:01:17,549 --> 00:01:22,462
 What, you haven't heard? There's a rumor about a specialized Metal Cardbot transporter.
 
 32
-00:01:22,462 --> 00:01:24,81
+00:01:22,462 --> 00:01:24,810
 A specialized transporter?
 
 33
@@ -179,15 +179,15 @@ Hidden Cardbots...
 Why are you copying me?!
 
 46
-00:02:01,406 --> 00:02:03,701
+00:02:01,406 --> 00:02:03,700
 You're the one who's copying me, 'cause you have nothing original to say!
 
 47
-00:02:03,701 --> 00:02:05,461
+00:02:03,700 --> 00:02:05,460
 You wanna be kicked out?
 
 48
-00:02:05,461 --> 00:02:09,436
+00:02:05,460 --> 00:02:09,436
 Glober, I'd like to ask this transporter some questions. Can you help us?
 
 49
@@ -195,7 +195,7 @@ Glober, I'd like to ask this transporter some questions. Can you help us?
 No problem, but... This one's a bit sensitive, so be careful.
 
 50
-00:02:32,284 --> 00:02:36,461
+00:02:32,283 --> 00:02:36,461
 My name is Sky Gallop, the pure white wings that fly amongst the heavens.
 
 51
@@ -223,7 +223,7 @@ WHAT THE HECK ARE YOU DOING?!
 How dare a savage human speak to me... I have no intention of conversing with humans.
 
 57
-00:02:54,901 --> 00:02:58,564
+00:02:54,901 --> 00:02:58,563
 Wait! Why won't you talk to humans?
 
 58
@@ -231,23 +231,23 @@ Wait! Why won't you talk to humans?
 It would be against my chivalry...
 
 59
-00:03:07,308 --> 00:03:09,263
+00:03:07,307 --> 00:03:09,263
 ...to shun a lady's question.
 
 60
-00:03:12,740 --> 00:03:15,671
-To the question of why I shan't speak to humans... 
+00:03:12,740 --> 00:03:15,670
+To the question of why I shan't speak to humans...
 
 61
-00:03:17,140 --> 00:03:21,381
+00:03:17,139 --> 00:03:21,381
 I shall answer that for you... my fair little lady.
 
 62
-00:03:21,867 --> 00:03:23,313
+00:03:21,866 --> 00:03:23,312
 What a weirdo...
 
 63
-00:03:23,313 --> 00:03:25,360
+00:03:23,312 --> 00:03:25,360
 I'm reminded of Fleta Z a little bit...
 
 64
@@ -255,23 +255,23 @@ I'm reminded of Fleta Z a little bit...
 The answer is simple. I hate humans.
 
 65
-00:03:28,533 --> 00:03:30,444
+00:03:28,533 --> 00:03:30,443
 You hate humans?
 
 66
-00:03:30,444 --> 00:03:34,471
+00:03:30,443 --> 00:03:34,471
 I would normally never continue this conversation, yet it would be against my chivalry to ignore a lady's que-
 
 67
-00:03:34,471 --> 00:03:36,731
+00:03:34,471 --> 00:03:36,730
 Ah- okay, okay, I get it...!
 
 68
-00:03:38,743 --> 00:03:42,638
+00:03:38,742 --> 00:03:42,638
 Very well. So, it befell me when I had only just arrived on this planet.
 
 69
-00:03:44,135 --> 00:03:48,703
+00:03:44,134 --> 00:03:48,703
 To the aircraft of unknown nationality: identify yourself immediately, or we will engage!
 
 70
@@ -283,19 +283,19 @@ How impertinent!
 Wh-what the?!
 
 72
-00:04:04,159 --> 00:04:06,0
+00:04:04,158 --> 00:04:06,000
 Such savagery!
 
 73
-00:04:09,70 --> 00:04:12,909
+00:04:09,699 --> 00:04:12,908
 This is the scar from that incident. I kept it so as not to forget.
 
 74
-00:04:12,909 --> 00:04:14,777
+00:04:12,908 --> 00:04:14,776
 So that's why...
 
 75
-00:04:14,777 --> 00:04:18,915
+00:04:14,776 --> 00:04:18,915
 I'm sorry, Sky Gallop. I want to apologize on behalf of all humans.
 
 76
@@ -315,11 +315,11 @@ Oh, Peruru! My heart is being swept away by thy kindness!
 So Cardbots can shed tears too? Oh! My handkerchief!
 
 80
-00:04:35,100 --> 00:04:36,29
+00:04:35,100 --> 00:04:36,290
 What are you doing?!
 
 81
-00:04:36,29 --> 00:04:37,627
+00:04:36,290 --> 00:04:37,627
 Uh-oh! Sorry!
 
 82
@@ -351,7 +351,7 @@ Jun. Argue later.
 Right. Do you know anything about this guy?
 
 89
-00:04:56,726 --> 00:04:59,749
+00:04:56,725 --> 00:04:59,749
 I am a professional. It is my duty to maintain complete client confidentiality.
 
 90
@@ -359,15 +359,15 @@ I am a professional. It is my duty to maintain complete client confidentiality.
 You said client. Wouldn't that mean you transported him?
 
 91
-00:05:02,199 --> 00:05:04,50
+00:05:02,199 --> 00:05:04,500
 Let the cat out of the bag on that one.
 
 92
-00:05:04,50 --> 00:05:06,785
+00:05:04,500 --> 00:05:06,785
 Goodness, forbear with thy irritating noises...
 
 93
-00:05:07,976 --> 00:05:12,288
+00:05:07,975 --> 00:05:12,288
 Th-that is the treasure of Deus Machina. Why does a mere human have it?
 
 94
@@ -388,7 +388,7 @@ It's a duel! If I win, you'll tell me everything you know!
 
 98
 00:05:20,353 --> 00:05:27,180
-Ah. He intends to ask not only for information about Gigantrex, but about all the Hidden Cardbots they've been moving around as well.
+Ah. He intends to ask not only for information about Gigantrex, but about all the Hidden Cardbots she's been moving around as well.
 
 99
 00:05:27,180 --> 00:05:29,129
@@ -403,11 +403,11 @@ I decline.
 Huh? W-Why?
 
 102
-00:05:32,225 --> 00:05:36,159
+00:05:32,225 --> 00:05:36,158
 A duel with a mere human being. The utterance alone hurts my pride.
 
 103
-00:05:36,159 --> 00:05:38,733
+00:05:36,158 --> 00:05:38,733
 Hah. It's obvious you're just backing out because you're afraid of losing.
 
 104
@@ -415,7 +415,7 @@ Hah. It's obvious you're just backing out because you're afraid of losing.
 What?!
 
 105
-00:05:39,677 --> 00:05:42,303
+00:05:39,677 --> 00:05:42,302
 If it's a challenge of the sky, it's my time to shine. Jun!
 
 106
@@ -424,7 +424,7 @@ You've been acting all pompous, so I thought we should put those words to the te
 
 107
 00:05:49,167 --> 00:05:53,855
-Hmph! 'Tis not chivalrous to dodge a challenge when thou hast been issued one. 
+Hmph! 'Tis not chivalrous to dodge a challenge when thou hast been issued one.
 
 108
 00:05:53,855 --> 00:05:56,461
@@ -439,16 +439,16 @@ You got this, Cielo!
 Can I ride with you?
 
 111
-00:06:01,536 --> 00:06:02,541
+00:06:01,536 --> 00:06:02,540
 Eh??
 
 112
-00:06:02,541 --> 00:06:03,584
+00:06:02,540 --> 00:06:03,584
 May I bid thee why?
 
 113
 00:06:03,584 --> 00:06:08,309
-Duels are meant to be fought on equal terms. And... 
+Duels are meant to be fought on equal terms. And...
 
 114
 00:06:08,309 --> 00:06:10,846
@@ -471,19 +471,19 @@ You sure about this, Peruru? You've never flown before.
 You've only flown once!
 
 119
-00:06:24,242 --> 00:06:25,839
+00:06:24,242 --> 00:06:25,838
 Th-three times!
 
 120
-00:06:25,839 --> 00:06:28,927
+00:06:25,838 --> 00:06:28,927
 Jun! If we win, you're buying me 10 cartons of ice cream!
 
 121
-00:06:28,927 --> 00:06:33,404
-What?! Ten?! That'll cost all of my allowance! 
+00:06:28,927 --> 00:06:33,403
+What?! Ten?! That'll cost all of my allowance!
 
 122
-00:06:33,404 --> 00:06:36,947
+00:06:33,403 --> 00:06:36,947
 And there's no point in us being here if you win!
 
 123
@@ -496,18 +496,18 @@ Sky Gallop is lightning fast for a transport aircraft!
 
 125
 00:06:52,875 --> 00:06:56,571
-They've been through many battlefields to get here.
+She's been through many battlefields to get here.
 
 126
-00:06:56,571 --> 00:07:00,666
-The nickname "Pure White Wings" is proof that they've never been shot down.
+00:06:56,571 --> 00:07:00,665
+The nickname "Pure White Wings" is proof that she's never been shot down.
 
 127
-00:07:00,666 --> 00:07:02,961
-Pure white? But those wings are black and white...
+00:07:00,665 --> 00:07:02,961
+Pure white? But her wings are black and white...
 
 128
-00:07:04,892 --> 00:07:06,254
+00:07:04,891 --> 00:07:06,254
 Now, Cielo!
 
 129
@@ -520,11 +520,11 @@ This is nothing.
 
 131
 00:07:15,932 --> 00:07:17,134
-They blocked it?!
+She blocked it?!
 
 132
 00:07:17,134 --> 00:07:20,749
-Looks like Jun doesn't even care that I'm inside here... 
+Looks like Jun doesn't even care that I'm inside here...
 
 133
 00:07:20,749 --> 00:07:22,764
@@ -599,15 +599,15 @@ I'll be fine. Attack them!
 Very well!
 
 151
-00:08:24,785 --> 00:08:28,79
+00:08:24,785 --> 00:08:28,790
 Looks like they're plotting their next move. Cielo, be careful!
 
 152
-00:08:28,79 --> 00:08:29,838
+00:08:28,790 --> 00:08:29,838
 Don't worry about me!
 
 153
-00:08:35,982 --> 00:08:37,677
+00:08:35,981 --> 00:08:37,677
 Saber Arrow!
 
 154
@@ -615,11 +615,11 @@ Saber Arrow!
 Wait here!
 
 155
-00:08:51,479 --> 00:08:55,809
+00:08:51,479 --> 00:08:55,808
 Thou art persistent. I shall end this now. Peruru?
 
 156
-00:08:55,943 --> 00:08:56,788
+00:08:55,942 --> 00:08:56,788
 Pardon me.
 
 157
@@ -631,7 +631,7 @@ Now, allow us to settle the score!
 You think that'll work on me again?
 
 159
-00:09:08,993 --> 00:09:10,501
+00:09:08,993 --> 00:09:10,500
 I shall reveal to thee...
 
 160
@@ -639,27 +639,27 @@ I shall reveal to thee...
 the true form of the pure white wings!
 
 161
-00:09:20,970 --> 00:09:23,150
+00:09:20,970 --> 00:09:23,149
 All I see is a bigger target!
 
 162
-00:09:23,150 --> 00:09:24,749
+00:09:23,149 --> 00:09:24,749
 Then just try to hit me!
 
 163
 00:09:26,618 --> 00:09:29,807
-Cielo! They still can't outmaneuver your speed!
+Cielo! She still can't outmaneuver your speed!
 
 164
 00:09:29,807 --> 00:09:31,599
 You're the champion of the sky, after all!
 
 165
-00:09:31,599 --> 00:09:32,540
+00:09:31,599 --> 00:09:32,539
 You got that right!
 
 166
-00:09:45,713 --> 00:09:46,519
+00:09:45,712 --> 00:09:46,519
 Cielo!
 
 167
@@ -679,7 +679,7 @@ Victory shall be mine!
 Saber Arrow Alpha!!
 
 171
-00:10:36,149 --> 00:10:37,145
+00:10:36,149 --> 00:10:37,144
 Cielo!!
 
 172
@@ -707,19 +707,19 @@ We won. Don't forget about my 10 cartons of ice cream.
 I lost...
 
 178
-00:10:58,520 --> 00:11:01,657
+00:10:58,519 --> 00:11:01,657
 I had such an enjoyable flight with thee, my fair lady Peruru.
 
 179
-00:11:01,657 --> 00:11:04,457
+00:11:01,657 --> 00:11:04,456
 Yeah! Because of you, I was able to get my revenge. Thank you!
 
 180
-00:11:04,457 --> 00:11:06,857
+00:11:04,456 --> 00:11:06,856
 And you can just call me Peruru.
 
 181
-00:11:06,857 --> 00:11:10,999
+00:11:06,856 --> 00:11:10,999
 Very well, Peruru. I look forward to seeing thee again in the near future.
 
 182
@@ -731,16 +731,16 @@ Ah, and you, filthy adventurer.
 F-filthy?
 
 184
-00:11:15,200 --> 00:11:17,976
+00:11:15,200 --> 00:11:17,975
 Thou art forever banned from my transportation services.
 
 185
-00:11:17,976 --> 00:11:18,831
+00:11:17,975 --> 00:11:18,831
 Drat-!
 
 186
 00:11:20,125 --> 00:11:24,234
-Sky Gallop... They weren't bluffing. They really are strong.
+Sky Gallop... She wasn't bluffing. She really is strong.
 
 187
 00:11:24,234 --> 00:11:26,393
@@ -752,7 +752,7 @@ I wouldn't say that.
 
 189
 00:11:28,190 --> 00:11:33,245
-Word of you guys will surely spread among the Hidden Cardbots through Sky Gallop. 
+Word of you guys will surely spread among the Hidden Cardbots through Sky Gallop.
 
 190
 00:11:33,245 --> 00:11:37,788

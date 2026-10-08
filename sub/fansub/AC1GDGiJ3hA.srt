@@ -19,11 +19,11 @@ Wait, is that...?
 If my instincts are correct, then that must be...!
 
 6
-00:00:43,579 --> 00:00:48,18
+00:00:43,579 --> 00:00:48,179
 Hey you, glasses guy. Fine looking camera you got there. Are you a news reporter or something?
 
 7
-00:00:48,18 --> 00:00:51,896
+00:00:48,179 --> 00:00:51,896
 Go grab your boss, and I'll get you a scoop!
 
 8
@@ -97,7 +97,7 @@ Pretty please? We won't say anything to the grown-ups!
 If it can't be helped. But just this once.
 
 25
-00:01:39,271 --> 00:01:40,241
+00:01:39,271 --> 00:01:40,240
 Guys!
 
 26
@@ -106,7 +106,7 @@ Cool!
 
 27
 00:01:54,712 --> 00:01:56,251
-Uncle Edo!!
+Uncle Edd!!
 
 28
 00:01:56,251 --> 00:01:57,932
@@ -141,7 +141,7 @@ At this rate, it may only be a matter of time before the Metal Cardbots are disc
 It's already too late.
 
 36
-00:02:18,379 --> 00:02:19,049
+00:02:18,378 --> 00:02:19,049
 Crest!
 
 37
@@ -150,7 +150,7 @@ Look at this.
 
 38
 00:02:24,454 --> 00:02:30,704
-The editor-in-chief of Mowtown Times interviews a Metal Cardbot, a mechanical lifeform from outer space... 
+The editor-in-chief of Mowtown Times interviews a Metal Cardbot, a mechanical lifeform from outer space...
 
 39
 00:02:30,704 --> 00:02:32,557
@@ -209,11 +209,11 @@ W-where did you-?!
 You didn't come here to interrupt my dad's interview, right?
 
 53
-00:03:21,454 --> 00:03:24,0
+00:03:21,454 --> 00:03:24,000
 Vera, long time no see. How have you been?
 
 54
-00:03:24,0 --> 00:03:27,853
+00:03:24,000 --> 00:03:27,853
 Crest! It's been so long! I'm doing great, thanks!
 
 55
@@ -230,7 +230,7 @@ Now's our chance. Let's go!
 
 58
 00:03:39,413 --> 00:03:46,134
-Alright, then... Greetings, everyone. This is Warren Williams, the editor-in-chief of the Mowtown Times. We've got a great crowd here. 
+Alright, then... Greetings, everyone. This is Warren Williams, the editor-in-chief of the Mowtown Times. We've got a great crowd here.
 
 59
 00:03:46,134 --> 00:03:51,643
@@ -277,7 +277,7 @@ Jun, let me handle this.
 Deep Bite...
 
 70
-00:04:27,090 --> 00:04:28,675
+00:04:27,089 --> 00:04:28,675
 Okay. The stage is yours!
 
 71
@@ -351,7 +351,7 @@ Some nerve, trying to pick a fight with a Star Guardian!
 
 88
 00:05:33,800 --> 00:05:39,360
-Heh! I don't know who you are, but I guess I'll have to teach you some manners... 
+Heh! I don't know who you are, but I guess I'll have to teach you some manners...
 
 89
 00:05:39,360 --> 00:05:40,319
@@ -399,7 +399,7 @@ Red Blitz! Set Up!
 
 100
 00:06:41,951 --> 00:06:45,449
-Oh, you fight with your feet! Interesting. 
+Oh, you fight with your feet! Interesting.
 
 101
 00:06:46,610 --> 00:06:48,634
@@ -503,7 +503,7 @@ Knuckle!
 
 126
 00:08:17,930 --> 00:08:18,961
-What's that..? 
+What's that..?
 
 127
 00:08:19,588 --> 00:08:21,244
@@ -530,11 +530,11 @@ Come back, Red Blitz!
 W-What?
 
 133
-00:08:40,865 --> 00:08:45,310
+00:08:40,865 --> 00:08:45,009
 Rock Crush! Use your ultrasonic sensor to scan above that container!
 
 134
-00:08:45,010 --> 00:08:46,220
+00:08:45,009 --> 00:08:46,220
 O-okay!
 
 135
@@ -567,7 +567,7 @@ I've been watching you from the start. You're reckless, after all.
 
 142
 00:09:03,173 --> 00:09:08,349
-I know I can be! But you shouldn't come off as cooler than I am- Uh, wait a minute. Does that mean... 
+I know I can be! But you shouldn't come off as cooler than I am- Uh, wait a minute. Does that mean...
 
 143
 00:09:08,349 --> 00:09:10,451
@@ -735,7 +735,7 @@ What the- Bro!
 
 184
 00:11:06,692 --> 00:11:09,485
-Tch... aargh!! 
+Tch... aargh!!
 
 185
 00:11:09,485 --> 00:11:13,869
@@ -750,11 +750,11 @@ Hey you! Bluey! Tell the Star Guardian that it's his turn next!
 He better be prepared for it.
 
 188
-00:11:26,923 --> 00:11:29,337
+00:11:26,923 --> 00:11:29,336
 Farewell, master of the Star Guardian.
 
 189
-00:11:29,337 --> 00:11:31,354
+00:11:29,336 --> 00:11:31,354
 Send my regards to lady Peruru for me.
 
 190

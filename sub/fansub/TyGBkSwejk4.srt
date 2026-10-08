@@ -51,7 +51,7 @@ Cheer up. You can't give up now.
 Yeah. Build up your patience.
 
 14
-00:00:59,960 --> 00:01:01,0
+00:00:59,960 --> 00:01:01,000
 Gimme that.
 
 15
@@ -85,7 +85,7 @@ Hey! Why did you do that?!
 22
 00:01:11,584 --> 00:01:13,135
 You need to do your homework for yourself.
-Hello, Dad. 
+Hello, Dad.
 
 23
 00:01:13,135 --> 00:01:16,989
@@ -93,7 +93,7 @@ I'm doing homework with my friends.
 
 24
 00:01:16,989 --> 00:01:20,129
-Breaking news: We have an update on the recent sinkhole occurrences in the center of Mowtown. 
+Breaking news: We have an update on the recent sinkhole occurrences in the center of Mowtown.
 
 25
 00:01:20,129 --> 00:01:25,780
@@ -169,7 +169,7 @@ I hoped it wasn't...
 AAAAH!! What should I do?!?
 
 43
-00:02:17,128 --> 00:02:18,120
+00:02:17,127 --> 00:02:18,120
 Stay calm, Jun.
 
 44
@@ -226,11 +226,11 @@ That's Rock Crush?
 I knew it was you!
 
 57
-00:02:59,187 --> 00:03:02,408
+00:02:59,187 --> 00:03:02,407
 It's strange. He never wanted to come outside before, but now...
 
 58
-00:03:02,408 --> 00:03:04,377
+00:03:02,407 --> 00:03:04,377
 Uh, uh... it's dangerous! I'm going--
 
 59
@@ -356,7 +356,7 @@ Blue Cop!
 
 89
 00:04:27,985 --> 00:04:29,917
-Rock Crush! Now- Eh? 
+Rock Crush! Now- Eh?
 
 90
 00:04:30,709 --> 00:04:34,120
@@ -641,7 +641,7 @@ Final warning! Give me your Metal Breath, or I'll tear this place down!
 
 160
 00:08:02,783 --> 00:08:09,848
-I'm not gonna let you do whatever you want! I won't hand over this Metal Breath, and I'll protect my burger joint too! 
+I'm not gonna let you do whatever you want! I won't hand over this Metal Breath, and I'll protect my burger joint too!
 
 161
 00:08:09,848 --> 00:08:12,387
@@ -674,7 +674,7 @@ Cielo! Set up!
 
 168
 00:08:34,437 --> 00:08:36,326
-I was getting sick of waiting! 
+I was getting sick of waiting!
 
 169
 00:08:38,134 --> 00:08:41,134
