@@ -295,6 +295,43 @@ const subtitles: Season[] = [
 					{ name: '赤い箱舟の戦闘', id: '8nGDlfiNOG8', label: '25話', fx: true },
 					{ name: '鋼鉄の帰還', id: 'ACqsVI_TFl4', label: '26話', fx: true }
 				]
+			},
+			{
+				name: 'Português',
+				path: '/pt-br',
+				language: 'pt-br',
+				credits: [
+					{ name: 'Metal Cardbots Brasil', link: 'https:youtube.com/@metal.cardbotsbrasil' }
+				],
+				episodes: [
+					{ name: 'Abertura', id: 'w3QOebaRTSI', label: 'OP' },
+					{ name: 'Um Metal Cardbot desperta da placa de pedra?!', id: '3P-D6WLA424'},
+					{ name: 'O Segundo Metal Card!', id: 'kwxZy0fOmG4' },
+					{ name: 'Perigo no Céu!', id: 'KmHp3PSBHXM' },
+					{ name: 'Cielo Está Chateada!', id: 'outtz10cTjY' },
+					{ name: 'Extra! Extra! O Repórter de Aço!', id: 'hvcwuisAcWw' },
+					{ name: "A Escolha de Musclehyde!", id: 'Y6ORwgjJcIw' },
+					{ name: 'A Grande Fuga da Caverna!', id: 'OeCr53P6z6c' },
+					{ name: "Está Tudo Bem, Rock Crush", id: 'TyGBkSwejk4' },
+					{ name: 'Reencontro com Gigantrex!', id: 'Rw06vJ8OJIg' },
+					{ name: 'O Poder Supremo Desperta!', id: 'sy7IirZENS8', fx: true },
+					{ name: "A Sinceridade de Red Blitz", id: '2ix1fypVifg', fx: true },
+					{ name: "Velocidade Máxima!", id: 'pw70mJ0vwZU' },
+					{ name: 'Pegue-me se puder! O Fora da Lei dos Mares!', id: 'Ini9Ziuhz_M' },
+					{ name: 'Socorro, Deep Bite!', id: 'ZdEtjdIbBh4' },
+					{ name: 'Imaculadas Asas Brancas, Sky Gallop', id: '2nPc20St3us' },
+					{ name: 'O Trem Fantasma da Meia-Noite', id: 'r2W9OkNQjIQ', fx: true },
+					{ name: 'Locomotiva Desgovernada, Blastrain', id: 'ERhxa8LiPmw' },
+					{ name: 'Extra! Extra! Entrevista de Aço', id: 'AC1GDGiJ3hA' },
+					{ name: 'Luta Justa! Irmãos Vector e Bit', id: 'nr8xAuarerk' },
+					{ name: 'O Verdadeiro Mestre do Metal Breath', id: 'wbj59CLjZuA' },
+					{ name: 'O Confronto Final de Glober', id: 'xJbp4uef1ro' },
+					{ name: 'O Presente de Mukara', id: 'cvzhjJ7RJgE', fx: true },
+					{ name: 'O Renascimento de Flame Nova', id: 'BEjuMKd_Cew' },
+					{ name: 'Em Busca da Speranza', id: 'arhU41qy4ic' },
+					{ name: 'Batalha da Arca Vermelha', id: '8nGDlfiNOG8', fx: true },
+					{ name: 'O Retorno do Aço', id: 'ACqsVI_TFl4', fx: true }
+				]
 			}
 		]
 	},
