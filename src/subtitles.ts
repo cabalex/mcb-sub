@@ -342,6 +342,26 @@ const subtitles: Season[] = [
 					{ name: "また？謎の転校生", id: 'xOvh1DkkyKg', label: '5話' },
 					{ name: "タンクを手懐けよう", id: 'EFcWlHgevXk', label: '6話' }
 				]
+			},
+			{
+				name: 'Português',
+				path: '/pt-br',
+				incomplete: true,
+				language: 'pt-br',
+				credits: [
+					{ name: 'Metal Cardbots Brasil', link: 'https://youtube.com/@metal.cardbotsbrasil' }
+				],
+				episodes: [
+					{ name: 'Teaser', id: '4J3vusCIhhc', label: 'Teaser' },
+					{ name: 'Abertura', id: 'wuMN8mCNLdk', label: 'OP' },
+					{ name: 'Era de Mudanças', id: 'igqcOBDjKYE', intro: 71 },
+					{ name: 'O Rugido dos Wild Cardbots', id: '91ZQRAqYUj4', intro: 71 },
+					{ name: 'Garras, Asas e Presas', id: 'Yjj9oBZlp1M' },
+					{ name: 'Captura', id: 'S7fdeOjtINQ'},
+					{ name: 'De Novo? A Misteriosa Aluna Transferida', id: 'xOvh1DkkyKg' },
+					{ name: 'Domando um Tanque', id: 'EFcWlHgevXk' },
+					{ name: 'Uma Dupla Dinâmica', id: 'susQlAQvlpw' }
+				]
 			}
 		]
 	}
