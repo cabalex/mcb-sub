@@ -1,0 +1,813 @@
+1
+00:00:01,993 --> 00:00:05,386
+Extra! Extra! O Repórter de Aço!
+
+2
+00:00:08,143 --> 00:00:11,127
+Que tempo é esse? Justo agora que
+estamos transportando um tesouro valioso.
+
+3
+00:00:11,127 --> 00:00:15,153
+Tenha cuidado. Quando entregarmos isso,
+vamos ficar milionários!
+
+4
+00:00:15,153 --> 00:00:17,280
+Heh. Pode ficar tranquilo!
+
+5
+00:00:20,640 --> 00:00:23,578
+Está bagunçando tudo aí atrás!
+Pilote com mais cuidado!
+
+6
+00:00:23,602 --> 00:00:26,777
+Pare de gritar comigo! Foi você
+quem escolheu essa lata velha!
+
+7
+00:00:26,777 --> 00:00:27,777
+O que você disse?!
+
+8
+00:00:33,836 --> 00:00:36,672
+Está tudo chacoalhando!
+
+9
+00:00:38,426 --> 00:00:39,518
+Droga!
+
+10
+00:00:40,109 --> 00:00:41,819
+A-a placa!
+
+11
+00:00:55,723 --> 00:00:57,084
+Que delícia!
+
+12
+00:00:57,293 --> 00:00:59,601
+Um milk-shake saindo!
+
+13
+00:00:59,625 --> 00:01:03,637
+Tio Johan! Seus picles caseiros
+são os melhores!
+
+14
+00:01:03,670 --> 00:01:05,114
+Quer os meus também?
+
+15
+00:01:05,114 --> 00:01:09,153
+Ei, espera! Não jogue seus picles
+no prato do Peruru só porque não gosta!
+
+16
+00:01:09,153 --> 00:01:11,206
+Me pegou...
+
+17
+00:01:11,206 --> 00:01:13,594
+Como alguém pode não gostar
+de picles tão deliciosos?
+
+18
+00:01:13,618 --> 00:01:18,128
+Na noite passada, um avião de carga que
+sobrevoava Mowtown caiu nas montanhas.
+
+19
+00:01:18,152 --> 00:01:21,630
+Não houve vítimas, mas a causa
+do acidente ainda é desconhecida.
+
+20
+00:01:21,654 --> 00:01:22,664
+Caramba...
+
+21
+00:01:22,688 --> 00:01:25,733
+Suspeita-se de ligação com o objeto
+voador visto sobre Mowtown, mas...
+
+22
+00:01:25,757 --> 00:01:26,757
+É o Crest!
+
+23
+00:01:27,208 --> 00:01:28,208
+Fala Crest!
+
+24
+00:01:28,426 --> 00:01:31,013
+Jun! Descobri onde está
+a terceira placa de Metal Card!
+
+25
+00:01:31,622 --> 00:01:32,622
+Onde?
+
+26
+00:01:32,646 --> 00:01:35,144
+Naquele avião de carga
+que caiu ontem à noite!
+
+27
+00:01:41,412 --> 00:01:43,835
+Ele ainda não deve ter ido muito longe.
+
+28
+00:01:51,678 --> 00:01:55,530
+Onde é que eu estou? Ai!
+
+29
+00:01:56,363 --> 00:01:59,342
+Tenho certeza de que esta
+não é a montanha de Porcaca.
+
+30
+00:02:01,589 --> 00:02:03,876
+O que aconteceu enquanto eu dormia?
+
+31
+00:02:06,171 --> 00:02:07,721
+Hã? Esse barulho...
+
+32
+00:02:12,262 --> 00:02:14,932
+Ufa! Achei que estivesse sozinho por aqui.
+
+33
+00:02:15,343 --> 00:02:16,343
+Oiê.
+
+34
+00:02:16,692 --> 00:02:18,373
+Ah... O-oi...
+
+35
+00:02:20,187 --> 00:02:21,686
+Monstro!
+
+36
+00:02:21,686 --> 00:02:23,742
+E-ei! Espera!
+
+37
+00:02:24,716 --> 00:02:25,781
+O que deu nele?
+
+38
+00:02:25,781 --> 00:02:28,648
+Olá! Pode me dizer onde eu estou?
+
+39
+00:02:30,278 --> 00:02:33,627
+Está com vergonha? Então...
+
+40
+00:02:33,961 --> 00:02:36,949
+Cócegas, cócegas, cócegas!
+cócegas, cócegas!
+
+41
+00:02:38,935 --> 00:02:40,517
+Por que está me ignorando?
+
+42
+00:02:40,541 --> 00:02:41,541
+Pera aí...
+
+43
+00:02:42,638 --> 00:02:44,738
+Você não é um Metal Cardbot?
+
+44
+00:02:52,725 --> 00:02:54,121
+Vocês chegaram cedo.
+
+45
+00:02:54,145 --> 00:02:55,287
+Onde foi o acidente?
+
+46
+00:02:55,514 --> 00:02:56,724
+Por aqui.
+
+47
+00:02:57,210 --> 00:02:59,565
+Socorroooo!!
+
+48
+00:03:01,845 --> 00:03:04,338
+Apareceu um m-m-monstro!
+
+49
+00:03:04,362 --> 00:03:06,369
+O quê? O senhor está bem?
+
+50
+00:03:06,393 --> 00:03:08,338
+E aí, pessoaaaaal?!
+
+51
+00:03:11,211 --> 00:03:14,669
+Pode me contar com mais detalhes
+como era esse monstro?
+
+52
+00:03:14,693 --> 00:03:16,252
+Ele de novo.
+
+53
+00:03:16,276 --> 00:03:17,276
+Quem é ele?
+
+54
+00:03:17,300 --> 00:03:22,081
+É fotojornalista do Mowtown Times.
+Acho que é o jornal do pai da Vera.
+
+55
+00:03:22,105 --> 00:03:23,318
+Saquei...
+
+56
+00:03:23,318 --> 00:03:26,059
+Com licença.
+Aqui está meu cartão.
+
+57
+00:03:26,083 --> 00:03:27,907
+Mowtown Times?
+
+58
+00:03:28,315 --> 00:03:30,756
+Esse monstro era um robô gigante?
+
+59
+00:03:31,563 --> 00:03:34,598
+Hã... Pensando bem,
+até que parecia...
+
+60
+00:03:35,158 --> 00:03:36,514
+Onde você o viu?!
+
+61
+00:03:36,538 --> 00:03:38,186
+Logo ali, nesta estrada.
+
+62
+00:03:38,210 --> 00:03:40,396
+Será que o "monstro"
+que ele viu é um...?
+
+63
+00:03:40,420 --> 00:03:42,300
+Pois é. Também estou
+com um mau pressentimento.
+
+64
+00:03:42,324 --> 00:03:44,230
+Vamos rápido.
+
+65
+00:03:48,566 --> 00:03:52,882
+Repórter Musclehyde, do Cardian's Post.
+Aceitaria uma entrevista?
+
+66
+00:03:55,606 --> 00:03:57,899
+Nunca vi uma máquina como aquela.
+
+67
+00:03:57,923 --> 00:04:00,876
+Desde quando os humanos
+constroem coisas idênticas a nós?
+
+68
+00:04:03,931 --> 00:04:08,404
+Que lugar é este?
+Não parece com Porcaca.
+
+69
+00:04:09,726 --> 00:04:14,692
+Por que estou aqui?
+Onde estão os meus colegas?
+
+70
+00:04:18,134 --> 00:04:20,115
+Claro que você não saberia.
+
+71
+00:04:22,223 --> 00:04:23,686
+Tem alguém vindo?
+
+72
+00:04:27,307 --> 00:04:29,999
+Foi aqui que ele viu
+o tal monstro, não foi?
+
+73
+00:04:30,023 --> 00:04:31,966
+Por que está seguindo a gente?!
+
+74
+00:04:32,670 --> 00:04:35,216
+Espera, você é
+aquele amigo da Vera!
+
+75
+00:04:35,240 --> 00:04:36,352
+Agora que caiu a ficha?
+
+76
+00:04:36,376 --> 00:04:39,746
+Ótimo! Quer me ajudar
+a procurar aquele robô?
+
+77
+00:04:39,770 --> 00:04:41,348
+R-robô?
+
+78
+00:04:41,372 --> 00:04:43,856
+O monstro que o caminhoneiro viu!
+
+79
+00:04:43,880 --> 00:04:45,717
+E que prova você tem
+de que era um robô?
+
+80
+00:04:45,741 --> 00:04:48,118
+Tem razão, não tenho prova nenhuma.
+
+81
+00:04:48,149 --> 00:04:52,627
+Tirei fotos, mas, por algum motivo,
+todos os dados foram apagados.
+
+82
+00:04:53,247 --> 00:04:55,985
+Por causa disso, levei a
+maior bronca do editor-chefe.
+
+83
+00:04:56,009 --> 00:04:58,669
+E a Vera ainda ficou me zoando.
+
+84
+00:04:59,855 --> 00:05:01,781
+Será que pegamos pesado com ele?
+
+85
+00:05:02,634 --> 00:05:04,486
+Pode esperar, editor-chefe!
+
+86
+00:05:04,510 --> 00:05:07,770
+- Eu ainda vou mostrar do que sou capaz!!
+- Pera aí, pô.
+
+87
+00:05:07,794 --> 00:05:10,850
+Vou revelar o segredo
+desse monstro!
+
+88
+00:05:10,874 --> 00:05:15,968
+Um monstro, é? Como imaginei, o povo daqui
+não parece gostar muito da nossa espécie.
+
+89
+00:05:25,143 --> 00:05:27,126
+BUUUUU!!!
+
+90
+00:05:29,422 --> 00:05:32,238
+Vão embora, ou eu devoro vocês!
+
+91
+00:05:32,704 --> 00:05:35,238
+Socorroooo!
+
+92
+00:05:38,288 --> 00:05:39,841
+Ufa!
+
+93
+00:05:39,866 --> 00:05:42,153
+Ué? Por que vocês
+não estão fugindo?
+
+94
+00:05:42,177 --> 00:05:44,048
+Você é um Metal Cardbot, não é?
+
+95
+00:05:44,072 --> 00:05:46,329
+O quê? Espera!
+Vocês sabem quem somos?!
+
+96
+00:05:46,353 --> 00:05:48,068
+Sim, sabemos.
+
+97
+00:05:48,468 --> 00:05:49,540
+Essa voz...
+
+98
+00:05:51,530 --> 00:05:53,156
+Quanto tempo, Musclehyde.
+
+99
+00:05:53,342 --> 00:05:54,677
+Cielo!!
+
+100
+00:05:55,421 --> 00:05:58,565
+- Me põe no chão!
+- Que saudade!
+
+101
+00:05:58,589 --> 00:06:01,687
+O que está acontecendo?
+Que lugar é este?
+
+102
+00:06:01,711 --> 00:06:05,499
+Calma. Primeiro,
+conheça meus novos amigos.
+
+103
+00:06:06,169 --> 00:06:10,176
+Repórter Musclehyde, do Cardian's Post.
+Aceitaria uma entrevista?
+
+104
+00:06:10,200 --> 00:06:11,231
+Uma entrevista?
+
+105
+00:06:11,255 --> 00:06:13,671
+Você não mudou nada.
+Ainda não perdeu essa mania de repórter.
+
+106
+00:06:13,695 --> 00:06:15,663
+Tinha jornal no planeta Machina?
+
+107
+00:06:15,687 --> 00:06:18,807
+Sim, mas eram bem diferentes
+dos jornais da Terra.
+
+108
+00:06:18,807 --> 00:06:21,183
+Esse é o Metal Breath de Mukara.
+
+109
+00:06:21,589 --> 00:06:26,149
+Por que ele está com você?
+E por que tem um Star Guardian selado den-
+
+110
+00:06:26,149 --> 00:06:27,584
+Onde está Mukara?
+
+111
+00:06:27,584 --> 00:06:30,906
+Ele não está mais entre nós.
+Morreu há muito tempo.
+
+112
+00:06:30,930 --> 00:06:32,289
+M-morreu?!
+
+113
+00:06:32,313 --> 00:06:35,465
+Enquanto dormíamos,
+4.000 anos se passaram na Terra.
+
+114
+00:06:35,489 --> 00:06:36,756
+4.000 anos?!
+
+115
+00:06:37,223 --> 00:06:40,297
+Também não sabemos
+onde o Capitão Gigantrex foi parar.
+
+116
+00:06:40,321 --> 00:06:44,127
+Não pode ser!
+É pior do que eu imaginava!
+
+117
+00:06:44,151 --> 00:06:48,619
+Não se preocupe!
+Eu vou ajudar a encontrar seus amigos!
+
+118
+00:06:48,972 --> 00:06:51,140
+Então... Quem é você?
+
+119
+00:06:51,320 --> 00:06:54,047
+Eu sou o Jun!
+Prazer em conhecer!
+
+120
+00:06:54,071 --> 00:06:56,440
+Jun...
+
+121
+00:06:57,168 --> 00:06:59,218
+Não caia nessa, Musclehyde!
+
+122
+00:07:01,927 --> 00:07:03,072
+Red Blitz!
+
+123
+00:07:03,096 --> 00:07:05,080
+Red Blitz!
+Você também está bem!
+
+124
+00:07:05,104 --> 00:07:07,037
+Não se deixe enganar
+por esse moleque!
+
+125
+00:07:09,183 --> 00:07:13,149
+Ele quer usar o Metal Breath
+do Mukara para nos controlar!
+
+126
+00:07:13,173 --> 00:07:14,173
+O quê?
+
+127
+00:07:14,197 --> 00:07:18,239
+Isso não é verdade! O Jun jamais faria
+isso! É só ouvir o que ele tem a dizer!
+
+128
+00:07:18,263 --> 00:07:19,790
+O que está acontecendo?
+
+129
+00:07:19,814 --> 00:07:23,287
+Cielo, você caiu nas
+mentiras desse garoto?!
+
+130
+00:07:23,311 --> 00:07:25,504
+Então agora você também é minha inimiga!
+
+131
+00:07:40,517 --> 00:07:42,219
+Larga disso, Red Blitz!
+
+132
+00:07:47,343 --> 00:07:48,343
+Cielo!
+
+133
+00:07:48,589 --> 00:07:51,650
+Jun! A Cielo vai precisar
+de ajuda com o Red Blitz!
+
+134
+00:07:52,636 --> 00:07:54,584
+Metal Breath, Pick Up!
+
+135
+00:07:58,250 --> 00:08:00,250
+Blue Cop S, Set Up!
+
+136
+00:08:17,258 --> 00:08:19,519
+Blue Cop! Star Rising Shot!
+
+137
+00:08:19,884 --> 00:08:22,610
+Star Rising Shot!
+
+138
+00:08:26,811 --> 00:08:28,403
+Acha que isso vai funcionar de novo?!
+
+139
+00:08:28,427 --> 00:08:30,312
+Scarlet Typhoon!
+
+140
+00:08:30,343 --> 00:08:31,651
+Defenda, Blue Cop!
+
+141
+00:08:33,639 --> 00:08:34,639
+Fiquem para trás!
+
+142
+00:08:34,663 --> 00:08:35,663
+Cuidado!
+
+143
+00:08:36,576 --> 00:08:39,490
+Hoje eu recupero
+esse Metal Breath de uma vez por todas!
+
+144
+00:08:39,804 --> 00:08:42,222
+Olha quem fala!
+Devolva o meu Metal Breath!
+
+145
+00:08:42,246 --> 00:08:44,448
+Eu sei que você roubou aquele também!
+
+146
+00:08:45,467 --> 00:08:46,467
+Jun!
+
+147
+00:08:48,355 --> 00:08:49,355
+Cielo!
+
+148
+00:08:49,379 --> 00:08:51,100
+Não se mete, Cielo!
+
+149
+00:08:51,569 --> 00:08:54,723
+Desculpa, Red Blitz. Mas esse
+foi ao lado dele que escolhi ficar.
+
+150
+00:08:54,754 --> 00:08:56,022
+Traíra!
+
+151
+00:08:56,218 --> 00:08:59,550
+Você precisa esfriar essa cabeça!
+
+152
+00:09:01,893 --> 00:09:02,918
+Red Blitz!
+
+153
+00:09:06,466 --> 00:09:07,466
+Jun!
+
+154
+00:09:07,490 --> 00:09:08,490
+Certo!
+
+155
+00:09:09,423 --> 00:09:10,999
+Cielo! Set Up!
+
+156
+00:09:24,508 --> 00:09:26,158
+Crimson Shoot!
+
+157
+00:09:28,300 --> 00:09:29,863
+Skyjet Shot!
+
+158
+00:09:29,887 --> 00:09:31,326
+Skyjet Shot!
+
+159
+00:09:34,823 --> 00:09:36,487
+Musclehyde! Me ajuda aqui!
+
+160
+00:09:39,024 --> 00:09:40,341
+Homing Magnum!
+
+161
+00:09:49,296 --> 00:09:51,214
+Blue Cop! Star Rising Shot!
+
+162
+00:09:57,194 --> 00:09:58,555
+Musclehyde!!
+
+163
+00:10:02,743 --> 00:10:04,256
+Vamos acabar com isso!
+
+164
+00:10:04,554 --> 00:10:08,684
+Blue Cop! Meteor Bolt Punch!
+
+165
+00:10:09,573 --> 00:10:11,478
+Meteor Bolt...
+
+166
+00:10:15,456 --> 00:10:16,841
+Punch!!
+
+167
+00:10:17,201 --> 00:10:18,201
+O quê?!
+
+168
+00:10:25,842 --> 00:10:27,092
+Essa forma é...
+
+169
+00:10:28,980 --> 00:10:30,322
+Quanta força!
+
+170
+00:10:32,156 --> 00:10:35,952
+Foram os meus entrevistados
+que me deram este título:
+
+171
+00:10:36,303 --> 00:10:38,703
+O repórter mais forte de todos...
+
+172
+00:10:38,727 --> 00:10:41,548
+Musclehyde, os Braços de Aço!
+
+173
+00:10:41,572 --> 00:10:43,269
+Esses braços estão prendendo o Blue Cop.
+
+174
+00:10:43,293 --> 00:10:45,506
+Um, dois, três...
+
+175
+00:10:48,456 --> 00:10:49,456
+Cuidado!
+
+176
+00:10:49,480 --> 00:10:51,307
+Blue Cop!
+Saia daí, rápido!
+
+177
+00:10:51,331 --> 00:10:52,802
+Bronto Strike!
+
+178
+00:11:04,251 --> 00:11:06,956
+Você continua forte
+como sempre, Musclehyde.
+
+179
+00:11:07,519 --> 00:11:12,574
+O que foi? Volte aqui
+para continuarmos a entrevista!
+
+180
+00:11:14,592 --> 00:11:17,057
+Já encontrei o Musclehyde hoje.
+Por mim, basta.
+
+181
+00:11:18,341 --> 00:11:19,663
+Vamos, Musclehyde.
+
+182
+00:11:20,347 --> 00:11:22,368
+Ah! Red Blitz!
+Espera por mim!
+
+183
+00:11:23,807 --> 00:11:25,835
+Musclehyde!
+Ainda tenho coisa para dizer-
+
+184
+00:11:25,859 --> 00:11:28,277
+Cielo. Não precisa ir atrás deles.
+
+185
+00:11:28,301 --> 00:11:29,301
+O quê?
+
+186
+00:11:29,325 --> 00:11:32,647
+Tenho certeza de que
+vamos encontrá-los de novo em breve.
+
+187
+00:11:34,797 --> 00:11:35,797
+Tomara.
+

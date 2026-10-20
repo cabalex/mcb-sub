@@ -49,7 +49,7 @@ apenas no planeta Machina.
 
 13
 00:00:34,373 --> 00:00:38,790
-O metal do núcleo dos Metal Cardbots
+O metal do coração dos Metal Cardbots
 também é feito de machinásio.
 
 14
@@ -188,7 +188,7 @@ planeta em uma cópia do planeta Machina.
 
 46
 00:02:17,592 --> 00:02:21,060
-Eu a roubei e a trouxe para cá,
+Eu a roubei e trouxe ela para cá,
 mas Heavy Iron a tomou de mim!
 
 47
