@@ -301,7 +301,7 @@ const subtitles: Season[] = [
 				path: '/pt-br',
 				language: 'pt-br',
 				credits: [
-					{ name: 'Metal Cardbots Brasil', link: 'https:youtube.com/@metal.cardbotsbrasil' }
+					{ name: 'Metal Cardbots Brasil', link: 'https://youtube.com/@metal.cardbotsbrasil' }
 				],
 				episodes: [
 					{ name: 'Abertura', id: 'w3QOebaRTSI', label: 'OP' },
