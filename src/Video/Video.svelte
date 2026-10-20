@@ -233,6 +233,9 @@
 			{ start: 9 * 60 + 10.3, end: 9 * 60 + 11, animation: 'slice' },
 			{ start: 9 * 60 + 11, end: 9 * 60 + 35, animation: 'sliceAfter' },
 			{ start: 9 * 60 + 35, end: 9 * 60 + 39.15, animation: 'fnDie' }
+		],
+		BpWCQI2KsvE: [
+			{ start: 8 * 60 + 1.25, end: 8 * 60 + 6.8, animation: 'powerOff' }
 		]
 	};
 	function getScreenspaceEffect(target: any) {

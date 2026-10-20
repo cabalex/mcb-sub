@@ -321,7 +321,8 @@ const subtitles: Season[] = [
 					{ name: "Capture", id: 'S7fdeOjtINQ'},
 					{ name: "Again? The Mysterious Transfer Student", id: 'xOvh1DkkyKg' },
 					{ name: "Taming a Tank", id: 'EFcWlHgevXk' },
-					{ name: "A Fantastic Duo", id: 'susQlAQvlpw' }
+					{ name: "A Fantastic Duo", id: 'susQlAQvlpw' },
+					{ name: "Soleil and Friends", id: 'BpWCQI2KsvE' }
 				]
 			},
 			{
