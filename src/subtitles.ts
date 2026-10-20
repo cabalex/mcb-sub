@@ -398,7 +398,8 @@ const subtitles: Season[] = [
 					{ name: 'Captura', id: 'S7fdeOjtINQ'},
 					{ name: 'De Novo? A Misteriosa Aluna Transferida', id: 'xOvh1DkkyKg' },
 					{ name: 'Domando um Tanque', id: 'EFcWlHgevXk' },
-					{ name: 'Uma Dupla Dinâmica', id: 'susQlAQvlpw' }
+					{ name: 'Uma Dupla Dinâmica', id: 'susQlAQvlpw' },
+					{ name: 'Soleil e Seus Amigos', id: 'BpWCQI2KsvE', fx: true }
 				]
 			}
 		]
