@@ -288,7 +288,7 @@ const subtitles: Season[] = [
 					{ name: '独占！鋼鉄のインタビュー', id: 'AC1GDGiJ3hA', label: '18話' },
 					{ name: '正々堂々！ベクトルとビット兄弟！', id: 'nr8xAuarerk', label: '19話' },
 					{ name: 'メタルブレスの真の主', id: 'wbj59CLjZuA', label: '20話' },
-					{ name: 'グローバーの最期', id: 'xJbp4uef1ro', label: '21話' },
+					{ name: 'グロバーの最期', id: 'xJbp4uef1ro', label: '21話' },
 					{ name: 'ムカラの贈り物', id: 'cvzhjJ7RJgE', label: '22話', fx: true },
 					{ name: 'フレイムノヴァの復活', id: 'BEjuMKd_Cew', label: '23話' },
 					{ name: 'スペランサ号を探して', id: 'arhU41qy4ic', label: '24話' },
@@ -378,7 +378,9 @@ const subtitles: Season[] = [
 					{ name: '爪、翼、そして歯', id: 'Yjj9oBZlp1M', label: '3話' },
 					{ name: "捕獲", id: 'S7fdeOjtINQ', label: '4話' },
 					{ name: "また？謎の転校生", id: 'xOvh1DkkyKg', label: '5話' },
-					{ name: "タンクを手懐けよう", id: 'EFcWlHgevXk', label: '6話' }
+					{ name: "タンクを手懐けよう", id: 'EFcWlHgevXk', label: '6話' },
+					{ name: "幻想のコンビ", id: 'susQlAQvlpw', label: '7話' },
+					{ name: "ソレイユと友達", id: 'BpWCQI2KsvE', label: '8話', fx: true }
 				]
 			},
 			{
