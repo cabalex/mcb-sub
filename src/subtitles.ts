@@ -359,7 +359,8 @@ const subtitles: Season[] = [
 					{ name: "Again? The Mysterious Transfer Student", id: 'xOvh1DkkyKg' },
 					{ name: "Taming a Tank", id: 'EFcWlHgevXk' },
 					{ name: "A Fantastic Duo", id: 'susQlAQvlpw' },
-					{ name: "Soleil and Friends", id: 'BpWCQI2KsvE', fx: true }
+					{ name: "Soleil and Friends", id: 'BpWCQI2KsvE', fx: true },
+					{ name: "The Lucky One Who Knows How To Have Fun", id: 'QmH9kQm0N68' }
 				]
 			},
 			{
@@ -472,7 +473,12 @@ export const translationNotes: { [key: string]: { [key: string]: string } } = {
 		YGHc9jfOsb0: `<p>At <span class="timestamp">4:32</span>, Mega Trucker says the line "It's an acorn measuring contest." to refer to pointless fight between Jun and Shadow X.</p>
 		<p>In Korean, the phrase "도토리 키재기" (<i>dotoriki jaegi</i>, literally "acorn height measuring") refers to a comparison between small or insignificant things, like acorns. It's used humorously to point out that there isn't really a difference between the two things being compared (Jun and Shadow X act the same).</p>
 		<p>The dub uses "Like apples to oranges" to convey this phrase, but that's the wrong saying ("apples to oranges" means two things that can't be compared because they're so different). We used "Like apples to apples", but a similar, much more vulgar saying in English would be "It's a pissing contest".</p>`,
-		rFlGRxXwTgc: `<p>For some reason, Jun calls this episode "Blue Cop's Special Training" despite the episode not being named that.`
+		rFlGRxXwTgc: `<p>For some reason, Jun calls this episode "Blue Cop's Special Training" despite the episode not being named that.`,
+		QmH9kQm0N68: `
+		<p>Tachy infamously uses a Gyeongsang dialect, specifically from the city of Daegu. It is known for being fast, efficient, and to the point, and when given as a character trait, it gives off the personality of being cute, funny, and charismatic. Tigun also mimics this accent for a line at <span class="timestamp">2:58</span>.</p>
+		<p>We struggled with finding an equivalent English dialect for Tachy. An intuitive choice most translations would gravitate towards is a Southern American accent, as both are more rural regions associated with a more blunt/rough way of speaking. But Daegu isn't <i>that</i> rural, and Southern accents are usually significantly slower; we ultimately ended up aiming for a more Brooklyn/New York-style accent that preserves those traits. (We were also somewhat inspired by <a href="https://x.com/eeso_world/status/2077665059824873732" target="_blank" rel="noopener noreferrer">storyboard artist Seoyeon Lee's fan art of Tachy as a street dancer</a>.)</p>
+		<p>We're not entirely satisfied with the final result, but we also didn't want to overdo it and make it too hard to read. Dialects and accents work much better as an audible trait, not as written text.</p>
+		<p>Tachy also gives Blue Cop a specific hairdo at <span class="timestamp">3:11</span>. In Korea, this is a typical Korean mom hairstyle called the "Ajumma Curly Perm", often seen on <a href="https://entreaout.tistory.com/entry/K%ED%8E%8C%EC%9D%98-%EC%9B%90%EC%A1%B0-%EC%95%84%EC%A4%8C%EB%A7%88-%ED%8C%8C%EB%A7%88" target="_blank" rel="noopener noreferrer">many older mother characters in Korean cartoons or TV shows</a>.`
 	}
 };
 
