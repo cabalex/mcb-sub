@@ -360,7 +360,8 @@ const subtitles: Season[] = [
 					{ name: "Taming a Tank", id: 'EFcWlHgevXk' },
 					{ name: "A Fantastic Duo", id: 'susQlAQvlpw' },
 					{ name: "Soleil and Friends", id: 'BpWCQI2KsvE', fx: true },
-					{ name: "The Lucky One Who Knows How To Have Fun", id: 'QmH9kQm0N68' }
+					{ name: "The Lucky One Who Knows How To Have Fun", id: 'QmH9kQm0N68' },
+					{ name: "The Wrath of the Great Earth", id: 'exH3Kj4MOtc' }
 				]
 			},
 			{

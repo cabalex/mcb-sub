@@ -1,0 +1,948 @@
+1
+00:00:01,054 --> 00:00:03,060
+The Wrath of the Great Earth
+
+2
+00:00:04,855 --> 00:00:06,421
+Did you make a wish?
+
+3
+00:00:06,421 --> 00:00:07,392
+What do you mean?
+
+4
+00:00:07,392 --> 00:00:13,095
+The people of this planet believe that if we make a wish upon a shooting star, it will come true. What would you wish for?
+
+5
+00:00:13,095 --> 00:00:17,013
+Maybe I’d wish for all of the Wild Cardbots to be able to live peacefully on this planet.
+
+6
+00:00:17,013 --> 00:00:18,429
+What would you wish for?
+
+7
+00:00:18,429 --> 00:00:22,888
+Me? I'd wish... What would I wish for?
+
+8
+00:00:24,096 --> 00:00:26,251
+Oh. Speaking of which...
+
+9
+00:00:26,251 --> 00:00:27,986
+No. That's...
+
+10
+00:00:27,986 --> 00:00:29,507
+That's not a shooting star!
+
+11
+00:00:31,721 --> 00:00:32,582
+Hm?
+
+12
+00:00:39,140 --> 00:00:39,878
+WAAAAGH!!
+
+13
+00:00:39,878 --> 00:00:42,152
+Roar?! What was that?! An enemy ambush?!
+
+14
+00:00:42,152 --> 00:00:45,503
+Given the force of the impact, it must've occurred not too far from here.
+
+15
+00:00:45,503 --> 00:00:46,442
+Jun!
+
+16
+00:00:47,472 --> 00:00:49,070
+Something fell from the sky.
+
+17
+00:00:49,658 --> 00:00:50,506
+Let's go!
+
+18
+00:00:52,030 --> 00:00:52,979
+Be careful down there.
+
+19
+00:00:52,979 --> 00:00:54,326
+Sir. Thank you for your service at this hour!
+
+20
+00:00:54,987 --> 00:00:55,649
+Soleil!
+
+21
+00:00:55,649 --> 00:00:56,463
+Jun!
+
+22
+00:00:57,305 --> 00:00:59,490
+Is that what I think it is?
+
+23
+00:00:59,490 --> 00:01:02,890
+Yes. It must be an escape pod from planet Machina.
+
+24
+00:01:02,890 --> 00:01:04,198
+That escape pod looks like...!
+
+25
+00:01:04,198 --> 00:01:05,992
+I wonder who's in there...
+
+26
+00:01:05,992 --> 00:01:07,917
+I think that may be the passenger.
+
+27
+00:01:08,763 --> 00:01:12,998
+So, this is the Metal Cardbot who was inside the escape pod?
+
+28
+00:01:12,998 --> 00:01:14,930
+You sure it isn't just a regular excavator?
+
+29
+00:01:14,930 --> 00:01:17,753
+Yes. But no matter how many times I call out to them, they won’t respond.
+
+30
+00:01:17,753 --> 00:01:20,212
+Do you think they were damaged by the impact of the landing?
+
+31
+00:01:20,212 --> 00:01:21,849
+They'll wake up after I pick a fight with 'em!
+
+32
+00:01:21,849 --> 00:01:22,754
+Mind if I join in?
+
+33
+00:01:22,754 --> 00:01:23,263
+Eh?
+
+34
+00:01:23,263 --> 00:01:25,335
+This is no time for jokes.
+
+35
+00:01:25,335 --> 00:01:27,986
+Uncle Edd, you’re not doing a half-hearted job back there, are you?
+
+36
+00:01:27,986 --> 00:01:29,885
+I'm doing everything I can, thank you very much!
+
+37
+00:01:29,885 --> 00:01:32,506
+Why not just seal them now, regardless of whether they wake up or not?
+
+38
+00:01:32,506 --> 00:01:38,247
+Soleil... How would you feel if somebody locked you up inside a cramped room while you were asleep, without your permission?
+
+39
+00:01:38,247 --> 00:01:39,977
+I'd... close my heart to them.
+
+40
+00:01:39,977 --> 00:01:40,875
+Right?
+
+41
+00:01:40,875 --> 00:01:43,146
+Jun, how about you scan them with your Metal Breath?
+
+42
+00:01:43,146 --> 00:01:45,274
+Ah! I forgot I could do that.
+
+43
+00:01:46,227 --> 00:01:47,859
+(Hm. This gives me deja vu...)
+
+44
+00:01:47,859 --> 00:01:51,109
+[Data Retrieval Complete. Wild Cardbot. Codename: Solid Horn.]
+
+45
+00:01:51,109 --> 00:01:51,606
+What?!
+
+46
+00:01:51,606 --> 00:01:52,576
+Did it say Solid Horn?!
+
+47
+00:01:52,576 --> 00:01:53,746
+You mean this guy?!
+
+48
+00:01:53,746 --> 00:01:54,820
+Do you know who he is?
+
+49
+00:01:54,820 --> 00:01:58,134
+He is the chieftain of the Monohorn tribe, which ruled the forested region of planet Machina.
+
+50
+00:01:58,134 --> 00:01:59,204
+He's a chieftain?
+
+51
+00:01:59,204 --> 00:02:05,082
+How strange. The way I know him, he’s the sort who pierces rocks with his horn and shakes the earth with his hammer.
+
+52
+00:02:05,082 --> 00:02:06,862
+Yet, he looks rather small for that.
+
+53
+00:02:06,862 --> 00:02:08,235
+What, he doesn't look the same or something?
+
+54
+00:02:08,235 --> 00:02:10,223
+But the scan says it's him.
+
+55
+00:02:10,223 --> 00:02:12,888
+There's no way there would be an error in the Metal Breath's data.
+
+56
+00:02:12,888 --> 00:02:14,413
+Solid Horn...
+
+57
+00:02:14,413 --> 00:02:20,139
+He was a fearsome Wild Cardbot warrior who single-handedly pushed an entire squad of Star Guardians to the very brink of annihilation.
+
+58
+00:02:20,139 --> 00:02:22,334
+I was part of that squad as well.
+
+59
+00:02:24,579 --> 00:02:29,806
+However, his rampage was barely halted thanks to Flame Nova, who was my superior at the time...
+
+60
+00:02:29,806 --> 00:02:31,278
+Flame Nova stopped him?
+
+61
+00:02:37,866 --> 00:02:41,427
+...and eventually, he was arrested and sealed away in the prison known as "Trion".
+
+62
+00:02:41,627 --> 00:02:43,507
+Are we really sure this is the same guy?
+
+63
+00:02:43,507 --> 00:02:46,325
+This situation feels kind of familiar...
+
+64
+00:02:46,325 --> 00:02:48,010
+[Inspector, a vehicle is approaching.]
+
+65
+00:02:48,010 --> 00:02:49,625
+Copy that. Let it through.
+
+66
+00:02:49,625 --> 00:02:50,281
+Crest!
+
+67
+00:02:50,281 --> 00:02:52,858
+I had a feeling that everyone would be gathered here. Hello, inspector.
+
+68
+00:02:52,858 --> 00:02:53,694
+Big brother.
+
+69
+00:02:53,694 --> 00:02:54,718
+Soleil.
+
+70
+00:02:54,718 --> 00:02:55,944
+What did you bring with you?
+
+71
+00:02:55,944 --> 00:02:56,651
+Ah, that's-
+
+72
+00:02:56,651 --> 00:02:59,865
+We'll tell you later. We came here because of the meteor that fell around here last night.
+
+73
+00:03:00,401 --> 00:03:02,313
+A total of three meteors fell.
+
+74
+00:03:02,313 --> 00:03:03,306
+Three?
+
+75
+00:03:03,306 --> 00:03:06,484
+I, too, clearly saw the meteor split into three pieces as it was falling.
+
+76
+00:03:06,484 --> 00:03:11,318
+And it looks like one of those meteors fell 25 kilometers west of Mowtown.
+
+77
+00:03:11,318 --> 00:03:15,412
+I was informed that it was a meteorite, but I guess it must've been another escape pod.
+
+78
+00:03:15,412 --> 00:03:17,114
+Yes. That's highly likely.
+
+79
+00:03:17,114 --> 00:03:20,121
+The first escape pod we found is the same kind of pod that Heavy Iron had arrived in.
+
+80
+00:03:20,121 --> 00:03:22,109
+Oh! I knew this all felt familiar!
+
+81
+00:03:22,109 --> 00:03:23,930
+Heavy Iron? That semi-trailer truck?
+
+82
+00:03:23,930 --> 00:03:27,319
+When he came to Earth in that escape pod, it had split into several separate pods, just like this one did.
+
+83
+00:03:27,319 --> 00:03:30,030
+Yeah. His body was also split into two for some reason.
+
+84
+00:03:30,030 --> 00:03:35,007
+He was all like "Oooooh, gimme back by bodyyyyy~!" And then he chased us and took his body back.
+
+85
+00:03:35,007 --> 00:03:37,191
+Uh... Wait! Could this be...?
+
+86
+00:03:37,191 --> 00:03:39,771
+We need to check the escape pod first. Let's hurry!
+
+87
+00:03:39,771 --> 00:03:40,497
+Right!
+
+88
+00:03:43,138 --> 00:03:44,356
+Inspector Holden!
+
+89
+00:03:44,356 --> 00:03:45,211
+Is this it?
+
+90
+00:03:45,211 --> 00:03:50,487
+Yes, sir. We received a report that campers witnessed a meteor fall into the lake last night, so we went to retrieve it...
+
+91
+00:03:51,213 --> 00:03:53,718
+Yep. This is the same kind of escape pod!
+
+92
+00:03:53,718 --> 00:03:55,352
+Let's hurry and check inside.
+
+93
+00:03:57,352 --> 00:03:59,662
+It looks different from the first one that fell.
+
+94
+00:03:59,662 --> 00:04:03,205
+[Data Retrieval Complete. Wild Cardbot. Codename: Solid Horn.]
+
+95
+00:04:03,205 --> 00:04:04,110
+Knew it.
+
+96
+00:04:04,110 --> 00:04:06,132
+How is this possible? It has the same ID.
+
+97
+00:04:06,132 --> 00:04:09,264
+Hey. Who are you? Are you truly Solid Horn?
+
+98
+00:04:09,264 --> 00:04:11,259
+Looks like this guy is also exercising his right to remain silent.
+
+99
+00:04:11,259 --> 00:04:11,787
+Jun.
+
+100
+00:04:11,787 --> 00:04:12,500
+Hm?
+
+101
+00:04:12,500 --> 00:04:18,291
+Just like Heavy Iron, Flame Nova was also split into four parts and sealed away because he angered Deus Machina.
+
+102
+00:04:18,291 --> 00:04:20,483
+If Solid Horn is the same case as them...
+
+103
+00:04:20,483 --> 00:04:23,838
+Those three meteors... are Solid Horn's seperated body parts?
+
+104
+00:04:23,838 --> 00:04:27,004
+If that's the case, then where is the main unit?
+
+105
+00:04:27,891 --> 00:04:28,680
+What's that sound?
+
+106
+00:04:28,680 --> 00:04:30,831
+It sounds like... a drumbeat?
+
+107
+00:04:30,831 --> 00:04:32,329
+Oh-ho. This beat...
+
+108
+00:04:32,329 --> 00:04:34,870
+My blood boils whenever I hear it!
+
+109
+00:04:34,870 --> 00:04:36,816
+What's going on with you guys all of a sudden?
+
+110
+00:04:37,754 --> 00:04:38,752
+Hm?
+
+111
+00:04:38,752 --> 00:04:41,350
+Who the heck is banging on a drum at this hour?
+
+112
+00:04:41,350 --> 00:04:42,341
+AGH!!
+
+113
+00:04:47,441 --> 00:04:49,009
+What exactly is this drumbeat?
+
+114
+00:04:49,009 --> 00:04:51,411
+It's the battle drumbeat passed down through the Monohorn tribe.
+
+115
+00:04:51,411 --> 00:04:52,283
+What??
+
+116
+00:04:52,283 --> 00:04:53,543
+Hey, Uncle Edd.
+
+117
+00:04:53,543 --> 00:04:57,952
+Jun! I heard a strange drumbeat, and then the excavator suddenly bolted out of the garage on its own!
+
+118
+00:04:57,952 --> 00:04:59,546
+So he woke up...
+
+119
+00:05:04,812 --> 00:05:06,187
+It's starting to move!
+
+120
+00:05:07,160 --> 00:05:07,968
+Grab it!
+
+121
+00:05:07,968 --> 00:05:09,887
+Where do you think you're going?!
+
+122
+00:05:10,088 --> 00:05:11,326
+Look over there!
+
+123
+00:05:11,326 --> 00:05:12,067
+Not another one!
+
+124
+00:05:12,067 --> 00:05:14,752
+It looks like his body parts are gathering here...!
+
+125
+00:05:14,752 --> 00:05:17,192
+Inspector Holden! Please evacuate everyone from the area!
+
+126
+00:05:17,192 --> 00:05:20,302
+Copy that! Everyone! Let's get outta here!
+
+127
+00:05:20,302 --> 00:05:21,112
+You guys too!
+
+128
+00:05:21,112 --> 00:05:24,567
+We have some trusty friends here, so we'll be fine! Go ahead without us!
+
+129
+00:05:24,567 --> 00:05:26,523
+Alright. Be careful out there!
+
+130
+00:05:26,523 --> 00:05:28,033
+Tigun! Take care of the excavator!
+
+131
+00:05:28,033 --> 00:05:31,043
+GRRR!! I've been waiting for you to summon me!
+
+132
+00:05:31,043 --> 00:05:32,658
+Phantom Hornet! Aid Tigun!
+
+133
+00:05:32,658 --> 00:05:34,528
+Bzzt! Leave it to me!
+
+134
+00:05:40,237 --> 00:05:40,941
+Dang!
+
+135
+00:05:40,941 --> 00:05:41,913
+After him!
+
+136
+00:05:46,783 --> 00:05:47,483
+That jerk!
+
+137
+00:05:47,483 --> 00:05:48,971
+May I join in as well?
+
+138
+00:05:48,971 --> 00:05:51,177
+Yeah! Please take care of the crane truck.
+
+139
+00:05:52,567 --> 00:05:54,887
+Hmph... Gathered at last.
+
+140
+00:05:54,887 --> 00:05:57,384
+Living in this wretched form is finally over!
+
+141
+00:05:58,406 --> 00:05:59,435
+Is that...
+
+142
+00:05:59,435 --> 00:06:01,038
+...Solid Horn's main unit?
+
+143
+00:06:01,771 --> 00:06:03,601
+We can't let them gather in the same spot!
+
+144
+00:06:13,483 --> 00:06:15,137
+Star Guardian...!
+
+145
+00:06:15,137 --> 00:06:18,740
+Well, well. I had no idea there'd be so many guests here already!
+
+146
+00:06:19,418 --> 00:06:20,266
+Hm?
+
+147
+00:06:20,266 --> 00:06:21,516
+CAAAWWWW!!!
+
+148
+00:06:21,516 --> 00:06:22,338
+Bzzt!
+
+149
+00:06:22,444 --> 00:06:23,307
+Growl!
+
+150
+00:06:23,307 --> 00:06:24,130
+Look out!
+
+151
+00:06:31,413 --> 00:06:34,817
+I guess I've been wandering the universe for far too long...
+
+152
+00:06:35,406 --> 00:06:38,336
+But who cares? I've got freedom in my grasp now!
+
+153
+00:06:40,274 --> 00:06:44,639
+Here in this new land, I can run wild to my heart's content!
+
+154
+00:06:45,975 --> 00:06:47,913
+That's... his complete form?
+
+155
+00:06:47,913 --> 00:06:48,704
+This is bad...
+
+156
+00:06:48,704 --> 00:06:52,956
+Grrhaha! Look! The mighty chieftain has regained his precious body!
+
+157
+00:06:56,694 --> 00:06:57,165
+Soleil!
+
+158
+00:06:57,165 --> 00:06:57,634
+Mhm.
+
+159
+00:06:58,444 --> 00:06:58,932
+Tigun!
+
+160
+00:06:58,932 --> 00:06:59,858
+Phantom Hornet!
+
+161
+00:06:59,858 --> 00:07:00,702
+Set Up!
+
+162
+00:07:01,870 --> 00:07:07,690
+This isn’t the great forest on Planet Machina where you used to run wild! We don’t have to fight the Metal Cardbots anymore!
+
+163
+00:07:07,690 --> 00:07:12,038
+Tch... To hear such feeble words from my own kind... You’ve really become a bunch of wimps!
+
+164
+00:07:12,437 --> 00:07:17,060
+We’re still beasts, but this new life here ain’t so bad either!
+
+165
+00:07:17,060 --> 00:07:20,903
+We realized that after spending time with the guys here!
+
+166
+00:07:20,903 --> 00:07:25,668
+The guys here, you say... You mean those tiny fleshlings and that disgraceful Star Guardian?!
+
+167
+00:07:25,668 --> 00:07:27,456
+Night Griffon! Set Up!
+
+168
+00:07:32,004 --> 00:07:34,476
+I fully understand that you want to let your spirit run wild...
+
+169
+00:07:34,476 --> 00:07:36,197
+Scream Of Talon!
+
+170
+00:07:36,197 --> 00:07:38,158
+...but the game has changed!
+
+171
+00:07:41,401 --> 00:07:44,269
+I feel a bit powerless. Guess I haven't fully woken up yet...
+
+172
+00:07:44,269 --> 00:07:47,314
+Time to awaken that wild power I've been longing for!
+
+173
+00:07:52,553 --> 00:07:53,509
+CAAAAW!!
+
+174
+00:07:53,509 --> 00:07:54,711
+Night Griffon!!
+
+175
+00:07:55,908 --> 00:07:57,139
+Tigun! Set Up!
+
+176
+00:08:02,962 --> 00:08:03,987
+Be careful!
+
+177
+00:08:11,326 --> 00:08:12,242
+Guys!!
+
+178
+00:08:12,704 --> 00:08:16,613
+Oh dear... Is this the karmic retribution for my past actions? Cough...
+
+179
+00:08:16,613 --> 00:08:20,730
+Grrr! Is that all you got? Bring me another!
+
+180
+00:08:21,127 --> 00:08:22,668
+Soleil. I'll fight him.
+
+181
+00:08:22,668 --> 00:08:24,216
+You can't fight him alone! Jun!
+
+182
+00:08:24,216 --> 00:08:25,572
+Mhm! Blue Cop!
+
+183
+00:08:25,572 --> 00:08:26,334
+Yes!
+
+184
+00:08:26,533 --> 00:08:27,161
+Blue Cop!
+
+185
+00:08:27,161 --> 00:08:28,000
+Blaion!
+
+186
+00:08:28,000 --> 00:08:28,646
+Set Up!
+
+187
+00:08:31,442 --> 00:08:33,107
+Blue Cop! Open fire!
+
+188
+00:08:35,769 --> 00:08:37,457
+Blaion, aim for his legs!
+
+189
+00:08:45,818 --> 00:08:51,240
+A Wild Cardbot being obedient to those little fleshlings and a Star Guardian?! I can't believe it!
+
+190
+00:08:51,240 --> 00:08:55,315
+Earth is not planet Machina! That distinction doesn't matter anymore!
+
+191
+00:08:55,715 --> 00:08:59,192
+If the Wild Cardbots can live in peace in this new land,
+
+192
+00:08:59,192 --> 00:09:02,071
+I'll do whatever it takes... no matter how tough the path may be!
+
+193
+00:09:02,071 --> 00:09:04,970
+Muhaha. Take your "peace" and shove it!
+
+194
+00:09:07,086 --> 00:09:09,126
+Wild Guardy! Guardian Shield!!
+
+195
+00:09:12,543 --> 00:09:13,423
+Not bad.
+
+196
+00:09:13,423 --> 00:09:14,511
+Wild Guardy, that's...
+
+197
+00:09:14,511 --> 00:09:17,697
+Buster Gallon made this shield based on my Weapon Card.
+
+198
+00:09:17,697 --> 00:09:20,282
+It's not as good as the original, but you can leave the defensive work to me!
+
+199
+00:09:20,282 --> 00:09:21,687
+I've been wondering what that was.
+
+200
+00:09:21,687 --> 00:09:24,375
+Big brother, how did you do that when you don't have a Metal Breath...?
+
+201
+00:09:24,375 --> 00:09:26,114
+We don't need anything like that.
+
+202
+00:09:26,114 --> 00:09:27,553
+Because we're connected by our hearts.
+
+203
+00:09:27,553 --> 00:09:28,767
+By your... hearts...?
+
+204
+00:09:28,767 --> 00:09:33,821
+Our home planet that needed the Star Guardians is gone. Now I strive to protect the new bonds I've forged here!
+
+205
+00:09:33,821 --> 00:09:41,668
+Kuhaha! I was locked away in Trion Prison... never able to reunite with my people until the day the Land of Moa was destroyed.
+
+206
+00:09:41,668 --> 00:09:46,076
+How dare you tell me to sit and endure this resentment? This anger?!
+
+207
+00:09:46,076 --> 00:09:48,453
+Outrage Horn!!!
+
+208
+00:09:48,453 --> 00:09:50,740
+Omega Heat Flame!!
+
+209
+00:09:56,110 --> 00:09:57,856
+Solid Horn... he's still as strong as ever.
+
+210
+00:09:57,856 --> 00:10:00,160
+But you've gotten stronger over time too, Blue Cop!
+
+211
+00:10:00,160 --> 00:10:03,265
+He's distracted by Blaion's attack, so now's your chance!
+
+212
+00:10:03,265 --> 00:10:04,250
+Roger that!
+
+213
+00:10:05,955 --> 00:10:07,524
+Can't hold him...!!
+
+214
+00:10:07,524 --> 00:10:09,669
+Hang in there a little longer, Blaion!
+
+215
+00:10:09,892 --> 00:10:12,049
+Alpha Bolt Cannon!!
+
+216
+00:10:16,870 --> 00:10:19,835
+Thunder Howl Smash!!
+
+217
+00:10:19,835 --> 00:10:22,083
+Thunder Howl... Smaaash!!
+
+218
+00:10:22,083 --> 00:10:23,572
+Thunder Howl... Smaa- AUGH!!
+
+219
+00:10:25,432 --> 00:10:26,682
+Blue Cop!
+
+220
+00:10:28,917 --> 00:10:31,575
+So you thought I was just charging in blindly.
+
+221
+00:10:31,575 --> 00:10:35,417
+Wait a minute! Sniff sniff... Huh, have you already experienced the power of the beast?
+
+222
+00:10:35,417 --> 00:10:38,225
+Hahahaha! It's amazing that you survived!
+
+223
+00:10:38,225 --> 00:10:42,533
+No wonder you have the scent of my people. It's insulting!
+
+224
+00:10:42,533 --> 00:10:46,197
+It seems your kind hasn't changed a bit over the centuries, Star Guardian.
+
+225
+00:10:46,197 --> 00:10:48,962
+You still ignore your instincts and do as your master commands!
+
+226
+00:10:48,962 --> 00:10:51,985
+You've been very well tamed by that little fleshling boy from this foreign land.
+
+227
+00:10:51,985 --> 00:10:54,654
+I didn't tame him! We're friends!!
+
+228
+00:10:54,654 --> 00:11:01,038
+Hmph. As long as you’re holding the treasure of Deus Machina, there will only be those who command and those who obey.
+
+229
+00:11:01,038 --> 00:11:02,775
+There are no friends for you here!
+
+230
+00:11:03,724 --> 00:11:10,806
+How pitiful. To have drifted all the way to this barren wasteland, only to end up in such a sorry state because you met the wrong master!
+
+231
+00:11:10,806 --> 00:11:14,809
+If I were you, I wouldn’t have let my comrades end up like this!
+
+232
+00:11:14,809 --> 00:11:17,857
+I am Solid Horn, the last chieftain of the Monohorn Tribe!
+
+233
+00:11:17,857 --> 00:11:22,606
+I will make this new land a place where the Wild Cardbots can live freely!
+
+234
+00:11:22,606 --> 00:11:23,240
+No...! BLUE COP!!
+
+235
+00:11:23,240 --> 00:11:24,015
+Jun!!
+
+236
+00:11:24,015 --> 00:11:25,331
+GROUND....
+
+237
+00:11:27,177 --> 00:11:29,840
+FURY!!!!
+
