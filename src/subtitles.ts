@@ -404,7 +404,8 @@ const subtitles: Season[] = [
 					{ name: 'Domando um Tanque', id: 'EFcWlHgevXk' },
 					{ name: 'Uma Dupla Dinâmica', id: 'susQlAQvlpw' },
 					{ name: 'Soleil e Seus Amigos', id: 'BpWCQI2KsvE', fx: true },
-					{ name: 'A Sortuda Que Sabe se Divertir', id: 'QmH9kQm0N68' }
+					{ name: 'A Sortuda Que Sabe se Divertir', id: 'QmH9kQm0N68' },
+					{ name: 'A Ira da Terra', id: 'exH3Kj4MOtc' }
 				]
 			}
 		]
