@@ -383,7 +383,9 @@ const subtitles: Season[] = [
 					{ name: "また？謎の転校生", id: 'xOvh1DkkyKg', label: '5話' },
 					{ name: "タンクを手懐けよう", id: 'EFcWlHgevXk', label: '6話' },
 					{ name: "幻想のコンビ", id: 'susQlAQvlpw', label: '7話' },
-					{ name: "ソレイユと友達", id: 'BpWCQI2KsvE', label: '8話', fx: true }
+					{ name: "ソレイユと友達", id: 'BpWCQI2KsvE', label: '8話', fx: true },
+					{ name: "笑いがわかる幸運児", id: 'QmH9kQm0N68', label: '9話' },
+					{ name: "大地の怒り", id: 'exH3Kj4MOtc', label: '10話' },
 				]
 			},
 			{
