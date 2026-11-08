@@ -408,7 +408,8 @@ const subtitles: Season[] = [
 					{ name: 'Uma Dupla Dinâmica', id: 'susQlAQvlpw' },
 					{ name: 'Soleil e Seus Amigos', id: 'BpWCQI2KsvE', fx: true },
 					{ name: 'A Sortuda Que Sabe se Divertir', id: 'QmH9kQm0N68' },
-					{ name: 'A Ira da Terra', id: 'exH3Kj4MOtc' }
+					{ name: 'A Ira da Terra', id: 'exH3Kj4MOtc' },
+					{ name: 'Poder e Ruptura', id: 'TI8Z_gLaKTg' }
 				]
 			}
 		]
