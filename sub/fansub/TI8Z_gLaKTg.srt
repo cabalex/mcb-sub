@@ -299,7 +299,7 @@ Where are you going?
 
 75
 00:02:59,848 --> 00:03:03,481
-I was entrusted with the task of transporting vaccines to Porcaca, the hometown of my fair lady Pereru.
+I was entrusted with the task of transporting vaccines to Porcaca, the hometown of my fair lady Peruru.
 
 76
 00:03:03,481 --> 00:03:06,162
@@ -836,7 +836,7 @@ Even if we manage to prevent him from consuming energy,
 
 208
 00:08:18,408 --> 00:08:22,185
-it may not so easy to stop him from attacking us with his remaining strength.
+it may not be so easy to stop him from attacking us with his remaining strength.
 
 209
 00:08:25,305 --> 00:08:27,831
