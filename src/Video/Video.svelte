@@ -236,6 +236,11 @@
 		],
 		BpWCQI2KsvE: [
 			{ start: 8 * 60 + 1.25, end: 8 * 60 + 6.8, animation: 'powerOff' }
+		],
+		"2rnyeXSZWt8": [
+			{ start: 3 * 60 + 56.25, end: 3 * 60 + 58.25, animation: 'dreamBlast' },
+			{ start: 4 * 60 + 7.75, end: 4 * 60 + 11, animation: 'powerOff' },
+			{ start: 4 * 60 + 20, end: 4 * 60 + 33, animation: 'float' },
 		]
 	};
 	function getScreenspaceEffect(target: any) {
