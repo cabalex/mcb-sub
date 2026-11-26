@@ -412,7 +412,8 @@ const subtitles: Season[] = [
 					{ name: 'A Sortuda Que Sabe se Divertir', id: 'QmH9kQm0N68' },
 					{ name: 'A Ira da Terra', id: 'exH3Kj4MOtc' },
 					{ name: 'Poder e Ruptura', id: 'TI8Z_gLaKTg' },
-					{ name: 'Restrições Removidas', id: '2rnyeXSZWt8', fx: true }
+					{ name: 'Restrições Removidas', id: '2rnyeXSZWt8', fx: true },
+					{ name: 'Corações Unidos', id: 'uJvNJepWLOY', fx: true }
 				]
 			}
 		]
