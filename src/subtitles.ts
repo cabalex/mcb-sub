@@ -363,7 +363,8 @@ const subtitles: Season[] = [
 					{ name: "The Lucky One Who Knows How To Have Fun", id: 'QmH9kQm0N68' },
 					{ name: "The Wrath of the Great Earth", id: 'exH3Kj4MOtc' },
 					{ name: "Power and Division", id: 'TI8Z_gLaKTg' },
-					{ name: "Restrictions Lifted", id: '2rnyeXSZWt8', fx: true }
+					{ name: "Restrictions Lifted", id: '2rnyeXSZWt8', fx: true },
+					{ name: "Unity of Hearts", id: 'uJvNJepWLOY', fx: true }
 				]
 			},
 			{

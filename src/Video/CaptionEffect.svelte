@@ -27,7 +27,8 @@
 		'redBlitz',
 		'cielo',
 		'musclehyde',
-		'gigantrex'
+		'gigantrex',
+		'blaion',
 	];
 	function useBackground(effect: string) {
 		for (const fx of effect.split(' ')) {
