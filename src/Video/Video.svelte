@@ -241,6 +241,10 @@
 			{ start: 3 * 60 + 56.25, end: 3 * 60 + 58.25, animation: 'dreamBlast' },
 			{ start: 4 * 60 + 7.75, end: 4 * 60 + 11, animation: 'powerOff' },
 			{ start: 4 * 60 + 20, end: 4 * 60 + 33, animation: 'float' },
+		],
+		uJvNJepWLOY: [
+			{ start: 6 * 60 + 49, end: 6 * 60 + 50, animation: 'impactSmall' },
+			{ start: 6 * 60 + 51.5, end: 6 * 60 + 52.5, animation: 'impact' }
 		]
 	};
 	function getScreenspaceEffect(target: any) {

@@ -21,6 +21,7 @@
 
 	--rhea: #ec2f59;
 	--soleil: #34b7bc;
+	--blaion: #F27D05;
 }
 
 .ua span {
@@ -372,6 +373,55 @@
 .jun {
 	color: var(--jun) !important;
 }
+.juntransition {
+	--transition-final-color: var(--jun);
+	animation: colorTransition 1s linear;
+	animation-fill-mode: forwards;
+}
+@keyframes colorTransition {
+	0% {
+		color: unset !important;
+	}
+	100% {
+		color: var(--transition-final-color) !important;
+	}
+}
+.soleil {
+	color: var(--soleil) !important;
+}
+.soleiltransition {
+	--transition-final-color: var(--soleil);
+	animation: colorTransition 1s linear;
+	animation-fill-mode: forwards;
+}
+.soleiljun > *, .gbl > * {
+	color: transparent !important;
+	background: linear-gradient(90deg, var(--soleil), var(--jun)) 0 0 / 100%;
+	background-clip: text;
+	-webkit-background-clip: text;
+	font-style: italic;
+	font-weight: bold !important;
+	position: relative;
+	font-size: 1.5em !important;
+}
+.gbl > * {
+	background: linear-gradient(90deg, var(--blueCop), var(--blaion));
+	background-clip: text;
+	-webkit-background-clip: text;
+}
+.gblanimate > * {
+	color: transparent !important;
+	background: linear-gradient(90deg, var(--blueCop), var(--blaion), var(--blueCop)) 0 0 / 200% 100%;
+	background-clip: text;
+	-webkit-background-clip: text;
+	font-style: italic;
+	font-weight: bold !important;
+	position: relative;
+	font-size: 1.5em !important;
+	animation: animate 1s infinite linear !important;
+	animation-delay: calc(var(--offset) * -0.1) !important;
+	--bg-size: 200%;
+}
 .megaTrucker {
 	color: var(--megaTrucker) !important;
 }
@@ -419,6 +469,9 @@
 }
 .gigantrex {
 	color: var(--gigantrex) !important;
+}
+.blaion {
+	color: var(--blaion) !important;
 }
 
 .both span {
